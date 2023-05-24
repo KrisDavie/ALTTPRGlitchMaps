@@ -4,6 +4,8 @@ import DropLocations from "./DropLocations";
 import { ReactZoomPanPinchHandlers } from "react-zoom-pan-pinch";
 import DoorGlitches from "./DoorGlitches";
 import NonDoorGlitches from "./NonDoorGlitches";
+import Hookpush from "./Hookpush";
+import HookPushLocations from "./HookPushLocations";
 
 interface MapContentProps {
   zoomToElement: (element: string) => void;
@@ -40,6 +42,10 @@ function MapContent(props: MapContentProps) {
       />
       <TileOverlays selectedTile={selectedTile} highlightTile={highlightTile} />
       <DoorGlitches
+        selectedGlitches={props.selectedGlitches}
+        setGlitchText={props.setGlitchText}
+      />
+      <HookPushLocations
         selectedGlitches={props.selectedGlitches}
         setGlitchText={props.setGlitchText}
       />

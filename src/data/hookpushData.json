@@ -1,0 +1,337 @@
+[
+    {
+        "tile": "tile-00",
+        "locations": [
+            {
+                "x": 280,
+                "y": 10,
+                "direction": "No",
+                "distance": 226,
+                "pushType": "somaria",
+                "glitchName": "Skip Ganon",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-01",
+        "locations": [
+            {
+                "x": 450,
+                "y": 180,
+                "direction": "We",
+                "distance": 166,
+                "pushType": "push",
+                "glitchName": "Back of Escape to Pyramid",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-40",
+        "locations": [
+            {
+                "x": 300,
+                "y": 10,
+                "direction": "No",
+                "distance": 320,
+                "pushType": "somaria",
+                "glitchName": "TR Crystal at SP (Somaria)",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 440,
+                "y": 10,
+                "direction": "No",
+                "distance": 320,
+                "pushType": "boom",
+                "glitchName": "TR Crystal at SP (0A)",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-C1",
+        "locations": [
+            {
+                "x": 420,
+                "y": 80,
+                "direction": "Ea",
+                "distance": 140,
+                "pushType": "push",
+                "glitchName": "GT Bottom to Top",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-F1",
+        "locations": [
+            {
+                "x": 120,
+                "y": 420,
+                "direction": "No",
+                "distance": 180,
+                "pushType": "push",
+                "glitchName": "Kak Well to IP",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-82",
+        "locations": [
+            {
+                "x": 160,
+                "y": 340,
+                "direction": "Ea",
+                "distance": 540,
+                "pushType": "somaria",
+                "glitchName": "SP Crystal at SW",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-72",
+        "locations": [
+            {
+                "x": 180,
+                "y": 420,
+                "direction": "No",
+                "distance": 190,
+                "pushType": "push",
+                "glitchName": "SP to TH",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-73",
+        "locations": [
+            {
+                "x": 60,
+                "y": 340,
+                "direction": "We",
+                "distance": 120,
+                "pushType": "push",
+                "glitchName": "SP Statue Skip",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-63",
+        "locations": [
+            {
+                "x": 280,
+                "y": 80,
+                "direction": "We",
+                "distance": 170,
+                "pushType": "somaria",
+                "glitchName": "SP Floodgate to Hub",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-41",
+        "locations": [
+            {
+                "x": 420,
+                "y": 450,
+                "direction": "No",
+                "distance": 440,
+                "pushType": "boom",
+                "glitchName": "TR Skip Big Door",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 180,
+                "y": 410,
+                "direction": "No",
+                "distance": 180,
+                "pushType": "push",
+                "glitchName": "Lava Dive",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-12",
+        "locations": [
+            {
+                "x": 340,
+                "y": 440,
+                "direction": "So",
+                "distance": 150,
+                "pushType": "push",
+                "glitchName": "Sewers to Hera Mid",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-13",
+        "locations": [
+            {
+                "x": 290,
+                "y": 440,
+                "direction": "No",
+                "distance": 150,
+                "pushType": "push",
+                "glitchName": "Sewers to Hera Beetles",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-14",
+        "locations": [
+            {
+                "x": 210,
+                "y": 440,
+                "direction": "So",
+                "distance": 140,
+                "pushType": "push",
+                "glitchName": "Skip Sewer Door",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-33",
+        "locations": [
+            {
+                "x": 170,
+                "y": 440,
+                "direction": "No",
+                "distance": 140,
+                "pushType": "push",
+                "glitchName": "Lanmolas",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-53",
+        "locations": [
+            {
+                "x": 120,
+                "y": 380,
+                "direction": "We",
+                "distance": 130,
+                "pushType": "push",
+                "glitchName": "Skip LSS Blocks",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-C3",
+        "locations": [
+            {
+                "x": 380,
+                "y": 380,
+                "direction": "Ea",
+                "distance": 180,
+                "pushType": "push",
+                "glitchName": "Hookshot Cave to GT Top",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-A5",
+        "locations": [
+            {
+                "x": 300,
+                "y": 450,
+                "direction": "No",
+                "distance": 150,
+                "pushType": "push",
+                "glitchName": "Helmasaur",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-85",
+        "locations": [
+            {
+                "x": 450,
+                "y": 450,
+                "direction": "Ea",
+                "distance": 150,
+                "pushType": "push",
+                "glitchName": "SW Front to Back",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-54",
+        "locations": [
+            {
+                "x": 380,
+                "y": 450,
+                "direction": "No",
+                "distance": 470,
+                "pushType": "boom",
+                "glitchName": "Uncle to TT",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-36",
+        "locations": [
+            {
+                "x": 180,
+                "y": 450,
+                "direction": "No",
+                "distance": 200,
+                "pushType": "somaria",
+                "glitchName": "DP Front to Back",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-46",
+        "locations": [
+            {
+                "x": 90,
+                "y": 450,
+                "direction": "No",
+                "distance": 160,
+                "pushType": "push",
+                "glitchName": "DP to TT",
+                "info": "",
+                "link": ""
+            }
+        ]
+    }
+]

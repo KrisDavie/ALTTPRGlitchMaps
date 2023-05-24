@@ -36,6 +36,9 @@ function App() {
     "spinSomaria",
     "statueDrag",
     "somariaBlueYBA",
+    "hookpush-somaria",
+    "hookpush-boom",
+    "hookpush-push",
   ]);
   const [selectedGlitch, setSelectedGlitch] = useState<string>("");
   const [glitchText, setGlitchText] = useState<string[]>([
@@ -44,7 +47,7 @@ function App() {
   ]);
 
   const Controls = ({ resetTransform }: { resetTransform: () => void }) => (
-    <div className="controls">
+    <div className="controls" style={{ zIndex: 110 }}>
       <button className="controlsButton" onClick={() => resetTransform()}>
         Reset Zoom + Location
       </button>

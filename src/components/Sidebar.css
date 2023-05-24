@@ -1,0 +1,18 @@
+.ui.sidebar {
+    background-color: #322d38;
+    /* overflow-y: hidden !important; */
+}
+
+.ui.header.sidetext {
+    font-family: 'Triforce';
+}
+
+.ui.sub.header.sidetext {
+    font-family: 'Triforce';
+}
+
+.side-glitchtext {
+    font-family: 'Calibri';
+    font-size: 1.2em;
+    color: #fff;
+}

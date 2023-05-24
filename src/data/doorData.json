@@ -1,0 +1,6030 @@
+[
+    {
+        "tile": "tile-16",
+        "doors": [
+            {
+                "x": 57,
+                "y": 263,
+                "name": "Hyrule Castle Lobby W",
+                "direction": "We"
+            },
+            {
+                "x": 453,
+                "y": 264,
+                "name": "Hyrule Castle Lobby E",
+                "direction": "Ea"
+            },
+            {
+                "x": 33,
+                "y": 138,
+                "name": "Hyrule Castle Lobby WN",
+                "direction": "We"
+            },
+            {
+                "x": 255,
+                "y": 453,
+                "name": "Hyrule Castle Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 256,
+                "y": 50,
+                "name": "Hyrule Castle Lobby North Stairs",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-06",
+        "doors": [
+            {
+                "x": 454,
+                "y": 264,
+                "name": "Hyrule Castle West Lobby E",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 73,
+                "name": "Hyrule Castle West Lobby N",
+                "direction": "No"
+            },
+            {
+                "x": 477,
+                "y": 136,
+                "name": "Hyrule Castle West Lobby EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 478,
+                "name": "Hyrule Castle West Lobby S",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-26",
+        "doors": [
+            {
+                "x": 58,
+                "y": 264,
+                "name": "Hyrule Castle East Lobby W",
+                "direction": "We"
+            },
+            {
+                "x": 256,
+                "y": 50,
+                "name": "Hyrule Castle East Lobby N",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 74,
+                "name": "Hyrule Castle East Lobby NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 478,
+                "name": "Hyrule Castle East Lobby S",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-25",
+        "doors": [
+            {
+                "x": 57,
+                "y": 136,
+                "name": "Hyrule Castle East Hall W",
+                "direction": "We"
+            },
+            {
+                "x": 257,
+                "y": 478,
+                "name": "Hyrule Castle East Hall S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 454,
+                "name": "Hyrule Castle East Hall SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-05",
+        "doors": [
+            {
+                "x": 454,
+                "y": 136,
+                "name": "Hyrule Castle West Hall E",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 454,
+                "name": "Hyrule Castle West Hall S",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-10",
+        "doors": [
+            {
+                "x": 56,
+                "y": 136,
+                "name": "Hyrule Castle Back Hall W",
+                "direction": "We"
+            },
+            {
+                "x": 454,
+                "y": 136,
+                "name": "Hyrule Castle Back Hall E",
+                "direction": "Ea"
+            },
+            {
+                "x": 255,
+                "y": 96,
+                "name": "Hyrule Castle Back Hall Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-15",
+        "doors": [
+            {
+                "x": 256,
+                "y": 51,
+                "name": "Hyrule Castle Throne Room N",
+                "direction": "No"
+            },
+            {
+                "x": 255,
+                "y": 455,
+                "name": "Hyrule Castle Throne Room South Stairs",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-27",
+        "doors": [
+            {
+                "x": 256,
+                "y": 72,
+                "name": "Hyrule Dungeon Map Room Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 255,
+                "y": 223,
+                "name": "Hyrule Dungeon Map Room Key Door S",
+                "direction": "So"
+            },
+            {
+                "x": 255,
+                "y": 306,
+                "name": "Hyrule Dungeon North Abyss Key Door N",
+                "direction": "No"
+            },
+            {
+                "x": 176,
+                "y": 511,
+                "name": "Hyrule Dungeon North Abyss South Edge",
+                "direction": "So"
+            },
+            {
+                "x": 54,
+                "y": 510,
+                "name": "Hyrule Dungeon North Abyss Catwalk Edge",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-28",
+        "doors": [
+            {
+                "x": 176,
+                "y": 2,
+                "name": "Hyrule Dungeon South Abyss North Edge",
+                "direction": "No"
+            },
+            {
+                "x": 2,
+                "y": 404,
+                "name": "Hyrule Dungeon South Abyss West Edge",
+                "direction": "We"
+            },
+            {
+                "x": 53,
+                "y": 2,
+                "name": "Hyrule Dungeon South Abyss Catwalk North Edge",
+                "direction": "No"
+            },
+            {
+                "x": 1,
+                "y": 120,
+                "name": "Hyrule Dungeon South Abyss Catwalk West Edge",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-18",
+        "doors": [
+            {
+                "x": 510,
+                "y": 118,
+                "name": "Hyrule Dungeon Guardroom Catwalk Edge",
+                "direction": "Ea"
+            },
+            {
+                "x": 510,
+                "y": 404,
+                "name": "Hyrule Dungeon Guardroom Abyss Edge",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 74,
+                "name": "Hyrule Dungeon Guardroom N",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-17",
+        "doors": [
+            {
+                "x": 127,
+                "y": 451,
+                "name": "Hyrule Dungeon Armory S",
+                "direction": "So"
+            },
+            {
+                "x": 194,
+                "y": 392,
+                "name": "Hyrule Dungeon Armory ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 317,
+                "y": 393,
+                "name": "Hyrule Dungeon Armory Boomerang WS",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 306,
+                "name": "Hyrule Dungeon Armory Interior Key Door N",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 221,
+                "name": "Hyrule Dungeon Armory Interior Key Door S",
+                "direction": "So"
+            },
+            {
+                "x": 168,
+                "y": 74,
+                "name": "Hyrule Dungeon Armory Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-07",
+        "doors": [
+            {
+                "x": 168,
+                "y": 49,
+                "name": "Hyrule Dungeon Staircase Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 88,
+                "y": 49,
+                "name": "Hyrule Dungeon Staircase Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-08",
+        "doors": [
+            {
+                "x": 89,
+                "y": 48,
+                "name": "Hyrule Dungeon Cellblock Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-14",
+        "doors": [
+            {
+                "x": 256,
+                "y": 479,
+                "name": "Sewers Behind Tapestry S",
+                "direction": "So"
+            },
+            {
+                "x": 432,
+                "y": 50,
+                "name": "Sewers Behind Tapestry Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-24",
+        "doors": [
+            {
+                "x": 432,
+                "y": 48,
+                "name": "Sewers Rope Room Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 255,
+                "y": 49,
+                "name": "Sewers Rope Room North Stairs",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-23",
+        "doors": [
+            {
+                "x": 256,
+                "y": 480,
+                "name": "Sewers Dark Cross South Stairs",
+                "direction": "So"
+            },
+            {
+                "x": 255,
+                "y": 49,
+                "name": "Sewers Dark Cross Key Door N",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-22",
+        "doors": [
+            {
+                "x": 255,
+                "y": 479,
+                "name": "Sewers Water S",
+                "direction": "So"
+            },
+            {
+                "x": 33,
+                "y": 392,
+                "name": "Sewers Water W",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-12",
+        "doors": [
+            {
+                "x": 255,
+                "y": 204,
+                "name": "Sewers Key Rat S",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 51,
+                "name": "Sewers Key Rat NE",
+                "direction": "No"
+            },
+            {
+                "x": 255,
+                "y": 302,
+                "name": "Sewers Dark Aquabats N",
+                "direction": "No"
+            },
+            {
+                "x": 477,
+                "y": 392,
+                "name": "Sewers Dark Aquabats ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-11",
+        "doors": [
+            {
+                "x": 383,
+                "y": 478,
+                "name": "Sewers Secret Room Key Door S",
+                "direction": "So"
+            },
+            {
+                "x": 291,
+                "y": 393,
+                "name": "Sewers Rat Path WS",
+                "direction": "We"
+            },
+            {
+                "x": 289,
+                "y": 137,
+                "name": "Sewers Rat Path WN",
+                "direction": "We"
+            },
+            {
+                "x": 222,
+                "y": 395,
+                "name": "Sewers Secret Room ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 221,
+                "y": 136,
+                "name": "Sewers Secret Room EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 49,
+                "name": "Sewers Secret Room Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-20",
+        "doors": [
+            {
+                "x": 383,
+                "y": 75,
+                "name": "Sewers Pull Switch Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 253,
+                "y": 195,
+                "name": "Sewers Yet More Rats S",
+                "direction": "So"
+            },
+            {
+                "x": 256,
+                "y": 327,
+                "name": "Sewers Pull Switch N",
+                "direction": "No"
+            },
+            {
+                "x": 256,
+                "y": 455,
+                "name": "Sewers Pull Switch S",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-21",
+        "doors": [
+            {
+                "x": 255,
+                "y": 74,
+                "name": "Sanctuary N",
+                "direction": "No"
+            },
+            {
+                "x": 256,
+                "y": 454,
+                "name": "Sanctuary S",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-9C",
+        "doors": [
+            {
+                "x": 255,
+                "y": 483,
+                "name": "Eastern Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 256,
+                "y": 304,
+                "name": "Eastern Lobby N",
+                "direction": "No"
+            },
+            {
+                "x": 256,
+                "y": 224,
+                "name": "Eastern Lobby Bridge S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 306,
+                "name": "Eastern Lobby NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Eastern Lobby Left Ledge SW",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 306,
+                "name": "Eastern Lobby NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 223,
+                "name": "Eastern Lobby Right Ledge SE",
+                "direction": "So"
+            },
+            {
+                "x": 256,
+                "y": 50,
+                "name": "Eastern Lobby Bridge N",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-9B",
+        "doors": [
+            {
+                "x": 255,
+                "y": 479,
+                "name": "Eastern Cannonball S",
+                "direction": "So"
+            },
+            {
+                "x": 255,
+                "y": 49,
+                "name": "Eastern Cannonball N",
+                "direction": "No"
+            },
+            {
+                "x": 33,
+                "y": 136,
+                "name": "Eastern Cannonball Ledge WN",
+                "direction": "We"
+            },
+            {
+                "x": 477,
+                "y": 135,
+                "name": "Eastern Cannonball Ledge Key Door EN",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-9A",
+        "doors": [
+            {
+                "x": 256,
+                "y": 478,
+                "name": "Eastern Courtyard Ledge S",
+                "direction": "So"
+            },
+            {
+                "x": 31,
+                "y": 263,
+                "name": "Eastern Courtyard Ledge W",
+                "direction": "We"
+            },
+            {
+                "x": 478,
+                "y": 264,
+                "name": "Eastern Courtyard Ledge E",
+                "direction": "Ea"
+            },
+            {
+                "x": 57,
+                "y": 136,
+                "name": "Eastern Courtyard WN",
+                "direction": "We"
+            },
+            {
+                "x": 454,
+                "y": 136,
+                "name": "Eastern Courtyard EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 255,
+                "y": 51,
+                "name": "Eastern Courtyard N",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-AA",
+        "doors": [
+            {
+                "x": 33,
+                "y": 266,
+                "name": "Eastern East Wing W",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 137,
+                "name": "Eastern East Wing EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 290,
+                "y": 136,
+                "name": "Eastern Pot Switch WN",
+                "direction": "We"
+            },
+            {
+                "x": 222,
+                "y": 392,
+                "name": "Eastern East Wing ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 393,
+                "name": "Eastern Map Balcony WS",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 223,
+                "name": "Eastern Pot Switch SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 304,
+                "name": "Eastern Map Room NE",
+                "direction": "No"
+            },
+            {
+                "x": 57,
+                "y": 137,
+                "name": "Eastern Map Valley WN",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 479,
+                "name": "Eastern Map Valley SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-8A",
+        "doors": [
+            {
+                "x": 477,
+                "y": 265,
+                "name": "Eastern West Wing E",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 393,
+                "name": "Eastern West Wing WS",
+                "direction": "We"
+            },
+            {
+                "x": 220,
+                "y": 394,
+                "name": "Eastern Stalfos Spawn ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 306,
+                "name": "Eastern Stalfos Spawn NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 224,
+                "name": "Eastern Compass Room SW",
+                "direction": "So"
+            },
+            {
+                "x": 193,
+                "y": 137,
+                "name": "Eastern Compass Room EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 313,
+                "y": 136,
+                "name": "Eastern Hint Tile WN",
+                "direction": "We"
+            },
+            {
+                "x": 454,
+                "y": 135,
+                "name": "Eastern Hint Tile EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 384,
+                "y": 477,
+                "name": "Eastern Hint Tile Blocked Path SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-AB",
+        "doors": [
+            {
+                "x": 127,
+                "y": 50,
+                "name": "Eastern Dark Square NW",
+                "direction": "No"
+            },
+            {
+                "x": 35,
+                "y": 136,
+                "name": "Eastern Dark Square Key Door WN",
+                "direction": "We"
+            },
+            {
+                "x": 220,
+                "y": 137,
+                "name": "Eastern Dark Square EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 291,
+                "y": 136,
+                "name": "Eastern Dark Pots WN",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-8B",
+        "doors": [
+            {
+                "x": 479,
+                "y": 135,
+                "name": "Eastern Big Key EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 51,
+                "name": "Eastern Big Key NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-99",
+        "doors": [
+            {
+                "x": 255,
+                "y": 479,
+                "name": "Eastern Darkness S",
+                "direction": "So"
+            },
+            {
+                "x": 385,
+                "y": 306,
+                "name": "Eastern Darkness NE",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 223,
+                "name": "Eastern Rupees SE",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 304,
+                "name": "Eastern Darkness Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-AD",
+        "doors": [
+            {
+                "x": 127,
+                "y": 305,
+                "name": "Eastern Attic Start Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 32,
+                "y": 392,
+                "name": "Eastern Attic Start WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-AF",
+        "doors": [
+            {
+                "x": 128,
+                "y": 474,
+                "name": "Spec Rock Middle SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 48,
+                "name": "Spec Rock Middle Up Stairs",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-9D",
+        "doors": [
+            {
+                "x": 478,
+                "y": 392,
+                "name": "Eastern False Switches ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 392,
+                "name": "Eastern False Switches WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 394,
+                "name": "Eastern Cannonball Hell ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 33,
+                "y": 392,
+                "name": "Eastern Cannonball Hell WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-8D",
+        "doors": [
+            {
+                "x": 479,
+                "y": 393,
+                "name": "Eastern Single Eyegore ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 305,
+                "name": "Eastern Single Eyegore NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 222,
+                "name": "Eastern Duo Eyegores SE",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 48,
+                "name": "Eastern Duo Eyegores NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-8C",
+        "doors": [
+            {
+                "x": 384,
+                "y": 479,
+                "name": "Eastern Boss SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-48",
+        "doors": [
+            {
+                "x": 255,
+                "y": 479,
+                "name": "Desert Main Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 64,
+                "y": 2,
+                "name": "Desert Main Lobby NW Edge",
+                "direction": "No"
+            },
+            {
+                "x": 254,
+                "y": 3,
+                "name": "Desert Main Lobby N Edge",
+                "direction": "No"
+            },
+            {
+                "x": 448,
+                "y": 2,
+                "name": "Desert Main Lobby NE Edge",
+                "direction": "No"
+            },
+            {
+                "x": 510,
+                "y": 144,
+                "name": "Desert Main Lobby E Edge",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-47",
+        "doors": [
+            {
+                "x": 255,
+                "y": 509,
+                "name": "Desert Dead End Edge",
+                "direction": "So"
+            },
+            {
+                "x": 447,
+                "y": 508,
+                "name": "Desert North Hall SE Edge",
+                "direction": "So"
+            },
+            {
+                "x": 62,
+                "y": 509,
+                "name": "Desert North Hall SW Edge",
+                "direction": "So"
+            },
+            {
+                "x": 2,
+                "y": 336,
+                "name": "Desert North Hall W Edge",
+                "direction": "We"
+            },
+            {
+                "x": 511,
+                "y": 337,
+                "name": "Desert North Hall E Edge",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 305,
+                "name": "Desert North Hall NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Desert Map SW",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 305,
+                "name": "Desert North Hall NE",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 222,
+                "name": "Desert Map SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-58",
+        "doors": [
+            {
+                "x": 2,
+                "y": 177,
+                "name": "Desert East Wing W Edge",
+                "direction": "We"
+            },
+            {
+                "x": 129,
+                "y": 2,
+                "name": "Desert East Wing N Edge",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 481,
+                "name": "Desert East Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 289,
+                "y": 393,
+                "name": "Desert East Lobby WS",
+                "direction": "We"
+            },
+            {
+                "x": 222,
+                "y": 393,
+                "name": "Desert East Wing ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 222,
+                "y": 135,
+                "name": "Desert East Wing Key Door EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 290,
+                "y": 136,
+                "name": "Desert Compass Key Door WN",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 50,
+                "name": "Desert Compass NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-57",
+        "doors": [
+            {
+                "x": 384,
+                "y": 479,
+                "name": "Desert Cannonball S",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 510,
+                "name": "Desert Arrow Pot Corner S Edge",
+                "direction": "So"
+            },
+            {
+                "x": 2,
+                "y": 337,
+                "name": "Desert Arrow Pot Corner W Edge",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 306,
+                "name": "Desert Arrow Pot Corner NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 223,
+                "name": "Desert Trap Room SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-37",
+        "doors": [
+            {
+                "x": 449,
+                "y": 510,
+                "name": "Desert Sandworm Corner S Edge",
+                "direction": "So"
+            },
+            {
+                "x": 511,
+                "y": 336,
+                "name": "Desert Sandworm Corner E Edge",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 305,
+                "name": "Desert Sandworm Corner NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 222,
+                "name": "Desert Bonk Torch SE",
+                "direction": "So"
+            },
+            {
+                "x": 289,
+                "y": 393,
+                "name": "Desert Sandworm Corner WS",
+                "direction": "We"
+            },
+            {
+                "x": 223,
+                "y": 392,
+                "name": "Desert Circle of Pots ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "Desert Circle of Pots NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Desert Big Chest SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-38",
+        "doors": [
+            {
+                "x": 449,
+                "y": 3,
+                "name": "Desert West Wing N Edge",
+                "direction": "No"
+            },
+            {
+                "x": 289,
+                "y": 392,
+                "name": "Desert West Wing WS",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 483,
+                "name": "Desert West S",
+                "direction": "So"
+            },
+            {
+                "x": 221,
+                "y": 392,
+                "name": "Desert West Lobby ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "Desert West Lobby NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Desert Fairy Fountain SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-36",
+        "doors": [
+            {
+                "x": 127,
+                "y": 481,
+                "name": "Desert Back Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "Desert Back Lobby NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Desert Tiles 1 SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 50,
+                "name": "Desert Tiles 1 Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-35",
+        "doors": [
+            {
+                "x": 127,
+                "y": 48,
+                "name": "Desert Bridge Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Desert Bridge SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 304,
+                "name": "Desert Four Statues NW",
+                "direction": "No"
+            },
+            {
+                "x": 223,
+                "y": 392,
+                "name": "Desert Four Statues ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 392,
+                "name": "Desert Beamos Hall WS",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 50,
+                "name": "Desert Beamos Hall NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-34",
+        "doors": [
+            {
+                "x": 383,
+                "y": 479,
+                "name": "Desert Tiles 2 SE",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 306,
+                "name": "Desert Tiles 2 NE",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 222,
+                "name": "Desert Wall Slide SE",
+                "direction": "So"
+            },
+            {
+                "x": 77,
+                "y": 49,
+                "name": "Desert Wall Slide NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-33",
+        "doors": [
+            {
+                "x": 127,
+                "y": 479,
+                "name": "Desert Boss SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-77",
+        "doors": [
+            {
+                "x": 255,
+                "y": 454,
+                "name": "Hera Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 143,
+                "y": 345,
+                "name": "Hera Lobby Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 127,
+                "y": 74,
+                "name": "Hera Lobby Key Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 367,
+                "y": 344,
+                "name": "Hera Lobby Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-78",
+        "doors": [
+            {
+                "x": 143,
+                "y": 320,
+                "name": "Hera Basement Cage Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 128,
+                "y": 48,
+                "name": "Hera Tile Room Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 223,
+                "y": 137,
+                "name": "Hera Tile Room EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 137,
+                "name": "Hera Tridorm WN",
+                "direction": "We"
+            },
+            {
+                "x": 384,
+                "y": 222,
+                "name": "Hera Tridorm SE",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 305,
+                "name": "Hera Torches NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-13",
+        "doors": [
+            {
+                "x": 367,
+                "y": 321,
+                "name": "Hera Beetles Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 288,
+                "y": 392,
+                "name": "Hera Beetles WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 392,
+                "name": "Hera Startile Corner ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 306,
+                "name": "Hera Startile Corner NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Hera Startile Wide SW",
+                "direction": "So"
+            },
+            {
+                "x": 447,
+                "y": 129,
+                "name": "Hera Startile Wide Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-72",
+        "doors": [
+            {
+                "x": 446,
+                "y": 129,
+                "name": "Hera 4F Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 63,
+                "y": 129,
+                "name": "Hera 4F Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-71",
+        "doors": [
+            {
+                "x": 63,
+                "y": 129,
+                "name": "Hera 5F Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 431,
+                "y": 129,
+                "name": "Hera 5F Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-70",
+        "doors": [
+            {
+                "x": 431,
+                "y": 129,
+                "name": "Hera Boss Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-0E",
+        "doors": [
+            {
+                "x": 127,
+                "y": 482,
+                "name": "Tower Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 306,
+                "name": "Tower Lobby NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 224,
+                "name": "Tower Gold Knights SW",
+                "direction": "So"
+            },
+            {
+                "x": 223,
+                "y": 135,
+                "name": "Tower Gold Knights EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 136,
+                "name": "Tower Room 03 WN",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 50,
+                "name": "Tower Room 03 Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-0D",
+        "doors": [
+            {
+                "x": 383,
+                "y": 50,
+                "name": "Tower Lone Statue Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 290,
+                "y": 136,
+                "name": "Tower Lone Statue WN",
+                "direction": "We"
+            },
+            {
+                "x": 219,
+                "y": 136,
+                "name": "Tower Dark Maze EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 222,
+                "y": 392,
+                "name": "Tower Dark Maze ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 392,
+                "name": "Tower Dark Chargers WS",
+                "direction": "We"
+            },
+            {
+                "x": 416,
+                "y": 306,
+                "name": "Tower Dark Chargers Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-0C",
+        "doors": [
+            {
+                "x": 415,
+                "y": 307,
+                "name": "Tower Dual Statues Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 290,
+                "y": 393,
+                "name": "Tower Dual Statues WS",
+                "direction": "We"
+            },
+            {
+                "x": 219,
+                "y": 393,
+                "name": "Tower Dark Pits ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 220,
+                "y": 137,
+                "name": "Tower Dark Pits EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 136,
+                "name": "Tower Dark Archers WN",
+                "direction": "We"
+            },
+            {
+                "x": 384,
+                "y": 50,
+                "name": "Tower Dark Archers Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-0B",
+        "doors": [
+            {
+                "x": 383,
+                "y": 49,
+                "name": "Tower Red Spears Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 287,
+                "y": 136,
+                "name": "Tower Red Spears WN",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 136,
+                "name": "Tower Red Guards EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 224,
+                "name": "Tower Red Guards SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 304,
+                "name": "Tower Circle of Pots NW",
+                "direction": "No"
+            },
+            {
+                "x": 222,
+                "y": 392,
+                "name": "Tower Circle of Pots ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 392,
+                "name": "Tower Pacifist Run WS",
+                "direction": "We"
+            },
+            {
+                "x": 415,
+                "y": 305,
+                "name": "Tower Pacifist Run Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-04",
+        "doors": [
+            {
+                "x": 415,
+                "y": 329,
+                "name": "Tower Push Statue Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 313,
+                "y": 392,
+                "name": "Tower Push Statue WS",
+                "direction": "We"
+            },
+            {
+                "x": 193,
+                "y": 394,
+                "name": "Tower Catwalk ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 48,
+                "name": "Tower Catwalk North Stairs",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-03",
+        "doors": [
+            {
+                "x": 127,
+                "y": 480,
+                "name": "Tower Antechamber South Stairs",
+                "direction": "So"
+            },
+            {
+                "x": 129,
+                "y": 306,
+                "name": "Tower Antechamber NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Tower Altar SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 50,
+                "name": "Tower Altar NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-02",
+        "doors": [
+            {
+                "x": 128,
+                "y": 480,
+                "name": "Tower Agahnim 1 SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-A4",
+        "doors": [
+            {
+                "x": 256,
+                "y": 480,
+                "name": "PoD Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 255,
+                "y": 306,
+                "name": "PoD Lobby N",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 305,
+                "name": "PoD Lobby NW",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 304,
+                "name": "PoD Lobby NE",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 223,
+                "name": "PoD Left Cage SW",
+                "direction": "So"
+            },
+            {
+                "x": 255,
+                "y": 220,
+                "name": "PoD Middle Cage S",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 221,
+                "name": "PoD Middle Cage SE",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 49,
+                "name": "PoD Left Cage Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 383,
+                "y": 50,
+                "name": "PoD Middle Cage Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 255,
+                "y": 50,
+                "name": "PoD Middle Cage N",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-90",
+        "doors": [
+            {
+                "x": 128,
+                "y": 49,
+                "name": "PoD Shooter Room Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 384,
+                "y": 49,
+                "name": "PoD Warp Room Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-A3",
+        "doors": [
+            {
+                "x": 256,
+                "y": 478,
+                "name": "PoD Pit Room S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 49,
+                "name": "PoD Pit Room NW",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 50,
+                "name": "PoD Pit Room NE",
+                "direction": "No"
+            },
+            {
+                "x": 255,
+                "y": 50,
+                "name": "PoD Big Key Landing Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-A0",
+        "doors": [
+            {
+                "x": 255,
+                "y": 50,
+                "name": "PoD Basement Ledge Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-A2",
+        "doors": [
+            {
+                "x": 127,
+                "y": 479,
+                "name": "PoD Arena Main SW",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 478,
+                "name": "PoD Arena Bridge SE",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 50,
+                "name": "PoD Arena Main NW",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 49,
+                "name": "PoD Arena Main NE",
+                "direction": "No"
+            },
+            {
+                "x": 455,
+                "y": 264,
+                "name": "PoD Arena Crystals E",
+                "direction": "Ea"
+            },
+            {
+                "x": 474,
+                "y": 392,
+                "name": "PoD Arena Ledge ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B2",
+        "doors": [
+            {
+                "x": 57,
+                "y": 265,
+                "name": "PoD Sexy Statue W",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 48,
+                "name": "PoD Sexy Statue NW",
+                "direction": "No"
+            },
+            {
+                "x": 38,
+                "y": 392,
+                "name": "PoD Map Balcony WS",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 479,
+                "name": "PoD Map Balcony South Stairs",
+                "direction": "So"
+            },
+            {
+                "x": 222,
+                "y": 392,
+                "name": "PoD Map Balcony ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 300,
+                "y": 392,
+                "name": "PoD Fairies WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B3",
+        "doors": [
+            {
+                "x": 127,
+                "y": 48,
+                "name": "PoD Conveyor North Stairs",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 480,
+                "name": "PoD Conveyor SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B4",
+        "doors": [
+            {
+                "x": 127,
+                "y": 48,
+                "name": "PoD Mimics 1 NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 219,
+                "name": "PoD Mimics 1 SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 305,
+                "name": "PoD Jelly Hall NW",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 307,
+                "name": "PoD Jelly Hall NE",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 221,
+                "name": "PoD Warp Hint SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-A1",
+        "doors": [
+            {
+                "x": 127,
+                "y": 478,
+                "name": "PoD Falling Bridge SW",
+                "direction": "So"
+            },
+            {
+                "x": 34,
+                "y": 136,
+                "name": "PoD Falling Bridge WN",
+                "direction": "We"
+            },
+            {
+                "x": 222,
+                "y": 136,
+                "name": "PoD Falling Bridge EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 37,
+                "y": 264,
+                "name": "PoD Big Chest Balcony W",
+                "direction": "We"
+            },
+            {
+                "x": 289,
+                "y": 135,
+                "name": "PoD Compass Room WN",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 221,
+                "name": "PoD Compass Room SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 306,
+                "name": "PoD Harmless Hellway NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 478,
+                "name": "PoD Harmless Hellway SE",
+                "direction": "So"
+            },
+            {
+                "x": 335,
+                "y": 50,
+                "name": "PoD Compass Room W Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 430,
+                "y": 51,
+                "name": "PoD Compass Room E Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-91",
+        "doors": [
+            {
+                "x": 477,
+                "y": 136,
+                "name": "PoD Dark Maze EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 474,
+                "y": 264,
+                "name": "PoD Dark Maze E",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-A6",
+        "doors": [
+            {
+                "x": 335,
+                "y": 51,
+                "name": "PoD Dark Basement W Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 432,
+                "y": 49,
+                "name": "PoD Dark Basement E Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 383,
+                "y": 51,
+                "name": "PoD Dark Alley NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B1",
+        "doors": [
+            {
+                "x": 127,
+                "y": 477,
+                "name": "PoD Mimics 2 SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 304,
+                "name": "PoD Mimics 2 NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "PoD Bow Statue SW",
+                "direction": "So"
+            },
+            {
+                "x": 394,
+                "y": 93,
+                "name": "PoD Bow Statue Down Ladder",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B0",
+        "doors": [
+            {
+                "x": 408,
+                "y": 106,
+                "name": "PoD Dark Pegs Up Ladder",
+                "direction": "No"
+            },
+            {
+                "x": 289,
+                "y": 135,
+                "name": "PoD Dark Pegs WN",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "PoD Lonely Turtle SW",
+                "direction": "So"
+            },
+            {
+                "x": 220,
+                "y": 135,
+                "name": "PoD Lonely Turtle EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 223,
+                "y": 392,
+                "name": "PoD Turtle Party ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "PoD Turtle Party NW",
+                "direction": "No"
+            },
+            {
+                "x": 289,
+                "y": 391,
+                "name": "PoD Callback WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-A5",
+        "doors": [
+            {
+                "x": 383,
+                "y": 479,
+                "name": "PoD Boss SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-82",
+        "doors": [
+            {
+                "x": 256,
+                "y": 479,
+                "name": "Swamp Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 50,
+                "name": "Swamp Entrance Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-83",
+        "doors": [
+            {
+                "x": 127,
+                "y": 49,
+                "name": "Swamp Pot Row Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 36,
+                "y": 136,
+                "name": "Swamp Pot Row WN",
+                "direction": "We"
+            },
+            {
+                "x": 35,
+                "y": 391,
+                "name": "Swamp Pot Row WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-73",
+        "doors": [
+            {
+                "x": 476,
+                "y": 137,
+                "name": "Swamp Map Ledge EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 477,
+                "y": 392,
+                "name": "Swamp Trench 1 Approach ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 254,
+                "y": 325,
+                "name": "Swamp Trench 1 Nexus N",
+                "direction": "No"
+            },
+            {
+                "x": 255,
+                "y": 198,
+                "name": "Swamp Trench 1 Alcove S",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 306,
+                "name": "Swamp Trench 1 Key Ledge NW",
+                "direction": "No"
+            },
+            {
+                "x": 33,
+                "y": 392,
+                "name": "Swamp Trench 1 Departure WS",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 221,
+                "name": "Swamp Hammer Switch SW",
+                "direction": "So"
+            },
+            {
+                "x": 36,
+                "y": 135,
+                "name": "Swamp Hammer Switch WN",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-63",
+        "doors": [
+            {
+                "x": 478,
+                "y": 392,
+                "name": "Swamp Hub ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 255,
+                "y": 454,
+                "name": "Swamp Hub S",
+                "direction": "So"
+            },
+            {
+                "x": 33,
+                "y": 392,
+                "name": "Swamp Hub WS",
+                "direction": "We"
+            },
+            {
+                "x": 35,
+                "y": 135,
+                "name": "Swamp Hub WN",
+                "direction": "We"
+            },
+            {
+                "x": 474,
+                "y": 136,
+                "name": "Swamp Hub Dead Ledge EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 255,
+                "y": 50,
+                "name": "Swamp Hub North Ledge N",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-64",
+        "doors": [
+            {
+                "x": 256,
+                "y": 72,
+                "name": "Swamp Donut Top N",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 199,
+                "name": "Swamp Donut Top SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 329,
+                "name": "Swamp Donut Bottom NE",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 328,
+                "name": "Swamp Donut Bottom NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 198,
+                "name": "Swamp Compass Donut SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-53",
+        "doors": [
+            {
+                "x": 477,
+                "y": 136,
+                "name": "Swamp Crystal Switch EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 221,
+                "name": "Swamp Crystal Switch SE",
+                "direction": "So"
+            },
+            {
+                "x": 382,
+                "y": 303,
+                "name": "Swamp Shortcut NE",
+                "direction": "No"
+            },
+            {
+                "x": 480,
+                "y": 392,
+                "name": "Swamp Trench 2 Pots ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 256,
+                "y": 327,
+                "name": "Swamp Trench 2 Blocks N",
+                "direction": "No"
+            },
+            {
+                "x": 256,
+                "y": 200,
+                "name": "Swamp Trench 2 Alcove S",
+                "direction": "So"
+            },
+            {
+                "x": 32,
+                "y": 391,
+                "name": "Swamp Trench 2 Departure WS",
+                "direction": "We"
+            },
+            {
+                "x": 34,
+                "y": 135,
+                "name": "Swamp Big Key Ledge WN",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-43",
+        "doors": [
+            {
+                "x": 477,
+                "y": 392,
+                "name": "Swamp West Shallows ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 304,
+                "name": "Swamp West Block Path Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 478,
+                "y": 136,
+                "name": "Swamp Barrier EN",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-45",
+        "doors": [
+            {
+                "x": 126,
+                "y": 305,
+                "name": "Swamp Attic Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-62",
+        "doors": [
+            {
+                "x": 256,
+                "y": 478,
+                "name": "Swamp Push Statue S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "Swamp Push Statue NW",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 304,
+                "name": "Swamp Push Statue NE",
+                "direction": "No"
+            },
+            {
+                "x": 447,
+                "y": 304,
+                "name": "Swamp Push Statue Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 128,
+                "y": 223,
+                "name": "Swamp Shooters SW",
+                "direction": "So"
+            },
+            {
+                "x": 222,
+                "y": 136,
+                "name": "Swamp Shooters EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 290,
+                "y": 135,
+                "name": "Swamp Left Elbow WN",
+                "direction": "We"
+            },
+            {
+                "x": 319,
+                "y": 48,
+                "name": "Swamp Left Elbow Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 383,
+                "y": 223,
+                "name": "Swamp Right Elbow SE",
+                "direction": "So"
+            },
+            {
+                "x": 430,
+                "y": 48,
+                "name": "Swamp Right Elbow Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-67",
+        "doors": [
+            {
+                "x": 319,
+                "y": 48,
+                "name": "Swamp Drain Left Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 309,
+                "y": 135,
+                "name": "Swamp Drain WN",
+                "direction": "We"
+            },
+            {
+                "x": 432,
+                "y": 48,
+                "name": "Swamp Drain Right Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 447,
+                "y": 305,
+                "name": "Swamp Flooded Room Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 311,
+                "y": 391,
+                "name": "Swamp Flooded Room WS",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 70,
+                "name": "Swamp Basement Shallows NW",
+                "direction": "No"
+            },
+            {
+                "x": 199,
+                "y": 136,
+                "name": "Swamp Basement Shallows EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 198,
+                "y": 391,
+                "name": "Swamp Basement Shallows ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-66",
+        "doors": [
+            {
+                "x": 127,
+                "y": 454,
+                "name": "Swamp Waterfall Room SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 328,
+                "name": "Swamp Waterfall Room NW",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 330,
+                "name": "Swamp Waterfall Room NE",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 193,
+                "name": "Swamp Refill SW",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 197,
+                "name": "Swamp Behind Waterfall SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 49,
+                "name": "Swamp Behind Waterfall Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-61",
+        "doors": [
+            {
+                "x": 383,
+                "y": 48,
+                "name": "Swamp C Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 383,
+                "y": 222,
+                "name": "Swamp C SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 305,
+                "name": "Swamp Waterway NE",
+                "direction": "No"
+            },
+            {
+                "x": 257,
+                "y": 309,
+                "name": "Swamp Waterway N",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 307,
+                "name": "Swamp Waterway NW",
+                "direction": "No"
+            },
+            {
+                "x": 256,
+                "y": 221,
+                "name": "Swamp I S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Swamp T SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 49,
+                "name": "Swamp T NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-60",
+        "doors": [
+            {
+                "x": 127,
+                "y": 479,
+                "name": "Swamp Boss SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-85",
+        "doors": [
+            {
+                "x": 127,
+                "y": 480,
+                "name": "Skull 1 Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 33,
+                "y": 391,
+                "name": "Skull 1 Lobby WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 391,
+                "name": "Skull 1 Lobby ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 391,
+                "name": "Skull Map Room WS",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 478,
+                "name": "Skull Map Room SE",
+                "direction": "So"
+            },
+            {
+                "x": 291,
+                "y": 135,
+                "name": "Skull Pot Circle WN",
+                "direction": "We"
+            },
+            {
+                "x": 219,
+                "y": 135,
+                "name": "Skull Pull Switch EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 250,
+                "name": "Skull Pull Switch S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 264,
+                "name": "Skull Big Chest N",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-86",
+        "doors": [
+            {
+                "x": 383,
+                "y": 50,
+                "name": "Skull Pinball NE",
+                "direction": "No"
+            },
+            {
+                "x": 31,
+                "y": 392,
+                "name": "Skull Pinball WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-76",
+        "doors": [
+            {
+                "x": 383,
+                "y": 49,
+                "name": "Skull Compass Room NE",
+                "direction": "No"
+            },
+            {
+                "x": 477,
+                "y": 392,
+                "name": "Skull Compass Room ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 221,
+                "y": 391,
+                "name": "Skull Left Drop ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 392,
+                "name": "Skull Compass Room WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-75",
+        "doors": [
+            {
+                "x": 478,
+                "y": 392,
+                "name": "Skull Pot Prison ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 479,
+                "name": "Skull Pot Prison SE",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 479,
+                "name": "Skull 2 East Lobby SW",
+                "direction": "So"
+            },
+            {
+                "x": 33,
+                "y": 392,
+                "name": "Skull 2 East Lobby WS",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "Skull 2 East Lobby NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Skull Big Key SW",
+                "direction": "So"
+            },
+            {
+                "x": 221,
+                "y": 137,
+                "name": "Skull Big Key EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 291,
+                "y": 136,
+                "name": "Skull Lone Pot WN",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-65",
+        "doors": [
+            {
+                "x": 477,
+                "y": 393,
+                "name": "Skull Small Hall ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 290,
+                "y": 392,
+                "name": "Skull Small Hall WS",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 480,
+                "name": "Skull 2 West Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 222,
+                "y": 392,
+                "name": "Skull 2 West Lobby ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 306,
+                "name": "Skull 2 West Lobby NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 221,
+                "name": "Skull X Room SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-95",
+        "doors": [
+            {
+                "x": 127,
+                "y": 477,
+                "name": "Skull 3 Lobby SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 49,
+                "name": "Skull 3 Lobby NW",
+                "direction": "No"
+            },
+            {
+                "x": 193,
+                "y": 136,
+                "name": "Skull 3 Lobby EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 313,
+                "y": 136,
+                "name": "Skull East Bridge WN",
+                "direction": "We"
+            },
+            {
+                "x": 314,
+                "y": 393,
+                "name": "Skull East Bridge WS",
+                "direction": "We"
+            },
+            {
+                "x": 194,
+                "y": 392,
+                "name": "Skull West Bridge Nook ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-94",
+        "doors": [
+            {
+                "x": 127,
+                "y": 478,
+                "name": "Skull Star Pits SW",
+                "direction": "So"
+            },
+            {
+                "x": 221,
+                "y": 392,
+                "name": "Skull Star Pits ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 393,
+                "name": "Skull Torch Room WS",
+                "direction": "We"
+            },
+            {
+                "x": 287,
+                "y": 135,
+                "name": "Skull Torch Room WN",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 136,
+                "name": "Skull Vines EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 53,
+                "name": "Skull Vines NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-93",
+        "doors": [
+            {
+                "x": 127,
+                "y": 479,
+                "name": "Skull Spike Corner SW",
+                "direction": "So"
+            },
+            {
+                "x": 221,
+                "y": 391,
+                "name": "Skull Spike Corner ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 391,
+                "name": "Skull Final Drop WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-92",
+        "doors": []
+    },
+    {
+        "tile": "tile-BD",
+        "doors": [
+            {
+                "x": 255,
+                "y": 479,
+                "name": "Thieves Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 256,
+                "y": 62,
+                "name": "Thieves Lobby N Edge",
+                "direction": "No"
+            },
+            {
+                "x": 390,
+                "y": 60,
+                "name": "Thieves Lobby NE Edge",
+                "direction": "No"
+            },
+            {
+                "x": 480,
+                "y": 265,
+                "name": "Thieves Lobby E",
+                "direction": "Ea"
+            },
+            {
+                "x": 467,
+                "y": 365,
+                "name": "Thieves Big Chest Nook ES Edge",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-BF",
+        "doors": [
+            {
+                "x": 256,
+                "y": 474,
+                "name": "Bumper Cave Lower SW",
+                "direction": "So"
+            },
+            {
+                "x": 386,
+                "y": 48,
+                "name": "Bumper Cave Lower Up Stairs",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-BC",
+        "doors": [
+            {
+                "x": 258,
+                "y": 467,
+                "name": "Thieves Ambush S Edge",
+                "direction": "So"
+            },
+            {
+                "x": 390,
+                "y": 469,
+                "name": "Thieves Ambush SE Edge",
+                "direction": "So"
+            },
+            {
+                "x": 470,
+                "y": 357,
+                "name": "Thieves Ambush ES Edge",
+                "direction": "Ea"
+            },
+            {
+                "x": 469,
+                "y": 167,
+                "name": "Thieves Ambush EN Edge",
+                "direction": "Ea"
+            },
+            {
+                "x": 475,
+                "y": 265,
+                "name": "Thieves Ambush E",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-CC",
+        "doors": [
+            {
+                "x": 42,
+                "y": 160,
+                "name": "Thieves BK Corner WN Edge",
+                "direction": "We"
+            },
+            {
+                "x": 40,
+                "y": 364,
+                "name": "Thieves BK Corner WS Edge",
+                "direction": "We"
+            },
+            {
+                "x": 256,
+                "y": 470,
+                "name": "Thieves BK Corner S Edge",
+                "direction": "So"
+            },
+            {
+                "x": 117,
+                "y": 470,
+                "name": "Thieves BK Corner SW Edge",
+                "direction": "So"
+            },
+            {
+                "x": 35,
+                "y": 264,
+                "name": "Thieves Rail Ledge W",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 51,
+                "name": "Thieves Rail Ledge NW",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 51,
+                "name": "Thieves BK Corner NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-CD",
+        "doors": [
+            {
+                "x": 125,
+                "y": 62,
+                "name": "Thieves Compass Room NW Edge",
+                "direction": "No"
+            },
+            {
+                "x": 256,
+                "y": 62,
+                "name": "Thieves Compass Room N Edge",
+                "direction": "No"
+            },
+            {
+                "x": 41,
+                "y": 365,
+                "name": "Thieves Compass Room WS Edge",
+                "direction": "We"
+            },
+            {
+                "x": 34,
+                "y": 265,
+                "name": "Thieves Compass Room W",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-CB",
+        "doors": [
+            {
+                "x": 382,
+                "y": 478,
+                "name": "Thieves Hallway SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 48,
+                "name": "Thieves Hallway NE",
+                "direction": "No"
+            },
+            {
+                "x": 34,
+                "y": 391,
+                "name": "Thieves Pot Alcove Mid WS",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 476,
+                "name": "Thieves Pot Alcove Bottom SW",
+                "direction": "So"
+            },
+            {
+                "x": 34,
+                "y": 136,
+                "name": "Thieves Conveyor Maze WN",
+                "direction": "We"
+            },
+            {
+                "x": 292,
+                "y": 393,
+                "name": "Thieves Hallway WS",
+                "direction": "We"
+            },
+            {
+                "x": 220,
+                "y": 390,
+                "name": "Thieves Pot Alcove Mid ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 222,
+                "name": "Thieves Conveyor Maze SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 303,
+                "name": "Thieves Pot Alcove Top NW",
+                "direction": "No"
+            },
+            {
+                "x": 222,
+                "y": 136,
+                "name": "Thieves Conveyor Maze EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 292,
+                "y": 135,
+                "name": "Thieves Hallway WN",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 50,
+                "name": "Thieves Conveyor Maze Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-CA",
+        "doors": [
+            {
+                "x": 382,
+                "y": 480,
+                "name": "Thieves Boss SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-BB",
+        "doors": [
+            {
+                "x": 479,
+                "y": 393,
+                "name": "Thieves Spike Track ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 49,
+                "name": "Thieves Hellway NW",
+                "direction": "No"
+            },
+            {
+                "x": 479,
+                "y": 136,
+                "name": "Thieves Triple Bypass EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 392,
+                "name": "Thieves Spike Track WS",
+                "direction": "We"
+            },
+            {
+                "x": 224,
+                "y": 392,
+                "name": "Thieves Hellway Crystal ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 382,
+                "y": 305,
+                "name": "Thieves Spike Track NE",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 224,
+                "name": "Thieves Triple Bypass SE",
+                "direction": "So"
+            },
+            {
+                "x": 221,
+                "y": 136,
+                "name": "Thieves Hellway Crystal EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 290,
+                "y": 136,
+                "name": "Thieves Triple Bypass WN",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-BA",
+        "doors": [
+            {
+                "x": 127,
+                "y": 478,
+                "name": "Thieves Spike Switch SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 306,
+                "name": "Thieves Spike Switch Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-46",
+        "doors": [
+            {
+                "x": 127,
+                "y": 306,
+                "name": "Thieves Attic Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 223,
+                "y": 393,
+                "name": "Thieves Attic ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 393,
+                "name": "Thieves Cricket Hall Left WS",
+                "direction": "We"
+            },
+            {
+                "x": 510,
+                "y": 396,
+                "name": "Thieves Cricket Hall Left Edge",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-56",
+        "doors": [
+            {
+                "x": 2,
+                "y": 392,
+                "name": "Thieves Cricket Hall Right Edge",
+                "direction": "We"
+            },
+            {
+                "x": 226,
+                "y": 392,
+                "name": "Thieves Cricket Hall Right ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 287,
+                "y": 392,
+                "name": "Thieves Attic Window WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-54",
+        "doors": [
+            {
+                "x": 127,
+                "y": 48,
+                "name": "Thieves Basement Block Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 32,
+                "y": 136,
+                "name": "Thieves Basement Block WN",
+                "direction": "We"
+            },
+            {
+                "x": 33,
+                "y": 392,
+                "name": "Thieves Lonely Zazak WS",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Thieves Blocked Entry SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 304,
+                "name": "Thieves Lonely Zazak NW",
+                "direction": "No"
+            },
+            {
+                "x": 222,
+                "y": 391,
+                "name": "Thieves Lonely Zazak ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 394,
+                "name": "Thieves Blind's Cell WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-55",
+        "doors": [
+            {
+                "x": 128,
+                "y": 332,
+                "name": "Uncle Chest NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 204,
+                "name": "Uncle Drop SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 474,
+                "name": "Uncle Chest SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-44",
+        "doors": [
+            {
+                "x": 479,
+                "y": 137,
+                "name": "Thieves Conveyor Bridge EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 478,
+                "y": 394,
+                "name": "Thieves Conveyor Bridge ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 392,
+                "name": "Thieves Conveyor Bridge WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 392,
+                "name": "Thieves Big Chest Room ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 137,
+                "name": "Thieves Conveyor Block WN",
+                "direction": "We"
+            },
+            {
+                "x": 223,
+                "y": 136,
+                "name": "Thieves Trap EN",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E0",
+        "doors": [
+            {
+                "x": 384,
+                "y": 479,
+                "name": "Ice Lobby SE",
+                "direction": "So"
+            },
+            {
+                "x": 288,
+                "y": 392,
+                "name": "Ice Lobby WS",
+                "direction": "We"
+            },
+            {
+                "x": 225,
+                "y": 393,
+                "name": "Ice Jelly Key ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 305,
+                "name": "Ice Jelly Key Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E1",
+        "doors": [
+            {
+                "x": 128,
+                "y": 303,
+                "name": "Ice Floor Switch Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 224,
+                "y": 392,
+                "name": "Ice Floor Switch ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 287,
+                "y": 392,
+                "name": "Ice Cross Left WS",
+                "direction": "We"
+            },
+            {
+                "x": 384,
+                "y": 304,
+                "name": "Ice Cross Top NE",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 222,
+                "name": "Ice Bomb Drop SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 479,
+                "name": "Ice Cross Bottom SE",
+                "direction": "So"
+            },
+            {
+                "x": 479,
+                "y": 392,
+                "name": "Ice Cross Right ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E2",
+        "doors": [
+            {
+                "x": 384,
+                "y": 48,
+                "name": "Ice Compass Room NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-F1",
+        "doors": [
+            {
+                "x": 30,
+                "y": 391,
+                "name": "Ice Pengator Switch WS",
+                "direction": "We"
+            },
+            {
+                "x": 224,
+                "y": 391,
+                "name": "Ice Pengator Switch ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 392,
+                "name": "Ice Dead End WS",
+                "direction": "We"
+            },
+            {
+                "x": 359,
+                "y": 344,
+                "name": "Ice Big Key Down Ladder",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-F2",
+        "doors": [
+            {
+                "x": 132,
+                "y": 300,
+                "name": "Kak Well Ledge NW",
+                "direction": "No"
+            },
+            {
+                "x": 132,
+                "y": 222,
+                "name": "Kak Well Bomb Chest SW",
+                "direction": "So"
+            },
+            {
+                "x": 386,
+                "y": 474,
+                "name": "Kak Well Entrance SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E3",
+        "doors": [
+            {
+                "x": 384,
+                "y": 222,
+                "name": "Ice Stalfos Hint SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 305,
+                "name": "Ice Conveyor NE",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 478,
+                "name": "Ice Conveyor SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E4",
+        "doors": [
+            {
+                "x": 127,
+                "y": 50,
+                "name": "Ice Bomb Jump NW",
+                "direction": "No"
+            },
+            {
+                "x": 223,
+                "y": 136,
+                "name": "Ice Bomb Jump EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 287,
+                "y": 135,
+                "name": "Ice Narrow Corridor WN",
+                "direction": "We"
+            },
+            {
+                "x": 447,
+                "y": 113,
+                "name": "Ice Narrow Corridor Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E6",
+        "doors": [
+            {
+                "x": 447,
+                "y": 113,
+                "name": "Ice Pengator Trap Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 382,
+                "y": 48,
+                "name": "Ice Pengator Trap NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E5",
+        "doors": [
+            {
+                "x": 384,
+                "y": 480,
+                "name": "Ice Spike Cross SE",
+                "direction": "So"
+            },
+            {
+                "x": 479,
+                "y": 392,
+                "name": "Ice Spike Cross ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 392,
+                "name": "Ice Spike Cross WS",
+                "direction": "We"
+            },
+            {
+                "x": 225,
+                "y": 391,
+                "name": "Ice Firebar ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 70,
+                "y": 423,
+                "name": "Ice Firebar Down Ladder",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 305,
+                "name": "Ice Spike Cross NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 219,
+                "name": "Ice Falling Square SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-F5",
+        "doors": [
+            {
+                "x": 33,
+                "y": 392,
+                "name": "Ice Spike Room WS",
+                "direction": "We"
+            },
+            {
+                "x": 72,
+                "y": 304,
+                "name": "Ice Spike Room Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 184,
+                "y": 304,
+                "name": "Ice Spike Room Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-F3",
+        "doors": [
+            {
+                "x": 183,
+                "y": 304,
+                "name": "Ice Hammer Block Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 223,
+                "y": 393,
+                "name": "Ice Hammer Block ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 287,
+                "y": 393,
+                "name": "Ice Tongue Pull WS",
+                "direction": "We"
+            },
+            {
+                "x": 360,
+                "y": 349,
+                "name": "Ice Tongue Pull Up Ladder",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E7",
+        "doors": [
+            {
+                "x": 72,
+                "y": 427,
+                "name": "Ice Freezors Up Ladder",
+                "direction": "No"
+            },
+            {
+                "x": 225,
+                "y": 391,
+                "name": "Ice Freezors Ledge ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 393,
+                "name": "Ice Tall Hint WS",
+                "direction": "We"
+            },
+            {
+                "x": 479,
+                "y": 136,
+                "name": "Ice Tall Hint EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 384,
+                "y": 477,
+                "name": "Ice Tall Hint SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-F7",
+        "doors": [
+            {
+                "x": 31,
+                "y": 136,
+                "name": "Ice Hookshot Ledge WN",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 224,
+                "name": "Ice Hookshot Balcony SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "Ice Spikeball NW",
+                "direction": "No"
+            },
+            {
+                "x": 72,
+                "y": 305,
+                "name": "Ice Spikeball Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E8",
+        "doors": [
+            {
+                "x": 384,
+                "y": 49,
+                "name": "Ice Lonely Freezor NE",
+                "direction": "No"
+            },
+            {
+                "x": 335,
+                "y": 49,
+                "name": "Ice Lonely Freezor Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-EA",
+        "doors": [
+            {
+                "x": 478,
+                "y": 137,
+                "name": "Iced T EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 335,
+                "y": 48,
+                "name": "Iced T Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-FA",
+        "doors": [
+            {
+                "x": 33,
+                "y": 136,
+                "name": "Ice Catwalk WN",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 49,
+                "name": "Ice Catwalk NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-F9",
+        "doors": [
+            {
+                "x": 127,
+                "y": 480,
+                "name": "Ice Many Pots SW",
+                "direction": "So"
+            },
+            {
+                "x": 32,
+                "y": 392,
+                "name": "Ice Many Pots WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-E9",
+        "doors": [
+            {
+                "x": 478,
+                "y": 392,
+                "name": "Ice Crystal Right ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 392,
+                "name": "Ice Crystal Left WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 393,
+                "name": "Ice Big Chest View ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 384,
+                "y": 307,
+                "name": "Ice Crystal Right NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 224,
+                "name": "Ice Backwards Room SE",
+                "direction": "So"
+            },
+            {
+                "x": 385,
+                "y": 49,
+                "name": "Ice Backwards Room Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-EB",
+        "doors": [
+            {
+                "x": 383,
+                "y": 49,
+                "name": "Ice Anti-Fairy Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 384,
+                "y": 222,
+                "name": "Ice Anti-Fairy SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 304,
+                "name": "Ice Switch Room NE",
+                "direction": "No"
+            },
+            {
+                "x": 478,
+                "y": 392,
+                "name": "Ice Switch Room ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 479,
+                "name": "Ice Switch Room SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-ED",
+        "doors": []
+    },
+    {
+        "tile": "tile-FB",
+        "doors": [
+            {
+                "x": 34,
+                "y": 391,
+                "name": "Ice Refill WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-EC",
+        "doors": [
+            {
+                "x": 384,
+                "y": 48,
+                "name": "Ice Antechamber NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-89",
+        "doors": [
+            {
+                "x": 127,
+                "y": 482,
+                "name": "Mire Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 398,
+                "y": 305,
+                "name": "Mire Post-Gap Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-2D",
+        "doors": [
+            {
+                "x": 398,
+                "y": 304,
+                "name": "Mire 2 Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 384,
+                "y": 49,
+                "name": "Mire 2 NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-2C",
+        "doors": [
+            {
+                "x": 384,
+                "y": 480,
+                "name": "Mire Hub SE",
+                "direction": "So"
+            },
+            {
+                "x": 478,
+                "y": 392,
+                "name": "Mire Hub ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 480,
+                "y": 264,
+                "name": "Mire Hub E",
+                "direction": "Ea"
+            },
+            {
+                "x": 382,
+                "y": 49,
+                "name": "Mire Hub NE",
+                "direction": "No"
+            },
+            {
+                "x": 34,
+                "y": 136,
+                "name": "Mire Hub WN",
+                "direction": "We"
+            },
+            {
+                "x": 35,
+                "y": 392,
+                "name": "Mire Hub WS",
+                "direction": "We"
+            },
+            {
+                "x": 477,
+                "y": 136,
+                "name": "Mire Hub Right EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 49,
+                "name": "Mire Hub Top NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-3C",
+        "doors": [
+            {
+                "x": 33,
+                "y": 393,
+                "name": "Mire Lone Shooter WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 393,
+                "name": "Mire Lone Shooter ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 292,
+                "y": 391,
+                "name": "Mire Falling Bridge WS",
+                "direction": "We"
+            },
+            {
+                "x": 289,
+                "y": 264,
+                "name": "Mire Falling Bridge W",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 264,
+                "name": "Mire Failure Bridge E",
+                "direction": "Ea"
+            },
+            {
+                "x": 35,
+                "y": 264,
+                "name": "Mire Failure Bridge W",
+                "direction": "We"
+            },
+            {
+                "x": 290,
+                "y": 136,
+                "name": "Mire Falling Bridge WN",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 135,
+                "name": "Mire Map Spike Side EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 35,
+                "y": 136,
+                "name": "Mire Map Spot WN",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 49,
+                "name": "Mire Crystal Dead End NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-2B",
+        "doors": [
+            {
+                "x": 383,
+                "y": 479,
+                "name": "Mire Hidden Shooters SE",
+                "direction": "So"
+            },
+            {
+                "x": 479,
+                "y": 392,
+                "name": "Mire Hidden Shooters ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 392,
+                "name": "Mire Hidden Shooters WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 393,
+                "name": "Mire Cross ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 382,
+                "y": 305,
+                "name": "Mire Hidden Shooters NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 222,
+                "name": "Mire Minibridge SE",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 478,
+                "name": "Mire Cross SW",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 50,
+                "name": "Mire Minibridge NE",
+                "direction": "No"
+            },
+            {
+                "x": 453,
+                "y": 136,
+                "name": "Mire BK Door Room EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 256,
+                "y": 51,
+                "name": "Mire BK Door Room N",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-3B",
+        "doors": [
+            {
+                "x": 33,
+                "y": 393,
+                "name": "Mire Spikes WS",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 479,
+                "name": "Mire Spikes SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 308,
+                "name": "Mire Spikes NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 222,
+                "name": "Mire Ledgehop SW",
+                "direction": "So"
+            },
+            {
+                "x": 57,
+                "y": 137,
+                "name": "Mire Ledgehop WN",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 49,
+                "name": "Mire Ledgehop NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-3A",
+        "doors": [
+            {
+                "x": 127,
+                "y": 478,
+                "name": "Mire Bent Bridge SW",
+                "direction": "So"
+            },
+            {
+                "x": 41,
+                "y": 263,
+                "name": "Mire Bent Bridge W",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-2A",
+        "doors": [
+            {
+                "x": 477,
+                "y": 264,
+                "name": "Mire Over Bridge E",
+                "direction": "Ea"
+            },
+            {
+                "x": 33,
+                "y": 264,
+                "name": "Mire Over Bridge W",
+                "direction": "We"
+            },
+            {
+                "x": 384,
+                "y": 480,
+                "name": "Mire Right Bridge SE",
+                "direction": "So"
+            },
+            {
+                "x": 255,
+                "y": 480,
+                "name": "Mire Left Bridge S",
+                "direction": "So"
+            },
+            {
+                "x": 255,
+                "y": 72,
+                "name": "Mire Left Bridge Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-1A",
+        "doors": [
+            {
+                "x": 477,
+                "y": 264,
+                "name": "Mire Fishbone E",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 478,
+                "name": "Mire Fishbone SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-1B",
+        "doors": [
+            {
+                "x": 384,
+                "y": 50,
+                "name": "Mire Spike Barrier NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 480,
+                "name": "Mire Spike Barrier SE",
+                "direction": "So"
+            },
+            {
+                "x": 289,
+                "y": 393,
+                "name": "Mire Spike Barrier ES",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 392,
+                "name": "Mire Square Rail WS",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 307,
+                "name": "Mire Square Rail NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Mire Lone Warp SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-1C",
+        "doors": [
+            {
+                "x": 477,
+                "y": 137,
+                "name": "Mire Wizzrobe Bypass EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 384,
+                "y": 50,
+                "name": "Mire Wizzrobe Bypass NE",
+                "direction": "No"
+            },
+            {
+                "x": 477,
+                "y": 391,
+                "name": "Mire Conveyor Crystal ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 479,
+                "name": "Mire Conveyor Crystal SE",
+                "direction": "So"
+            },
+            {
+                "x": 292,
+                "y": 391,
+                "name": "Mire Conveyor Crystal WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 392,
+                "name": "Mire Tile Room ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 479,
+                "name": "Mire Tile Room SW",
+                "direction": "So"
+            },
+            {
+                "x": 126,
+                "y": 304,
+                "name": "Mire Tile Room NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 222,
+                "name": "Mire Compass Room SW",
+                "direction": "So"
+            },
+            {
+                "x": 223,
+                "y": 136,
+                "name": "Mire Compass Room EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 291,
+                "y": 136,
+                "name": "Mire Wizzrobe Bypass WN",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-1D",
+        "doors": [
+            {
+                "x": 383,
+                "y": 49,
+                "name": "Mire Neglected Room NE",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 50,
+                "name": "Mire Conveyor Barrier NW",
+                "direction": "No"
+            },
+            {
+                "x": 175,
+                "y": 49,
+                "name": "Mire Conveyor Barrier Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 383,
+                "y": 221,
+                "name": "Mire Neglected Room SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 305,
+                "name": "Mire Chest View NE",
+                "direction": "No"
+            },
+            {
+                "x": 290,
+                "y": 392,
+                "name": "Mire BK Chest Ledge WS",
+                "direction": "We"
+            },
+            {
+                "x": 222,
+                "y": 391,
+                "name": "Mire Warping Pool ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-79",
+        "doors": [
+            {
+                "x": 175,
+                "y": 49,
+                "name": "Mire Torches Top Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "Mire Torches Top SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 305,
+                "name": "Mire Torches Bottom NW",
+                "direction": "No"
+            },
+            {
+                "x": 223,
+                "y": 391,
+                "name": "Mire Torches Bottom WS",
+                "direction": "We"
+            },
+            {
+                "x": 289,
+                "y": 393,
+                "name": "Mire Attic Hint ES",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-39",
+        "doors": [
+            {
+                "x": 255,
+                "y": 49,
+                "name": "Mire Dark Shooters Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 128,
+                "y": 223,
+                "name": "Mire Dark Shooters SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 305,
+                "name": "Mire Block X NW",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 221,
+                "name": "Mire Dark Shooters SE",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 308,
+                "name": "Mire Key Rupees NE",
+                "direction": "No"
+            },
+            {
+                "x": 32,
+                "y": 393,
+                "name": "Mire Block X WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-29",
+        "doors": [
+            {
+                "x": 478,
+                "y": 392,
+                "name": "Mire Tall Dark and Roomy ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 291,
+                "y": 135,
+                "name": "Mire Tall Dark and Roomy WN",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 136,
+                "name": "Mire Shooter Rupees EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 290,
+                "y": 393,
+                "name": "Mire Tall Dark and Roomy WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 392,
+                "name": "Mire Crystal Right ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 129,
+                "y": 306,
+                "name": "Mire Crystal Mid NW",
+                "direction": "No"
+            },
+            {
+                "x": 129,
+                "y": 223,
+                "name": "Mire Crystal Top SW",
+                "direction": "So"
+            },
+            {
+                "x": 33,
+                "y": 394,
+                "name": "Mire Crystal Left WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-19",
+        "doors": [
+            {
+                "x": 478,
+                "y": 393,
+                "name": "Mire Falling Foes ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 384,
+                "y": 176,
+                "name": "Mire Falling Foes Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-0A",
+        "doors": [
+            {
+                "x": 384,
+                "y": 177,
+                "name": "Mire Firesnake Skip Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 128,
+                "y": 51,
+                "name": "Mire Antechamber NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-09",
+        "doors": [
+            {
+                "x": 127,
+                "y": 480,
+                "name": "Mire Boss SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-6D",
+        "doors": [
+            {
+                "x": 383,
+                "y": 481,
+                "name": "TR Main Lobby SE",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 52,
+                "name": "TR Lobby Ledge NE",
+                "direction": "No"
+            },
+            {
+                "x": 126,
+                "y": 54,
+                "name": "TR Compass Room NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-6C",
+        "doors": [
+            {
+                "x": 127,
+                "y": 481,
+                "name": "TR Hub SW",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 481,
+                "name": "TR Hub SE",
+                "direction": "So"
+            },
+            {
+                "x": 478,
+                "y": 393,
+                "name": "TR Hub ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 478,
+                "y": 138,
+                "name": "TR Hub EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 51,
+                "name": "TR Hub NW",
+                "direction": "No"
+            },
+            {
+                "x": 382,
+                "y": 51,
+                "name": "TR Hub NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-7C",
+        "doors": [
+            {
+                "x": 36,
+                "y": 392,
+                "name": "TR Torches Ledge WS",
+                "direction": "We"
+            },
+            {
+                "x": 35,
+                "y": 138,
+                "name": "TR Torches WN",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 51,
+                "name": "TR Torches NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-7B",
+        "doors": [
+            {
+                "x": 127,
+                "y": 481,
+                "name": "TR Roller Room SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-6B",
+        "doors": [
+            {
+                "x": 127,
+                "y": 478,
+                "name": "TR Pokey 1 SW",
+                "direction": "So"
+            },
+            {
+                "x": 382,
+                "y": 479,
+                "name": "TR Tile Room SE",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 307,
+                "name": "TR Tile Room NE",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 220,
+                "name": "TR Refill SE",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 306,
+                "name": "TR Pokey 1 NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 223,
+                "name": "TR Chain Chomps SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 52,
+                "name": "TR Chain Chomps Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-51",
+        "doors": [
+            {
+                "x": 126,
+                "y": 49,
+                "name": "TR Pipe Pit Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 35,
+                "y": 137,
+                "name": "TR Pipe Pit WN",
+                "direction": "We"
+            },
+            {
+                "x": 34,
+                "y": 392,
+                "name": "TR Pipe Ledge WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-41",
+        "doors": [
+            {
+                "x": 478,
+                "y": 137,
+                "name": "TR Lava Dual Pipes EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 35,
+                "y": 136,
+                "name": "TR Lava Dual Pipes WN",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 480,
+                "name": "TR Lava Dual Pipes SW",
+                "direction": "So"
+            },
+            {
+                "x": 35,
+                "y": 393,
+                "name": "TR Lava Island WS",
+                "direction": "We"
+            },
+            {
+                "x": 478,
+                "y": 393,
+                "name": "TR Lava Island ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 479,
+                "name": "TR Lava Escape SE",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 48,
+                "name": "TR Lava Escape NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-31",
+        "doors": [
+            {
+                "x": 476,
+                "y": 138,
+                "name": "TR Pokey 2 EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 476,
+                "y": 393,
+                "name": "TR Pokey 2 ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-42",
+        "doors": [
+            {
+                "x": 127,
+                "y": 49,
+                "name": "TR Twin Pokeys NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 223,
+                "name": "TR Twin Pokeys SW",
+                "direction": "So"
+            },
+            {
+                "x": 126,
+                "y": 303,
+                "name": "TR Hallway NW",
+                "direction": "No"
+            },
+            {
+                "x": 34,
+                "y": 393,
+                "name": "TR Hallway WS",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 138,
+                "name": "TR Twin Pokeys EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 291,
+                "y": 136,
+                "name": "TR Dodgers WN",
+                "direction": "We"
+            },
+            {
+                "x": 224,
+                "y": 394,
+                "name": "TR Hallway ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 290,
+                "y": 392,
+                "name": "TR Big View WS",
+                "direction": "We"
+            },
+            {
+                "x": 382,
+                "y": 478,
+                "name": "TR Big Chest Entrance SE",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 303,
+                "name": "TR Big Chest NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 225,
+                "name": "TR Dodgers SE",
+                "direction": "So"
+            },
+            {
+                "x": 382,
+                "y": 52,
+                "name": "TR Dodgers NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-32",
+        "doors": [
+            {
+                "x": 383,
+                "y": 479,
+                "name": "TR Lazy Eyes SE",
+                "direction": "So"
+            },
+            {
+                "x": 478,
+                "y": 391,
+                "name": "TR Lazy Eyes ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-40",
+        "doors": [
+            {
+                "x": 127,
+                "y": 480,
+                "name": "TR Dash Room SW",
+                "direction": "So"
+            },
+            {
+                "x": 226,
+                "y": 392,
+                "name": "TR Dash Room ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 288,
+                "y": 395,
+                "name": "TR Tongue Pull WS",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 306,
+                "name": "TR Tongue Pull NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 225,
+                "name": "TR Rupees SE",
+                "direction": "So"
+            },
+            {
+                "x": 126,
+                "y": 305,
+                "name": "TR Dash Room NW",
+                "direction": "No"
+            },
+            {
+                "x": 126,
+                "y": 224,
+                "name": "TR Crystaroller SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 51,
+                "name": "TR Crystaroller Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-5B",
+        "doors": [
+            {
+                "x": 127,
+                "y": 49,
+                "name": "TR Dark Ride Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 127,
+                "y": 478,
+                "name": "TR Dark Ride SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-5C",
+        "doors": [
+            {
+                "x": 127,
+                "y": 48,
+                "name": "TR Dash Bridge NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 481,
+                "name": "TR Dash Bridge SW",
+                "direction": "So"
+            },
+            {
+                "x": 33,
+                "y": 392,
+                "name": "TR Dash Bridge WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-5D",
+        "doors": [
+            {
+                "x": 127,
+                "y": 48,
+                "name": "TR Eye Bridge NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 480,
+                "name": "TR Eye Bridge SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-4C",
+        "doors": [
+            {
+                "x": 478,
+                "y": 393,
+                "name": "TR Crystal Maze ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 256,
+                "y": 49,
+                "name": "TR Crystal Maze North Stairs",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-4B",
+        "doors": [
+            {
+                "x": 255,
+                "y": 480,
+                "name": "TR Final Abyss South Stairs",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 50,
+                "name": "TR Final Abyss NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-4A",
+        "doors": [
+            {
+                "x": 127,
+                "y": 479,
+                "name": "TR Boss SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C0",
+        "doors": [
+            {
+                "x": 255,
+                "y": 479,
+                "name": "GT Lobby S",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 72,
+                "name": "GT Lobby Left Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 256,
+                "y": 47,
+                "name": "GT Lobby Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 382,
+                "y": 72,
+                "name": "GT Lobby Right Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C8",
+        "doors": [
+            {
+                "x": 127,
+                "y": 46,
+                "name": "GT Torch Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 33,
+                "y": 137,
+                "name": "GT Torch WN",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 48,
+                "name": "GT Hope Room Up Stairs",
+                "direction": "Up"
+            },
+            {
+                "x": 477,
+                "y": 137,
+                "name": "GT Hope Room EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 222,
+                "y": 136,
+                "name": "GT Torch EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 135,
+                "name": "GT Hope Room WN",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 222,
+                "name": "GT Torch SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 305,
+                "name": "GT Big Chest NW",
+                "direction": "No"
+            },
+            {
+                "x": 64,
+                "y": 305,
+                "name": "GT Blocked Stairs Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 127,
+                "y": 478,
+                "name": "GT Big Chest SW",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 479,
+                "name": "GT Bob's Room SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-D8",
+        "doors": [
+            {
+                "x": 33,
+                "y": 137,
+                "name": "GT Tile Room WN",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 136,
+                "name": "GT Tile Room EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 290,
+                "y": 136,
+                "name": "GT Speed Torch WN",
+                "direction": "We"
+            },
+            {
+                "x": 384,
+                "y": 49,
+                "name": "GT Speed Torch NE",
+                "direction": "No"
+            },
+            {
+                "x": 289,
+                "y": 391,
+                "name": "GT Speed Torch WS",
+                "direction": "We"
+            },
+            {
+                "x": 222,
+                "y": 392,
+                "name": "GT Pots n Blocks ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 383,
+                "y": 478,
+                "name": "GT Speed Torch SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-D9",
+        "doors": [
+            {
+                "x": 383,
+                "y": 49,
+                "name": "GT Crystal Conveyor NE",
+                "direction": "No"
+            },
+            {
+                "x": 289,
+                "y": 137,
+                "name": "GT Crystal Conveyor WN",
+                "direction": "We"
+            },
+            {
+                "x": 223,
+                "y": 136,
+                "name": "GT Compass Room EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 32,
+                "y": 392,
+                "name": "GT Invisible Bridges WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C9",
+        "doors": [
+            {
+                "x": 478,
+                "y": 392,
+                "name": "GT Invisible Catwalk ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 34,
+                "y": 392,
+                "name": "GT Invisible Catwalk WS",
+                "direction": "We"
+            },
+            {
+                "x": 128,
+                "y": 49,
+                "name": "GT Invisible Catwalk NW",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 49,
+                "name": "GT Invisible Catwalk NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B8",
+        "doors": [
+            {
+                "x": 478,
+                "y": 137,
+                "name": "GT Conveyor Cross EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 290,
+                "y": 135,
+                "name": "GT Conveyor Cross WN",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 136,
+                "name": "GT Hookshot EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 50,
+                "name": "GT Hookshot NW",
+                "direction": "No"
+            },
+            {
+                "x": 219,
+                "y": 392,
+                "name": "GT Hookshot ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 391,
+                "name": "GT Map Room WS",
+                "direction": "We"
+            },
+            {
+                "x": 127,
+                "y": 478,
+                "name": "GT Hookshot SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B9",
+        "doors": [
+            {
+                "x": 127,
+                "y": 50,
+                "name": "GT Double Switch NW",
+                "direction": "No"
+            },
+            {
+                "x": 222,
+                "y": 135,
+                "name": "GT Double Switch EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 136,
+                "name": "GT Spike Crystals WN",
+                "direction": "We"
+            },
+            {
+                "x": 477,
+                "y": 393,
+                "name": "GT Warp Maze (Pits) ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-D7",
+        "doors": [
+            {
+                "x": 128,
+                "y": 222,
+                "name": "GT Firesnake Room SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 306,
+                "name": "GT Warp Maze (Rails) NW",
+                "direction": "No"
+            },
+            {
+                "x": 36,
+                "y": 392,
+                "name": "GT Warp Maze (Rails) WS",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 480,
+                "name": "GT Petting Zoo SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B7",
+        "doors": [
+            {
+                "x": 478,
+                "y": 136,
+                "name": "GT Conveyor Star Pits EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 479,
+                "y": 393,
+                "name": "GT Hidden Star ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 480,
+                "name": "GT DMs Room SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C7",
+        "doors": [
+            {
+                "x": 34,
+                "y": 136,
+                "name": "GT Falling Bridge WN",
+                "direction": "We"
+            },
+            {
+                "x": 34,
+                "y": 392,
+                "name": "GT Falling Bridge WS",
+                "direction": "We"
+            },
+            {
+                "x": 481,
+                "y": 394,
+                "name": "GT Randomizer Room ES",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C1",
+        "doors": [
+            {
+                "x": 384,
+                "y": 304,
+                "name": "GT Ice Armos NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 223,
+                "name": "GT Big Key Room SE",
+                "direction": "So"
+            },
+            {
+                "x": 288,
+                "y": 391,
+                "name": "GT Ice Armos WS",
+                "direction": "We"
+            },
+            {
+                "x": 223,
+                "y": 392,
+                "name": "GT Four Torches ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 304,
+                "name": "GT Four Torches NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 223,
+                "name": "GT Fairy Abyss SW",
+                "direction": "So"
+            },
+            {
+                "x": 64,
+                "y": 303,
+                "name": "GT Four Torches Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C2",
+        "doors": [
+            {
+                "x": 128,
+                "y": 304,
+                "name": "Hookshot Cave Back Door NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 474,
+                "name": "Hookshot Cave Back Door SW",
+                "direction": "So"
+            },
+            {
+                "x": 222,
+                "y": 392,
+                "name": "Hookshot Cave Back Door ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 227,
+                "name": "Hookshot Cave Faries SW",
+                "direction": "So"
+            },
+            {
+                "x": 386,
+                "y": 304,
+                "name": "Hookshot Cave Back Cross NE",
+                "direction": "No"
+            },
+            {
+                "x": 300,
+                "y": 392,
+                "name": "Hookshot Cave Back Cross WS",
+                "direction": "We"
+            },
+            {
+                "x": 386,
+                "y": 474,
+                "name": "Hookshot Cave Back Cross SE",
+                "direction": "So"
+            },
+            {
+                "x": 386,
+                "y": 227,
+                "name": "Hookshot Cave Fairy SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C3",
+        "doors": [
+            {
+                "x": 386,
+                "y": 42,
+                "name": "Hookshot Cave NE",
+                "direction": "No"
+            },
+            {
+                "x": 386,
+                "y": 474,
+                "name": "Hookshot Cave SE",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B6",
+        "doors": [
+            {
+                "x": 255,
+                "y": 50,
+                "name": "GT Crystal Paths Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 127,
+                "y": 224,
+                "name": "GT Crystal Paths SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 304,
+                "name": "GT Mimics 1 NW",
+                "direction": "No"
+            },
+            {
+                "x": 223,
+                "y": 392,
+                "name": "GT Mimics 1 ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 287,
+                "y": 392,
+                "name": "GT Mimics 2 WS",
+                "direction": "We"
+            },
+            {
+                "x": 383,
+                "y": 304,
+                "name": "GT Mimics 2 NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 223,
+                "name": "GT Dash Hall SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 49,
+                "name": "GT Dash Hall NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-B5",
+        "doors": [
+            {
+                "x": 384,
+                "y": 478,
+                "name": "GT Hidden Spikes SE",
+                "direction": "So"
+            },
+            {
+                "x": 479,
+                "y": 136,
+                "name": "GT Hidden Spikes EN",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C5",
+        "doors": [
+            {
+                "x": 33,
+                "y": 136,
+                "name": "GT Cannonball Bridge WN",
+                "direction": "We"
+            },
+            {
+                "x": 384,
+                "y": 223,
+                "name": "GT Cannonball Bridge SE",
+                "direction": "So"
+            },
+            {
+                "x": 385,
+                "y": 303,
+                "name": "GT Refill NE",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 48,
+                "name": "GT Cannonball Bridge Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-D5",
+        "doors": [
+            {
+                "x": 383,
+                "y": 47,
+                "name": "GT Gauntlet 1 Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 289,
+                "y": 136,
+                "name": "GT Gauntlet 1 WN",
+                "direction": "We"
+            },
+            {
+                "x": 224,
+                "y": 135,
+                "name": "GT Gauntlet 2 EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 224,
+                "name": "GT Gauntlet 2 SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 305,
+                "name": "GT Gauntlet 3 NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 481,
+                "name": "GT Gauntlet 3 SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-D6",
+        "doors": [
+            {
+                "x": 127,
+                "y": 48,
+                "name": "GT Gauntlet 4 NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 224,
+                "name": "GT Gauntlet 4 SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "GT Gauntlet 5 NW",
+                "direction": "No"
+            },
+            {
+                "x": 32,
+                "y": 392,
+                "name": "GT Gauntlet 5 WS",
+                "direction": "We"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C6",
+        "doors": [
+            {
+                "x": 480,
+                "y": 392,
+                "name": "GT Beam Dash ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 393,
+                "name": "GT Beam Dash WS",
+                "direction": "We"
+            },
+            {
+                "x": 224,
+                "y": 392,
+                "name": "GT Lanmolas 2 ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "GT Lanmolas 2 NW",
+                "direction": "No"
+            },
+            {
+                "x": 128,
+                "y": 223,
+                "name": "GT Quad Pot SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 47,
+                "name": "GT Quad Pot Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-5A",
+        "doors": [
+            {
+                "x": 128,
+                "y": 49,
+                "name": "GT Wizzrobes 1 Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 127,
+                "y": 223,
+                "name": "GT Wizzrobes 1 SW",
+                "direction": "So"
+            },
+            {
+                "x": 127,
+                "y": 304,
+                "name": "GT Dashing Bridge NW",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 304,
+                "name": "GT Dashing Bridge NE",
+                "direction": "No"
+            },
+            {
+                "x": 383,
+                "y": 223,
+                "name": "GT Wizzrobes 2 SE",
+                "direction": "So"
+            },
+            {
+                "x": 384,
+                "y": 48,
+                "name": "GT Wizzrobes 2 NE",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-59",
+        "doors": [
+            {
+                "x": 383,
+                "y": 481,
+                "name": "GT Conveyor Bridge SE",
+                "direction": "So"
+            },
+            {
+                "x": 479,
+                "y": 136,
+                "name": "GT Conveyor Bridge EN",
+                "direction": "Ea"
+            }
+        ]
+    },
+    {
+        "tile": "tile-69",
+        "doors": [
+            {
+                "x": 33,
+                "y": 136,
+                "name": "GT Torch Cross WN",
+                "direction": "We"
+            },
+            {
+                "x": 223,
+                "y": 394,
+                "name": "GT Torch Cross ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 289,
+                "y": 392,
+                "name": "GT Staredown WS",
+                "direction": "We"
+            },
+            {
+                "x": 384,
+                "y": 421,
+                "name": "GT Staredown Up Ladder",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-D3",
+        "doors": [
+            {
+                "x": 384,
+                "y": 417,
+                "name": "GT Falling Torches Down Ladder",
+                "direction": "So"
+            },
+            {
+                "x": 383,
+                "y": 305,
+                "name": "GT Falling Torches NE",
+                "direction": "No"
+            },
+            {
+                "x": 384,
+                "y": 223,
+                "name": "GT Mini Helmasaur Room SE",
+                "direction": "So"
+            },
+            {
+                "x": 291,
+                "y": 137,
+                "name": "GT Mini Helmasaur Room WN",
+                "direction": "We"
+            },
+            {
+                "x": 221,
+                "y": 135,
+                "name": "GT Bomb Conveyor EN",
+                "direction": "Ea"
+            },
+            {
+                "x": 128,
+                "y": 226,
+                "name": "GT Bomb Conveyor SW",
+                "direction": "So"
+            },
+            {
+                "x": 128,
+                "y": 304,
+                "name": "GT Crystal Circles NW",
+                "direction": "No"
+            },
+            {
+                "x": 127,
+                "y": 478,
+                "name": "GT Crystal Circles SW",
+                "direction": "So"
+            }
+        ]
+    },
+    {
+        "tile": "tile-D4",
+        "doors": [
+            {
+                "x": 128,
+                "y": 50,
+                "name": "GT Left Moldorm Ledge NW",
+                "direction": "No"
+            },
+            {
+                "x": 34,
+                "y": 393,
+                "name": "GT Validation WS",
+                "direction": "We"
+            },
+            {
+                "x": 384,
+                "y": 49,
+                "name": "GT Right Moldorm Ledge Down Stairs",
+                "direction": "Dn"
+            }
+        ]
+    },
+    {
+        "tile": "tile-6A",
+        "doors": [
+            {
+                "x": 384,
+                "y": 47,
+                "name": "GT Moldorm Pit Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-C4",
+        "doors": [
+            {
+                "x": 480,
+                "y": 392,
+                "name": "GT Frozen Over ES",
+                "direction": "Ea"
+            },
+            {
+                "x": 384,
+                "y": 47,
+                "name": "GT Frozen Over Up Stairs",
+                "direction": "Up"
+            }
+        ]
+    },
+    {
+        "tile": "tile-D1",
+        "doors": [
+            {
+                "x": 383,
+                "y": 49,
+                "name": "GT Brightly Lit Hall Down Stairs",
+                "direction": "Dn"
+            },
+            {
+                "x": 127,
+                "y": 50,
+                "name": "GT Brightly Lit Hall NW",
+                "direction": "No"
+            }
+        ]
+    },
+    {
+        "tile": "tile-D0",
+        "doors": [
+            {
+                "x": 127,
+                "y": 478,
+                "name": "GT Agahnim 2 SW",
+                "direction": "So"
+            }
+        ]
+    }
+]

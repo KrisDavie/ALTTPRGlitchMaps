@@ -1,0 +1,380 @@
+[
+  {
+    "tile": "tile-D0",
+    "locations": [
+      {
+        "x": 210,
+        "y": 320,
+        "direction": "Ea",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "C L I P E",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-E0",
+    "locations": [
+      {
+        "x": 310,
+        "y": 460,
+        "direction": "So",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "IP Lobby Clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-02",
+    "locations": [
+      {
+        "x": 210,
+        "y": 320,
+        "direction": "Ea",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Aga 1 to Sewers Clipe",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-72",
+    "locations": [
+      {
+        "x": 142,
+        "y": 462,
+        "direction": "So",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "H2S Clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-A2",
+    "locations": [
+      {
+        "x": 256,
+        "y": 265,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "quadrant",
+            "glitchName": "PoD Bumper Quadrant Glitch",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-A3",
+    "locations": [
+      {
+        "x": 256,
+        "y": 368,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "quadrant",
+            "glitchName": "Quadrant Glitchin' Turtle Power",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-B3",
+    "locations": [
+      {
+        "x": 128,
+        "y": 280,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "quadrant",
+            "glitchName": "Some Byer Nonsense",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-D4",
+    "locations": [
+      {
+        "x": 80,
+        "y": 450,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Moldorm 2 to G2 or Pit Clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-A6",
+    "locations": [
+      {
+        "x": 450,
+        "y": 450,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Are you really doing this in NL?",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-46",
+    "locations": [
+      {
+        "x": 50,
+        "y": 460,
+        "direction": "So",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "TT to DP Clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-56",
+    "locations": [
+      {
+        "x": 460,
+        "y": 460,
+        "direction": "So",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "TT to DP Right Clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-99",
+    "locations": [
+      {
+        "x": 256,
+        "y": 380,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "quadrant",
+            "glitchName": "Bowless EP Quadrant Glitch pt 1 and 3",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-79",
+    "locations": [
+      {
+        "x": 40,
+        "y": 460,
+        "direction": "So",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "M2H Clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-6C",
+    "locations": [
+      {
+        "x": 400,
+        "y": 284,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "quadrant",
+            "glitchName": "Lava Dive QG pt 1",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-6D",
+    "locations": [
+      {
+        "x": 386,
+        "y": 284,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "quadrant",
+            "glitchName": "Lava Dive Fast QG pt 1",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-9B",
+    "locations": [
+      {
+        "x": 280,
+        "y": 284,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "quadrant",
+            "glitchName": "EP Quadrant Glitch",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-FE",
+    "locations": [
+      {
+        "x": 324,
+        "y": 200,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Paradox Clip to reach switch",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-FF",
+    "locations": [
+      {
+        "x": 324,
+        "y": 460,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Paradox Block Skip Clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-AE",
+    "locations": [
+      {
+        "x": 175,
+        "y": 470,
+        "direction": "So",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Spectacle Rock Shortcut Clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-9F",
+    "locations": [
+      {
+        "x": 175,
+        "y": 470,
+        "direction": "So",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Kikiskip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-13",
+    "locations": [
+      {
+        "x": 430,
+        "y": 455,
+        "direction": "So",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "TH to Sewers Clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      }
+    ]
+  }
+]

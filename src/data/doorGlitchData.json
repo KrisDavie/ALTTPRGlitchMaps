@@ -1,0 +1,793 @@
+[
+    {
+        "door": "Sewers Secret Room ES",
+        "glitches": [
+            {
+                "glitch": "bomb",
+                "glitchName": "Sewers to Pyramid Juke",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Sewers Key Rat S",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "Sewers to Hera",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Hera Startile Wide SW",
+        "glitches": [
+            {
+                "glitch": "redYBA",
+                "glitchName": "Delete Sewer Door Double YBA",
+                "info": "",
+                "link": ""
+            },
+            {
+                "glitch": "somaria",
+                "glitchName": "Delete Sewer Door STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Hera Startile Corner ES",
+        "glitches": [
+            {
+                "glitch": "bomb",
+                "glitchName": "Yuzuhera Aga1 Juke",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Tongue Pull NE",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "Dupe TR at Arrghus",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Dash Room SW",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "Lava Dive YBA",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Pipe Pit Up Stairs",
+        "glitches": [
+            {
+                "glitch": "boots",
+                "glitchName": "TR to GT Stairmaster",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Hallway NW",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "Lava Dive STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Big Chest NE",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "Dupe Lava Chest STC",
+                "info": "",
+                "link": ""
+            },
+            {
+                "glitch": "greenYBA",
+                "glitchName": "TR Skip BK Door",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Swamp Push Statue NW",
+        "glitches": [
+            {
+                "glitch": "spinGreenYBA",
+                "glitchName": "Arrghus Spin YBA",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Ice Compass Room NE",
+        "glitches": [
+            {
+                "glitch": "spinBlueYBA",
+                "glitchName": "IP Dupe at Arrghus STC Spin YBA",
+                "info": "",
+                "link": ""
+            },
+            {
+                "glitch": "somaria",
+                "glitchName": "IP Dupe at Arrghus STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "PoD Arena Bridge SE",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "PoD to TH Wrong Warp",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Swamp West Shallows ES",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "TT to LSS pt 2",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Swamp Trench 1 Key Ledge NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "SP to TH",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "GT Frozen Over Up Stairs",
+        "glitches": [
+            {
+                "glitch": "boots",
+                "glitchName": "Aga 2 Stairmaster",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Skull 3 Lobby NW",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "SW to Mothula STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Thieves Lonely Zazak NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "TT to LSS pt 1",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Desert Four Statues NW",
+        "glitches": [
+            {
+                "glitch": "spinGreenYBA",
+                "glitchName": "Lanmo Spin YBA",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "GT Refill NE",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "GT Restock to Helmway",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "GT Gauntlet 3 NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "G2 to Moldorm 2",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Ice Spike Cross WS",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "Fireless Freezor YBA",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Desert Circle of Pots NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "DP front to DP back",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Desert Fairy Fountain SW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "DP to MM",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Desert Main Lobby N Edge",
+        "glitches": [
+            {
+                "glitch": "quadrant",
+                "glitchName": "DP Right Quadrant Glitch",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Desert North Hall NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "DP to TT",
+                "info": "",
+                "link": ""
+            },
+            {
+                "glitch": "somaria",
+                "glitchName": "Arrghus Deathhole",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Desert Arrow Pot Corner NW",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "DP to TT STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Desert Cannonball S",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "DP to GT",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Desert East Wing Key Door EN",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "DP to SP STC",
+                "info": "",
+                "link": ""
+            },
+            {
+                "glitch": "redYBA",
+                "glitchName": "DP to SP Double YBA",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Hera Tile Room Up Stairs",
+        "glitches": [
+            {
+                "glitch": "jingle",
+                "glitchName": "Refill TH lobby Jingle Glitch",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "GT Warp Maze (Rails) NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "GT Left to G5",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "GT Torch WN",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "GT Delete Shutter Door West STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "GT Torch EN",
+        "glitches": [
+            {
+                "glitch": "bomb",
+                "glitchName": "Hammerless GT Juke",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "GT Hookshot ES",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "Fireless GT Compass Double STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "GT Invisible Catwalk NE",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "GT Meetup to Rando Room STC",
+                "info": "",
+                "link": ""
+            },
+            {
+                "glitch": "blueYBA",
+                "glitchName": "GT Meetup to Rando Room YBA",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Thieves Hallway NE",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "TT to GT Meetup",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Thieves Triple Bypass WN",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "TT to EP",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Eastern Courtyard WN",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "Bowless EP QG pt 2 YBA",
+                "info": "",
+                "link": ""
+            },
+            {
+                "glitch": "somaria",
+                "glitchName": "Bowless EP QG pt 2 STC",
+                "info": "",
+                "link": ""
+            },
+            {
+                "glitch": "somaria",
+                "glitchName": "Delete EP BK door STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Eastern Stalfos Spawn NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "EP to MM",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Mire Torches Top SW",
+        "glitches": [
+            {
+                "glitch": "redYBA",
+                "glitchName": "MM torches to TR roller room",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Mire Attic Hint ES",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "MM torches to GT torches",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Ice Antechamber NE",
+        "glitches": [
+            {
+                "glitch": "spinBlueYBA",
+                "glitchName": "Kholdstare Spin YBA",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Eastern Lobby Left Ledge SW",
+        "glitches": [
+            {
+                "glitch": "bomb",
+                "glitchName": "EP BK chest Juke",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Pokey 1 NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "TR to Moldorm Fall (subtile)",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Pokey 1 SW",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "TR Compass Room",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Hub NW",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "TR to Moldorm Fall",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Hub ES",
+        "glitches": [
+            {
+                "glitch": "somariaBlueYBA",
+                "glitchName": "Armos via TR Somaria YBA",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Hub NE",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "Lava Dive QG pt 2",
+                "info": "",
+                "link": ""
+            },
+            {
+                "glitch": "somaria",
+                "glitchName": "Roller Room STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Dash Bridge NW",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "Trinexx YBA pt 1",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Dash Bridge WS",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "Trinexx YBA pt 2",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Eye Bridge NW",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "Delete Key Door STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "TR Lobby Ledge NE",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "Lava Dive Fast QG pt 2",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Mire Crystal Dead End NW",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "Delete Trinexx Door (part 1)",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Mire Lone Shooter ES",
+        "glitches": [
+            {
+                "glitch": "somaria",
+                "glitchName": "Delete Trinexx Door (part 2)",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Mire Spike Barrier ES",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "Mire to Circle of Pots",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Tower Circle of Pots NW",
+        "glitches": [
+            {
+                "glitch": "spinGreenYBA",
+                "glitchName": "Vitreous from Circle of Pots",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Tower Lobby NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "AT Lobby to Maze",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Tower Room 03 Up Stairs",
+        "glitches": [
+            {
+                "glitch": "boots",
+                "glitchName": "CT Stairmaster",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Desert Beamos Hall NE",
+        "glitches": [
+            {
+                "glitch": "spinSomaria",
+                "glitchName": "DP to TR Spin STC",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "PoD Lobby N",
+        "glitches": [
+            {
+                "glitch": "statueDrag",
+                "glitchName": "Statue Drag to Helmasaur",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "PoD Map Balcony ES",
+        "glitches": [
+            {
+                "glitch": "bomb",
+                "glitchName": "PoD to Hookshot Cave Juke",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Bumper Cave Lower Up Stairs",
+        "glitches": [
+            {
+                "glitch": "boots",
+                "glitchName": "Cavestate TT Stairmaster",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Spec Rock Middle Up Stairs",
+        "glitches": [
+            {
+                "glitch": "boots",
+                "glitchName": "Cavestate EP Stairmaster",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Uncle Drop SW",
+        "glitches": [
+            {
+                "glitch": "bomb",
+                "glitchName": "Uncle to TT Juke",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Uncle Chest NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "Uncle to TT",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Hookshot Cave NE",
+        "glitches": [
+            {
+                "glitch": "blueYBA",
+                "glitchName": "Hookshot Cave to Ice Armos supertile",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Hookshot Cave Back Cross NE",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "Hookshot Cave to Ice Armos subtile",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "door": "Kak Well Ledge NW",
+        "glitches": [
+            {
+                "glitch": "greenYBA",
+                "glitchName": "Kak Well to IP",
+                "info": "",
+                "link": ""
+            }
+        ]
+    }
+]

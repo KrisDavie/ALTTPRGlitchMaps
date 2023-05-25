@@ -1,15 +1,10 @@
 import React, { useRef, useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import {
   TransformWrapper,
   TransformComponent,
   ReactZoomPanPinchRef,
-  MiniMap,
-  useTransformContext,
 } from "react-zoom-pan-pinch";
-import DropLocations from "./components/DropLocations";
-import TileOverlays from "./components/TileOverlays";
 import MapContent from "./components/MapContent";
 import PageSidebar from "./components/Sidebar";
 
@@ -19,7 +14,7 @@ function App() {
     width: window.innerWidth,
     height: window.innerHeight,
   });
-  const initialScale = 1;
+  const initialScale = 0.5;
   const [currentScale, setCurrentScale] = useState(1);
   const [sidebarVisible, setSidebarVisible] = useState(true);
   const [selectedGlitches, setSelectedGlitches] = useState<string[]>([
@@ -41,6 +36,10 @@ function App() {
     "hookpush-push",
   ]);
   const [selectedGlitch, setSelectedGlitch] = useState<string>("");
+  const [selectedMap, setSelectedMap] = useState<"EG1" | "EG2" | "LW" | "DW">(
+    "EG1"
+  );
+
   const [glitchText, setGlitchText] = useState<string[]>([
     "Click a glitch for informaton...",
     "",
@@ -60,7 +59,10 @@ function App() {
     </div>
   );
 
-  const egImageSize = { width: 8192, height: 8192 };
+  const curImageSize = {
+    width: 8192,
+    height: selectedMap === "EG2" ? 2048 : 8192,
+  };
 
   return (
     <React.Fragment>
@@ -69,14 +71,18 @@ function App() {
         selectedGlitches={selectedGlitches}
         setSelectedGlitches={setSelectedGlitches}
         glitchText={glitchText}
+        selectedMap={selectedMap}
+        setSelectedMap={setSelectedMap}
+        transformComponentRef={transformComponentRef}
       />
       <TransformWrapper
         initialScale={initialScale}
         initialPositionX={
-          (-egImageSize.width * initialScale) / 2 + windowSize.current.width / 2
+          (-curImageSize.width * initialScale) / 2 +
+          windowSize.current.width / 2
         }
         initialPositionY={
-          (-egImageSize.height * initialScale) / 2 +
+          (-curImageSize.height * initialScale) / 2 +
           windowSize.current.height / 2
         }
         minScale={0.1}
@@ -87,7 +93,7 @@ function App() {
         }}
         limitToBounds={false}
       >
-        {({ zoomToElement, resetTransform }) => (
+        {({ zoomToElement, resetTransform, setTransform }) => (
           <div>
             <Controls resetTransform={resetTransform} />
             <TransformComponent
@@ -102,6 +108,7 @@ function App() {
                 currentScale={currentScale}
                 selectedGlitches={selectedGlitches}
                 setGlitchText={setGlitchText}
+                selectedMap={selectedMap}
               />
             </TransformComponent>
           </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import tileData from "../data/tileData.json";
+import tileData from "../data/EG1/tileData.json";
 import { Button } from "semantic-ui-react";
 
 interface DropButtonProps {

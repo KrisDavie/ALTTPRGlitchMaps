@@ -1,37 +1,17 @@
 import React from "react";
-import _nonDoorGlitchData from "../data/nonDoorGlitchData.json";
 import { Image } from "semantic-ui-react";
 import { JSX } from "react/jsx-runtime";
 import { directionToRotation, glitchToImage } from "../utils";
-
-interface GlitchData {
-  glitch: string;
-  glitchName: string;
-  info?: string;
-  link?: string;
-}
-
-interface GlitchLocation {
-  x: number;
-  y: number;
-  direction: string;
-  glitches: GlitchData[];
-}
-
-interface NonDoorGlitchData {
-  tile: string;
-  locations: GlitchLocation[];
-}
-
-const nonDoorGlitchData: NonDoorGlitchData[] = _nonDoorGlitchData;
+import { NonDoorGlitchData, GlitchData } from "../types";
 
 interface NonDoorGlitchesProps {
   selectedGlitches: string[];
   setGlitchText: React.Dispatch<React.SetStateAction<string[]>>;
+  nonDoorGlitchData: NonDoorGlitchData[];
 }
 
 function NonDoorGlitches(props: NonDoorGlitchesProps) {
-  console.log(props);
+  const { nonDoorGlitchData } = props;
   function handleClick(name: string | undefined, text: string | undefined) {
     props.setGlitchText([
       name ? name : "Untitled Glitch",

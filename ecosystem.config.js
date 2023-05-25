@@ -1,6 +1,6 @@
 module.exports = {
   apps: [{
-    name: "UWGlitches Map",
+    name: "ALTTPR Glitch Maps",
     script: 'serve',
     env: {
       PM2_SERVE_PATH: '.',

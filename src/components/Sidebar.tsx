@@ -1,23 +1,36 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import {
-  Button,
   Grid,
   Header,
   Segment,
   Sidebar,
   Image,
+  Button,
 } from "semantic-ui-react";
 import "./Sidebar.css";
 import "../fonts/HyliaSerifBeta-Regular.otf";
+import { ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
 
 interface SidebarProps {
+  transformComponentRef: React.RefObject<ReactZoomPanPinchRef>;
   visible: boolean;
   selectedGlitches: string[];
   setSelectedGlitches: React.Dispatch<React.SetStateAction<string[]>>;
   glitchText: string[];
+  selectedMap: "EG1" | "EG2" | "LW" | "DW";
+  setSelectedMap: React.Dispatch<
+    React.SetStateAction<"EG1" | "EG2" | "LW" | "DW">
+  >;
 }
 
 function PageSidebar(props: SidebarProps) {
+  const { selectedMap, setSelectedMap, transformComponentRef } = props;
+
+  const windowSize = useRef({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
   const handleClicks = (glitch: string) => {
     if (props.selectedGlitches.includes(glitch)) {
       props.setSelectedGlitches(
@@ -26,6 +39,29 @@ function PageSidebar(props: SidebarProps) {
     } else {
       props.setSelectedGlitches([...props.selectedGlitches, glitch]);
     }
+  };
+
+  const handleMapChange = (map: "EG1" | "EG2" | "LW" | "DW") => {
+    setSelectedMap(map);
+    const zoom = map === "LW" || map === "DW" ? 0.15 : 0.5;
+    transformComponentRef?.current?.setTransform(
+      -4096 * zoom + windowSize.current.width / 2,
+      -4096 * zoom + windowSize.current.height / 2,
+      zoom
+    );
+  };
+
+  const mapButton = (map: "EG1" | "EG2" | "LW" | "DW") => {
+    return (
+      <Button
+        color={selectedMap === map ? "orange" : undefined}
+        onClick={() => handleMapChange(map)}
+        id={map}
+        key={map}
+      >
+        {map}
+      </Button>
+    );
   };
 
   const makeGlitchButton = (image: string, title: string, id: string) => {
@@ -55,7 +91,7 @@ function PageSidebar(props: SidebarProps) {
       visible={props.visible}
       width="wide"
     >
-      <Grid columns={1} rows={3} container style={{ height: "99vh" }}>
+      <Grid columns={1} rows={4} container style={{ height: "99vh" }}>
         <Grid.Column>
           <Grid.Row style={{ padding: "5px 0px 25px 0px" }}>
             <Header
@@ -66,10 +102,23 @@ function PageSidebar(props: SidebarProps) {
               dividing
               style={{ letterSpacing: "0.1em" }}
             >
-              ALTTPR UW Glitch Map
+              ALTTPR
+              <br />
+              Glitch Maps
             </Header>
           </Grid.Row>
-          <Grid.Row style={{ height: "58%" }}>
+          <Grid.Row>
+            <Header as="h2" textAlign="left" inverted className="sidetext">
+              Maps
+            </Header>
+            <Button.Group style={{ align: "center" }}>
+              {mapButton("EG1")}
+              {mapButton("EG2")}
+              {mapButton("LW")}
+              {mapButton("DW")}
+            </Button.Group>
+          </Grid.Row>
+          <Grid.Row style={{ height: "58%", padding: "15px 0px 0px 0px" }}>
             <Header
               as="h2"
               textAlign="left"

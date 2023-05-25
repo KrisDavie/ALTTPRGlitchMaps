@@ -1,32 +1,16 @@
 import React from "react";
 import Hookpush from "./Hookpush";
-import _hookpushData from "../data/hookpushData.json";
 import { JSX } from "react/jsx-runtime";
-
-interface HookpushLocation {
-  x: number;
-  y: number;
-  direction: string;
-  pushType: string;
-  distance: number;
-  glitchName: string;
-  info?: string;
-  link?: string;
-}
-
-interface HookpushData {
-  tile: string;
-  locations: HookpushLocation[];
-}
+import { HookpushData } from "../types";
 
 interface HookPushLocationsProps {
   selectedGlitches: string[];
   setGlitchText: React.Dispatch<React.SetStateAction<string[]>>;
+  hookpushData: HookpushData[];
 }
 
-const hookpushData: HookpushData[] = _hookpushData;
-
 function HookPushLocations(props: HookPushLocationsProps) {
+  const { hookpushData } = props;
   const pushes: JSX.Element[] = [];
   const tileWidth = 8192 / 16;
   const tileHeight = 8192 / 16;

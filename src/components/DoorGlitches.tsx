@@ -1,42 +1,18 @@
 import React from "react";
-import _doorData from "../data/doorData.json";
-import _doorGlitchData from "../data/doorGlitchData.json";
 import { Image } from "semantic-ui-react";
 import { JSX } from "react/jsx-runtime";
 import { directionToRotation, glitchToImage } from "../utils";
-
-interface DoorData {
-  tile: string;
-  doors: {
-    x: number;
-    y: number;
-    name: string;
-    direction: string;
-  }[];
-}
-
-interface GlitchData {
-  glitch: string;
-  glitchName: string;
-  info?: string;
-  link?: string;
-}
-
-interface DoorGlitchData {
-  door: string;
-  glitches: GlitchData[];
-}
-
-const doorData: DoorData[] = _doorData;
-const doorGlitchData: DoorGlitchData[] = _doorGlitchData;
+import { DoorGlitchData, DoorData } from "../types";
 
 interface DoorGlitchesProps {
   selectedGlitches: string[];
   setGlitchText: React.Dispatch<React.SetStateAction<string[]>>;
+  doorGlitchData: DoorGlitchData[];
+  doorData: DoorData[];
 }
 
 function DoorGlitches(props: DoorGlitchesProps) {
-  console.log(props);
+  const { doorGlitchData, doorData } = props;
   function handleClick(name: string | undefined, text: string | undefined) {
     props.setGlitchText([
       name ? name : "Untitled Glitch",

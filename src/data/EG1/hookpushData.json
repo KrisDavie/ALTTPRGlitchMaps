@@ -333,5 +333,400 @@
                 "link": ""
             }
         ]
+    },
+    {
+        "tile": "tile-C7",
+        "locations": [
+            {
+                "x": 320,
+                "y": 450,
+                "direction": "No",
+                "distance": 130,
+                "pushType": "push",
+                "glitchName": "GT Hammerless Rando Room",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-C8",
+        "locations": [
+            {
+                "x": 450,
+                "y": 80,
+                "direction": "Ea",
+                "distance": 120,
+                "pushType": "push",
+                "glitchName": "GT Caneless Right Side",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-B8",
+        "locations": [
+            {
+                "x": 450,
+                "y": 400,
+                "direction": "We",
+                "distance": 120,
+                "pushType": "push",
+                "glitchName": "GT Big Chest to Double Firebar",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 380,
+                "y": 190,
+                "direction": "So",
+                "distance": 150,
+                "pushType": "push",
+                "glitchName": "GT Hammerless Double Firebar",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 200,
+                "y": 120,
+                "direction": "We",
+                "distance": 150,
+                "pushType": "push",
+                "glitchName": "GT Hammerless Left Side",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-78",
+        "locations": [
+            {
+                "x": 180,
+                "y": 360,
+                "direction": "Ea",
+                "distance": 150,
+                "pushType": "somaria",
+                "glitchName": "Hera Basement",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-78",
+        "locations": [
+            {
+                "x": 115,
+                "y": 450,
+                "direction": "So",
+                "distance": 130,
+                "pushType": "push",
+                "glitchName": "TH Basement Cage to MM",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-D8",
+        "locations": [
+            {
+                "x": 115,
+                "y": 450,
+                "direction": "So",
+                "distance": 130,
+                "pushType": "push",
+                "glitchName": "GT Fireless Right Side",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-58",
+        "locations": [
+            {
+                "x": 400,
+                "y": 450,
+                "direction": "So",
+                "distance": 130,
+                "pushType": "push",
+                "glitchName": "DP to GT",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-38",
+        "locations": [
+            {
+                "x": 155,
+                "y": 450,
+                "direction": "So",
+                "distance": 130,
+                "pushType": "push",
+                "glitchName": "DP to MM",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-09",
+        "locations": [
+            {
+                "x": 155,
+                "y": 450,
+                "direction": "No",
+                "distance": 130,
+                "pushType": "push",
+                "glitchName": "Vitreous",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-19",
+        "locations": [
+            {
+                "x": 340,
+                "y": 450,
+                "direction": "No",
+                "distance": 130,
+                "pushType": "push",
+                "glitchName": "MM Fishbone to Back",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-29",
+        "locations": [
+            {
+                "x": 105,
+                "y": 450,
+                "direction": "No",
+                "distance": 525,
+                "pushType": "boom",
+                "glitchName": "MM bridge to Back",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-69",
+        "locations": [
+            {
+                "x": 440,
+                "y": 390,
+                "direction": "We",
+                "distance": 130,
+                "pushType": "push",
+                "glitchName": "MM Torches to GT Torches",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-89",
+        "locations": [
+            {
+                "x": 130,
+                "y": 440,
+                "direction": "No",
+                "distance": 150,
+                "pushType": "push",
+                "glitchName": "EP to MM",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-99",
+        "locations": [
+            {
+                "x": 220,
+                "y": 440,
+                "direction": "No",
+                "distance": 430,
+                "pushType": "boom",
+                "glitchName": "EP Big Key Skip",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-4A",
+        "locations": [
+            {
+                "x": 90,
+                "y": 440,
+                "direction": "No",
+                "distance": 530,
+                "pushType": "boom",
+                "glitchName": "Trinexx",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 150,
+                "y": 440,
+                "direction": "No",
+                "distance": 530,
+                "pushType": "somaria",
+                "glitchName": "LONG Somaria Hookpush",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-3C",
+        "locations": [
+            {
+                "x": 450,
+                "y": 380,
+                "direction": "Ea",
+                "distance": 120,
+                "pushType": "push",
+                "glitchName": "MM to TR",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 450,
+                "y": 440,
+                "direction": "We",
+                "distance": 120,
+                "pushType": "push",
+                "glitchName": "TR to MM",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-5D",
+        "locations": [
+            {
+                "x": 160,
+                "y": 460,
+                "direction": "No",
+                "distance": 170,
+                "pushType": "somaria",
+                "glitchName": "Old Man to Laser Bridge (Somaria)",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 100,
+                "y": 460,
+                "direction": "No",
+                "distance": 320,
+                "pushType": "boom",
+                "glitchName": "Old Man to Laser Bridge (0A)",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-AD",
+        "locations": [
+            {
+                "x": 100,
+                "y": 460,
+                "direction": "No",
+                "distance": 140,
+                "pushType": "somaria",
+                "glitchName": "Spec Rock to EP (Somaria)",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 160,
+                "y": 460,
+                "direction": "No",
+                "distance": 260,
+                "pushType": "boom",
+                "glitchName": "Spec Rock to EP (0A)",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-6B",
+        "locations": [
+            {
+                "x": 190,
+                "y": 120,
+                "direction": "Ea",
+                "distance": 140,
+                "pushType": "push",
+                "glitchName": "TR Caneless Roller Room pt 1",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 430,
+                "y": 120,
+                "direction": "Ea",
+                "distance": 140,
+                "pushType": "push",
+                "glitchName": "TR Caneless Roller Room pt 2",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-8C",
+        "locations": [
+            {
+                "x": 440,
+                "y": 420,
+                "direction": "We",
+                "distance": 220,
+                "pushType": "somaria",
+                "glitchName": "Armos",
+                "info": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "tile": "tile-EC",
+        "locations": [
+            {
+                "x": 330,
+                "y": 90,
+                "direction": "So",
+                "distance": 80,
+                "pushType": "push",
+                "glitchName": "Kholdstare Hammer Skip",
+                "info": "",
+                "link": ""
+            },
+            {
+                "x": 420,
+                "y": 150,
+                "direction": "So",
+                "distance": 440,
+                "pushType": "somaria",
+                "glitchName": "Kholdstare Glove/Hammer Skip",
+                "info": "",
+                "link": ""
+            }
+        ]
     }
 ]

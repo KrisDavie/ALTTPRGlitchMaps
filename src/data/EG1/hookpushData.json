@@ -9,7 +9,7 @@
                 "distance": 226,
                 "pushType": "somaria",
                 "glitchName": "Skip Ganon",
-                "info": "",
+                "info": "Somaria or 0A stuckpush to the triforce room.",
                 "link": ""
             }
         ]
@@ -24,7 +24,7 @@
                 "distance": 166,
                 "pushType": "push",
                 "glitchName": "Back of Escape to Pyramid",
-                "info": "",
+                "info": "Hookpush to the inside of the pyramid, where you can access ganon and pyramid ledge in fake dark world.",
                 "link": ""
             }
         ]
@@ -39,7 +39,7 @@
                 "distance": 320,
                 "pushType": "somaria",
                 "glitchName": "TR Crystal at SP (Somaria)",
-                "info": "",
+                "info": "Hookpush north to wrap the map to the brother house. Walk onto a rug to fall into a pit. Arrghus must be dead.",
                 "link": ""
             },
             {
@@ -49,7 +49,7 @@
                 "distance": 320,
                 "pushType": "boom",
                 "glitchName": "TR Crystal at SP (0A)",
-                "info": "",
+                "info": "Hookpush north to wrap the map to the brother house. Walk onto a rug to fall into a pit. Arrghus must be dead.",
                 "link": ""
             }
         ]
@@ -64,7 +64,7 @@
                 "distance": 140,
                 "pushType": "push",
                 "glitchName": "GT Bottom to Top",
-                "info": "",
+                "info": "Set up a stuck hook between the torches, or somaria hookpush, to reach the room before Aga 2. If lacking big key, you can hookpush north from that room.",
                 "link": ""
             }
         ]
@@ -79,7 +79,7 @@
                 "distance": 180,
                 "pushType": "push",
                 "glitchName": "Kak Well to IP",
-                "info": "",
+                "info": "Reach ice palace in cavestate.",
                 "link": ""
             }
         ]
@@ -94,7 +94,17 @@
                 "distance": 540,
                 "pushType": "somaria",
                 "glitchName": "SP Crystal at SW",
-                "info": "",
+                "info": "Somaria hookpush with right beams distance at the statue near the hint tile. Position yourself at the right corner of the staircase and railing edge and hookpush right. Tap up to get out of the wall and catch the crystal at the middle of the north wall before it falls. Mothula must be dead.",
+                "link": ""
+            },
+            {
+                "x": 160,
+                "y": 280,
+                "direction": "We",
+                "distance": 140,
+                "pushType": "somaria",
+                "glitchName": "Flipperless SP lobby",
+                "info": "Somaria hookpush left with beams or fire rod distance from the statue to progress in swamp. Set up a terminator aligned with the left wall near the entrance to stop you in the small key chest area.",
                 "link": ""
             }
         ]
@@ -109,7 +119,17 @@
                 "distance": 190,
                 "pushType": "push",
                 "glitchName": "SP to TH",
-                "info": "",
+                "info": "Hookpush north to swamp.",
+                "link": ""
+            },
+            {
+                "x": 440,
+                "y": 240,
+                "direction": "We",
+                "distance": 373,
+                "pushType": "somaria",
+                "glitchName": "SP lobby to Hera Big Chest",
+                "info": "Somaria hookpush left with beams or fire rod distance from the statue to progress in swamp. Avoid the terminator to go all the way to hera big chest room.",
                 "link": ""
             }
         ]
@@ -124,7 +144,7 @@
                 "distance": 120,
                 "pushType": "push",
                 "glitchName": "SP Statue Skip",
-                "info": "",
+                "info": "Hookpush through the railing or statue to skip the flooding sequence of flippers requirement.",
                 "link": ""
             }
         ]
@@ -139,7 +159,7 @@
                 "distance": 170,
                 "pushType": "somaria",
                 "glitchName": "SP Floodgate to Hub",
-                "info": "",
+                "info": "Somaria hookpush to exit the swamp switch room without a small key or skip the flippers requirement.",
                 "link": ""
             }
         ]
@@ -154,7 +174,7 @@
                 "distance": 440,
                 "pushType": "boom",
                 "glitchName": "TR Skip Big Door",
-                "info": "",
+                "info": "Long hookpush past the big key door center aligned to land on the platform after the big key door.",
                 "link": ""
             },
             {
@@ -164,7 +184,7 @@
                 "distance": 180,
                 "pushType": "push",
                 "glitchName": "Lava Dive",
-                "info": "",
+                "info": "Long hookpush straight into the lava to reach Aga 2. Requires precise positioning.",
                 "link": ""
             }
         ]
@@ -179,8 +199,8 @@
                 "distance": 150,
                 "pushType": "push",
                 "glitchName": "Sewers to Hera Mid",
-                "info": "",
-                "link": ""
+                "info": "Part of the dungeon ID swapping sequence. Return to hera from sewers after changing ID at the sewer door.",
+                "link": "https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit"
             }
         ]
     },
@@ -194,8 +214,8 @@
                 "distance": 150,
                 "pushType": "push",
                 "glitchName": "Sewers to Hera Beetles",
-                "info": "",
-                "link": ""
+                "info": "Part of the dungeon ID swapping sequence. Return to hera from sewers after changing ID at the sewer door.",
+                "link": "https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit"
             }
         ]
     },
@@ -209,8 +229,8 @@
                 "distance": 140,
                 "pushType": "push",
                 "glitchName": "Skip Sewer Door",
-                "info": "",
-                "link": ""
+                "info": "Part of the dungeon ID swapping sequence. Hookpush south so you can swap ID without deleting the sewer door.",
+                "link": "https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit"
             }
         ]
     },
@@ -224,7 +244,7 @@
                 "distance": 140,
                 "pushType": "push",
                 "glitchName": "Lanmolas",
-                "info": "",
+                "info": "Skip big key and fire requirement for lanmolas.",
                 "link": ""
             }
         ]
@@ -239,7 +259,7 @@
                 "distance": 130,
                 "pushType": "push",
                 "glitchName": "Skip LSS Blocks",
-                "info": "",
+                "info": "Shortcut left side swamp or skip the flippers requirment by hookpushing through the blocks.",
                 "link": ""
             }
         ]
@@ -254,7 +274,7 @@
                 "distance": 180,
                 "pushType": "push",
                 "glitchName": "Hookshot Cave to GT Top",
-                "info": "",
+                "info": "Reach the items in the GT climb in cavestate. After pushing, move down to ensure your camera is properly locked N/S, then take a subtile door into minihelma room before doing moldorm 2 so your camera scrolls properly E/W.",
                 "link": ""
             }
         ]
@@ -269,7 +289,7 @@
                 "distance": 150,
                 "pushType": "push",
                 "glitchName": "Helmasaur",
-                "info": "",
+                "info": "Reach helmasaur from rupee basement to skip the hammer/bow/big key requirement.",
                 "link": ""
             }
         ]
@@ -284,7 +304,7 @@
                 "distance": 150,
                 "pushType": "push",
                 "glitchName": "SW Front to Back",
-                "info": "",
+                "info": "Reach the back of skull woods without fire rod.",
                 "link": ""
             }
         ]
@@ -299,7 +319,7 @@
                 "distance": 470,
                 "pushType": "boom",
                 "glitchName": "Uncle to TT",
-                "info": "",
+                "info": "Cavestate thieves town with a hookpush.",
                 "link": ""
             }
         ]
@@ -314,7 +334,7 @@
                 "distance": 200,
                 "pushType": "somaria",
                 "glitchName": "DP Front to Back",
-                "info": "",
+                "info": "Reach the back of desert from the front. Useful in modes where DP back isn't easily accessible or when you need to bring extra small keys to the back.",
                 "link": ""
             }
         ]
@@ -329,7 +349,7 @@
                 "distance": 160,
                 "pushType": "push",
                 "glitchName": "DP to TT",
-                "info": "",
+                "info": "Reach thieves town attic from desert.",
                 "link": ""
             }
         ]
@@ -344,7 +364,7 @@
                 "distance": 130,
                 "pushType": "push",
                 "glitchName": "GT Hammerless Rando Room",
-                "info": "",
+                "info": "Skip the hammer requirement for rando room.",
                 "link": ""
             }
         ]
@@ -359,7 +379,7 @@
                 "distance": 120,
                 "pushType": "push",
                 "glitchName": "GT Caneless Right Side",
-                "info": "",
+                "info": "Stuckpush to skip the cane requirement for tile room and beyond.",
                 "link": ""
             }
         ]
@@ -374,7 +394,7 @@
                 "distance": 120,
                 "pushType": "push",
                 "glitchName": "GT Big Chest to Double Firebar",
-                "info": "",
+                "info": "Skip the hammer requirement for GT left side.",
                 "link": ""
             },
             {
@@ -384,7 +404,7 @@
                 "distance": 150,
                 "pushType": "push",
                 "glitchName": "GT Hammerless Double Firebar",
-                "info": "",
+                "info": "Skip the hammer requirement for GT left side.",
                 "link": ""
             },
             {
@@ -394,7 +414,7 @@
                 "distance": 150,
                 "pushType": "push",
                 "glitchName": "GT Hammerless Left Side",
-                "info": "",
+                "info": "Skip the hammer requirement for GT left side.",
                 "link": ""
             }
         ]
@@ -409,7 +429,7 @@
                 "distance": 150,
                 "pushType": "somaria",
                 "glitchName": "Hera Basement",
-                "info": "",
+                "info": "Reach hera basement chest quicker or skip the fire/key requirement. Easiest with fire rod; limit distance to avoid overshooting.",
                 "link": ""
             }
         ]
@@ -424,7 +444,7 @@
                 "distance": 130,
                 "pushType": "push",
                 "glitchName": "TH Basement Cage to MM",
-                "info": "",
+                "info": "Reach mire torches from hera.",
                 "link": ""
             }
         ]
@@ -439,7 +459,7 @@
                 "distance": 130,
                 "pushType": "push",
                 "glitchName": "GT Fireless Right Side",
-                "info": "",
+                "info": "Skip the fire requirement for compass room.",
                 "link": ""
             }
         ]
@@ -454,7 +474,7 @@
                 "distance": 130,
                 "pushType": "push",
                 "glitchName": "DP to GT",
-                "info": "",
+                "info": "Reach GT torches from desert.",
                 "link": ""
             }
         ]
@@ -469,7 +489,7 @@
                 "distance": 130,
                 "pushType": "push",
                 "glitchName": "DP to MM",
-                "info": "",
+                "info": "Reach the mire somaria switch room from desert.",
                 "link": ""
             }
         ]
@@ -484,7 +504,7 @@
                 "distance": 130,
                 "pushType": "push",
                 "glitchName": "Vitreous",
-                "info": "",
+                "info": "Reach vitreous without the big key.",
                 "link": ""
             }
         ]
@@ -499,7 +519,7 @@
                 "distance": 130,
                 "pushType": "push",
                 "glitchName": "MM Fishbone to Back",
-                "info": "",
+                "info": "Shortcut or skip big key and cane requirement for vitreous.",
                 "link": ""
             }
         ]
@@ -514,7 +534,7 @@
                 "distance": 525,
                 "pushType": "boom",
                 "glitchName": "MM bridge to Back",
-                "info": "",
+                "info": "0A stuckpush to skip the somaria requirement for back of mire.",
                 "link": ""
             }
         ]
@@ -529,7 +549,7 @@
                 "distance": 130,
                 "pushType": "push",
                 "glitchName": "MM Torches to GT Torches",
-                "info": "",
+                "info": "Reach GT torches from mire.",
                 "link": ""
             }
         ]
@@ -544,7 +564,7 @@
                 "distance": 150,
                 "pushType": "push",
                 "glitchName": "EP to MM",
-                "info": "",
+                "info": "Reach mire lobby from eastern.",
                 "link": ""
             }
         ]
@@ -559,7 +579,7 @@
                 "distance": 430,
                 "pushType": "boom",
                 "glitchName": "EP Big Key Skip",
-                "info": "",
+                "info": "0A stuckpush to skip the big key door or save time. Position yourself near the middle of the rooom to avoid landing out of bounds.",
                 "link": ""
             }
         ]
@@ -574,7 +594,7 @@
                 "distance": 530,
                 "pushType": "boom",
                 "glitchName": "Trinexx",
-                "info": "",
+                "info": "0A stuckpush to skip the big key door and somaria requirement.",
                 "link": ""
             },
             {
@@ -583,8 +603,8 @@
                 "direction": "No",
                 "distance": 530,
                 "pushType": "somaria",
-                "glitchName": "LONG Somaria Hookpush",
-                "info": "",
+                "glitchName": "Trinexx",
+                "info": "Somaria hookpush with beams or fire rod distance to skip the big key door. If using fire rod, activate the hookpush in the upper quadrant.",
                 "link": ""
             }
         ]
@@ -599,7 +619,7 @@
                 "distance": 120,
                 "pushType": "push",
                 "glitchName": "MM to TR",
-                "info": "",
+                "info": "Reach turtle rock from mire.",
                 "link": ""
             },
             {
@@ -609,7 +629,7 @@
                 "distance": 120,
                 "pushType": "push",
                 "glitchName": "TR to MM",
-                "info": "",
+                "info": "Reach mire from turtle rock.",
                 "link": ""
             }
         ]
@@ -624,7 +644,7 @@
                 "distance": 170,
                 "pushType": "somaria",
                 "glitchName": "Old Man to Laser Bridge (Somaria)",
-                "info": "",
+                "info": "Reach turtle rock in cavestate with beams distance. Fill the other distance slots with left movements to land inbounds.",
                 "link": ""
             },
             {
@@ -634,7 +654,7 @@
                 "distance": 320,
                 "pushType": "boom",
                 "glitchName": "Old Man to Laser Bridge (0A)",
-                "info": "",
+                "info": "0A stuckpush to reach turtle rock in cavestate. Activate the hookpush down and to the left to land inbounds.",
                 "link": ""
             }
         ]
@@ -648,8 +668,8 @@
                 "direction": "No",
                 "distance": 140,
                 "pushType": "somaria",
-                "glitchName": "Spec Rock to EP (Somaria)",
-                "info": "",
+                "glitchName": "Spectacle Rock to EP (Somaria)",
+                "info": "Reach eastern in cavestate.",
                 "link": ""
             },
             {
@@ -659,7 +679,7 @@
                 "distance": 260,
                 "pushType": "boom",
                 "glitchName": "Spec Rock to EP (0A)",
-                "info": "",
+                "info": "Reach eastern in cavestate.",
                 "link": ""
             }
         ]
@@ -674,7 +694,7 @@
                 "distance": 140,
                 "pushType": "push",
                 "glitchName": "TR Caneless Roller Room pt 1",
-                "info": "",
+                "info": "Hookpush right twice to reach roller room from chain chomps to skip the somaria and fire rod requirement.",
                 "link": ""
             },
             {
@@ -684,7 +704,7 @@
                 "distance": 140,
                 "pushType": "push",
                 "glitchName": "TR Caneless Roller Room pt 2",
-                "info": "",
+                "info": "Hookpush right twice to reach roller room from chain chomps to skip the somaria and fire rod requirement.",
                 "link": ""
             }
         ]
@@ -699,7 +719,7 @@
                 "distance": 220,
                 "pushType": "somaria",
                 "glitchName": "Armos",
-                "info": "",
+                "info": "Hookpush with beams or fire rod distance to reach armos from the lobby. If using fire rod, fire towards the screen edge instead of the wall to maximize distance.",
                 "link": ""
             }
         ]
@@ -714,7 +734,7 @@
                 "distance": 80,
                 "pushType": "push",
                 "glitchName": "Kholdstare Hammer Skip",
-                "info": "",
+                "info": "Hookpush past the pegs to lift the rock and fall to kholdstare.",
                 "link": ""
             },
             {
@@ -724,7 +744,7 @@
                 "distance": 440,
                 "pushType": "somaria",
                 "glitchName": "Kholdstare Glove/Hammer Skip",
-                "info": "",
+                "info": "Hookpush to bypass the pegs and rock, then set beams distance to push south to kholdstare. Requires precise terminator management.",
                 "link": ""
             }
         ]

@@ -12,6 +12,8 @@ import eg1nonDoorGlitchData from "../data/EG1/nonDoorGlitchData.json";
 
 import lwNonDoorGlitchData from "../data/LW/nonDoorGlitchData.json";
 
+import dwNonDoorGlitchData from "../data/DW/nonDoorGlitchData.json";
+
 interface MapContentProps {
   zoomToElement: (element: string) => void;
   currentScale: number;
@@ -65,6 +67,7 @@ function MapContent(props: MapContentProps) {
       break;
     case "DW":
       mapImage = "images/darkworld_large.png";
+      nonDoorGlitchData = dwNonDoorGlitchData;
       break;
     default:
       mapImage = "images/eg_map_fully_annotated.png";

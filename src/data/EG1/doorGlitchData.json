@@ -33,7 +33,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "Delete Sewer Door STC",
-                "info": "Part of the dungeon ID swapping sequence for medallionless mire and flipperless swamp. Perform two consecutive YBAs to permanently open the door connecting hyrule castle to castle sewers, which changes your dungeon ID when you pass through it.",
+                "info": "Part of the dungeon ID swapping sequence for medallionless mire and flipperless swamp. Perform one south STC to permanently open the door connecting hyrule castle to castle sewers, which changes your dungeon ID when you pass through it.",
                 "link": "https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit?usp=sharing"
             }
         ]
@@ -232,7 +232,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "G2 to Moldorm 2",
-                "info": "YBA north to skip a large portion of the GT climb and reach moldorm 2. To backtrack to the items, do a north citrus teleport on the slope to throw yourself into the pit.",
+                "info": "YBA north to skip a large portion of the GT climb and reach moldorm 2. To backtrack to the items, do an up citrus teleport on the slope to throw yourself into the pit.",
                 "link": ""
             }
         ]
@@ -243,7 +243,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Fireless Freezor YBA",
-                "info": "YBA west to juke the transition. Tap left before transitioning right, then transition left again and go to freezor room. The chest will appear because the enemies are despawned.",
+                "info": "YBA west to juke the transition. Tap left before transitioning right, then transition left and go to freezor room. The chest will appear because the enemies are despawned.",
                 "link": "https://clips.twitch.tv/ConcernedCarelessCougarAllenHuhu-1jwR5z3jav6o_-fq"
             }
         ]
@@ -343,7 +343,7 @@
             {
                 "glitch": "jingle",
                 "glitchName": "Refill TH lobby Jingle Glitch",
-                "info": "Use a tile cue to take the staircase on the same frame the shutter door opens to close the hera lobby chest.",
+                "info": "Use a tile cue to take the staircase on the same frame the shutter door opens to close the hera lobby chest. Hera basement chest must be closed for this to work.",
                 "link": "https://clips.twitch.tv/HelpfulSilkyHamburgerDuDudu-QC9AYvBCVDFxeqbf"
             }
         ]

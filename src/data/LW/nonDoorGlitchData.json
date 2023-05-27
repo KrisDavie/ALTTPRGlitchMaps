@@ -9,8 +9,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Lumberjack DMA pt1",
-            "info": "",
+            "glitchName": "Lumberjack Death Mountain Ascent pt1",
+            "info": "Climb mountain without going through old man cave.",
             "link": "https://imgur.com/a/BYnSdd3"
           }
         ]
@@ -22,8 +22,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Lumberjack DMA pt2",
-            "info": "",
+            "glitchName": "Lumberjack Death Mountain Ascent pt2",
+            "info": "Climb mountain without going through old man cave. Return inbounds by dashing or splashing at the corner of spectacle rock.",
             "link": "https://imgur.com/a/BYnSdd3"
           }
         ]
@@ -35,8 +35,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Ether Tablet DMD",
-            "info": "",
+            "glitchName": "Ether Tablet Death Mountain Descent",
+            "info": "Descend the mountain to the lumberjack screen.",
             "link": "https://imgur.com/a/t8vW1iY"
           }
         ]
@@ -49,7 +49,7 @@
           {
             "glitch": "boots",
             "glitchName": "Spectacle Rock item teleport",
-            "info": "",
+            "info": "Teleport down on the third bump to reach the item. The second bump will softlock you in the rail.",
             "link": "https://imgur.com/a/XoRDtaG"
           }
         ]
@@ -62,7 +62,7 @@
           {
             "glitch": "bomb",
             "glitchName": "Death Mountain bomb clip",
-            "info": "",
+            "info": "Reach the top of the mountain without heraclip.",
             "link": "https://imgur.com/a/NL8Iczs"
           }
         ]
@@ -75,13 +75,13 @@
           {
             "glitch": "boots",
             "glitchName": "WDM clouds return (flippers)",
-            "info": "",
+            "info": "Reach west death mountain from the east without hammer.",
             "link": "https://youtu.be/VGIKDjnW1o4"
           },
           {
             "glitch": "boots",
             "glitchName": "WDM clouds return (flipperless)",
-            "info": "",
+            "info": "Reach west death mountain from the east without hammer.",
             "link": "https://youtu.be/RLC8lXTwze4"
           }
         ]
@@ -94,7 +94,7 @@
           {
             "glitch": "boots",
             "glitchName": "EDM land bridge teleport",
-            "info": "",
+            "info": "Cross the mountain on a conveniently placed land bridge.",
             "link": "https://imgur.com/a/mTCdSAW"
           }
         ]
@@ -107,7 +107,7 @@
           {
             "glitch": "boots",
             "glitchName": "EDM land bridge return",
-            "info": "",
+            "info": "Clip to the land bridge from east death mountain.",
             "link": "https://imgur.com/a/jxZMBGb"
           }
         ]
@@ -120,7 +120,7 @@
           {
             "glitch": "boots",
             "glitchName": "Clouds teleport to floating island",
-            "info": "",
+            "info": "Teleport into the clouds to access floating island.",
             "link": "https://imgur.com/a/sW2qU1Z"
           }
         ]
@@ -133,7 +133,7 @@
           {
             "glitch": "boots",
             "glitchName": "Clouds teleport to floating island (west)",
-            "info": "",
+            "info": "Teleport into the clouds to access floating island and east death mountain.",
             "link": "https://youtu.be/xi7HadmblcA"
           }
         ]
@@ -146,7 +146,7 @@
           {
             "glitch": "boots",
             "glitchName": "Clouds teleport to floating island (east)",
-            "info": "",
+            "info": "Teleport into the clouds to access floating island.",
             "link": "https://youtu.be/vsY16qFtkVQ"
           }
         ]
@@ -159,7 +159,7 @@
           {
             "glitch": "boots",
             "glitchName": "Floating Island clip (west)",
-            "info": "",
+            "info": "Dash, swim, or splash inbounds to reach the floating island.",
             "link": "https://imgur.com/a/sW2qU1Z"
           }
         ]
@@ -172,7 +172,7 @@
           {
             "glitch": "boots",
             "glitchName": "Floating Island clip (east)",
-            "info": "",
+            "info": "Dash, swim, or splash inbounds to reach the floating island.",
             "link": "https://imgur.com/a/sW2qU1Z"
           }
         ]
@@ -185,7 +185,7 @@
           {
             "glitch": "boots",
             "glitchName": "Floating Island return",
-            "info": "",
+            "info": "Clip out of floating island to reach the mainland. Arm spinspeed and repeatedly tap diagonal into the slope to get a longer hop. If you land in the rail, tap up and left to kick inbounds.",
             "link": "https://imgur.com/a/sW2qU1Z"
           }
         ]
@@ -198,7 +198,7 @@
           {
             "glitch": "boots",
             "glitchName": "Mirrorless Mimic Cave",
-            "info": "",
+            "info": "Do a complicated series of clips and zips to reach mimic cave ledge without mirror.",
             "link": "https://www.twitch.tv/videos/295696784"
           }
         ]
@@ -211,7 +211,7 @@
           {
             "glitch": "boots",
             "glitchName": "Turtle Rock teleport (west)",
-            "info": "",
+            "info": "Teleport to the turtle rock portal.",
             "link": "https://imgur.com/a/JPI72nQ"
           }
         ]
@@ -224,7 +224,7 @@
           {
             "glitch": "boots",
             "glitchName": "Turtle Rock teleport (east)",
-            "info": "",
+            "info": "Teleport to the turtle rock portal.",
             "link": "https://imgur.com/a/JPI72nQ"
           }
         ]
@@ -236,8 +236,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Waterfall DMD",
-            "info": "",
+            "glitchName": "Waterfall Death Mountain Descent",
+            "info": "Clip into the clouds, then transition precisely to reach waterfall. You cannot exit waterfall after.",
             "link": "https://imgur.com/a/8Weh5VT"
           }
         ]
@@ -249,8 +249,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Zora DMD",
-            "info": "",
+            "glitchName": "Zora Death Mountain Descent",
+            "info": "Clip into the clouds, then dash or walk right to transition south.",
             "link": "https://imgur.com/a/Hb0xguv"
           }
         ]
@@ -263,7 +263,7 @@
           {
             "glitch": "boots",
             "glitchName": "Zora ledge clip",
-            "info": "",
+            "info": "While waterwalking, clip through the ledge to reach the outer ledge. It is not precise, and if you get hit while clipping, you can keep clipping. If you land inside the fence, tap left and up to kick inbounds.",
             "link": "https://imgur.com/a/Vr0stXp"
           }
         ]
@@ -275,8 +275,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Zora DMA",
-            "info": "",
+            "glitchName": "Zora Death Mountain Ascent",
+            "info": "Do a complicated series of clips to reach spiral cave from the waterfall screen.",
             "link": "https://imgur.com/a/iKGkEzh"
           }
         ]
@@ -288,8 +288,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Swim Clip DMA (upper)",
-            "info": "",
+            "glitchName": "Swim Clip Death Mountain Ascent (upper)",
+            "info": "Swim clip to east death mountain using the opposite slope (tamswam) method.",
             "link": ""
           }
         ]
@@ -301,8 +301,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Swim Clip DMA (lower)",
-            "info": "",
+            "glitchName": "Swim Clip Death Mountain Ascent (lower)",
+            "info": "Swim clip to east death mountain.",
             "link": ""
           }
         ]
@@ -315,7 +315,7 @@
           {
             "glitch": "boots",
             "glitchName": "Old Man Cave clip",
-            "info": "",
+            "info": "Clip as far as you can into this slope, then tap up and hold down to reach old man cave.",
             "link": "https://imgur.com/a/zEdKrdZ"
           }
         ]
@@ -327,14 +327,14 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Classic (Bonk Rock) DMA",
-            "info": "",
+            "glitchName": "Classic (Bonk Rock) Death Mountain Ascent",
+            "info": "Do a series of clips to reach old man cave exit.",
             "link": "https://imgur.com/a/PJ5BBSY"
           },
           {
             "glitch": "boots",
-            "glitchName": "New (Old Man) DMA",
-            "info": "",
+            "glitchName": "New (Old Man) Death Mountain Ascent",
+            "info": "Do a series of clips to reach old man cave.",
             "link": "https://www.youtube.com/watch?v=Jk76IoS6qfY"
           }
         ]
@@ -346,8 +346,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Bootsless DMA",
-            "info": "",
+            "glitchName": "Bootsless Death Mountain Ascent",
+            "info": "Citrus teleport up and navigate to the old man cave exit.",
             "link": "https://imgur.com/a/0pSjSCs"
           }
         ]
@@ -359,8 +359,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Safe/Inverted Bunny DMD",
-            "info": "",
+            "glitchName": "Safe/Inverted Bunny Death Mountain Descent",
+            "info": "Clip into the top corner as far as you can, then hold dowm without quickhopping to descend.",
             "link": "https://imgur.com/a/EHBORb1"
           }
         ]
@@ -372,8 +372,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "DMD",
-            "info": "",
+            "glitchName": "Death Mountain Descent",
+            "info": "Clip out of the lower corner, tap right, dashturn north to bonk, then hold down.",
             "link": "https://imgur.com/a/t8vW1iY"
           }
         ]
@@ -386,13 +386,13 @@
           {
             "glitch": "boots",
             "glitchName": "Hera clip (west)",
-            "info": "",
+            "info": "Spinspeed clip at this slope, tap up, then navigate to the stairs.",
             "link": "https://imgur.com/a/yYbTyvl"
           },
           {
             "glitch": "boots",
             "glitchName": "Kiki yeet",
-            "info": "",
+            "info": "Spinspeed clip with gentle taps, then do a series of movements to reach spectacle rock exit.",
             "link": "https://www.youtube.com/watch?v=k92lhOnDV_I"
           }
         ]
@@ -405,7 +405,7 @@
           {
             "glitch": "boots",
             "glitchName": "Hera clip (east)",
-            "info": "",
+            "info": "Boots clip through the upper half of the slope, tap right, then up or upleft to enter.",
             "link": "https://imgur.com/a/yYbTyvl"
           }
         ]
@@ -418,7 +418,7 @@
           {
             "glitch": "boots",
             "glitchName": "Graveyard Ledge teleport",
-            "info": "",
+            "info": "Teleport down to reach graveyard ledge.",
             "link": "https://imgur.com/gallery/bGSQUj3"
           }
         ]
@@ -431,13 +431,13 @@
           {
             "glitch": "boots",
             "glitchName": "Graveyard Ledge clip (spinspeed)",
-            "info": "",
+            "info": "With spinspeed armed, slide along the slope and spinspeed clip out. While midair, switch to upleft, then switch to up after landing.",
             "link": "https://imgur.com/a/TTABHME"
           },
           {
             "glitch": "boots",
             "glitchName": "Graveyard Ledge clip (no spinspeed)",
-            "info": "",
+            "info": "Bootsclip out of the bottom of the slope. While midair, switch to upright, then switch to up after landing.",
             "link": "https://othertom.club/glitches/overworld_major/gyl_dash_kt.mp4"
           }
         ]
@@ -450,7 +450,7 @@
           {
             "glitch": "boots",
             "glitchName": "King's Tomb clip dash spot",
-            "info": "",
+            "info": "After descending to the slope above graveyard ledge, buffer up once and dash right. Tap up, then left, then down to lift the rock without mitts.",
             "link": "https://imgur.com/a/TTABHME"
           }
         ]
@@ -462,8 +462,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "EDM clip",
-            "info": "",
+            "glitchName": "East Death Mountain clip",
+            "info": "Clip into the void, then navigate to the right half of the mini spec rock. Hold down into the top of it to get pushed inbounds.",
             "link": "https://imgur.com/a/IkoPVzg"
           }
         ]
@@ -475,8 +475,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "EDM clip return",
-            "info": "",
+            "glitchName": "East Death Mountain clip return",
+            "info": "Clip into the void, then navigate to the right half of the mini spec rock. Hold down into the top of it to get pushed inbounds.",
             "link": "https://imgur.com/a/IkoPVzg"
           }
         ]
@@ -488,8 +488,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Witch DMD",
-            "info": "",
+            "glitchName": "Witch Death Mountain Descent",
+            "info": "Spinspeed clip with gentle taps, then hold up to autowalk down.",
             "link": "https://imgur.com/a/Hb0xguv"
           }
         ]
@@ -502,7 +502,7 @@
           {
             "glitch": "boots",
             "glitchName": "Aganhim's Tower river clip",
-            "info": "",
+            "info": "Reach Aga Tower entrance without sword/cape.",
             "link": "https://youtu.be/ajK4CyF3kuo"
           }
         ]
@@ -515,7 +515,7 @@
           {
             "glitch": "boots",
             "glitchName": "Swim clip to Back of Escape or King's Tomb",
-            "info": "",
+            "info": "Skip the glove requirements for back of escape and king's tomb.",
             "link": "https://www.youtube.com/watch?v=fsaBE2zdl2k"
           }
         ]
@@ -528,7 +528,7 @@
           {
             "glitch": "boots",
             "glitchName": "Eastern from Witch teleport",
-            "info": "",
+            "info": "Teleport to the eastern screen.",
             "link": "https://imgur.com/a/pIYwTPd"
           }
         ]
@@ -541,7 +541,7 @@
           {
             "glitch": "boots",
             "glitchName": "Gloveless Zora teleport (west)",
-            "info": "",
+            "info": "Skip the glove rock to reach the waterfall screen.",
             "link": "https://imgur.com/a/Id1ibnQ"
           }
         ]
@@ -554,7 +554,7 @@
           {
             "glitch": "boots",
             "glitchName": "Gloveless Zora teleport (east)",
-            "info": "",
+            "info": "Skip the glove rock to exit the waterfall screen.",
             "link": "https://imgur.com/a/Id1ibnQ"
           }
         ]
@@ -567,7 +567,7 @@
           {
             "glitch": "boots",
             "glitchName": "Eastern to Zora/Witch teleport",
-            "info": "",
+            "info": "Reach witch's hut from the eastern screen.",
             "link": "https://imgur.com/a/fwebabH"
           }
         ]
@@ -580,7 +580,7 @@
           {
             "glitch": "boots",
             "glitchName": "Maze Race from Kakariko teleport",
-            "info": "",
+            "info": "Quickly reach the maze race screen from kakariko.",
             "link": "https://imgur.com/a/x47XDvC"
           }
         ]
@@ -592,8 +592,8 @@
         "glitches": [
           {
             "glitch": "boots",
-            "glitchName": "Magic Bat screenwrap",
-            "info": "",
+            "glitchName": "Magic Bat screenwrap transition",
+            "info": "Reach magic bat without hammer/mirror.",
             "link": "https://imgur.com/a/tvtjEMB"
           }
         ]
@@ -606,7 +606,7 @@
           {
             "glitch": "boots",
             "glitchName": "Castle superjump",
-            "info": "",
+            "info": "Reach the top of the castle with a long jump. Requires flippers.",
             "link": "https://clips.twitch.tv/ImportantUninterestedBubbleteaBrokeBack"
           }
         ]
@@ -619,7 +619,7 @@
           {
             "glitch": "boots",
             "glitchName": "Pyramid Fairy offset portal",
-            "info": "",
+            "info": "Reach pyramid fairy without moon pearl and red bomb using a misplaced mirror portal.",
             "link": "https://imgur.com/a/7Mp60mk"
           }
         ]
@@ -632,7 +632,7 @@
           {
             "glitch": "boots",
             "glitchName": "Eastern Palace map wrap",
-            "info": "",
+            "info": "Reach eastern from the maze race screen. Hardlock risk; avoid right movements.",
             "link": "https://imgur.com/a/x47XDvC"
           }
         ]
@@ -645,13 +645,13 @@
           {
             "glitch": "boots",
             "glitchName": "Maze Race from south",
-            "info": "",
+            "info": "Cheat the maze race.",
             "link": "https://imgur.com/a/dZUUyBm"
           },
           {
             "glitch": "boots",
             "glitchName": "Desert teleport",
-            "info": "",
+            "info": "Reach desert screen from maze race.",
             "link": "https://imgur.com/a/GvNDYG4"
           }
         ]
@@ -664,7 +664,7 @@
           {
             "glitch": "boots",
             "glitchName": "Gloveless Desert teleport transition spot",
-            "info": "",
+            "info": "Transition directly to the back of desert from the out of bounds area.",
             "link": "https://imgur.com/a/CN0rnBm"
           }
         ]
@@ -677,13 +677,13 @@
           {
             "glitch": "boots",
             "glitchName": "Blacksmith mirror jump",
-            "info": "",
+            "info": "Reach smith without moon pearl using precise mirror clipping and a frame perfect ledge hop.",
             "link": "https://alttp-wiki.net/index.php/Early_Tempered"
           },
           {
             "glitch": "boots",
             "glitchName": "Blacksmith offset portal",
-            "info": "",
+            "info": "Reach smith without mitts using an offset mirror portal from death mountain.",
             "link": "https://imgur.com/a/TVVV7qA"
           }
         ]
@@ -696,7 +696,7 @@
           {
             "glitch": "boots",
             "glitchName": "Desert or Checkerboard Cave teleport",
-            "info": "",
+            "info": "Reach desert from the library screen.",
             "link": "https://imgur.com/a/CpP7jpp"
           }
         ]
@@ -709,7 +709,7 @@
           {
             "glitch": "boots",
             "glitchName": "Hammerless portal teleport (west)",
-            "info": "",
+            "info": "Reach the dark world portal without hammer. Requires a bomb clip and moon pearl to exit.",
             "link": ""
           }
         ]
@@ -722,7 +722,7 @@
           {
             "glitch": "boots",
             "glitchName": "Hammerless portal teleport (east)",
-            "info": "",
+            "info": "Reach the dark world portal without hammer. Requires a bomb clip and moon pearl to exit.",
             "link": ""
           }
         ]
@@ -735,19 +735,13 @@
           {
             "glitch": "boots",
             "glitchName": "Hylia Island teleport",
-            "info": "",
+            "info": "Teleport to the screen edge then autowalk down to the island.",
             "link": "https://imgur.com/a/H5FBmBs"
           },
           {
             "glitch": "boots",
-            "glitchName": "Hobo teleport",
-            "info": "",
-            "link": "Ice Rod Cave screenwrap"
-          },
-          {
-            "glitch": "boots",
-            "glitchName": "Hobo teleport",
-            "info": "",
+            "glitchName": "Ice Rod Cave screenwrap transition",
+            "info": "Reach ice rod cave quickly from a save and quit.",
             "link": "https://gfycat.com/SnappyLiquidDrever"
           }
         ]
@@ -760,7 +754,7 @@
           {
             "glitch": "boots",
             "glitchName": "Hobo flippers clip",
-            "info": "",
+            "info": "Clip to the water to access the bridge with flippers.",
             "link": "https://imgur.com/a/qjglY09"
           }
         ]
@@ -773,7 +767,7 @@
           {
             "glitch": "boots",
             "glitchName": "Flipperless Hobo",
-            "info": "",
+            "info": "Use a series of clips and dashes to fake flipper directly into the bridge. If you hit the transition wrong, hold select to save and quit when you regain control.",
             "link": "https://imgur.com/a/LNFxGRM"
           }
         ]
@@ -786,7 +780,7 @@
           {
             "glitch": "boots",
             "glitchName": "Eastern Palace teleport",
-            "info": "",
+            "info": "Shortcut to eastern palace.",
             "link": "https://imgur.com/a/5floO5G"
           }
         ]
@@ -799,7 +793,7 @@
           {
             "glitch": "boots",
             "glitchName": "Swim clip to Ice Rod Cave",
-            "info": "",
+            "info": "Swim directly into ice rod cave wihout bombs. You may need to tap up with sword out to exit properly.",
             "link": ""
           }
         ]
@@ -812,7 +806,7 @@
           {
             "glitch": "boots",
             "glitchName": "Eastern to Ice Rod Cave teleport",
-            "info": "",
+            "info": "Teleport twice to autowalk to ice rod cave.",
             "link": "https://imgur.com/a/C1K5UIe"
           }
         ]
@@ -825,7 +819,7 @@
           {
             "glitch": "boots",
             "glitchName": "Desert to Kakariko teleport",
-            "info": "",
+            "info": "Teleport up to return to the maze race screen.",
             "link": "https://imgur.com/a/z32n211"
           }
         ]
@@ -838,7 +832,7 @@
           {
             "glitch": "boots",
             "glitchName": "Desert to Checkerboard teleport",
-            "info": "",
+            "info": "Teleport up to reach the out of bounds area and checkerboard cave.",
             "link": "https://imgur.com/a/z32n211"
           }
         ]
@@ -849,10 +843,10 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "bomb",
             "glitchName": "Desert bomb clip",
-            "info": "",
-            "link": ""
+            "info": "Reach desert ledge from the desert screen.",
+            "link": "https://imgur.com/a/udq05Sl"
           }
         ]
       },
@@ -864,7 +858,7 @@
           {
             "glitch": "boots",
             "glitchName": "Gloveless Desert jump (west)",
-            "info": "",
+            "info": "Clip through almost any part of the slope to hop past the rocks.",
             "link": "https://imgur.com/a/CN0rnBm"
           }
         ]
@@ -877,7 +871,7 @@
           {
             "glitch": "boots",
             "glitchName": "Gloveless Desert jump (east)",
-            "info": "",
+            "info": "Clip through almost any part of the slope to hop past the rocks.",
             "link": "https://imgur.com/a/CN0rnBm"
           }
         ]
@@ -890,7 +884,7 @@
           {
             "glitch": "boots",
             "glitchName": "Checkerboard Cave return teleport",
-            "info": "",
+            "info": "Return to the out of bounds area from checkerboard cave.",
             "link": ""
           }
         ]
@@ -903,7 +897,7 @@
           {
             "glitch": "boots",
             "glitchName": "Cave 45 teleport (upper)",
-            "info": "",
+            "info": "Reach cave 45 without mirror.",
             "link": "https://imgur.com/a/t1Q8GZf"
           }
         ]
@@ -916,7 +910,7 @@
           {
             "glitch": "boots",
             "glitchName": "Cave 45 teleport (mid)",
-            "info": "",
+            "info": "Reach cave 45 without mirror.",
             "link": "https://imgur.com/a/t1Q8GZf"
           }
         ]
@@ -929,7 +923,7 @@
           {
             "glitch": "boots",
             "glitchName": "Cave 45 teleport (lower)",
-            "info": "",
+            "info": "Reach cave 45 without mirror.",
             "link": "https://imgur.com/a/t1Q8GZf"
           }
         ]
@@ -942,7 +936,7 @@
           {
             "glitch": "boots",
             "glitchName": "Cave 45 to Checkerboard/Aginah",
-            "info": "",
+            "info": "Reach the out of bounds area on the desert screen.",
             "link": "https://youtu.be/dx7M8wX8KXA"
           }
         ]
@@ -955,7 +949,7 @@
           {
             "glitch": "boots",
             "glitchName": "Cave 45 to Bombos Tablet teleport",
-            "info": "",
+            "info": "Reach bombos tablet from cave 45.",
             "link": "https://youtu.be/SqKFhMDg23M"
           }
         ]
@@ -968,7 +962,7 @@
           {
             "glitch": "boots",
             "glitchName": "Hammerless portal/shortcut jump (west)",
-            "info": "",
+            "info": "Clip through the ledge to reach the out of bounds area or opposite side.",
             "link": "https://imgur.com/a/qqYa8EE"
           }
         ]
@@ -981,7 +975,7 @@
           {
             "glitch": "boots",
             "glitchName": "Hammerless portal/shortcut jump (east)",
-            "info": "",
+            "info": "Clip through the ledge to reach the out of bounds area or opposite side.",
             "link": "https://imgur.com/a/qqYa8EE"
           }
         ]
@@ -994,7 +988,7 @@
           {
             "glitch": "boots",
             "glitchName": "Cave 45 jump (west)",
-            "info": "",
+            "info": "Reach cave 45 without mirror.",
             "link": "https://imgur.com/a/lBMY0Q6"
           }
         ]
@@ -1007,7 +1001,7 @@
           {
             "glitch": "boots",
             "glitchName": "Cave 45 jump (east)",
-            "info": "",
+            "info": "Reach cave 45 without mirror.",
             "link": "https://imgur.com/a/lBMY0Q6"
           }
         ]
@@ -1020,7 +1014,7 @@
           {
             "glitch": "boots",
             "glitchName": "Ice Rod mapwrap",
-            "info": "",
+            "info": "Reach ice rod cave from desert screen. Hardlock risk; avoid right movements.",
             "link": ""
           }
         ]
@@ -1033,7 +1027,7 @@
           {
             "glitch": "boots",
             "glitchName": "Mire portal teleport",
-            "info": "",
+            "info": "Reach the portal without flute.",
             "link": "https://imgur.com/a/xpdT4UE"
           }
         ]
@@ -1046,7 +1040,7 @@
           {
             "glitch": "boots",
             "glitchName": "Bombos Tablet teleport (west)",
-            "info": "",
+            "info": "Reach bombos tablet without mirror.",
             "link": "https://imgur.com/a/WMpBU40"
           }
         ]
@@ -1059,7 +1053,7 @@
           {
             "glitch": "boots",
             "glitchName": "Bombos Tablet teleport (east)",
-            "info": "",
+            "info": "Reach bombos tablet without mirror.",
             "link": "https://imgur.com/a/WMpBU40"
           }
         ]
@@ -1072,7 +1066,7 @@
           {
             "glitch": "boots",
             "glitchName": "Zora transition spot",
-            "info": "",
+            "info": "Reach zora screen from desert. You cannot exit zora screen after.",
             "link": "https://imgur.com/a/PM532kH"
           }
         ]
@@ -1085,7 +1079,7 @@
           {
             "glitch": "boots",
             "glitchName": "Zora teleport spot (west)",
-            "info": "",
+            "info": "Reach zora screen from desert. You cannot exit zora screen after.",
             "link": "https://imgur.com/a/PM532kH"
           }
         ]
@@ -1098,7 +1092,7 @@
           {
             "glitch": "boots",
             "glitchName": "Zora teleport spot (east)",
-            "info": "",
+            "info": "Reach zora screen from desert. You cannot exit zora screen after.",
             "link": "https://imgur.com/a/PM532kH"
           }
         ]
@@ -1111,7 +1105,7 @@
           {
             "glitch": "boots",
             "glitchName": "Mini Moldorm Cave teleport",
-            "info": "",
+            "info": "Shortcut to mini moldorm cave.",
             "link": "https://imgur.com/a/63E0AiD"
           }
         ]
@@ -1124,7 +1118,7 @@
           {
             "glitch": "boots",
             "glitchName": "Bombless Ice Rod Cave teleport",
-            "info": "",
+            "info": "Teleport straight into the cave without bombing the wall.",
             "link": "https://imgur.com/a/WoYyRw5"
           }
         ]
@@ -1137,7 +1131,7 @@
           {
             "glitch": "boots",
             "glitchName": "Ice Rod Cave to Eastern teleport",
-            "info": "",
+            "info": "Reach the eastern portal from ice rod cave.",
             "link": "https://imgur.com/a/G3RfZUT"
           }
         ]

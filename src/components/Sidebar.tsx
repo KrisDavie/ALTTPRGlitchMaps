@@ -83,6 +83,28 @@ function PageSidebar(props: SidebarProps) {
     );
   };
 
+  const makeGlitchLink = (glitchText: string[]) => {
+    if (glitchText[2]) {
+      console.log(glitchText[2]);
+      return (
+        <div
+          className="side-glitchtext"
+          style={{ padding: "0px 0px 10px 0px" }}
+        >
+          {"More Info: "}
+          <a
+            href={glitchText[2]}
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "white", textDecoration: "underline" }}
+          >
+            {glitchText[2]}
+          </a>
+        </div>
+      );
+    }
+  };
+
   return (
     <Sidebar
       as={Segment}
@@ -139,6 +161,7 @@ function PageSidebar(props: SidebarProps) {
             </Header>
 
             <div>
+              {makeGlitchLink(props.glitchText)}
               <p className="side-glitchtext">{props.glitchText[1]}</p>
             </div>
           </Grid.Row>

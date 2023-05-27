@@ -13,10 +13,15 @@ interface DoorGlitchesProps {
 
 function DoorGlitches(props: DoorGlitchesProps) {
   const { doorGlitchData, doorData } = props;
-  function handleClick(name: string | undefined, text: string | undefined) {
+  function handleClick(
+    name: string | undefined,
+    text: string | undefined,
+    link: string | undefined
+  ) {
     props.setGlitchText([
       name ? name : "Untitled Glitch",
       text ? text : "No extra info currently available...",
+      link ? link : "",
     ]);
   }
 
@@ -32,7 +37,9 @@ function DoorGlitches(props: DoorGlitchesProps) {
         return (
           <div
             title={glitch["glitchName"]}
-            onClick={() => handleClick(glitch["glitchName"], glitch["info"])}
+            onClick={() =>
+              handleClick(glitch["glitchName"], glitch["info"], glitch["link"])
+            }
           >
             <Image
               circular
@@ -58,7 +65,11 @@ function DoorGlitches(props: DoorGlitchesProps) {
               <div
                 title={glitch["glitchName"]}
                 onClick={() =>
-                  handleClick(glitch["glitchName"], glitch["info"])
+                  handleClick(
+                    glitch["glitchName"],
+                    glitch["info"],
+                    glitch["link"]
+                  )
                 }
               >
                 <Image

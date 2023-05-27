@@ -24,10 +24,15 @@ function Hookpush({
   y,
   setGlitchText,
 }: HookPushProps) {
-  function handleClick(name: string | undefined, text: string | undefined) {
+  function handleClick(
+    name: string | undefined,
+    text: string | undefined,
+    link: string | undefined
+  ) {
     setGlitchText([
       name ? name : "Untitled Glitch",
       text ? text : "No extra info currently available...",
+      link ? link : "",
     ]);
   }
 
@@ -75,7 +80,7 @@ function Hookpush({
         zIndex: 5,
       }}
       title={glitchName}
-      onClick={() => handleClick(glitchName, info)}
+      onClick={() => handleClick(glitchName, info, link)}
     >
       <img src={end} alt="end1" style={endpointStyle} />
       <div

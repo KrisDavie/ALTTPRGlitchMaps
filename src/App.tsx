@@ -61,7 +61,7 @@ function App() {
 
   const curImageSize = {
     width: 8192,
-    height: selectedMap === "EG2" ? 2048 : 8192,
+    height: selectedMap === "EG2" ? 1536 : 8192,
   };
 
   return (

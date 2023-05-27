@@ -5,8 +5,8 @@
             {
                 "glitch": "bomb",
                 "glitchName": "Sewers to Pyramid Juke",
-                "info": "",
-                "link": ""
+                "info": "Autodoor bomb juke to reach the pyramid interior where you fall from ganon. It gives you access to the pyramid overworld screen in fake dark world. You can reach the ganon hole without moon pearl or to do an early back of escape into pyramid ledge into escape play.",
+                "link": "https://imgur.com/a/JZYg6q6"
             }
         ]
     },
@@ -16,8 +16,8 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Sewers to Hera",
-                "info": "",
-                "link": ""
+                "info": "Part of the dungeon ID swapping sequence for medallionless mire and flipperless swamp. This YBA returns you to hera so you can collect the swapped dungeon prize from the boss room.",
+                "link": "https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit?usp=sharing"
             }
         ]
     },
@@ -27,14 +27,14 @@
             {
                 "glitch": "redYBA",
                 "glitchName": "Delete Sewer Door Double YBA",
-                "info": "",
-                "link": ""
+                "info": "Part of the dungeon ID swapping sequence for medallionless mire and flipperless swamp. Perform two consecutive YBAs to permanently open the door connecting hyrule castle to castle sewers, which changes your dungeon ID when you pass through it.",
+                "link": "https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit?usp=sharing"
             },
             {
                 "glitch": "somaria",
                 "glitchName": "Delete Sewer Door STC",
-                "info": "",
-                "link": ""
+                "info": "Part of the dungeon ID swapping sequence for medallionless mire and flipperless swamp. Perform two consecutive YBAs to permanently open the door connecting hyrule castle to castle sewers, which changes your dungeon ID when you pass through it.",
+                "link": "https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit?usp=sharing"
             }
         ]
     },
@@ -44,8 +44,8 @@
             {
                 "glitch": "bomb",
                 "glitchName": "Yuzuhera Aga1 Juke",
-                "info": "",
-                "link": ""
+                "info": "Reach Aga1 quickly from hera using a bomb juke. Use a bomb or somaria to snap past the door transition without triggering it, then gently tap right and transition left and navigate to Aga1. If swordless, first do a north STC so you transition a tile higher when you juke.",
+                "link": "https://othertom.club/glitches/door_glitches/aga_yuzuhera_bombs_only.mp4"
             }
         ]
     },
@@ -55,8 +55,8 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Dupe TR at Arrghus",
-                "info": "",
-                "link": ""
+                "info": "YBA north in this door then find fall in the pit in the brother house rug to fall to the arrghus supertile. Arrghus must be dead.",
+                "link": "https://imgur.com/l22uBn7"
             }
         ]
     },
@@ -66,8 +66,8 @@
             {
                 "glitch": "blueYBA",
                 "glitchName": "Lava Dive YBA",
-                "info": "",
-                "link": ""
+                "info": "Wrong warp to Aga2",
+                "link": "https://imgur.com/FpVlprH"
             }
         ]
     },
@@ -77,8 +77,8 @@
             {
                 "glitch": "boots",
                 "glitchName": "TR to GT Stairmaster",
-                "info": "",
-                "link": ""
+                "info": "Reach moldorm 2 fall room with a potion-assisted spiral stairs out of bounds kick.",
+                "link": "https://imgur.com/a/mtpJGmi"
             }
         ]
     },
@@ -88,8 +88,8 @@
             {
                 "glitch": "somaria",
                 "glitchName": "Lava Dive STC",
-                "info": "",
-                "link": ""
+                "info": "Wrong warp to Aga2",
+                "link": "https://imgur.com/gallery/JDMaTwb"
             }
         ]
     },
@@ -99,13 +99,13 @@
             {
                 "glitch": "somaria",
                 "glitchName": "Dupe Lava Chest STC",
-                "info": "",
-                "link": ""
+                "info": "Copy the lava chest onto the big chest and open it as many times as you want. Does not require the TR big key, but the big chest must be closed.",
+                "link": "https://clips.twitch.tv/WimpyFunBulgogiKappaWealth-w0El0ImQn6eD0Q8m"
             },
             {
                 "glitch": "greenYBA",
                 "glitchName": "TR Skip BK Door",
-                "info": "",
+                "info": "YBA past the big key door directly above this door.",
                 "link": ""
             }
         ]
@@ -116,8 +116,8 @@
             {
                 "glitch": "spinGreenYBA",
                 "glitchName": "Arrghus Spin YBA",
-                "info": "",
-                "link": ""
+                "info": "If using a green potion, take a staircase first to trigger a fading transiton so the spin YBA doesn't crash the game. This spin YBA will always cause heavy VRAM corruption. You can use the broken camera to trigger arrghus phase 2 without hookshot.",
+                "link": "https://imgur.com/gallery/SKZD04U"
             }
         ]
     },
@@ -126,14 +126,14 @@
         "glitches": [
             {
                 "glitch": "spinBlueYBA",
-                "glitchName": "IP Dupe at Arrghus STC Spin YBA",
-                "info": "",
+                "glitchName": "Dupe IP at Arrghus Spin YBA",
+                "info": "Spin YBA north and find the pit in the center of the room to wrong warp to the arrghus supertile. Arrghus must be dead. Red YBA causes VRAM corruption.",
                 "link": ""
             },
             {
                 "glitch": "somaria",
                 "glitchName": "IP Dupe at Arrghus STC",
-                "info": "",
+                "info": "STC north without transitioning and find the pit in the center of the room to wrong warp to the arrghus supertile. Arrghus must be dead.",
                 "link": ""
             }
         ]
@@ -144,7 +144,7 @@
             {
                 "glitch": "blueYBA",
                 "glitchName": "PoD to TH Wrong Warp",
-                "info": "",
+                "info": "YBA south and back out a little before transitioning. Walk left or right to fall in the pit to wrong warp to hera.",
                 "link": ""
             }
         ]
@@ -155,8 +155,8 @@
             {
                 "glitch": "blueYBA",
                 "glitchName": "TT to LSS pt 2",
-                "info": "",
-                "link": ""
+                "info": "YBA north from pot room to swamp, then walk one room left and YBA to the right to cross the unflooded gap.",
+                "link": "https://www.youtube.com/watch?v=g8XG6o3Tai8"
             }
         ]
     },
@@ -166,7 +166,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "SP to TH",
-                "info": "",
+                "info": "YBA north to reach hera from swamp. Walk to the moldorm arena to collect the swamp crystal.",
                 "link": ""
             }
         ]
@@ -177,8 +177,8 @@
             {
                 "glitch": "boots",
                 "glitchName": "Aga 2 Stairmaster",
-                "info": "",
-                "link": ""
+                "info": "Skip the final GT big key door with a potion-assisted spiral stairs out of bounds kick.",
+                "link": "https://imgur.com/a/mtpJGmi"
             }
         ]
     },
@@ -188,7 +188,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "SW to Mothula STC",
-                "info": "",
+                "info": "Skip several rooms including the torches to fight moth without fire and save time. This STC causes medium VRAM corruption.",
                 "link": ""
             }
         ]
@@ -199,8 +199,8 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "TT to LSS pt 1",
-                "info": "",
-                "link": ""
+                "info": "YBA north from pot room to swamp, then walk one room left and YBA to the right to cross the unflooded gap.",
+                "link": "https://www.youtube.com/watch?v=g8XG6o3Tai8"
             }
         ]
     },
@@ -210,7 +210,7 @@
             {
                 "glitch": "spinGreenYBA",
                 "glitchName": "Lanmo Spin YBA",
-                "info": "",
+                "info": "Spin YBA north to lanmo to skip fire and big key. To avoid VRAM corruption, visit the final tile room first.",
                 "link": ""
             }
         ]
@@ -221,7 +221,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "GT Restock to Helmway",
-                "info": "",
+                "info": "YBA north to skip a large portion of the GT climb and reach Aga2.",
                 "link": ""
             }
         ]
@@ -232,7 +232,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "G2 to Moldorm 2",
-                "info": "",
+                "info": "YBA north to skip a large portion of the GT climb and reach moldorm 2. To backtrack to the items, do a north citrus teleport on the slope to throw yourself into the pit.",
                 "link": ""
             }
         ]
@@ -243,8 +243,8 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Fireless Freezor YBA",
-                "info": "",
-                "link": ""
+                "info": "YBA west to juke the transition. Tap left before transitioning right, then transition left again and go to freezor room. The chest will appear because the enemies are despawned.",
+                "link": "https://clips.twitch.tv/ConcernedCarelessCougarAllenHuhu-1jwR5z3jav6o_-fq"
             }
         ]
     },
@@ -254,7 +254,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "DP front to DP back",
-                "info": "",
+                "info": "Reach the back of desert from the big chest room with a simple north YBA. This can be used to bring extra keys into the back of desert or access back of desert in modes where it is hard to reach.",
                 "link": ""
             }
         ]
@@ -265,8 +265,8 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "DP to MM",
-                "info": "",
-                "link": ""
+                "info": "Reach mire somaria switch room from desert. YBA south; back out to coordinate 0E6 before transitioning.",
+                "link": "https://imgur.com/HjH0dnd"
             }
         ]
     },
@@ -276,8 +276,8 @@
             {
                 "glitch": "quadrant",
                 "glitchName": "DP Right Quadrant Glitch",
-                "info": "",
-                "link": ""
+                "info": "Reach desert right side with no items.",
+                "link": "https://imgur.com/gallery/oGOrpXI"
             }
         ]
     },
@@ -287,14 +287,14 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "DP to TT",
-                "info": "",
+                "info": "YBA north to bomb the attic early and open the attic chest. If you have the desert big key, you can also backtrack and clear the dungeon.",
                 "link": ""
             },
             {
                 "glitch": "somaria",
                 "glitchName": "Arrghus Deathhole",
-                "info": "",
-                "link": ""
+                "info": "Reach arrghus from desert with just somaria and a weapon.",
+                "link": "https://imgur.com/a/oU0Ktjp"
             }
         ]
     },
@@ -304,7 +304,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "DP to TT STC",
-                "info": "",
+                "info": "STC north without transitioning, then transition east as low as possible to reach the TT attic hallway.",
                 "link": ""
             }
         ]
@@ -315,7 +315,7 @@
             {
                 "glitch": "blueYBA",
                 "glitchName": "DP to GT",
-                "info": "",
+                "info": "YBA south and back out before transitioning to reach GT falling bridge with some camera instability.",
                 "link": ""
             }
         ]
@@ -326,14 +326,14 @@
             {
                 "glitch": "somaria",
                 "glitchName": "DP to SP STC",
-                "info": "",
-                "link": ""
+                "info": "Reach back of swamp for items and hookless arrghus.",
+                "link": "https://imgur.com/a/onOlZlu"
             },
             {
                 "glitch": "redYBA",
                 "glitchName": "DP to SP Double YBA",
-                "info": "",
-                "link": ""
+                "info": "Reach back of swamp for items and hookless arrghus.",
+                "link": "https://imgur.com/a/onOlZlu"
             }
         ]
     },
@@ -343,8 +343,8 @@
             {
                 "glitch": "jingle",
                 "glitchName": "Refill TH lobby Jingle Glitch",
-                "info": "",
-                "link": ""
+                "info": "Use a tile cue to take the staircase on the same frame the shutter door opens to close the hera lobby chest.",
+                "link": "https://clips.twitch.tv/HelpfulSilkyHamburgerDuDudu-QC9AYvBCVDFxeqbf"
             }
         ]
     },
@@ -354,7 +354,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "GT Left to G5",
-                "info": "",
+                "info": "Skip half the GT climb with a YBA from firesnake room.",
                 "link": ""
             }
         ]
@@ -365,7 +365,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "GT Delete Shutter Door West STC",
-                "info": "",
+                "info": "Skip hammer requirement for GT left using a west STC. West supertile STCs require careful management of the door timer variable to avoid hardlock.",
                 "link": ""
             }
         ]
@@ -376,7 +376,7 @@
             {
                 "glitch": "bomb",
                 "glitchName": "Hammerless GT Juke",
-                "info": "",
+                "info": "Juke the hope room GT room from bob's torch room, then transition left to skip the hammer requirement for stalfos room. If you have bombos, you can kill the beetle to exit and go straight to bob's chest room via the double firebar door.",
                 "link": ""
             }
         ]
@@ -387,7 +387,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "Fireless GT Compass Double STC",
-                "info": "",
+                "info": "STC twice toward double firebar room without transitioning, then walk down to the door to go to compass room without fire.",
                 "link": ""
             }
         ]
@@ -398,14 +398,14 @@
             {
                 "glitch": "somaria",
                 "glitchName": "GT Meetup to Rando Room STC",
-                "info": "",
-                "link": ""
+                "info": "Reach rando room without hammer and refill the chests in the hope room supertile.",
+                "link": "https://imgur.com/gallery/EB5nQKI"
             },
             {
                 "glitch": "blueYBA",
                 "glitchName": "GT Meetup to Rando Room YBA",
-                "info": "",
-                "link": ""
+                "info": "Reach rando room without hammer and refill the chests in the hope room supertile.",
+                "link": "https://imgur.com/gallery/EB5nQKI"
             }
         ]
     },
@@ -426,7 +426,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "TT to EP",
-                "info": "",
+                "info": "Reach EP dark key room from TT. YBA west then back out 2 consecutive frames before transitioning.",
                 "link": ""
             }
         ]
@@ -437,19 +437,19 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Bowless EP QG pt 2 YBA",
-                "info": "",
-                "link": ""
+                "info": "YBA without transitioning in the deep door after performing the quadrant glitch in gifted with greenies. Progress to the back of the dungeon and use your broken camera to bypass the eyegores.",
+                "link": "https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"
             },
             {
                 "glitch": "somaria",
                 "glitchName": "Bowless EP QG pt 2 STC",
-                "info": "",
-                "link": ""
+                "info": "STC without transitioning in the deep door after performing the quadrant glitch in gifted with greenies. Do the quadrant glitch again in GYG, then progress to the back of the dungeon and use your broken camera to bypass the eyegores.",
+                "link": "https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"
             },
             {
                 "glitch": "somaria",
                 "glitchName": "Delete EP BK door STC",
-                "info": "",
+                "info": "Trigger the big key door text box, then STC west to delete the door. Mirror or death warp on bombs to reset dungeon sprites. West supertile STCs require careful management of the door timer variable to avoid hardlock.",
                 "link": ""
             }
         ]
@@ -460,7 +460,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "EP to MM",
-                "info": "",
+                "info": "YBA north to reach mire lobby.",
                 "link": ""
             }
         ]
@@ -471,7 +471,7 @@
             {
                 "glitch": "redYBA",
                 "glitchName": "MM torches to TR roller room",
-                "info": "",
+                "info": "Red YBA south, then back out to coordinate 12E5 and YBA again with red/blue. Back out of the door all the way, then transition south, then south again.",
                 "link": ""
             }
         ]
@@ -482,7 +482,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "MM torches to GT torches",
-                "info": "",
+                "info": "YBA west then back out 2 consecutive frames before transitioning.",
                 "link": ""
             }
         ]
@@ -493,8 +493,8 @@
             {
                 "glitch": "spinBlueYBA",
                 "glitchName": "Kholdstare Spin YBA",
-                "info": "",
-                "link": ""
+                "info": "Spin YBA north. Red VRAMs. If using blue, wiggle left and right after transitioning to fall in the hole.",
+                "link": "https://imgur.com/XT2YIIK"
             }
         ]
     },
@@ -504,7 +504,7 @@
             {
                 "glitch": "bomb",
                 "glitchName": "EP BK chest Juke",
-                "info": "",
+                "info": "Juke south from the EP room above lobby. Walk down a bit before transitioning north, but not too much, to avoid EG.",
                 "link": ""
             }
         ]
@@ -515,7 +515,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "TR to Moldorm Fall (subtile)",
-                "info": "",
+                "info": "YBA north to the top of GT.",
                 "link": ""
             }
         ]
@@ -526,7 +526,7 @@
             {
                 "glitch": "blueYBA",
                 "glitchName": "TR Compass Room",
-                "info": "",
+                "info": "YBA south, then back out of the door all the way before transitioning.",
                 "link": ""
             }
         ]
@@ -537,7 +537,7 @@
             {
                 "glitch": "blueYBA",
                 "glitchName": "TR to Moldorm Fall",
-                "info": "",
+                "info": "YBA north to the top of GT.",
                 "link": ""
             }
         ]
@@ -558,14 +558,14 @@
         "glitches": [
             {
                 "glitch": "somaria",
-                "glitchName": "Lava Dive QG pt 2",
-                "info": "",
-                "link": ""
+                "glitchName": "Aga 2 QG pt 2",
+                "info": "Quadrant glitch at coordinate 1900, then STC north without transitioning and fall in the pit below you. After falling, navigate left to Aga 2.",
+                "link": "https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"
             },
             {
                 "glitch": "somaria",
                 "glitchName": "Roller Room STC",
-                "info": "",
+                "info": "STC north without transitioning, then navigate normally to the roller room door.",
                 "link": ""
             }
         ]
@@ -576,8 +576,8 @@
             {
                 "glitch": "blueYBA",
                 "glitchName": "Trinexx YBA pt 1",
-                "info": "",
-                "link": ""
+                "info": "Reach Trinexx without somaria or big key.",
+                "link": "https://imgur.com/gallery/dtr6O4R"
             }
         ]
     },
@@ -587,8 +587,8 @@
             {
                 "glitch": "blueYBA",
                 "glitchName": "Trinexx YBA pt 2",
-                "info": "",
-                "link": ""
+                "info": "Reach Trinexx without somaria or big key.",
+                "link": "https://imgur.com/gallery/dtr6O4R"
             }
         ]
     },
@@ -598,7 +598,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "Delete Key Door STC",
-                "info": "",
+                "info": "STC north to copy the open bomb door to the room above to delete a small key door.",
                 "link": ""
             }
         ]
@@ -610,7 +610,7 @@
                 "glitch": "somaria",
                 "glitchName": "Lava Dive Fast QG pt 2",
                 "info": "",
-                "link": ""
+                "link": "https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"
             }
         ]
     },
@@ -620,7 +620,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "Delete Trinexx Door (part 1)",
-                "info": "",
+                "info": "Open the key door in this room. STC north without transitioning, then STC east to delete the TR big key door.",
                 "link": ""
             }
         ]
@@ -631,7 +631,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "Delete Trinexx Door (part 2)",
-                "info": "",
+                "info": "Open the key door in this room. STC north without transitioning, then STC east to delete the TR big key door.",
                 "link": ""
             }
         ]
@@ -642,7 +642,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Mire to Circle of Pots",
-                "info": "",
+                "info": "YBA west and back out 2 consecutive frames before transitioning. You will need a mire small key or circle of pots already unlocked to progress.",
                 "link": ""
             }
         ]
@@ -653,7 +653,7 @@
             {
                 "glitch": "spinGreenYBA",
                 "glitchName": "Vitreous from Circle of Pots",
-                "info": "",
+                "info": "Spin YBA north to vitreous. VRAM corruption is unavoidable from aga tower, but can be avoided with a green potion if coming from mire.",
                 "link": ""
             }
         ]
@@ -664,7 +664,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "AT Lobby to Maze",
-                "info": "",
+                "info": "Skip one key door and a few rooms to reach dark maze.",
                 "link": ""
             }
         ]
@@ -675,8 +675,8 @@
             {
                 "glitch": "boots",
                 "glitchName": "CT Stairmaster",
-                "info": "",
-                "link": ""
+                "info": "Skip a few rooms and one key door with a potion-assisted spiral stairs out of bounds kick.",
+                "link": "https://imgur.com/a/mtpJGmi"
             }
         ]
     },
@@ -686,7 +686,7 @@
             {
                 "glitch": "spinSomaria",
                 "glitchName": "DP to TR Spin STC",
-                "info": "",
+                "info": " STC north with sword out and release spin during the corruption. This glitch takes you to TR midleft exit with no sprites, and resurrects lanmolas. To avoid VRAM corruption, transition into the tile room above before doing the spin STC.",
                 "link": ""
             }
         ]
@@ -697,8 +697,8 @@
             {
                 "glitch": "statueDrag",
                 "glitchName": "Statue Drag to Helmasaur",
-                "info": "",
-                "link": ""
+                "info": "Reach helmasaur with just bombs and a weapon.",
+                "link": "https://imgur.com/gallery/PC8c476"
             }
         ]
     },
@@ -708,8 +708,8 @@
             {
                 "glitch": "bomb",
                 "glitchName": "PoD to Hookshot Cave Juke",
-                "info": "",
-                "link": ""
+                "info": "Reach hookshot cave and east death mountain in fake dark world with just bombs.",
+                "link": "https://imgur.com/a/B8XyUXz"
             }
         ]
     },
@@ -719,8 +719,8 @@
             {
                 "glitch": "boots",
                 "glitchName": "Cavestate TT Stairmaster",
-                "info": "",
-                "link": ""
+                "info": "Reach front of thieves in cavestate with a potion-assisted spiral stairs out of bounds kick.",
+                "link": "https://imgur.com/a/mtpJGmi"
             }
         ]
     },
@@ -730,8 +730,8 @@
             {
                 "glitch": "boots",
                 "glitchName": "Cavestate EP Stairmaster",
-                "info": "",
-                "link": ""
+                "info": "Reach back of eastern in cavestate with a potion-assisted spiral stairs out of bounds kick.",
+                "link": "https://imgur.com/a/mtpJGmi"
             }
         ]
     },
@@ -741,7 +741,7 @@
             {
                 "glitch": "bomb",
                 "glitchName": "Uncle to TT Juke",
-                "info": "",
+                "info": "Double juke south to reach thieves town.",
                 "link": ""
             }
         ]
@@ -752,7 +752,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Uncle to TT",
-                "info": "",
+                "info": "YBA north in the deep door using your sword or a bomb-based timing method as a cue.",
                 "link": ""
             }
         ]
@@ -763,7 +763,7 @@
             {
                 "glitch": "blueYBA",
                 "glitchName": "Hookshot Cave to Ice Armos supertile",
-                "info": "",
+                "info": "YBA north to ice armos.",
                 "link": ""
             }
         ]
@@ -774,7 +774,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Hookshot Cave to Ice Armos subtile",
-                "info": "",
+                "info": "YBA north to ice armos.",
                 "link": ""
             }
         ]
@@ -785,7 +785,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Kak Well to IP",
-                "info": "",
+                "info": "YBA north to ice palace.",
                 "link": ""
             }
         ]

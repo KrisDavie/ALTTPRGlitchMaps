@@ -26,8 +26,7 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
 
   const getGlitchesGrid = (
     glitches: GlitchData[],
-    enabledGlitches: string[],
-    direction: string
+    enabledGlitches: string[]
   ) => {
     // Do we have a single glitch? Then just use an icon
     if (glitches.length === 1) {
@@ -104,8 +103,7 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
       tile["locations"].forEach((location) => {
         const glitchGrid = getGlitchesGrid(
           location["glitches"],
-          props.selectedGlitches,
-          location["direction"]
+          props.selectedGlitches
         );
         if (glitchGrid) {
           overlays.push(

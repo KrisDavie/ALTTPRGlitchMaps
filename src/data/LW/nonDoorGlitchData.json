@@ -1,0 +1,1147 @@
+[
+  {
+    "tile": "tile-00",
+    "locations": [
+      {
+        "x": 2900,
+        "y": 550,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Lumberjack DMA pt1",
+            "info": "",
+            "link": "https://imgur.com/a/BYnSdd3"
+          }
+        ]
+      },
+      {
+        "x": 3530,
+        "y": 500,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Lumberjack DMA pt2",
+            "info": "",
+            "link": "https://imgur.com/a/BYnSdd3"
+          }
+        ]
+      },
+      {
+        "x": 3250,
+        "y": 260,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Ether Tablet DMD",
+            "info": "",
+            "link": "https://imgur.com/a/t8vW1iY"
+          }
+        ]
+      },
+      {
+        "x": 4260,
+        "y": 600,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Spectacle Rock item teleport",
+            "info": "",
+            "link": "https://imgur.com/a/XoRDtaG"
+          }
+        ]
+      },
+      {
+        "x": 4420,
+        "y": 580,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "bomb",
+            "glitchName": "Death Mountain bomb clip",
+            "info": "",
+            "link": "https://imgur.com/a/NL8Iczs"
+          }
+        ]
+      },
+      {
+        "x": 5490,
+        "y": 280,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "WDM clouds return (flippers)",
+            "info": "",
+            "link": "https://youtu.be/VGIKDjnW1o4"
+          },
+          {
+            "glitch": "boots",
+            "glitchName": "WDM clouds return (flipperless)",
+            "info": "",
+            "link": "https://youtu.be/RLC8lXTwze4"
+          }
+        ]
+      },
+      {
+        "x": 4930,
+        "y": 730,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "EDM land bridge teleport",
+            "info": "",
+            "link": "https://imgur.com/a/mTCdSAW"
+          }
+        ]
+      },
+      {
+        "x": 6020,
+        "y": 580,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "EDM land bridge return",
+            "info": "",
+            "link": "https://imgur.com/a/jxZMBGb"
+          }
+        ]
+      },
+      {
+        "x": 6350,
+        "y": 545,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Clouds teleport to floating island",
+            "info": "",
+            "link": "https://imgur.com/a/sW2qU1Z"
+          }
+        ]
+      },
+      {
+        "x": 4930,
+        "y": 319,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Clouds teleport to floating island (west)",
+            "info": "",
+            "link": "https://youtu.be/xi7HadmblcA"
+          }
+        ]
+      },
+      {
+        "x": 7100,
+        "y": 295,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Clouds teleport to floating island (east)",
+            "info": "",
+            "link": "https://youtu.be/vsY16qFtkVQ"
+          }
+        ]
+      },
+      {
+        "x": 6445,
+        "y": 70,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Floating Island clip (west)",
+            "info": "",
+            "link": "https://imgur.com/a/sW2qU1Z"
+          }
+        ]
+      },
+      {
+        "x": 6740,
+        "y": 70,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Floating Island clip (east)",
+            "info": "",
+            "link": "https://imgur.com/a/sW2qU1Z"
+          }
+        ]
+      },
+      {
+        "x": 6675,
+        "y": 260,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Floating Island return",
+            "info": "",
+            "link": "https://imgur.com/a/sW2qU1Z"
+          }
+        ]
+      },
+      {
+        "x": 7300,
+        "y": 630,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Mirrorless Mimic Cave",
+            "info": "",
+            "link": "https://www.twitch.tv/videos/295696784"
+          }
+        ]
+      },
+      {
+        "x": 7570,
+        "y": 355,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Turtle Rock teleport (west)",
+            "info": "",
+            "link": "https://imgur.com/a/JPI72nQ"
+          }
+        ]
+      },
+      {
+        "x": 7850,
+        "y": 355,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Turtle Rock teleport (east)",
+            "info": "",
+            "link": "https://imgur.com/a/JPI72nQ"
+          }
+        ]
+      },
+      {
+        "x": 7400,
+        "y": 815,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Waterfall DMD",
+            "info": "",
+            "link": "https://imgur.com/a/8Weh5VT"
+          }
+        ]
+      },
+      {
+        "x": 7830,
+        "y": 875,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Zora DMD",
+            "info": "",
+            "link": "https://imgur.com/a/Hb0xguv"
+          }
+        ]
+      },
+      {
+        "x": 7850,
+        "y": 1060,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Zora ledge clip",
+            "info": "",
+            "link": "https://imgur.com/a/Vr0stXp"
+          }
+        ]
+      },
+      {
+        "x": 7880,
+        "y": 1170,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Zora DMA",
+            "info": "",
+            "link": "https://imgur.com/a/iKGkEzh"
+          }
+        ]
+      },
+      {
+        "x": 7480,
+        "y": 1260,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Swim Clip DMA (upper)",
+            "info": "",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "x": 7300,
+        "y": 1570,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Swim Clip DMA (lower)",
+            "info": "",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "x": 2950,
+        "y": 1325,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Old Man Cave clip",
+            "info": "",
+            "link": "https://imgur.com/a/zEdKrdZ"
+          }
+        ]
+      },
+      {
+        "x": 2900,
+        "y": 2143,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Classic (Bonk Rock) DMA",
+            "info": "",
+            "link": "https://imgur.com/a/PJ5BBSY"
+          },
+          {
+            "glitch": "boots",
+            "glitchName": "New (Old Man) DMA",
+            "info": "",
+            "link": "https://www.youtube.com/watch?v=Jk76IoS6qfY"
+          }
+        ]
+      },
+      {
+        "x": 2556,
+        "y": 2251,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Bootsless DMA",
+            "info": "",
+            "link": "https://imgur.com/a/0pSjSCs"
+          }
+        ]
+      },
+      {
+        "x": 3520,
+        "y": 1950,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Safe/Inverted Bunny DMD",
+            "info": "",
+            "link": "https://imgur.com/a/EHBORb1"
+          }
+        ]
+      },
+      {
+        "x": 3576,
+        "y": 1990,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "DMD",
+            "info": "",
+            "link": "https://imgur.com/a/t8vW1iY"
+          }
+        ]
+      },
+      {
+        "x": 4476,
+        "y": 2011,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Hera clip (west)",
+            "info": "",
+            "link": "https://imgur.com/a/yYbTyvl"
+          },
+          {
+            "glitch": "boots",
+            "glitchName": "Kiki yeet",
+            "info": "",
+            "link": "https://www.youtube.com/watch?v=k92lhOnDV_I"
+          }
+        ]
+      },
+      {
+        "x": 4672,
+        "y": 1895,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Hera clip (east)",
+            "info": "",
+            "link": "https://imgur.com/a/yYbTyvl"
+          }
+        ]
+      },
+      {
+        "x": 4535,
+        "y": 1965,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Graveyard Ledge teleport",
+            "info": "",
+            "link": "https://imgur.com/gallery/bGSQUj3"
+          }
+        ]
+      },
+      {
+        "x": 4715,
+        "y": 1950,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Graveyard Ledge clip (spinspeed)",
+            "info": "",
+            "link": "https://imgur.com/a/TTABHME"
+          },
+          {
+            "glitch": "boots",
+            "glitchName": "Graveyard Ledge clip (no spinspeed)",
+            "info": "",
+            "link": "https://othertom.club/glitches/overworld_major/gyl_dash_kt.mp4"
+          }
+        ]
+      },
+      {
+        "x": 4652,
+        "y": 2100,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "King's Tomb clip dash spot",
+            "info": "",
+            "link": "https://imgur.com/a/TTABHME"
+          }
+        ]
+      },
+      {
+        "x": 5440,
+        "y": 1687,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "EDM clip",
+            "info": "",
+            "link": "https://imgur.com/a/IkoPVzg"
+          }
+        ]
+      },
+      {
+        "x": 5910,
+        "y": 1795,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "EDM clip return",
+            "info": "",
+            "link": "https://imgur.com/a/IkoPVzg"
+          }
+        ]
+      },
+      {
+        "x": 6432,
+        "y": 1940,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Witch DMD",
+            "info": "",
+            "link": "https://imgur.com/a/Hb0xguv"
+          }
+        ]
+      },
+      {
+        "x": 2992,
+        "y": 2950,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Aganhim's Tower river clip",
+            "info": "",
+            "link": "https://youtu.be/ajK4CyF3kuo"
+          }
+        ]
+      },
+      {
+        "x": 5652,
+        "y": 2463,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Swim clip to Back of Escape or King's Tomb",
+            "info": "",
+            "link": "https://www.youtube.com/watch?v=fsaBE2zdl2k"
+          }
+        ]
+      },
+      {
+        "x": 6672,
+        "y": 2887,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Eastern from Witch teleport",
+            "info": "",
+            "link": "https://imgur.com/a/pIYwTPd"
+          }
+        ]
+      },
+      {
+        "x": 7032,
+        "y": 2863,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Gloveless Zora teleport (west)",
+            "info": "",
+            "link": "https://imgur.com/a/Id1ibnQ"
+          }
+        ]
+      },
+      {
+        "x": 7544,
+        "y": 2455,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Gloveless Zora teleport (east)",
+            "info": "",
+            "link": "https://imgur.com/a/Id1ibnQ"
+          }
+        ]
+      },
+      {
+        "x": 7220,
+        "y": 3307,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Eastern to Zora/Witch teleport",
+            "info": "",
+            "link": "https://imgur.com/a/fwebabH"
+          }
+        ]
+      },
+      {
+        "x": 212,
+        "y": 4979,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Maze Race from Kakariko teleport",
+            "info": "",
+            "link": "https://imgur.com/a/x47XDvC"
+          }
+        ]
+      },
+      {
+        "x": 2125,
+        "y": 4579,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Magic Bat screenwrap",
+            "info": "",
+            "link": "https://imgur.com/a/tvtjEMB"
+          }
+        ]
+      },
+      {
+        "x": 3156,
+        "y": 3620,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Castle superjump",
+            "info": "",
+            "link": "https://clips.twitch.tv/ImportantUninterestedBubbleteaBrokeBack"
+          }
+        ]
+      },
+      {
+        "x": 3828,
+        "y": 4027,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Pyramid Fairy offset portal",
+            "info": "",
+            "link": "https://imgur.com/a/7Mp60mk"
+          }
+        ]
+      },
+      {
+        "x": 44,
+        "y": 5651,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Eastern Palace map wrap",
+            "info": "",
+            "link": "https://imgur.com/a/x47XDvC"
+          }
+        ]
+      },
+      {
+        "x": 212,
+        "y": 5987,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Maze Race from south",
+            "info": "",
+            "link": "https://imgur.com/a/dZUUyBm"
+          },
+          {
+            "glitch": "boots",
+            "glitchName": "Desert teleport",
+            "info": "",
+            "link": "https://imgur.com/a/GvNDYG4"
+          }
+        ]
+      },
+      {
+        "x": 612,
+        "y": 6130,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Gloveless Desert teleport transition spot",
+            "info": "",
+            "link": "https://imgur.com/a/CN0rnBm"
+          }
+        ]
+      },
+      {
+        "x": 1180,
+        "y": 5435,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Blacksmith mirror jump",
+            "info": "",
+            "link": "https://alttp-wiki.net/index.php/Early_Tempered"
+          },
+          {
+            "glitch": "boots",
+            "glitchName": "Blacksmith offset portal",
+            "info": "",
+            "link": "https://imgur.com/a/TVVV7qA"
+          }
+        ]
+      },
+      {
+        "x": 1640,
+        "y": 6047,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Desert or Checkerboard Cave teleport",
+            "info": "",
+            "link": "https://imgur.com/a/CpP7jpp"
+          }
+        ]
+      },
+      {
+        "x": 3498,
+        "y": 6051,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Hammerless portal teleport (west)",
+            "info": "",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "x": 4480,
+        "y": 6037,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Hammerless portal teleport (east)",
+            "info": "",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "x": 5332,
+        "y": 6030,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Hylia Island teleport",
+            "info": "",
+            "link": "https://imgur.com/a/H5FBmBs"
+          },
+          {
+            "glitch": "boots",
+            "glitchName": "Hobo teleport",
+            "info": "",
+            "link": "Ice Rod Cave screenwrap"
+          },
+          {
+            "glitch": "boots",
+            "glitchName": "Hobo teleport",
+            "info": "",
+            "link": "https://gfycat.com/SnappyLiquidDrever"
+          }
+        ]
+      },
+      {
+        "x": 5858,
+        "y": 5869,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Hobo flippers clip",
+            "info": "",
+            "link": "https://imgur.com/a/qjglY09"
+          }
+        ]
+      },
+      {
+        "x": 5902,
+        "y": 5917,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Flipperless Hobo",
+            "info": "",
+            "link": "https://imgur.com/a/LNFxGRM"
+          }
+        ]
+      },
+      {
+        "x": 7876,
+        "y": 5019,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Eastern Palace teleport",
+            "info": "",
+            "link": "https://imgur.com/a/5floO5G"
+          }
+        ]
+      },
+      {
+        "x": 6774,
+        "y": 6349,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Swim clip to Ice Rod Cave",
+            "info": "",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "x": 7656,
+        "y": 5967,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Eastern to Ice Rod Cave teleport",
+            "info": "",
+            "link": "https://imgur.com/a/C1K5UIe"
+          }
+        ]
+      },
+      {
+        "x": 368,
+        "y": 6399,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Desert to Kakariko teleport",
+            "info": "",
+            "link": "https://imgur.com/a/z32n211"
+          }
+        ]
+      },
+      {
+        "x": 996,
+        "y": 6399,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Desert to Checkerboard teleport",
+            "info": "",
+            "link": "https://imgur.com/a/z32n211"
+          }
+        ]
+      },
+      {
+        "x": 420,
+        "y": 6693,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Desert bomb clip",
+            "info": "",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "x": 508,
+        "y": 6411,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Gloveless Desert jump (west)",
+            "info": "",
+            "link": "https://imgur.com/a/CN0rnBm"
+          }
+        ]
+      },
+      {
+        "x": 708,
+        "y": 6411,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Gloveless Desert jump (east)",
+            "info": "",
+            "link": "https://imgur.com/a/CN0rnBm"
+          }
+        ]
+      },
+      {
+        "x": 1436,
+        "y": 6491,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Checkerboard Cave return teleport",
+            "info": "",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "x": 2236,
+        "y": 6483,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Cave 45 teleport (upper)",
+            "info": "",
+            "link": "https://imgur.com/a/t1Q8GZf"
+          }
+        ]
+      },
+      {
+        "x": 2312,
+        "y": 6675,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Cave 45 teleport (mid)",
+            "info": "",
+            "link": "https://imgur.com/a/t1Q8GZf"
+          }
+        ]
+      },
+      {
+        "x": 2772,
+        "y": 6855,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Cave 45 teleport (lower)",
+            "info": "",
+            "link": "https://imgur.com/a/t1Q8GZf"
+          }
+        ]
+      },
+      {
+        "x": 2120,
+        "y": 7000,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Cave 45 to Checkerboard/Aginah",
+            "info": "",
+            "link": "https://youtu.be/dx7M8wX8KXA"
+          }
+        ]
+      },
+      {
+        "x": 2182,
+        "y": 7061,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Cave 45 to Bombos Tablet teleport",
+            "info": "",
+            "link": "https://youtu.be/SqKFhMDg23M"
+          }
+        ]
+      },
+      {
+        "x": 3456,
+        "y": 6536,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Hammerless portal/shortcut jump (west)",
+            "info": "",
+            "link": "https://imgur.com/a/qqYa8EE"
+          }
+        ]
+      },
+      {
+        "x": 3596,
+        "y": 6727,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Hammerless portal/shortcut jump (east)",
+            "info": "",
+            "link": "https://imgur.com/a/qqYa8EE"
+          }
+        ]
+      },
+      {
+        "x": 1904,
+        "y": 7395,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Cave 45 jump (west)",
+            "info": "",
+            "link": "https://imgur.com/a/lBMY0Q6"
+          }
+        ]
+      },
+      {
+        "x": 2172,
+        "y": 7403,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Cave 45 jump (east)",
+            "info": "",
+            "link": "https://imgur.com/a/lBMY0Q6"
+          }
+        ]
+      },
+      {
+        "x": 36,
+        "y": 7843,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Ice Rod mapwrap",
+            "info": "",
+            "link": ""
+          }
+        ]
+      },
+      {
+        "x": 128,
+        "y": 7937,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Mire portal teleport",
+            "info": "",
+            "link": "https://imgur.com/a/xpdT4UE"
+          }
+        ]
+      },
+      {
+        "x": 1704,
+        "y": 7463,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Bombos Tablet teleport (west)",
+            "info": "",
+            "link": "https://imgur.com/a/WMpBU40"
+          }
+        ]
+      },
+      {
+        "x": 2264,
+        "y": 7495,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Bombos Tablet teleport (east)",
+            "info": "",
+            "link": "https://imgur.com/a/WMpBU40"
+          }
+        ]
+      },
+      {
+        "x": 1748,
+        "y": 8151,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Zora transition spot",
+            "info": "",
+            "link": "https://imgur.com/a/PM532kH"
+          }
+        ]
+      },
+      {
+        "x": 2256,
+        "y": 8027,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Zora teleport spot (west)",
+            "info": "",
+            "link": "https://imgur.com/a/PM532kH"
+          }
+        ]
+      },
+      {
+        "x": 2896,
+        "y": 8087,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Zora teleport spot (east)",
+            "info": "",
+            "link": "https://imgur.com/a/PM532kH"
+          }
+        ]
+      },
+      {
+        "x": 5308,
+        "y": 7263,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Mini Moldorm Cave teleport",
+            "info": "",
+            "link": "https://imgur.com/a/63E0AiD"
+          }
+        ]
+      },
+      {
+        "x": 7312,
+        "y": 6495,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Bombless Ice Rod Cave teleport",
+            "info": "",
+            "link": "https://imgur.com/a/WoYyRw5"
+          }
+        ]
+      },
+      {
+        "x": 8030,
+        "y": 6815,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Ice Rod Cave to Eastern teleport",
+            "info": "",
+            "link": "https://imgur.com/a/G3RfZUT"
+          }
+        ]
+      }
+    ]
+  }
+]

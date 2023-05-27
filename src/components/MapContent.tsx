@@ -5,10 +5,12 @@ import DoorGlitches from "./DoorGlitches";
 import NonDoorGlitches from "./NonDoorGlitches";
 import HookPushLocations from "./HookPushLocations";
 
-import doorData from "../data/EG1/doorData.json";
-import doorGlitchData from "../data/EG1/doorGlitchData.json";
-import hookpushData from "../data/EG1/hookpushData.json";
-import nonDoorGlitchData from "../data/EG1/nonDoorGlitchData.json";
+import eg1doorData from "../data/EG1/doorData.json";
+import eg1doorGlitchData from "../data/EG1/doorGlitchData.json";
+import eg1hookpushData from "../data/EG1/hookpushData.json";
+import eg1nonDoorGlitchData from "../data/EG1/nonDoorGlitchData.json";
+
+import lwNonDoorGlitchData from "../data/LW/nonDoorGlitchData.json";
 
 interface MapContentProps {
   zoomToElement: (element: string) => void;
@@ -40,6 +42,33 @@ function MapContent(props: MapContentProps) {
   };
 
   const mapElements = [];
+  let nonDoorGlitchData;
+  let doorGlitchData;
+  let hookpushData;
+  let doorData;
+
+  let mapImage = "";
+  switch (selectedMap) {
+    case "EG1":
+      mapImage = "images/eg_map_fully_annotated.png";
+      nonDoorGlitchData = eg1nonDoorGlitchData;
+      doorGlitchData = eg1doorGlitchData;
+      hookpushData = eg1hookpushData;
+      doorData = eg1doorData;
+      break;
+    case "EG2":
+      mapImage = "images/eg2_map_fully_annotated.png";
+      break;
+    case "LW":
+      mapImage = "images/lightworld_large.png";
+      nonDoorGlitchData = lwNonDoorGlitchData;
+      break;
+    case "DW":
+      mapImage = "images/darkworld_large.png";
+      break;
+    default:
+      mapImage = "images/eg_map_fully_annotated.png";
+  }
 
   if (selectedMap === "EG1") {
     mapElements.push(
@@ -61,6 +90,8 @@ function MapContent(props: MapContentProps) {
         key="DropLocations"
       />
     );
+  }
+  if (doorData && doorGlitchData) {
     mapElements.push(
       <DoorGlitches
         selectedGlitches={selectedGlitches}
@@ -70,6 +101,8 @@ function MapContent(props: MapContentProps) {
         key="DoorGlitches"
       />
     );
+  }
+  if (hookpushData) {
     mapElements.push(
       <HookPushLocations
         selectedGlitches={selectedGlitches}
@@ -78,6 +111,8 @@ function MapContent(props: MapContentProps) {
         key="HookPushLocations"
       />
     );
+  }
+  if (nonDoorGlitchData) {
     mapElements.push(
       <NonDoorGlitches
         selectedGlitches={selectedGlitches}
@@ -89,23 +124,6 @@ function MapContent(props: MapContentProps) {
   }
 
   // Set map image basec on selected map
-  let mapImage = "";
-  switch (selectedMap) {
-    case "EG1":
-      mapImage = "images/eg_map_fully_annotated.png";
-      break;
-    case "EG2":
-      mapImage = "images/eg2_map.png";
-      break;
-    case "LW":
-      mapImage = "images/lightworld_large.png";
-      break;
-    case "DW":
-      mapImage = "images/darkworld_large.png";
-      break;
-    default:
-      mapImage = "images/eg_map_fully_annotated.png";
-  }
 
   return (
     <div

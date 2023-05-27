@@ -40,6 +40,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
             onClick={() =>
               handleClick(glitch["glitchName"], glitch["info"], glitch["link"])
             }
+            id={`door-glitches-${data["door"]}`}
           >
             <Image
               circular
@@ -59,6 +60,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
       for (let j = 0; j < 3; j++) {
         const index = i * 3 + j;
         const glitch = data.glitches[index];
+        const id = `door-glitches-${data["door"]}-${index}`;
         if (glitch) {
           if (enabledGlitches.includes(glitch["glitch"])) {
             row.push(
@@ -71,6 +73,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
                     glitch["link"]
                   )
                 }
+                id={id}
               >
                 <Image
                   circular
@@ -81,13 +84,13 @@ function DoorGlitches(props: DoorGlitchesProps) {
               </div>
             );
           } else {
-            row.push(<div />);
+            row.push(<div id={id} />);
           }
         } else {
-          row.push(<div />);
+          row.push(<div id={id} />);
         }
       }
-      grid.push(<div>{row}</div>);
+      grid.push(<div id={`door-glitches-${data["door"]}-col`}>{row}</div>);
     }
     return grid;
   };
@@ -126,6 +129,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
                   borderRadius: "5px",
                   transform: `rotate(${directionToRotation(doorDirection)}deg)`,
                 }}
+                id={`${doorName}-glitch-grid}`}
               >
                 {glitchGrid}
               </div>
@@ -144,6 +148,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
                 borderRadius: "5px",
                 backgroundColor: "rgba(0, 255, 0, 0.5)",
               }}
+              id={doorName}
             />
           );
         }

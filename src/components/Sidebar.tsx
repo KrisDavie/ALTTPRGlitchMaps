@@ -6,6 +6,7 @@ import {
   Sidebar,
   Image,
   Button,
+  Divider,
 } from "semantic-ui-react";
 import "./Sidebar.css";
 import "../fonts/HyliaSerifBeta-Regular.otf";
@@ -96,7 +97,11 @@ function PageSidebar(props: SidebarProps) {
             href={glitchText[2]}
             target="_blank"
             rel="noopener noreferrer"
-            style={{ color: "white", textDecoration: "underline" }}
+            style={{
+              color: "white",
+              textDecoration: "underline",
+              wordWrap: "break-word",
+            }}
           >
             {glitchText[2]}
           </a>
@@ -115,18 +120,27 @@ function PageSidebar(props: SidebarProps) {
     >
       <Grid columns={1} rows={4} container style={{ height: "99vh" }}>
         <Grid.Column>
-          <Grid.Row style={{ padding: "5px 0px 25px 0px" }}>
+          <Grid.Row style={{ padding: "5px 0px 15px 0px" }}>
             <Header
               as="h1"
               textAlign="center"
               inverted
               className="sidetext"
-              dividing
               style={{ letterSpacing: "0.1em" }}
             >
               ALTTPR
               <br />
               Glitch Maps
+            </Header>
+            <Header
+              as="h4"
+              textAlign="center"
+              inverted
+              dividing
+              className="sidetext"
+              style={{ letterSpacing: "0.1em", margin: "0px 0px 5px 0px" }}
+            >
+              By Malmo and Muffins
             </Header>
           </Grid.Row>
           <Grid.Row>
@@ -140,7 +154,8 @@ function PageSidebar(props: SidebarProps) {
               {mapButton("DW")}
             </Button.Group>
           </Grid.Row>
-          <Grid.Row style={{ height: "58%", padding: "15px 0px 0px 0px" }}>
+          <Divider />
+          <Grid.Row style={{ height: "58%", padding: "5px 0px 0px 0px" }}>
             <Header
               as="h2"
               textAlign="left"

@@ -326,7 +326,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportUp",
             "glitchName": "Classic (Bonk Rock) Death Mountain Ascent",
             "info": "Do a series of clips to reach old man cave exit.",
             "link": "https://imgur.com/a/PJ5BBSY"
@@ -552,7 +552,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "teleportUp",
+            "glitch": "teleportDown",
             "glitchName": "Gloveless Zora teleport (east)",
             "info": "Skip the glove rock to exit the waterfall screen.",
             "link": "https://imgur.com/a/Id1ibnQ"
@@ -682,7 +682,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "mirrorWrap",
+            "glitch": "mirrorPortal",
             "glitchName": "Blacksmith mirror jump",
             "info": "Reach smith without moon pearl using precise mirror clipping and a frame perfect ledge hop.",
             "link": "https://alttp-wiki.net/index.php/Early_Tempered"
@@ -1136,7 +1136,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "teleportUp",
+            "glitch": "teleportDown",
             "glitchName": "Ice Rod Cave to Eastern teleport",
             "info": "Reach the eastern portal from ice rod cave.",
             "link": "https://imgur.com/a/G3RfZUT"

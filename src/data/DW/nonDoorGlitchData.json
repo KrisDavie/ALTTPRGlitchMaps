@@ -8,7 +8,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "teleportUp",
+            "glitch": "teleportDown",
             "glitchName": "Dark Lumberjack Death Mountain Ascent pt1",
             "info": "Climb the mountain at the dark lumberjack screen.",
             "link": "https://imgur.com/a/BYnSdd3"
@@ -339,7 +339,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "citrus",
             "glitchName": "EDM/DMD bunny mirror clip pt2",
             "info": "Cross death mountain without moon pearl or boots using mirror.",
             "link": "https://imgur.com/a/XfjWufu"
@@ -553,7 +553,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "teleportUp",
+            "glitch": "teleportDown",
             "glitchName": "Gloveless Catfish teleport (east)",
             "info": "Bypass the glove rock to reach dark witch.",
             "link": "https://imgur.com/a/Id1ibnQ"
@@ -566,7 +566,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "teleportUp",
+            "glitch": "boots",
             "glitchName": "Catfish Death Mountain Ascent",
             "info": "Reach the back of hookshot cave from the dark witch screen.",
             "link": "https://gfycat.com/carefuleuphoricliger"
@@ -605,7 +605,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "flippers",
+            "glitch": "boots",
             "glitchName": "Moat clip to hammer pegs pt1",
             "info": "Swim or fake flipper from pyramid to hammerpegs.",
             "link": "https://imgur.com/a/oyErWnm"
@@ -618,7 +618,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "flippers",
+            "glitch": "boots",
             "glitchName": "Moat clip to hammer pegs pt2",
             "info": "Swim or fake flipper from pyramid to hammerpegs.",
             "link": "https://imgur.com/a/oyErWnm"
@@ -644,7 +644,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "mirrorWrap",
+            "glitch": "mirrorPortal",
             "glitchName": "Smith mirror jump",
             "info": "Reach smith without moon pearl using precise mirror clipping and a frame perfect ledge hop.",
             "link": "https://alttp-wiki.net/index.php/Early_Tempered"
@@ -917,7 +917,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "flippers",
+            "glitch": "boots",
             "glitchName": "Pegs bybass to hype cave pt1",
             "info": "Cross the hammerpegs without hammer by swimming.",
             "link": "https://www.youtube.com/watch?v=YMbBJm2LDMw"
@@ -930,7 +930,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "flippers",
+            "glitch": "boots",
             "glitchName": "Pegs bybass to hype cave pt2",
             "info": "Cross the hammerpegs without hammer by swimming.",
             "link": "https://www.youtube.com/watch?v=YMbBJm2LDMw"
@@ -982,7 +982,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "flippers",
+            "glitch": "mirrorlessWrap",
             "glitchName": "Ice Palace flippers wrap",
             "info": "Screenwrap transition to reach ice palace without mitts or mirror. Requires flippers. Hardlock risk; follow the instructions closely.",
             "link": "https://imgur.com/a/NhXs8rI"

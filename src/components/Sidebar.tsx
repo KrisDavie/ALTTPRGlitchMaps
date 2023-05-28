@@ -212,12 +212,12 @@ function PageSidebar(props: SidebarProps) {
                 {makeGlitchButton("images/boots.png", "Boots Clip", "boots")}
 
                 {makeGlitchButton(
-                  "images/spin_green_pot.png",
+                  "images/spin_green_pot_112.png",
                   "Spin Subtile YBA",
                   "spinGreenYBA"
                 )}
                 {makeGlitchButton(
-                  "images/spin_blue_pot.png",
+                  "images/spin_blue_pot_112.png",
                   "Spin Supertile YBA",
                   "spinBlueYBA"
                 )}
@@ -235,7 +235,7 @@ function PageSidebar(props: SidebarProps) {
                   "jingle"
                 )}
                 {makeGlitchButton(
-                  "images/spin_somaria.png",
+                  "images/spin_somaria_112.png",
                   "Spin Somaria",
                   "spinSomaria"
                 )}

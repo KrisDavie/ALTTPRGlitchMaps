@@ -13,11 +13,11 @@ const glitchToImage = (glitch: string) => {
     case "boots":
       return "images/boots.png";
     case "spinGreenYBA":
-      return "images/spin_green_pot.png";
+      return "images/spin_green_pot_112.png";
     case "spinBlueYBA":
-      return "images/spin_blue_pot.png";
+      return "images/spin_blue_pot_112.png";
     case "spinSomaria":
-      return "images/spin_somaria.png";
+      return "images/spin_somaria_112.png";
     case "quadrant":
       return "images/quadrant.png";
     case "jingle":

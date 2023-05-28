@@ -8,7 +8,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportUp",
             "glitchName": "Dark Lumberjack Death Mountain Ascent pt1",
             "info": "Climb the mountain at the dark lumberjack screen.",
             "link": "https://imgur.com/a/BYnSdd3"
@@ -34,7 +34,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Bumper Ledge teleport",
             "info": "Reach the bumper ledge item without cape and glove.",
             "link": "https://imgur.com/a/bTQoExY"
@@ -47,7 +47,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportUp",
             "glitchName": "Bumper Ledge superbunny teleport",
             "info": "Preserve item superbunny by teleporting off bumper ledge. Pull the tree nearby to gain link state.",
             "link": "https://othertom.club/glitches/bunny/bunny_bumper_linkstate_1f.mp4"
@@ -86,7 +86,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "EDM land bridge teleport (\"TR climb\")",
             "info": "Cross death mountain on a conveniently placed land bridge.",
             "link": "https://imgur.com/a/FRtb27y"
@@ -99,7 +99,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorlessWrap",
             "glitchName": "Laser Bridge mirrorless wrap",
             "info": "Reach laser bridge with just boots.",
             "link": "https://imgur.com/a/B4Saxp2"
@@ -112,13 +112,13 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorWrap",
             "glitchName": "Laser Bridge easy lineup mirror wrap",
             "info": "Land bridge clip that puts you on the correct pixel for laser bridge mirror wrap.",
             "link": "https://www.youtube.com/watch?v=4psdNBacvY8"
           },
           {
-            "glitch": "boots",
+            "glitch": "mirrorWrap",
             "glitchName": "Laser Bridge backup mirror wrap",
             "info": "Manual lineup for laser bridge mirror wrap.",
             "link": "https://imgur.com/a/Cz3lalP"
@@ -144,7 +144,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "citrus",
             "glitchName": "Turtle Rock citrus clip",
             "info": "Reach turtle rock mid without boots or moon pearl.",
             "link": "https://imgur.com/a/l5g6280"
@@ -170,7 +170,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorPortal",
             "glitchName": "Turtle Rock middle mirror clip (west)",
             "info": "Reach turtle rock ledge and mimic cave without moon pearl or boots using mirror.",
             "link": "https://imgur.com/a/i9bqOJw"
@@ -183,7 +183,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorPortal",
             "glitchName": "Turtle Rock middle mirror clip (east)",
             "info": "Reach turtle rock ledge and mimic cave without moon pearl or boots using mirror.",
             "link": "https://imgur.com/a/i9bqOJw"
@@ -196,7 +196,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorPortal",
             "glitchName": "Turtle Rock ledge mirror clip return",
             "info": "Mirror clip off turtle rock ledge to return to the bottom of the mountain.",
             "link": "https://imgur.com/a/G15rtJm"
@@ -209,7 +209,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Turtle Rock teleport (west)",
             "info": "Reach the medallion pad on turtle rock entrance from the dark world.",
             "link": "https://imgur.com/a/eFSotNh"
@@ -222,7 +222,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Turtle Rock teleport (east)",
             "info": "Reach the medallion pad on turtle rock entrance from the dark world.",
             "link": "https://imgur.com/a/eFSotNh"
@@ -248,7 +248,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorlessWrap",
             "glitchName": "Skull Woods map wrap",
             "info": "Reach skull woods from death mountain. Hardlock risk; avoid right movements.",
             "link": "https://othertom.club/glitches/overworld_major/tr_wrap_to_skullwoods.mp4"
@@ -261,7 +261,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Bootsless Bumper Ledge swim clip",
             "info": "Swim clip through death mountain to reach the bumper ledge item without boots.",
             "link": ""
@@ -274,7 +274,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Swim clip Catfish Death Mountain Ascent",
             "info": "Swim up death mountain.",
             "link": ""
@@ -326,7 +326,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorPortal",
             "glitchName": "EDM/DMD bunny mirror clip pt1",
             "info": "Cross death mountain without moon pearl or boots using mirror.",
             "link": "https://imgur.com/a/XfjWufu"
@@ -365,13 +365,13 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorWrap",
             "glitchName": "EDM mirror wrap",
             "info": "Cross death mountain without moon pearl or boots with a mirror wrap.",
             "link": "https://www.youtube.com/watch?v=xdm-DqdYcw4"
           },
           {
-            "glitch": "boots",
+            "glitch": "mirrorWrap",
             "glitchName": "Hookshot cave mirror wrap",
             "info": "Mirror wrap to the entrance at floating island.",
             "link": "https://www.youtube.com/watch?v=axNUHnG557Y"
@@ -397,7 +397,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorWrap",
             "glitchName": "Mirror wrap DMD",
             "info": "Fastest way to descend death mountain without boots/moon pearl. Hardlock risk; avoid taking the invisible transition and correct the camera properly after.",
             "link": "https://alttp-wiki.net/index.php/Death_Mountain_Descent#Bunny_Clip"
@@ -410,7 +410,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorPortal",
             "glitchName": "Pyramid Fairy offset portal",
             "info": "Misplace a portal at hyrule castle to clip into pyramid fairy without crystals or moon pearl.",
             "link": "https://imgur.com/a/7Mp60mk"
@@ -436,7 +436,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "citrus",
             "glitchName": "Safe/Bunny Death Mountain Descent",
             "info": "Descend death mountain without moon pearl or boots. With boots, clip into the upper corner as far as you can, then hold down without quickhopping to jump off.",
             "link": "https://imgur.com/a/EHBORb1"
@@ -488,7 +488,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Village of Outcasts to Dig Game teleport",
             "info": "Shortcut to the dig game screen. You cannot play the dig game if you enter the screen from out of bounds.",
             "link": "https://imgur.com/a/xM6R9cg"
@@ -501,7 +501,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Rocks/peg bypass teleport",
             "info": "Clip to the out of bounds area to bypass the hammerpeg and rocks above pyramid dunes.",
             "link": ""
@@ -514,7 +514,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "PoD teleport (west)",
             "info": "Reach PoD overworld screen from dark witch.",
             "link": "https://imgur.com/a/7tiqiDC"
@@ -527,7 +527,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "PoD teleport (east)",
             "info": "Reach PoD overworld screen from the octorock pit.",
             "link": "https://imgur.com/a/7tiqiDC"
@@ -540,7 +540,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportUp",
             "glitchName": "Gloveless Catfish teleport (west)",
             "info": "Bypass the glove rock to reach catfish.",
             "link": "https://imgur.com/a/Id1ibnQ"
@@ -553,7 +553,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportUp",
             "glitchName": "Gloveless Catfish teleport (east)",
             "info": "Bypass the glove rock to reach dark witch.",
             "link": "https://imgur.com/a/Id1ibnQ"
@@ -566,7 +566,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportUp",
             "glitchName": "Catfish Death Mountain Ascent",
             "info": "Reach the back of hookshot cave from the dark witch screen.",
             "link": "https://gfycat.com/carefuleuphoricliger"
@@ -579,7 +579,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Pyramid Fairy swim clip",
             "info": "Reach pyramid fairy with just boots and moon pearl.",
             "link": "https://imgur.com/a/bkVBUFB"
@@ -592,7 +592,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Hammer Pegs swim clip return",
             "info": "Escape the hammerpegs screen without mitts.",
             "link": "https://imgur.com/a/TRBs8qt"
@@ -605,7 +605,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Moat clip to hammer pegs pt1",
             "info": "Swim or fake flipper from pyramid to hammerpegs.",
             "link": "https://imgur.com/a/oyErWnm"
@@ -618,7 +618,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Moat clip to hammer pegs pt2",
             "info": "Swim or fake flipper from pyramid to hammerpegs.",
             "link": "https://imgur.com/a/oyErWnm"
@@ -631,7 +631,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorPortal",
             "glitchName": "Smith DMD offset portal",
             "info": "Misplace a mirror portal to rescue the smith without mitts. Image Guide: https://imgur.com/a/0qoRQFk",
             "link": "https://www.twitch.tv/videos/1130439066"
@@ -644,7 +644,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorWrap",
             "glitchName": "Smith mirror jump",
             "info": "Reach smith without moon pearl using precise mirror clipping and a frame perfect ledge hop.",
             "link": "https://alttp-wiki.net/index.php/Early_Tempered"
@@ -657,7 +657,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportUp",
             "glitchName": "Dig Game to Village of Outcasts teleport pt1",
             "info": "Teleport twice to reach village from dig game without mitts.",
             "link": "https://imgur.com/a/xM6R9cg"
@@ -670,7 +670,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportUp",
             "glitchName": "Dig Game to Village of Outcasts teleport pt2",
             "info": "Teleport twice to reach village from dig game without mitts.",
             "link": "https://imgur.com/a/xM6R9cg"
@@ -683,7 +683,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Mire access teleport (west)",
             "info": "Reach the mire overworld screen without flute.",
             "link": "https://imgur.com/a/xpdT4UE"
@@ -696,7 +696,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Mire access teleport (mid)",
             "info": "Reach the mire overworld screen without flute.",
             "link": "https://imgur.com/a/xpdT4UE"
@@ -709,7 +709,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Mire access teleport (east)",
             "info": "Reach the mire overworld screen without flute.",
             "link": "https://imgur.com/a/xpdT4UE"
@@ -722,7 +722,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorWrap",
             "glitchName": "Bunny to Mire mirror wrap",
             "info": "Reach the mire overworld screen without moon pearl.",
             "link": "https://imgur.com/a/rUBnZVi"
@@ -735,7 +735,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "owYBA",
             "glitchName": "Smith YBA",
             "info": "Overworld YBA to load in the smith screen with the wrong collision, allowing you to rescue smith without mitts.",
             "link": "https://othertom.club/glitches/overworld_major/mittsless_smith_YBA_mirror_return.mp4"
@@ -748,7 +748,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Mire escape teleport (north)",
             "info": "Exit mire overworld.",
             "link": "https://imgur.com/a/UAxEfyw"
@@ -761,7 +761,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorWrap",
             "glitchName": "Bunny to Stumpy mirror wrap",
             "info": "Reach stumpy without moon pearl.",
             "link": "https://imgur.com/a/DmMQdiR"
@@ -774,7 +774,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Mire escape teleport (south)",
             "info": "Exit mire overworld",
             "link": "https://imgur.com/a/UAxEfyw"
@@ -787,7 +787,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorPortal",
             "glitchName": "Desert East mirror clip",
             "info": "Enter the normally inaccessible desert right exit using the mirror.",
             "link": "https://imgur.com/gallery/FFzs6EE"
@@ -800,7 +800,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Desert portal teleport (inverted)",
             "info": "Reach the desert inverted portal without flute.",
             "link": ""
@@ -813,7 +813,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Mire access teleport (south)",
             "info": "Reach the mire overworld screen without flute.",
             "link": "https://imgur.com/a/xpdT4UE"
@@ -826,7 +826,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Purple chest turn-in teleport",
             "info": "Turn in the purple chest quickly using the invisible purple chest mirror trick. Teleport to the out of bounds area and transition south and hold up to hop inbounds, then mirror next to the smith.",
             "link": ""
@@ -839,7 +839,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Stumpy shortcut teleport",
             "info": "Go straight from purple chest screen to the cave 45 screen.",
             "link": ""
@@ -891,7 +891,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Mittsless Smith swim clip",
             "info": "Swim through land to rescue the smith without mitts.",
             "link": ""
@@ -904,7 +904,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Bunny Stumpy swim clip",
             "info": "Swim clip as a bunny to reach stumpy without mirror or moon pearl.",
             "link": ""
@@ -917,7 +917,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Pegs bybass to hype cave pt1",
             "info": "Cross the hammerpegs without hammer by swimming.",
             "link": "https://www.youtube.com/watch?v=YMbBJm2LDMw"
@@ -930,7 +930,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Pegs bybass to hype cave pt2",
             "info": "Cross the hammerpegs without hammer by swimming.",
             "link": "https://www.youtube.com/watch?v=YMbBJm2LDMw"
@@ -956,7 +956,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Hammerless portal teleport (inverted)",
             "info": "Reach the light world portal without hammer in inverted.",
             "link": ""
@@ -969,7 +969,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "teleportDown",
             "glitchName": "Pegs bypass via fake flippers teleport",
             "info": "Bypass the hammerpegs by teleporting to a spot where you can fake flipper.",
             "link": "https://imgur.com/a/t5bqnGe"
@@ -982,7 +982,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Ice Palace flippers wrap",
             "info": "Screenwrap transition to reach ice palace without mitts or mirror. Requires flippers. Hardlock risk; follow the instructions closely.",
             "link": "https://imgur.com/a/NhXs8rI"
@@ -995,7 +995,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "owYBA",
             "glitchName": "Ice Palace YBA",
             "info": "Reach ice palace without flippers, mitts, or mirror using a YBA.",
             "link": "https://imgur.com/a/dOtjWlQ"
@@ -1008,7 +1008,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorWrap",
             "glitchName": "Ice Palace mirror wrap",
             "info": "Reach ice palace quickly from the dark world using a mirror wrap. Hardlock risk; avoid touching the broken transition.",
             "link": "https://imgur.com/a/ioDw2sZ"
@@ -1021,7 +1021,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Ice Palace swim clip (west)",
             "info": "Fake flipper swim clip through the ice palace wall to reach ice palace without flippers, mitts, or mirror.",
             "link": ""
@@ -1034,7 +1034,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "flippers",
             "glitchName": "Ice Palace swim clip (east)",
             "info": "Fake flipper swim clip through the ice palace wall to reach ice palace without flippers, mitts, or mirror.",
             "link": ""
@@ -1047,7 +1047,7 @@
         "direction": "No",
         "glitches": [
           {
-            "glitch": "boots",
+            "glitch": "mirrorPortal",
             "glitchName": "Overworld Kikiskip offset portal",
             "info": "Set a portal then offset yourself to clip into PoD entrance.",
             "link": "https://imgur.com/a/7Xd6Bow"

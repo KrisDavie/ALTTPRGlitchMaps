@@ -45,6 +45,48 @@ function App() {
     "",
   ]);
 
+  const handleMapChange = (map: "EG1" | "EG2" | "LW" | "DW") => {
+    setSelectedMap(map);
+    switch (map) {
+      case "EG1":
+      case "EG2":
+        setSelectedGlitches([
+          "redYBA",
+          "greenYBA",
+          "blueYBA",
+          "somaria",
+          "bomb",
+          "boots",
+          "spinGreenYBA",
+          "spinBlueYBA",
+          "quadrant",
+          "jingle",
+          "spinSomaria",
+          "statueDrag",
+          "somariaBlueYBA",
+          "hookpush-somaria",
+          "hookpush-boom",
+          "hookpush-push",
+        ]);
+        break;
+      case "LW":
+      case "DW":
+        setSelectedGlitches([
+          "boots",
+          "teleportUp",
+          "teleportDown",
+          "flippers",
+          "citrus",
+          "mirrorPortal",
+          "mirrorWrap",
+          "mirrorlessWrap",
+          "owYBA",
+          "bomb",
+        ]);
+        break;
+    }
+  };
+
   const Controls = ({ resetTransform }: { resetTransform: () => void }) => (
     <div className="controls" style={{ zIndex: 110 }}>
       <button className="controlsButton" onClick={() => resetTransform()}>
@@ -72,7 +114,7 @@ function App() {
         setSelectedGlitches={setSelectedGlitches}
         glitchText={glitchText}
         selectedMap={selectedMap}
-        setSelectedMap={setSelectedMap}
+        setSelectedMap={handleMapChange}
         transformComponentRef={transformComponentRef}
       />
       <TransformWrapper

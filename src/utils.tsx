@@ -26,6 +26,22 @@ const glitchToImage = (glitch: string) => {
       return "images/statue_drag.png";
     case "somariaBlueYBA":
       return "images/somaria_blue_pot.png";
+    case "teleportUp":
+      return "images/teleport_up.png";
+    case "teleportDown":
+      return "images/teleport_down.png";
+    case "flippers":
+      return "images/flippers.png";
+    case "citrus":
+      return "images/citrus.png";
+    case "mirrorPortal":
+      return "images/mirror_portal.png";
+    case "mirrorWrap":
+      return "images/mirror_wrap.png";
+    case "mirrorlessWrap":
+      return "images/mirrorless_wrap.png";
+    case "owYBA":
+      return "images/owYBA.png";
     default:
       return "images/somaria.png";
   }

@@ -116,12 +116,14 @@ function App() {
         selectedMap={selectedMap}
         setSelectedMap={handleMapChange}
         transformComponentRef={transformComponentRef}
+        currentScale={currentScale}
       />
       <TransformWrapper
         initialScale={initialScale}
         initialPositionX={
           (-curImageSize.width * initialScale) / 2 +
-          windowSize.current.width / 2
+          windowSize.current.width / 2 -
+          292
         }
         initialPositionY={
           (-curImageSize.height * initialScale) / 2 +

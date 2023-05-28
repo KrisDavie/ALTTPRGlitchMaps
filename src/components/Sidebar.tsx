@@ -20,6 +20,7 @@ interface SidebarProps {
   glitchText: string[];
   selectedMap: "EG1" | "EG2" | "LW" | "DW";
   setSelectedMap: (map: "EG1" | "EG2" | "LW" | "DW") => void;
+  currentScale: number;
 }
 
 function PageSidebar(props: SidebarProps) {
@@ -41,10 +42,22 @@ function PageSidebar(props: SidebarProps) {
   };
 
   const handleMapChange = (map: "EG1" | "EG2" | "LW" | "DW") => {
+    const oldMap = selectedMap;
     setSelectedMap(map);
-    const zoom = map === "LW" || map === "DW" ? 0.15 : 0.5;
+    // const zoom = transformComponentRef?.current?.state
+    //   ? transformComponentRef.current.state.scale
+    //   : map === "LW" || map === "DW"
+    //   ? 0.15
+    //   : 0.5;
+    if (
+      (map === "LW" || map === "DW") &&
+      (oldMap === "LW" || oldMap === "DW")
+    ) {
+      return;
+    }
+    const zoom = props.currentScale;
     transformComponentRef?.current?.setTransform(
-      -4096 * zoom + windowSize.current.width / 2,
+      -4096 * zoom + windowSize.current.width / 2 - 154,
       -4096 * zoom + windowSize.current.height / 2,
       zoom
     );

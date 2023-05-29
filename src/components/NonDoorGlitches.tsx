@@ -29,6 +29,9 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
     enabledGlitches: string[]
   ) => {
     // Do we have a single glitch? Then just use an icon
+    if (glitches.length === 0) {
+      return <div />;
+    }
     if (glitches.length === 1) {
       const glitch = glitches[0];
       if (enabledGlitches.includes(glitch["glitch"])) {
@@ -58,6 +61,7 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
         const index = i * 3 + j;
         const glitch = glitches[index];
         if (glitch) {
+          const id = `nondoor-glitches-${glitch["glitch"]}-${index}`;
           if (enabledGlitches.includes(glitch["glitch"])) {
             row.push(
               <div
@@ -69,23 +73,29 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
                     glitch["link"]
                   )
                 }
+                key={id}
               >
                 <Image
                   circular
                   src={glitchToImage(glitch["glitch"])}
                   alt={glitch["glitchName"]}
                   title={glitch["glitchName"]}
+                  style={{
+                    zIndex: 100,
+                  }}
                 />
               </div>
             );
           } else {
-            row.push(<div />);
+            row.push(<div key={id} />);
           }
         } else {
-          row.push(<div />);
+          row.push(
+            <div key={`nondoor-glitches-${glitches[0]["glitch"]}-${index}`} />
+          );
         }
       }
-      grid.push(<div>{row}</div>);
+      grid.push(<div key={`${glitches[0]["glitch"]}-col${i}`}>{row}</div>);
     }
     return grid;
   };
@@ -119,6 +129,7 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
                   location["direction"]
                 )}deg)`,
               }}
+              key={`${tile["tile"]}-${location["x"]}-${location["y"]}`}
             >
               {glitchGrid}
             </div>

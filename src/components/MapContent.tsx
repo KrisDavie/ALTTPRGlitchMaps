@@ -52,25 +52,25 @@ function MapContent(props: MapContentProps) {
   let mapImage = "";
   switch (selectedMap) {
     case "EG1":
-      mapImage = "images/eg_map_fully_annotated.png";
+      mapImage = "images/eg_map_fully_annotated";
       nonDoorGlitchData = eg1nonDoorGlitchData;
       doorGlitchData = eg1doorGlitchData;
       hookpushData = eg1hookpushData;
       doorData = eg1doorData;
       break;
     case "EG2":
-      mapImage = "images/eg2_map_fully_annotated.png";
+      mapImage = "images/eg2_map_fully_annotated";
       break;
     case "LW":
-      mapImage = "images/lightworld_large.png";
+      mapImage = "images/lightworld_large";
       nonDoorGlitchData = lwNonDoorGlitchData;
       break;
     case "DW":
-      mapImage = "images/darkworld_large.png";
+      mapImage = "images/darkworld_large";
       nonDoorGlitchData = dwNonDoorGlitchData;
       break;
     default:
-      mapImage = "images/eg_map_fully_annotated.png";
+      mapImage = "images/eg_map_fully_annotated";
   }
 
   if (selectedMap === "EG1") {
@@ -134,15 +134,19 @@ function MapContent(props: MapContentProps) {
         position: "relative",
       }}
     >
-      <img
-        src={mapImage}
-        alt={`${selectedMap} Map`}
-        id="image"
-        style={{
-          height: "100%",
-          paddingTop: `${selectedMap === "EG2" ? 3027 : 0}px`,
-        }}
-      />
+      <picture>
+        <source srcSet={`${mapImage}.webp`} type="image/webp" />
+        <source srcSet={`${mapImage}.png`} type="image/png" />
+        <img
+          src={`${mapImage}.png`}
+          alt={`${selectedMap} Map`}
+          id="image"
+          style={{
+            height: "100%",
+            paddingTop: `${selectedMap === "EG2" ? 3027 : 0}px`,
+          }}
+        />
+      </picture>
       {mapElements}
     </div>
   );

@@ -33,6 +33,7 @@ function HookPushLocations(props: HookPushLocationsProps) {
               info={location.info}
               link={location.link}
               setGlitchText={props.setGlitchText}
+              key={`${location.glitchName}-${location.pushType}`}
             />
           );
         }

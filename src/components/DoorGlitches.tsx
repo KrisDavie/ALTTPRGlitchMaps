@@ -31,6 +31,9 @@ function DoorGlitches(props: DoorGlitchesProps) {
     doorDirection: string
   ) => {
     // Do we have a single glitch? Then just use an icon
+    if (data.glitches.length === 0) {
+      return <div />;
+    }
     if (data.glitches.length === 1) {
       const glitch = data.glitches[0];
       if (enabledGlitches.includes(glitch["glitch"])) {
@@ -40,7 +43,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
             onClick={() =>
               handleClick(glitch["glitchName"], glitch["info"], glitch["link"])
             }
-            id={`door-glitches-${data["door"]}`}
+            key={`door-glitches-${data["door"]}`}
           >
             <Image
               circular
@@ -73,24 +76,27 @@ function DoorGlitches(props: DoorGlitchesProps) {
                     glitch["link"]
                   )
                 }
-                id={id}
+                key={id}
               >
                 <Image
                   circular
                   src={glitchToImage(glitch["glitch"])}
                   alt={glitch["glitchName"]}
                   title={glitch["glitchName"]}
+                  style={{
+                    zIndex: 100,
+                  }}
                 />
               </div>
             );
           } else {
-            row.push(<div id={id} />);
+            row.push(<div key={id} />);
           }
         } else {
-          row.push(<div id={id} />);
+          row.push(<div key={id} />);
         }
       }
-      grid.push(<div id={`door-glitches-${data["door"]}-col`}>{row}</div>);
+      grid.push(<div key={`door-glitches-${data["door"]}-col${i}`}>{row}</div>);
     }
     return grid;
   };
@@ -129,7 +135,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
                   borderRadius: "5px",
                   transform: `rotate(${directionToRotation(doorDirection)}deg)`,
                 }}
-                id={`${doorName}-glitch-grid}`}
+                key={`${doorName}-glitch-grid}`}
               >
                 {glitchGrid}
               </div>
@@ -148,7 +154,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
                 borderRadius: "5px",
                 backgroundColor: "rgba(0, 255, 0, 0.5)",
               }}
-              id={doorName}
+              key={doorName}
             />
           );
         }

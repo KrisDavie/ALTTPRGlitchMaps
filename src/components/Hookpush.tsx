@@ -1,40 +1,41 @@
-import React from "react";
+import React, { useCallback, useEffect } from "react";
 import { directionToRotation } from "../utils";
+import { SelectedGlitch, HookpushLocation } from "../types";
 
 type HookPushProps = {
-  type: string;
-  glitchName: string;
-  length: number;
-  direction: string;
+  locationData: HookpushLocation;
   x: number;
   y: number;
-  info?: string;
-  link?: string;
-  setGlitchText: React.Dispatch<React.SetStateAction<string[]>>;
+  setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
+  selectedGlitch: SelectedGlitch;
+  zoomToElement: (element: string, scale: number) => void;
+  selectedMap: "EG1" | "EG2" | "LW" | "DW";
 };
 
 function Hookpush({
-  type,
-  glitchName,
-  info,
-  link,
-  length,
-  direction,
+  locationData,
   x,
   y,
-  setGlitchText,
+  setSelectedGlitch,
+  selectedGlitch,
+  zoomToElement,
+  selectedMap,
 }: HookPushProps) {
-  function handleClick(
-    name: string | undefined,
-    text: string | undefined,
-    link: string | undefined
-  ) {
-    setGlitchText([
-      name ? name : "Untitled Glitch",
-      text ? text : "No extra info currently available...",
-      link ? link : "",
-    ]);
-  }
+  const handleClick = useCallback(
+    (glitch: HookpushLocation, id: string) => {
+      setSelectedGlitch({ glitch, id });
+      zoomToElement(
+        id,
+        selectedMap === "EG1" || selectedMap === "EG2" ? 1 : 0.6
+      );
+    },
+    [setSelectedGlitch, zoomToElement, selectedMap]
+  );
+
+  const type = locationData.pushType;
+  const length = locationData.distance;
+  const direction = locationData.direction;
+  const glitchName = locationData.glitchName;
 
   const misslot =
     type === "somaria"
@@ -67,6 +68,14 @@ function Hookpush({
         : `${length - lengthRemove}px`,
   };
 
+  const glitchId = `hp-${glitchName.replace(/ /g, "-")}`;
+
+  useEffect(() => {
+    if (selectedGlitch.id === glitchId && !selectedGlitch.glitch) {
+      handleClick(locationData, glitchId);
+    }
+  }, [selectedGlitch, glitchId, locationData, handleClick]);
+
   return (
     <div
       style={{
@@ -77,10 +86,13 @@ function Hookpush({
           direction === "No" || direction === "So" ? "column" : "row",
         top: y,
         left: x,
-        zIndex: 5,
+        zIndex: selectedGlitch.glitch === locationData ? 110 : 100,
+        outline:
+          selectedGlitch.glitch === locationData ? "5px solid white" : "",
       }}
       title={glitchName}
-      onClick={() => handleClick(glitchName, info, link)}
+      onClick={() => handleClick(locationData, glitchId)}
+      id={glitchId}
     >
       <img src={end} alt="end1" style={endpointStyle} />
       <div

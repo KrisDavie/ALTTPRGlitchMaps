@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 import {
   TransformWrapper,
@@ -7,8 +7,14 @@ import {
 } from "react-zoom-pan-pinch";
 import MapContent from "./components/MapContent";
 import PageSidebar from "./components/Sidebar";
+import { useSearchParams } from "./components/SearchParamsHook";
+import { SelectedGlitch } from "./types";
+import { useSearchParams as useReactSearchParams } from "react-router-dom";
 
 function App() {
+  const { map: mapParams, glitchName } = useSearchParams();
+  const [_, setSearchParams] = useReactSearchParams();
+
   const transformComponentRef = useRef<ReactZoomPanPinchRef | null>(null);
   const windowSize = useRef({
     width: window.innerWidth,
@@ -17,7 +23,7 @@ function App() {
   const initialScale = 0.5;
   const [currentScale, setCurrentScale] = useState(1);
   const [sidebarVisible, setSidebarVisible] = useState(true);
-  const [selectedGlitches, setSelectedGlitches] = useState<string[]>([
+  const [enabledGlitches, setEnabledGlitches] = useState<string[]>([
     "redYBA",
     "greenYBA",
     "blueYBA",
@@ -35,22 +41,20 @@ function App() {
     "hookpush-boom",
     "hookpush-push",
   ]);
-  const [selectedGlitch, setSelectedGlitch] = useState<string>("");
+  const [selectedGlitch, setSelectedGlitch] = useState<SelectedGlitch>({
+    glitch: undefined,
+    id: "",
+  });
   const [selectedMap, setSelectedMap] = useState<"EG1" | "EG2" | "LW" | "DW">(
     "EG1"
   );
-
-  const [glitchText, setGlitchText] = useState<string[]>([
-    "Click a glitch for informaton...",
-    "",
-  ]);
 
   const handleMapChange = (map: "EG1" | "EG2" | "LW" | "DW") => {
     setSelectedMap(map);
     switch (map) {
       case "EG1":
       case "EG2":
-        setSelectedGlitches([
+        setEnabledGlitches([
           "redYBA",
           "greenYBA",
           "blueYBA",
@@ -71,7 +75,7 @@ function App() {
         break;
       case "LW":
       case "DW":
-        setSelectedGlitches([
+        setEnabledGlitches([
           "boots",
           "teleportUp",
           "teleportDown",
@@ -106,13 +110,30 @@ function App() {
     height: selectedMap === "EG2" ? 1536 : 8192,
   };
 
+  useEffect(() => {
+    if (glitchName || mapParams) {
+      setSearchParams({});
+    }
+
+    if (mapParams && mapParams !== selectedMap) {
+      handleMapChange(mapParams);
+    }
+
+    if (glitchName && glitchName !== selectedGlitch?.glitch?.glitchName) {
+      setSelectedGlitch({ glitch: undefined, id: glitchName });
+    }
+
+    return () => {};
+  }, [mapParams, selectedMap, glitchName, selectedGlitch, setSearchParams]);
+
   return (
     <React.Fragment>
       <PageSidebar
         visible={sidebarVisible}
-        selectedGlitches={selectedGlitches}
-        setSelectedGlitches={setSelectedGlitches}
-        glitchText={glitchText}
+        selectedGlitch={selectedGlitch}
+        enabledGlitches={enabledGlitches}
+        setEnabledGlitches={setEnabledGlitches}
+        setSelectedGlitch={setSelectedGlitch}
         selectedMap={selectedMap}
         setSelectedMap={handleMapChange}
         transformComponentRef={transformComponentRef}
@@ -150,8 +171,9 @@ function App() {
               <MapContent
                 zoomToElement={zoomToElement}
                 currentScale={currentScale}
-                selectedGlitches={selectedGlitches}
-                setGlitchText={setGlitchText}
+                setSelectedGlitch={setSelectedGlitch}
+                selectedGlitch={selectedGlitch}
+                enabledGlitches={enabledGlitches}
                 selectedMap={selectedMap}
               />
             </TransformComponent>

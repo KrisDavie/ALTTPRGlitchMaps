@@ -8,6 +8,11 @@ interface DoorData {
   }[];
 }
 
+interface SelectedGlitch {
+  glitch?: GlitchData | HookpushLocation | undefined;
+  id?: string;
+}
+
 interface GlitchData {
   glitch: string;
   glitchName: string;
@@ -55,4 +60,5 @@ export type {
   HookpushData,
   HookpushLocation,
   NonDoorGlitchData,
+  SelectedGlitch,
 };

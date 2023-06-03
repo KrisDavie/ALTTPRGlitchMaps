@@ -1,28 +1,30 @@
 import React from "react";
-import { Image } from "semantic-ui-react";
 import { JSX } from "react/jsx-runtime";
-import { directionToRotation, glitchToImage } from "../utils";
-import { DoorGlitchData, DoorData } from "../types";
+import { directionToRotation } from "../utils";
+import { DoorGlitchData, DoorData, GlitchData, SelectedGlitch } from "../types";
+import GlitchImage from "./GlitchImage";
 
 interface DoorGlitchesProps {
-  selectedGlitches: string[];
-  setGlitchText: React.Dispatch<React.SetStateAction<string[]>>;
+  enabledGlitches: string[];
+  setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
+  zoomToElement: (element: string, scale: number) => void;
+  selectedGlitch: SelectedGlitch;
   doorGlitchData: DoorGlitchData[];
   doorData: DoorData[];
+  selectedMap: "EG1" | "EG2" | "LW" | "DW";
 }
 
 function DoorGlitches(props: DoorGlitchesProps) {
-  const { doorGlitchData, doorData } = props;
-  function handleClick(
-    name: string | undefined,
-    text: string | undefined,
-    link: string | undefined
-  ) {
-    props.setGlitchText([
-      name ? name : "Untitled Glitch",
-      text ? text : "No extra info currently available...",
-      link ? link : "",
-    ]);
+  const {
+    doorGlitchData,
+    doorData,
+    selectedGlitch,
+    zoomToElement,
+    selectedMap,
+  } = props;
+  function handleClick(glitch: GlitchData, id: string) {
+    props.setSelectedGlitch({ glitch, id });
+    zoomToElement(id, selectedMap === "EG1" || selectedMap === "EG2" ? 1 : 0.6);
   }
 
   const getGlitchesGrid = (
@@ -37,23 +39,14 @@ function DoorGlitches(props: DoorGlitchesProps) {
     if (data.glitches.length === 1) {
       const glitch = data.glitches[0];
       if (enabledGlitches.includes(glitch["glitch"])) {
-        return (
-          <div
-            title={glitch["glitchName"]}
-            onClick={() =>
-              handleClick(glitch["glitchName"], glitch["info"], glitch["link"])
-            }
-            key={`door-glitches-${data["door"]}`}
-          >
-            <Image
-              circular
-              src={glitchToImage(glitch["glitch"])}
-              style={{
-                zIndex: 100,
-              }}
-            />
-          </div>
-        );
+        const glitchId = `dg-${glitch["glitchName"].replace(/ /g, "-")}`;
+        <GlitchImage
+          glitch={glitch}
+          glitchId={glitchId}
+          key={glitchId}
+          selectedGlitch={selectedGlitch}
+          handleClick={handleClick}
+        />;
       }
     }
     // Otherwise, we have multiple glitches, so use a grid
@@ -66,28 +59,15 @@ function DoorGlitches(props: DoorGlitchesProps) {
         const id = `door-glitches-${data["door"]}-${index}`;
         if (glitch) {
           if (enabledGlitches.includes(glitch["glitch"])) {
+            const glitchId = `dg-${glitch["glitchName"].replace(/ /g, "-")}`;
             row.push(
-              <div
-                title={glitch["glitchName"]}
-                onClick={() =>
-                  handleClick(
-                    glitch["glitchName"],
-                    glitch["info"],
-                    glitch["link"]
-                  )
-                }
-                key={id}
-              >
-                <Image
-                  circular
-                  src={glitchToImage(glitch["glitch"])}
-                  alt={glitch["glitchName"]}
-                  title={glitch["glitchName"]}
-                  style={{
-                    zIndex: 100,
-                  }}
-                />
-              </div>
+              <GlitchImage
+                glitch={glitch}
+                glitchId={glitchId}
+                key={glitchId}
+                selectedGlitch={selectedGlitch}
+                handleClick={handleClick}
+              />
             );
           } else {
             row.push(<div key={id} />);
@@ -120,7 +100,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
         if (doorGlitches) {
           const glitchGrid = getGlitchesGrid(
             doorGlitches,
-            props.selectedGlitches,
+            props.enabledGlitches,
             doorDirection
           );
           if (glitchGrid) {
@@ -135,7 +115,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
                   borderRadius: "5px",
                   transform: `rotate(${directionToRotation(doorDirection)}deg)`,
                 }}
-                key={`${doorName}-glitch-grid}`}
+                key={`${doorName}-glitch-grid`}
               >
                 {glitchGrid}
               </div>

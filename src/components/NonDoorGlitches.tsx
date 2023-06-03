@@ -1,27 +1,24 @@
 import React from "react";
-import { Image } from "semantic-ui-react";
 import { JSX } from "react/jsx-runtime";
-import { directionToRotation, glitchToImage } from "../utils";
-import { NonDoorGlitchData, GlitchData } from "../types";
+import { directionToRotation } from "../utils";
+import { NonDoorGlitchData, GlitchData, SelectedGlitch } from "../types";
+import GlitchImage from "./GlitchImage";
 
 interface NonDoorGlitchesProps {
-  selectedGlitches: string[];
-  setGlitchText: React.Dispatch<React.SetStateAction<string[]>>;
+  enabledGlitches: string[];
+  setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
+  zoomToElement: (element: string, scale: number) => void;
+  selectedGlitch: SelectedGlitch;
   nonDoorGlitchData: NonDoorGlitchData[];
+  selectedMap: "EG1" | "EG2" | "LW" | "DW";
 }
 
 function NonDoorGlitches(props: NonDoorGlitchesProps) {
-  const { nonDoorGlitchData } = props;
-  function handleClick(
-    name: string | undefined,
-    text: string | undefined,
-    link: string | undefined
-  ) {
-    props.setGlitchText([
-      name ? name : "Untitled Glitch",
-      text ? text : "No extra info currently available...",
-      link ? link : "",
-    ]);
+  const { nonDoorGlitchData, selectedGlitch, zoomToElement, selectedMap } =
+    props;
+  function handleClick(glitch: GlitchData, id: string) {
+    props.setSelectedGlitch({ glitch, id });
+    zoomToElement(id, selectedMap === "EG1" || selectedMap === "EG2" ? 1 : 0.6);
   }
 
   const getGlitchesGrid = (
@@ -35,21 +32,16 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
     if (glitches.length === 1) {
       const glitch = glitches[0];
       if (enabledGlitches.includes(glitch["glitch"])) {
+        const glitchId = `ndg-${glitch["glitchName"].replace(/ /g, "-")}`;
+
         return (
-          <div
-            title={glitch["glitchName"]}
-            onClick={() =>
-              handleClick(glitch["glitchName"], glitch["info"], glitch["link"])
-            }
-          >
-            <Image
-              circular
-              src={glitchToImage(glitch["glitch"])}
-              style={{
-                zIndex: 100,
-              }}
-            />
-          </div>
+          <GlitchImage
+            glitch={glitch}
+            glitchId={glitchId}
+            key={glitchId}
+            selectedGlitch={selectedGlitch}
+            handleClick={handleClick}
+          />
         );
       }
     }
@@ -63,28 +55,15 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
         if (glitch) {
           const id = `nondoor-glitches-${glitch["glitch"]}-${index}`;
           if (enabledGlitches.includes(glitch["glitch"])) {
+            const glitchId = `ndg-${glitch["glitchName"].replace(/ /g, "-")}`;
             row.push(
-              <div
-                title={glitch["glitchName"]}
-                onClick={() =>
-                  handleClick(
-                    glitch["glitchName"],
-                    glitch["info"],
-                    glitch["link"]
-                  )
-                }
-                key={id}
-              >
-                <Image
-                  circular
-                  src={glitchToImage(glitch["glitch"])}
-                  alt={glitch["glitchName"]}
-                  title={glitch["glitchName"]}
-                  style={{
-                    zIndex: 100,
-                  }}
-                />
-              </div>
+              <GlitchImage
+                glitch={glitch}
+                glitchId={glitchId}
+                key={glitchId}
+                selectedGlitch={selectedGlitch}
+                handleClick={handleClick}
+              />
             );
           } else {
             row.push(<div key={id} />);
@@ -113,7 +92,7 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
       tile["locations"].forEach((location) => {
         const glitchGrid = getGlitchesGrid(
           location["glitches"],
-          props.selectedGlitches
+          props.enabledGlitches
         );
         if (glitchGrid) {
           overlays.push(

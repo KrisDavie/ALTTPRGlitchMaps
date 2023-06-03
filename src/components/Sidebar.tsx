@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import {
   Grid,
   Header,
@@ -7,43 +7,58 @@ import {
   Image,
   Button,
   Divider,
+  Icon,
 } from "semantic-ui-react";
 import "./Sidebar.css";
 import "../fonts/HyliaSerifBeta-Regular.otf";
 import { ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
+import { GlitchData, HookpushLocation, SelectedGlitch } from "../types";
 
 interface SidebarProps {
   transformComponentRef: React.RefObject<ReactZoomPanPinchRef>;
   visible: boolean;
-  selectedGlitches: string[];
-  setSelectedGlitches: React.Dispatch<React.SetStateAction<string[]>>;
-  glitchText: string[];
+  selectedGlitch: SelectedGlitch;
+  enabledGlitches: string[];
+  setEnabledGlitches: React.Dispatch<React.SetStateAction<string[]>>;
+  setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
   selectedMap: "EG1" | "EG2" | "LW" | "DW";
   setSelectedMap: (map: "EG1" | "EG2" | "LW" | "DW") => void;
   currentScale: number;
 }
 
 function PageSidebar(props: SidebarProps) {
-  const { selectedMap, setSelectedMap, transformComponentRef } = props;
+  const {
+    selectedMap,
+    setSelectedMap,
+    transformComponentRef,
+    selectedGlitch,
+    setSelectedGlitch,
+  } = props;
 
   const windowSize = useRef({
     width: window.innerWidth,
     height: window.innerHeight,
   });
 
+  const baseURL = window.location.origin;
+
   const handleClicks = (glitch: string) => {
-    if (props.selectedGlitches.includes(glitch)) {
-      props.setSelectedGlitches(
-        props.selectedGlitches.filter((g) => g !== glitch)
+    if (props.enabledGlitches.includes(glitch)) {
+      props.setEnabledGlitches(
+        props.enabledGlitches.filter((g) => g !== glitch)
       );
     } else {
-      props.setSelectedGlitches([...props.selectedGlitches, glitch]);
+      props.setEnabledGlitches([...props.enabledGlitches, glitch]);
     }
   };
 
   const handleMapChange = (map: "EG1" | "EG2" | "LW" | "DW") => {
+    if (selectedMap === map) {
+      return;
+    }
     const oldMap = selectedMap;
     setSelectedMap(map);
+    setSelectedGlitch({ glitch: undefined, id: "" });
     if (
       (map === "LW" || map === "DW") &&
       (oldMap === "LW" || oldMap === "DW")
@@ -51,9 +66,10 @@ function PageSidebar(props: SidebarProps) {
       return;
     }
     const zoom = map === "LW" || map === "DW" ? 0.15 : 0.5;
+    const mapHeight = map === "EG2" ? 1536 : 8192;
     transformComponentRef?.current?.setTransform(
       -4096 * zoom + windowSize.current.width / 2 - 154,
-      -4096 * zoom + windowSize.current.height / 2,
+      -(mapHeight / 2) * zoom + windowSize.current.height / 2,
       zoom
     );
   };
@@ -80,7 +96,7 @@ function PageSidebar(props: SidebarProps) {
           alt={title}
           title={title}
           style={{
-            filter: props.selectedGlitches.includes(id)
+            filter: props.enabledGlitches.includes(id)
               ? "grayscale(0%)"
               : "grayscale(100%) blur(2px)",
           }}
@@ -90,8 +106,8 @@ function PageSidebar(props: SidebarProps) {
     );
   };
 
-  const makeGlitchLink = (glitchText: string[]) => {
-    if (glitchText[2]) {
+  const makeGlitchLink = (glitchData: GlitchData | HookpushLocation) => {
+    if (glitchData.link) {
       return (
         <div
           className="side-glitchtext"
@@ -99,7 +115,7 @@ function PageSidebar(props: SidebarProps) {
         >
           {"More Info: "}
           <a
-            href={glitchText[2]}
+            href={glitchData.link}
             target="_blank"
             rel="noopener noreferrer"
             style={{
@@ -108,7 +124,7 @@ function PageSidebar(props: SidebarProps) {
               wordWrap: "break-word",
             }}
           >
-            {glitchText[2]}
+            {glitchData.link}
           </a>
         </div>
       );
@@ -185,7 +201,7 @@ function PageSidebar(props: SidebarProps) {
                   title="Misslot Hookpush"
                   verticalAlign="middle"
                   style={{
-                    filter: props.selectedGlitches.includes("hookpush-somaria")
+                    filter: props.enabledGlitches.includes("hookpush-somaria")
                       ? "grayscale(0%)"
                       : "grayscale(100%) blur(2px)",
                     padding: "12px 0px 0px 0px",
@@ -200,7 +216,7 @@ function PageSidebar(props: SidebarProps) {
                   title="0A Hookpush"
                   verticalAlign="middle"
                   style={{
-                    filter: props.selectedGlitches.includes("hookpush-boom")
+                    filter: props.enabledGlitches.includes("hookpush-boom")
                       ? "grayscale(0%)"
                       : "grayscale(100%) blur(2px)",
                     padding: "12px 0px 0px 0px",
@@ -215,7 +231,7 @@ function PageSidebar(props: SidebarProps) {
                   title="Hookpush"
                   verticalAlign="middle"
                   style={{
-                    filter: props.selectedGlitches.includes("hookpush-push")
+                    filter: props.enabledGlitches.includes("hookpush-push")
                       ? "grayscale(0%)"
                       : "grayscale(100%) blur(2px)",
                     padding: "12px 0px 0px 0px",
@@ -342,12 +358,29 @@ function PageSidebar(props: SidebarProps) {
               className="sidetext"
               style={{ letterSpacing: "0.1em" }}
             >
-              {props.glitchText[0] ? props.glitchText[0] : "Select a Glitch"}
+              {selectedGlitch.glitch ? (
+                <div>
+                  {selectedGlitch.glitch.glitchName}{" "}
+                  <a
+                    href={`${baseURL}/?map=${selectedMap}&glitch=${selectedGlitch.id}`}
+                  >
+                    <Icon name="share alternate" link></Icon>
+                  </a>
+                </div>
+              ) : (
+                "Select a Glitch"
+              )}
             </Header>
 
             <div>
-              {makeGlitchLink(props.glitchText)}
-              <p className="side-glitchtext">{props.glitchText[1]}</p>
+              {selectedGlitch.glitch
+                ? makeGlitchLink(selectedGlitch.glitch)
+                : null}
+              <p className="side-glitchtext">
+                {selectedGlitch.glitch
+                  ? selectedGlitch.glitch.info
+                  : "Click a glitch for information..."}
+              </p>
             </div>
           </Grid.Row>
           <Grid.Row>

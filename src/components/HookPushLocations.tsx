@@ -1,12 +1,15 @@
 import React from "react";
 import Hookpush from "./Hookpush";
 import { JSX } from "react/jsx-runtime";
-import { HookpushData } from "../types";
+import { HookpushData, SelectedGlitch } from "../types";
 
 interface HookPushLocationsProps {
-  selectedGlitches: string[];
-  setGlitchText: React.Dispatch<React.SetStateAction<string[]>>;
+  enabledGlitches: string[];
+  setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
+  zoomToElement: (element: string, scale: number) => void;
+  selectedGlitch: SelectedGlitch;
   hookpushData: HookpushData[];
+  selectedMap: "EG1" | "EG2" | "LW" | "DW";
 }
 
 function HookPushLocations(props: HookPushLocationsProps) {
@@ -21,18 +24,16 @@ function HookPushLocations(props: HookPushLocationsProps) {
       const top = tileY * tileHeight;
       const left = tileX * tileWidth;
       tile.locations.forEach((location) => {
-        if (props.selectedGlitches.includes(`hookpush-${location.pushType}`)) {
+        if (props.enabledGlitches.includes(`hookpush-${location.pushType}`)) {
           pushes.push(
             <Hookpush
-              direction={location.direction}
-              length={location.distance}
+              locationData={location}
               x={left + location.x}
               y={top + location.y}
-              glitchName={location.glitchName}
-              type={location.pushType}
-              info={location.info}
-              link={location.link}
-              setGlitchText={props.setGlitchText}
+              selectedMap={props.selectedMap}
+              zoomToElement={props.zoomToElement}
+              setSelectedGlitch={props.setSelectedGlitch}
+              selectedGlitch={props.selectedGlitch}
               key={`${location.glitchName}-${location.pushType}`}
             />
           );

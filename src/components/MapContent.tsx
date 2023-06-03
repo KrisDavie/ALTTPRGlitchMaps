@@ -4,6 +4,7 @@ import DropLocations from "./DropLocations";
 import DoorGlitches from "./DoorGlitches";
 import NonDoorGlitches from "./NonDoorGlitches";
 import HookPushLocations from "./HookPushLocations";
+import MapImage from "./MapImage";
 
 import eg1doorData from "../data/EG1/doorData.json";
 import eg1doorGlitchData from "../data/EG1/doorGlitchData.json";
@@ -13,12 +14,14 @@ import eg1nonDoorGlitchData from "../data/EG1/nonDoorGlitchData.json";
 import lwNonDoorGlitchData from "../data/LW/nonDoorGlitchData.json";
 
 import dwNonDoorGlitchData from "../data/DW/nonDoorGlitchData.json";
+import { SelectedGlitch } from "../types";
 
 interface MapContentProps {
   zoomToElement: (element: string) => void;
   currentScale: number;
-  selectedGlitches: string[];
-  setGlitchText: React.Dispatch<React.SetStateAction<string[]>>;
+  enabledGlitches: string[];
+  setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
+  selectedGlitch: SelectedGlitch;
   selectedMap: "EG1" | "EG2" | "LW" | "DW";
 }
 
@@ -26,9 +29,10 @@ function MapContent(props: MapContentProps) {
   const {
     zoomToElement,
     currentScale,
-    selectedGlitches,
-    setGlitchText,
+    enabledGlitches,
     selectedMap,
+    setSelectedGlitch,
+    selectedGlitch,
   } = props;
   const [selectedTile, setSelectedTile] = useState("");
   const [previousTile, setPreviousTile] = useState("");
@@ -97,10 +101,13 @@ function MapContent(props: MapContentProps) {
   if (doorData && doorGlitchData) {
     mapElements.push(
       <DoorGlitches
-        selectedGlitches={selectedGlitches}
-        setGlitchText={setGlitchText}
+        enabledGlitches={enabledGlitches}
+        zoomToElement={zoomToElement}
+        setSelectedGlitch={setSelectedGlitch}
+        selectedMap={selectedMap}
         doorData={doorData}
         doorGlitchData={doorGlitchData}
+        selectedGlitch={selectedGlitch}
         key="DoorGlitches"
       />
     );
@@ -108,9 +115,12 @@ function MapContent(props: MapContentProps) {
   if (hookpushData) {
     mapElements.push(
       <HookPushLocations
-        selectedGlitches={selectedGlitches}
-        setGlitchText={setGlitchText}
+        enabledGlitches={enabledGlitches}
+        zoomToElement={zoomToElement}
+        setSelectedGlitch={setSelectedGlitch}
+        selectedMap={selectedMap}
         hookpushData={hookpushData}
+        selectedGlitch={selectedGlitch}
         key="HookPushLocations"
       />
     );
@@ -118,9 +128,12 @@ function MapContent(props: MapContentProps) {
   if (nonDoorGlitchData) {
     mapElements.push(
       <NonDoorGlitches
-        selectedGlitches={selectedGlitches}
-        setGlitchText={setGlitchText}
+        enabledGlitches={enabledGlitches}
+        zoomToElement={zoomToElement}
+        setSelectedGlitch={setSelectedGlitch}
+        selectedMap={selectedMap}
         nonDoorGlitchData={nonDoorGlitchData}
+        selectedGlitch={selectedGlitch}
         key="NonDoorGlitches"
       />
     );
@@ -134,19 +147,14 @@ function MapContent(props: MapContentProps) {
         position: "relative",
       }}
     >
-      <picture>
-        <source srcSet={`${mapImage}.webp`} type="image/webp" />
-        <source srcSet={`${mapImage}.png`} type="image/png" />
-        <img
-          src={`${mapImage}.png`}
-          alt={`${selectedMap} Map`}
-          id="image"
-          style={{
-            height: "100%",
-            paddingTop: `${selectedMap === "EG2" ? 3027 : 0}px`,
-          }}
-        />
-      </picture>
+      <MapImage
+        src={`${mapImage}.png`}
+        width={8192}
+        height={selectedMap === "EG2" ? 1536 : 8192}
+        mapImage={mapImage}
+        selectedMap={selectedMap}
+      />
+
       {mapElements}
     </div>
   );

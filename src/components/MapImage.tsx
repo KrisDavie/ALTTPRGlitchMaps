@@ -19,6 +19,8 @@ const MapImage: React.FC<MapImageProps> = ({
   const [isSupported, setIsSupported] = useState(true);
 
   useEffect(() => {
+    const controller = new AbortController();
+    const signal = controller.signal;
     const canvas = canvasRef.current;
     const ctx = canvas?.getContext("2d");
 
@@ -30,6 +32,7 @@ const MapImage: React.FC<MapImageProps> = ({
         image.onload = async () => {
           try {
             const bitmap = await createImageBitmap(image);
+            if (signal.aborted) return;
             ctx.drawImage(bitmap, 0, 0, width, height);
           } catch (error) {
             setIsSupported(false);
@@ -39,7 +42,10 @@ const MapImage: React.FC<MapImageProps> = ({
         setIsSupported(false);
       }
     }
-  }, [src, width, height]);
+    return () => {
+      controller.abort();
+    };
+  }, [src, width, height, selectedMap]);
 
   if (!isSupported) {
     return (

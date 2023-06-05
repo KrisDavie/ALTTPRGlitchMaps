@@ -19,8 +19,8 @@ function HookPushLocations(props: HookPushLocationsProps) {
   const tileHeight = 8192 / 16;
   const createHookpushes = () => {
     hookpushData.forEach((tile) => {
-      const tileX = parseInt(tile["tile"].slice(-2, -1), 16);
-      const tileY = parseInt(tile["tile"].slice(-1), 16);
+      const tileX = parseInt(tile["tile"].slice(-1), 16);
+      const tileY = parseInt(tile["tile"].slice(-2, -1), 16);
       const top = tileY * tileHeight;
       const left = tileX * tileWidth;
       tile.locations.forEach((location) => {

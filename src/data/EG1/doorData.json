@@ -1,6 +1,6 @@
 [
     {
-        "tile": "tile-16",
+        "tile": "tile-61",
         "doors": [
             {
                 "x": 57,
@@ -35,7 +35,7 @@
         ]
     },
     {
-        "tile": "tile-06",
+        "tile": "tile-60",
         "doors": [
             {
                 "x": 454,
@@ -64,7 +64,7 @@
         ]
     },
     {
-        "tile": "tile-26",
+        "tile": "tile-62",
         "doors": [
             {
                 "x": 58,
@@ -93,7 +93,7 @@
         ]
     },
     {
-        "tile": "tile-25",
+        "tile": "tile-52",
         "doors": [
             {
                 "x": 57,
@@ -116,7 +116,7 @@
         ]
     },
     {
-        "tile": "tile-05",
+        "tile": "tile-50",
         "doors": [
             {
                 "x": 454,
@@ -133,7 +133,7 @@
         ]
     },
     {
-        "tile": "tile-10",
+        "tile": "tile-01",
         "doors": [
             {
                 "x": 56,
@@ -156,7 +156,7 @@
         ]
     },
     {
-        "tile": "tile-15",
+        "tile": "tile-51",
         "doors": [
             {
                 "x": 256,
@@ -173,7 +173,7 @@
         ]
     },
     {
-        "tile": "tile-27",
+        "tile": "tile-72",
         "doors": [
             {
                 "x": 256,
@@ -208,7 +208,7 @@
         ]
     },
     {
-        "tile": "tile-28",
+        "tile": "tile-82",
         "doors": [
             {
                 "x": 176,
@@ -237,7 +237,7 @@
         ]
     },
     {
-        "tile": "tile-18",
+        "tile": "tile-81",
         "doors": [
             {
                 "x": 510,
@@ -260,7 +260,7 @@
         ]
     },
     {
-        "tile": "tile-17",
+        "tile": "tile-71",
         "doors": [
             {
                 "x": 127,
@@ -301,7 +301,7 @@
         ]
     },
     {
-        "tile": "tile-07",
+        "tile": "tile-70",
         "doors": [
             {
                 "x": 168,
@@ -318,7 +318,7 @@
         ]
     },
     {
-        "tile": "tile-08",
+        "tile": "tile-80",
         "doors": [
             {
                 "x": 89,
@@ -329,7 +329,7 @@
         ]
     },
     {
-        "tile": "tile-14",
+        "tile": "tile-41",
         "doors": [
             {
                 "x": 256,
@@ -346,7 +346,7 @@
         ]
     },
     {
-        "tile": "tile-24",
+        "tile": "tile-42",
         "doors": [
             {
                 "x": 432,
@@ -363,7 +363,7 @@
         ]
     },
     {
-        "tile": "tile-23",
+        "tile": "tile-32",
         "doors": [
             {
                 "x": 256,
@@ -397,7 +397,7 @@
         ]
     },
     {
-        "tile": "tile-12",
+        "tile": "tile-21",
         "doors": [
             {
                 "x": 255,
@@ -467,7 +467,7 @@
         ]
     },
     {
-        "tile": "tile-20",
+        "tile": "tile-02",
         "doors": [
             {
                 "x": 383,
@@ -496,7 +496,7 @@
         ]
     },
     {
-        "tile": "tile-21",
+        "tile": "tile-12",
         "doors": [
             {
                 "x": 255,
@@ -513,7 +513,7 @@
         ]
     },
     {
-        "tile": "tile-9C",
+        "tile": "tile-C9",
         "doors": [
             {
                 "x": 255,
@@ -566,7 +566,7 @@
         ]
     },
     {
-        "tile": "tile-9B",
+        "tile": "tile-B9",
         "doors": [
             {
                 "x": 255,
@@ -595,7 +595,7 @@
         ]
     },
     {
-        "tile": "tile-9A",
+        "tile": "tile-A9",
         "doors": [
             {
                 "x": 256,
@@ -695,7 +695,7 @@
         ]
     },
     {
-        "tile": "tile-8A",
+        "tile": "tile-A8",
         "doors": [
             {
                 "x": 477,
@@ -754,7 +754,7 @@
         ]
     },
     {
-        "tile": "tile-AB",
+        "tile": "tile-BA",
         "doors": [
             {
                 "x": 127,
@@ -783,7 +783,7 @@
         ]
     },
     {
-        "tile": "tile-8B",
+        "tile": "tile-B8",
         "doors": [
             {
                 "x": 479,
@@ -829,7 +829,7 @@
         ]
     },
     {
-        "tile": "tile-AD",
+        "tile": "tile-DA",
         "doors": [
             {
                 "x": 127,
@@ -846,7 +846,7 @@
         ]
     },
     {
-        "tile": "tile-AF",
+        "tile": "tile-FA",
         "doors": [
             {
                 "x": 128,
@@ -863,7 +863,7 @@
         ]
     },
     {
-        "tile": "tile-9D",
+        "tile": "tile-D9",
         "doors": [
             {
                 "x": 478,
@@ -892,7 +892,7 @@
         ]
     },
     {
-        "tile": "tile-8D",
+        "tile": "tile-D8",
         "doors": [
             {
                 "x": 479,
@@ -921,7 +921,7 @@
         ]
     },
     {
-        "tile": "tile-8C",
+        "tile": "tile-C8",
         "doors": [
             {
                 "x": 384,
@@ -932,7 +932,7 @@
         ]
     },
     {
-        "tile": "tile-48",
+        "tile": "tile-84",
         "doors": [
             {
                 "x": 255,
@@ -967,7 +967,7 @@
         ]
     },
     {
-        "tile": "tile-47",
+        "tile": "tile-74",
         "doors": [
             {
                 "x": 255,
@@ -1026,7 +1026,7 @@
         ]
     },
     {
-        "tile": "tile-58",
+        "tile": "tile-85",
         "doors": [
             {
                 "x": 2,
@@ -1079,7 +1079,7 @@
         ]
     },
     {
-        "tile": "tile-57",
+        "tile": "tile-75",
         "doors": [
             {
                 "x": 384,
@@ -1114,7 +1114,7 @@
         ]
     },
     {
-        "tile": "tile-37",
+        "tile": "tile-73",
         "doors": [
             {
                 "x": 449,
@@ -1167,7 +1167,7 @@
         ]
     },
     {
-        "tile": "tile-38",
+        "tile": "tile-83",
         "doors": [
             {
                 "x": 449,
@@ -1208,7 +1208,7 @@
         ]
     },
     {
-        "tile": "tile-36",
+        "tile": "tile-63",
         "doors": [
             {
                 "x": 127,
@@ -1237,7 +1237,7 @@
         ]
     },
     {
-        "tile": "tile-35",
+        "tile": "tile-53",
         "doors": [
             {
                 "x": 127,
@@ -1278,7 +1278,7 @@
         ]
     },
     {
-        "tile": "tile-34",
+        "tile": "tile-43",
         "doors": [
             {
                 "x": 383,
@@ -1347,7 +1347,7 @@
         ]
     },
     {
-        "tile": "tile-78",
+        "tile": "tile-87",
         "doors": [
             {
                 "x": 143,
@@ -1388,7 +1388,7 @@
         ]
     },
     {
-        "tile": "tile-13",
+        "tile": "tile-31",
         "doors": [
             {
                 "x": 367,
@@ -1429,7 +1429,7 @@
         ]
     },
     {
-        "tile": "tile-72",
+        "tile": "tile-27",
         "doors": [
             {
                 "x": 446,
@@ -1446,7 +1446,7 @@
         ]
     },
     {
-        "tile": "tile-71",
+        "tile": "tile-17",
         "doors": [
             {
                 "x": 63,
@@ -1463,7 +1463,7 @@
         ]
     },
     {
-        "tile": "tile-70",
+        "tile": "tile-07",
         "doors": [
             {
                 "x": 431,
@@ -1474,7 +1474,7 @@
         ]
     },
     {
-        "tile": "tile-0E",
+        "tile": "tile-E0",
         "doors": [
             {
                 "x": 127,
@@ -1515,7 +1515,7 @@
         ]
     },
     {
-        "tile": "tile-0D",
+        "tile": "tile-D0",
         "doors": [
             {
                 "x": 383,
@@ -1556,7 +1556,7 @@
         ]
     },
     {
-        "tile": "tile-0C",
+        "tile": "tile-C0",
         "doors": [
             {
                 "x": 415,
@@ -1597,7 +1597,7 @@
         ]
     },
     {
-        "tile": "tile-0B",
+        "tile": "tile-B0",
         "doors": [
             {
                 "x": 383,
@@ -1650,7 +1650,7 @@
         ]
     },
     {
-        "tile": "tile-04",
+        "tile": "tile-40",
         "doors": [
             {
                 "x": 415,
@@ -1679,7 +1679,7 @@
         ]
     },
     {
-        "tile": "tile-03",
+        "tile": "tile-30",
         "doors": [
             {
                 "x": 127,
@@ -1708,7 +1708,7 @@
         ]
     },
     {
-        "tile": "tile-02",
+        "tile": "tile-20",
         "doors": [
             {
                 "x": 128,
@@ -1719,7 +1719,7 @@
         ]
     },
     {
-        "tile": "tile-A4",
+        "tile": "tile-4A",
         "doors": [
             {
                 "x": 256,
@@ -1784,7 +1784,7 @@
         ]
     },
     {
-        "tile": "tile-90",
+        "tile": "tile-09",
         "doors": [
             {
                 "x": 128,
@@ -1801,7 +1801,7 @@
         ]
     },
     {
-        "tile": "tile-A3",
+        "tile": "tile-3A",
         "doors": [
             {
                 "x": 256,
@@ -1830,7 +1830,7 @@
         ]
     },
     {
-        "tile": "tile-A0",
+        "tile": "tile-0A",
         "doors": [
             {
                 "x": 255,
@@ -1841,7 +1841,7 @@
         ]
     },
     {
-        "tile": "tile-A2",
+        "tile": "tile-2A",
         "doors": [
             {
                 "x": 127,
@@ -1882,7 +1882,7 @@
         ]
     },
     {
-        "tile": "tile-B2",
+        "tile": "tile-2B",
         "doors": [
             {
                 "x": 57,
@@ -1923,7 +1923,7 @@
         ]
     },
     {
-        "tile": "tile-B3",
+        "tile": "tile-3B",
         "doors": [
             {
                 "x": 127,
@@ -1940,7 +1940,7 @@
         ]
     },
     {
-        "tile": "tile-B4",
+        "tile": "tile-4B",
         "doors": [
             {
                 "x": 127,
@@ -1975,7 +1975,7 @@
         ]
     },
     {
-        "tile": "tile-A1",
+        "tile": "tile-1A",
         "doors": [
             {
                 "x": 127,
@@ -2040,7 +2040,7 @@
         ]
     },
     {
-        "tile": "tile-91",
+        "tile": "tile-19",
         "doors": [
             {
                 "x": 477,
@@ -2057,7 +2057,7 @@
         ]
     },
     {
-        "tile": "tile-A6",
+        "tile": "tile-6A",
         "doors": [
             {
                 "x": 335,
@@ -2080,7 +2080,7 @@
         ]
     },
     {
-        "tile": "tile-B1",
+        "tile": "tile-1B",
         "doors": [
             {
                 "x": 127,
@@ -2109,7 +2109,7 @@
         ]
     },
     {
-        "tile": "tile-B0",
+        "tile": "tile-0B",
         "doors": [
             {
                 "x": 408,
@@ -2156,7 +2156,7 @@
         ]
     },
     {
-        "tile": "tile-A5",
+        "tile": "tile-5A",
         "doors": [
             {
                 "x": 383,
@@ -2167,7 +2167,7 @@
         ]
     },
     {
-        "tile": "tile-82",
+        "tile": "tile-28",
         "doors": [
             {
                 "x": 256,
@@ -2184,7 +2184,7 @@
         ]
     },
     {
-        "tile": "tile-83",
+        "tile": "tile-38",
         "doors": [
             {
                 "x": 127,
@@ -2207,7 +2207,7 @@
         ]
     },
     {
-        "tile": "tile-73",
+        "tile": "tile-37",
         "doors": [
             {
                 "x": 476,
@@ -2260,7 +2260,7 @@
         ]
     },
     {
-        "tile": "tile-63",
+        "tile": "tile-36",
         "doors": [
             {
                 "x": 478,
@@ -2301,7 +2301,7 @@
         ]
     },
     {
-        "tile": "tile-64",
+        "tile": "tile-46",
         "doors": [
             {
                 "x": 256,
@@ -2336,7 +2336,7 @@
         ]
     },
     {
-        "tile": "tile-53",
+        "tile": "tile-35",
         "doors": [
             {
                 "x": 477,
@@ -2389,7 +2389,7 @@
         ]
     },
     {
-        "tile": "tile-43",
+        "tile": "tile-34",
         "doors": [
             {
                 "x": 477,
@@ -2412,7 +2412,7 @@
         ]
     },
     {
-        "tile": "tile-45",
+        "tile": "tile-54",
         "doors": [
             {
                 "x": 126,
@@ -2423,7 +2423,7 @@
         ]
     },
     {
-        "tile": "tile-62",
+        "tile": "tile-26",
         "doors": [
             {
                 "x": 256,
@@ -2488,7 +2488,7 @@
         ]
     },
     {
-        "tile": "tile-67",
+        "tile": "tile-76",
         "doors": [
             {
                 "x": 319,
@@ -2582,7 +2582,7 @@
         ]
     },
     {
-        "tile": "tile-61",
+        "tile": "tile-16",
         "doors": [
             {
                 "x": 383,
@@ -2635,7 +2635,7 @@
         ]
     },
     {
-        "tile": "tile-60",
+        "tile": "tile-06",
         "doors": [
             {
                 "x": 127,
@@ -2646,7 +2646,7 @@
         ]
     },
     {
-        "tile": "tile-85",
+        "tile": "tile-58",
         "doors": [
             {
                 "x": 127,
@@ -2705,7 +2705,7 @@
         ]
     },
     {
-        "tile": "tile-86",
+        "tile": "tile-68",
         "doors": [
             {
                 "x": 383,
@@ -2722,7 +2722,7 @@
         ]
     },
     {
-        "tile": "tile-76",
+        "tile": "tile-67",
         "doors": [
             {
                 "x": 383,
@@ -2751,7 +2751,7 @@
         ]
     },
     {
-        "tile": "tile-75",
+        "tile": "tile-57",
         "doors": [
             {
                 "x": 478,
@@ -2804,7 +2804,7 @@
         ]
     },
     {
-        "tile": "tile-65",
+        "tile": "tile-56",
         "doors": [
             {
                 "x": 477,
@@ -2845,7 +2845,7 @@
         ]
     },
     {
-        "tile": "tile-95",
+        "tile": "tile-59",
         "doors": [
             {
                 "x": 127,
@@ -2886,7 +2886,7 @@
         ]
     },
     {
-        "tile": "tile-94",
+        "tile": "tile-49",
         "doors": [
             {
                 "x": 127,
@@ -2927,7 +2927,7 @@
         ]
     },
     {
-        "tile": "tile-93",
+        "tile": "tile-39",
         "doors": [
             {
                 "x": 127,
@@ -2950,11 +2950,11 @@
         ]
     },
     {
-        "tile": "tile-92",
+        "tile": "tile-29",
         "doors": []
     },
     {
-        "tile": "tile-BD",
+        "tile": "tile-DB",
         "doors": [
             {
                 "x": 255,
@@ -2989,7 +2989,7 @@
         ]
     },
     {
-        "tile": "tile-BF",
+        "tile": "tile-FB",
         "doors": [
             {
                 "x": 256,
@@ -3006,7 +3006,7 @@
         ]
     },
     {
-        "tile": "tile-BC",
+        "tile": "tile-CB",
         "doors": [
             {
                 "x": 258,
@@ -3088,7 +3088,7 @@
         ]
     },
     {
-        "tile": "tile-CD",
+        "tile": "tile-DC",
         "doors": [
             {
                 "x": 125,
@@ -3117,7 +3117,7 @@
         ]
     },
     {
-        "tile": "tile-CB",
+        "tile": "tile-BC",
         "doors": [
             {
                 "x": 382,
@@ -3194,7 +3194,7 @@
         ]
     },
     {
-        "tile": "tile-CA",
+        "tile": "tile-AC",
         "doors": [
             {
                 "x": 382,
@@ -3264,7 +3264,7 @@
         ]
     },
     {
-        "tile": "tile-BA",
+        "tile": "tile-AB",
         "doors": [
             {
                 "x": 127,
@@ -3281,7 +3281,7 @@
         ]
     },
     {
-        "tile": "tile-46",
+        "tile": "tile-64",
         "doors": [
             {
                 "x": 127,
@@ -3310,7 +3310,7 @@
         ]
     },
     {
-        "tile": "tile-56",
+        "tile": "tile-65",
         "doors": [
             {
                 "x": 2,
@@ -3333,7 +3333,7 @@
         ]
     },
     {
-        "tile": "tile-54",
+        "tile": "tile-45",
         "doors": [
             {
                 "x": 127,
@@ -3444,7 +3444,7 @@
         ]
     },
     {
-        "tile": "tile-E0",
+        "tile": "tile-0E",
         "doors": [
             {
                 "x": 384,
@@ -3473,7 +3473,7 @@
         ]
     },
     {
-        "tile": "tile-E1",
+        "tile": "tile-1E",
         "doors": [
             {
                 "x": 128,
@@ -3520,7 +3520,7 @@
         ]
     },
     {
-        "tile": "tile-E2",
+        "tile": "tile-2E",
         "doors": [
             {
                 "x": 384,
@@ -3531,7 +3531,7 @@
         ]
     },
     {
-        "tile": "tile-F1",
+        "tile": "tile-1F",
         "doors": [
             {
                 "x": 30,
@@ -3560,7 +3560,7 @@
         ]
     },
     {
-        "tile": "tile-F2",
+        "tile": "tile-2F",
         "doors": [
             {
                 "x": 132,
@@ -3583,7 +3583,7 @@
         ]
     },
     {
-        "tile": "tile-E3",
+        "tile": "tile-3E",
         "doors": [
             {
                 "x": 384,
@@ -3606,7 +3606,7 @@
         ]
     },
     {
-        "tile": "tile-E4",
+        "tile": "tile-4E",
         "doors": [
             {
                 "x": 127,
@@ -3635,7 +3635,7 @@
         ]
     },
     {
-        "tile": "tile-E6",
+        "tile": "tile-6E",
         "doors": [
             {
                 "x": 447,
@@ -3652,7 +3652,7 @@
         ]
     },
     {
-        "tile": "tile-E5",
+        "tile": "tile-5E",
         "doors": [
             {
                 "x": 384,
@@ -3699,7 +3699,7 @@
         ]
     },
     {
-        "tile": "tile-F5",
+        "tile": "tile-5F",
         "doors": [
             {
                 "x": 33,
@@ -3722,7 +3722,7 @@
         ]
     },
     {
-        "tile": "tile-F3",
+        "tile": "tile-3F",
         "doors": [
             {
                 "x": 183,
@@ -3751,7 +3751,7 @@
         ]
     },
     {
-        "tile": "tile-E7",
+        "tile": "tile-7E",
         "doors": [
             {
                 "x": 72,
@@ -3786,7 +3786,7 @@
         ]
     },
     {
-        "tile": "tile-F7",
+        "tile": "tile-7F",
         "doors": [
             {
                 "x": 31,
@@ -3815,7 +3815,7 @@
         ]
     },
     {
-        "tile": "tile-E8",
+        "tile": "tile-8E",
         "doors": [
             {
                 "x": 384,
@@ -3832,7 +3832,7 @@
         ]
     },
     {
-        "tile": "tile-EA",
+        "tile": "tile-AE",
         "doors": [
             {
                 "x": 478,
@@ -3849,7 +3849,7 @@
         ]
     },
     {
-        "tile": "tile-FA",
+        "tile": "tile-AF",
         "doors": [
             {
                 "x": 33,
@@ -3866,7 +3866,7 @@
         ]
     },
     {
-        "tile": "tile-F9",
+        "tile": "tile-9F",
         "doors": [
             {
                 "x": 127,
@@ -3883,7 +3883,7 @@
         ]
     },
     {
-        "tile": "tile-E9",
+        "tile": "tile-9E",
         "doors": [
             {
                 "x": 478,
@@ -3924,7 +3924,7 @@
         ]
     },
     {
-        "tile": "tile-EB",
+        "tile": "tile-BE",
         "doors": [
             {
                 "x": 383,
@@ -3959,11 +3959,11 @@
         ]
     },
     {
-        "tile": "tile-ED",
+        "tile": "tile-DE",
         "doors": []
     },
     {
-        "tile": "tile-FB",
+        "tile": "tile-BF",
         "doors": [
             {
                 "x": 34,
@@ -3974,7 +3974,7 @@
         ]
     },
     {
-        "tile": "tile-EC",
+        "tile": "tile-CE",
         "doors": [
             {
                 "x": 384,
@@ -3985,7 +3985,7 @@
         ]
     },
     {
-        "tile": "tile-89",
+        "tile": "tile-98",
         "doors": [
             {
                 "x": 127,
@@ -4002,7 +4002,7 @@
         ]
     },
     {
-        "tile": "tile-2D",
+        "tile": "tile-D2",
         "doors": [
             {
                 "x": 398,
@@ -4019,7 +4019,7 @@
         ]
     },
     {
-        "tile": "tile-2C",
+        "tile": "tile-C2",
         "doors": [
             {
                 "x": 384,
@@ -4072,7 +4072,7 @@
         ]
     },
     {
-        "tile": "tile-3C",
+        "tile": "tile-C3",
         "doors": [
             {
                 "x": 33,
@@ -4137,7 +4137,7 @@
         ]
     },
     {
-        "tile": "tile-2B",
+        "tile": "tile-B2",
         "doors": [
             {
                 "x": 383,
@@ -4202,7 +4202,7 @@
         ]
     },
     {
-        "tile": "tile-3B",
+        "tile": "tile-B3",
         "doors": [
             {
                 "x": 33,
@@ -4243,7 +4243,7 @@
         ]
     },
     {
-        "tile": "tile-3A",
+        "tile": "tile-A3",
         "doors": [
             {
                 "x": 127,
@@ -4260,7 +4260,7 @@
         ]
     },
     {
-        "tile": "tile-2A",
+        "tile": "tile-A2",
         "doors": [
             {
                 "x": 477,
@@ -4295,7 +4295,7 @@
         ]
     },
     {
-        "tile": "tile-1A",
+        "tile": "tile-A1",
         "doors": [
             {
                 "x": 477,
@@ -4312,7 +4312,7 @@
         ]
     },
     {
-        "tile": "tile-1B",
+        "tile": "tile-B1",
         "doors": [
             {
                 "x": 384,
@@ -4353,7 +4353,7 @@
         ]
     },
     {
-        "tile": "tile-1C",
+        "tile": "tile-C1",
         "doors": [
             {
                 "x": 477,
@@ -4424,7 +4424,7 @@
         ]
     },
     {
-        "tile": "tile-1D",
+        "tile": "tile-D1",
         "doors": [
             {
                 "x": 383,
@@ -4471,7 +4471,7 @@
         ]
     },
     {
-        "tile": "tile-79",
+        "tile": "tile-97",
         "doors": [
             {
                 "x": 175,
@@ -4506,7 +4506,7 @@
         ]
     },
     {
-        "tile": "tile-39",
+        "tile": "tile-93",
         "doors": [
             {
                 "x": 255,
@@ -4547,7 +4547,7 @@
         ]
     },
     {
-        "tile": "tile-29",
+        "tile": "tile-92",
         "doors": [
             {
                 "x": 478,
@@ -4600,7 +4600,7 @@
         ]
     },
     {
-        "tile": "tile-19",
+        "tile": "tile-91",
         "doors": [
             {
                 "x": 478,
@@ -4617,7 +4617,7 @@
         ]
     },
     {
-        "tile": "tile-0A",
+        "tile": "tile-A0",
         "doors": [
             {
                 "x": 384,
@@ -4634,7 +4634,7 @@
         ]
     },
     {
-        "tile": "tile-09",
+        "tile": "tile-90",
         "doors": [
             {
                 "x": 127,
@@ -4645,7 +4645,7 @@
         ]
     },
     {
-        "tile": "tile-6D",
+        "tile": "tile-D6",
         "doors": [
             {
                 "x": 383,
@@ -4668,7 +4668,7 @@
         ]
     },
     {
-        "tile": "tile-6C",
+        "tile": "tile-C6",
         "doors": [
             {
                 "x": 127,
@@ -4709,7 +4709,7 @@
         ]
     },
     {
-        "tile": "tile-7C",
+        "tile": "tile-C7",
         "doors": [
             {
                 "x": 36,
@@ -4732,7 +4732,7 @@
         ]
     },
     {
-        "tile": "tile-7B",
+        "tile": "tile-B7",
         "doors": [
             {
                 "x": 127,
@@ -4743,7 +4743,7 @@
         ]
     },
     {
-        "tile": "tile-6B",
+        "tile": "tile-B6",
         "doors": [
             {
                 "x": 127,
@@ -4790,7 +4790,7 @@
         ]
     },
     {
-        "tile": "tile-51",
+        "tile": "tile-15",
         "doors": [
             {
                 "x": 126,
@@ -4813,7 +4813,7 @@
         ]
     },
     {
-        "tile": "tile-41",
+        "tile": "tile-14",
         "doors": [
             {
                 "x": 478,
@@ -4860,7 +4860,7 @@
         ]
     },
     {
-        "tile": "tile-31",
+        "tile": "tile-13",
         "doors": [
             {
                 "x": 476,
@@ -4877,7 +4877,7 @@
         ]
     },
     {
-        "tile": "tile-42",
+        "tile": "tile-24",
         "doors": [
             {
                 "x": 127,
@@ -4954,7 +4954,7 @@
         ]
     },
     {
-        "tile": "tile-32",
+        "tile": "tile-23",
         "doors": [
             {
                 "x": 383,
@@ -4971,7 +4971,7 @@
         ]
     },
     {
-        "tile": "tile-40",
+        "tile": "tile-04",
         "doors": [
             {
                 "x": 127,
@@ -5024,7 +5024,7 @@
         ]
     },
     {
-        "tile": "tile-5B",
+        "tile": "tile-B5",
         "doors": [
             {
                 "x": 127,
@@ -5041,7 +5041,7 @@
         ]
     },
     {
-        "tile": "tile-5C",
+        "tile": "tile-C5",
         "doors": [
             {
                 "x": 127,
@@ -5064,7 +5064,7 @@
         ]
     },
     {
-        "tile": "tile-5D",
+        "tile": "tile-D5",
         "doors": [
             {
                 "x": 127,
@@ -5081,7 +5081,7 @@
         ]
     },
     {
-        "tile": "tile-4C",
+        "tile": "tile-C4",
         "doors": [
             {
                 "x": 478,
@@ -5098,7 +5098,7 @@
         ]
     },
     {
-        "tile": "tile-4B",
+        "tile": "tile-B4",
         "doors": [
             {
                 "x": 255,
@@ -5115,7 +5115,7 @@
         ]
     },
     {
-        "tile": "tile-4A",
+        "tile": "tile-A4",
         "doors": [
             {
                 "x": 127,
@@ -5126,7 +5126,7 @@
         ]
     },
     {
-        "tile": "tile-C0",
+        "tile": "tile-0C",
         "doors": [
             {
                 "x": 255,
@@ -5155,7 +5155,7 @@
         ]
     },
     {
-        "tile": "tile-C8",
+        "tile": "tile-8C",
         "doors": [
             {
                 "x": 127,
@@ -5226,7 +5226,7 @@
         ]
     },
     {
-        "tile": "tile-D8",
+        "tile": "tile-8D",
         "doors": [
             {
                 "x": 33,
@@ -5273,7 +5273,7 @@
         ]
     },
     {
-        "tile": "tile-D9",
+        "tile": "tile-9D",
         "doors": [
             {
                 "x": 383,
@@ -5302,7 +5302,7 @@
         ]
     },
     {
-        "tile": "tile-C9",
+        "tile": "tile-9C",
         "doors": [
             {
                 "x": 478,
@@ -5331,7 +5331,7 @@
         ]
     },
     {
-        "tile": "tile-B8",
+        "tile": "tile-8B",
         "doors": [
             {
                 "x": 478,
@@ -5378,7 +5378,7 @@
         ]
     },
     {
-        "tile": "tile-B9",
+        "tile": "tile-9B",
         "doors": [
             {
                 "x": 127,
@@ -5407,7 +5407,7 @@
         ]
     },
     {
-        "tile": "tile-D7",
+        "tile": "tile-7D",
         "doors": [
             {
                 "x": 128,
@@ -5436,7 +5436,7 @@
         ]
     },
     {
-        "tile": "tile-B7",
+        "tile": "tile-7B",
         "doors": [
             {
                 "x": 478,
@@ -5459,7 +5459,7 @@
         ]
     },
     {
-        "tile": "tile-C7",
+        "tile": "tile-7C",
         "doors": [
             {
                 "x": 34,
@@ -5482,7 +5482,7 @@
         ]
     },
     {
-        "tile": "tile-C1",
+        "tile": "tile-1C",
         "doors": [
             {
                 "x": 384,
@@ -5529,7 +5529,7 @@
         ]
     },
     {
-        "tile": "tile-C2",
+        "tile": "tile-2C",
         "doors": [
             {
                 "x": 128,
@@ -5582,7 +5582,7 @@
         ]
     },
     {
-        "tile": "tile-C3",
+        "tile": "tile-3C",
         "doors": [
             {
                 "x": 386,
@@ -5599,7 +5599,7 @@
         ]
     },
     {
-        "tile": "tile-B6",
+        "tile": "tile-6B",
         "doors": [
             {
                 "x": 255,
@@ -5652,7 +5652,7 @@
         ]
     },
     {
-        "tile": "tile-B5",
+        "tile": "tile-5B",
         "doors": [
             {
                 "x": 384,
@@ -5669,7 +5669,7 @@
         ]
     },
     {
-        "tile": "tile-C5",
+        "tile": "tile-5C",
         "doors": [
             {
                 "x": 33,
@@ -5698,7 +5698,7 @@
         ]
     },
     {
-        "tile": "tile-D5",
+        "tile": "tile-5D",
         "doors": [
             {
                 "x": 383,
@@ -5739,7 +5739,7 @@
         ]
     },
     {
-        "tile": "tile-D6",
+        "tile": "tile-6D",
         "doors": [
             {
                 "x": 127,
@@ -5768,7 +5768,7 @@
         ]
     },
     {
-        "tile": "tile-C6",
+        "tile": "tile-6C",
         "doors": [
             {
                 "x": 480,
@@ -5809,7 +5809,7 @@
         ]
     },
     {
-        "tile": "tile-5A",
+        "tile": "tile-A5",
         "doors": [
             {
                 "x": 128,
@@ -5850,7 +5850,7 @@
         ]
     },
     {
-        "tile": "tile-59",
+        "tile": "tile-95",
         "doors": [
             {
                 "x": 383,
@@ -5867,7 +5867,7 @@
         ]
     },
     {
-        "tile": "tile-69",
+        "tile": "tile-96",
         "doors": [
             {
                 "x": 33,
@@ -5896,7 +5896,7 @@
         ]
     },
     {
-        "tile": "tile-D3",
+        "tile": "tile-3D",
         "doors": [
             {
                 "x": 384,
@@ -5949,7 +5949,7 @@
         ]
     },
     {
-        "tile": "tile-D4",
+        "tile": "tile-4D",
         "doors": [
             {
                 "x": 128,
@@ -5972,7 +5972,7 @@
         ]
     },
     {
-        "tile": "tile-6A",
+        "tile": "tile-A6",
         "doors": [
             {
                 "x": 384,
@@ -5983,7 +5983,7 @@
         ]
     },
     {
-        "tile": "tile-C4",
+        "tile": "tile-4C",
         "doors": [
             {
                 "x": 480,
@@ -6000,7 +6000,7 @@
         ]
     },
     {
-        "tile": "tile-D1",
+        "tile": "tile-1D",
         "doors": [
             {
                 "x": 383,
@@ -6017,7 +6017,7 @@
         ]
     },
     {
-        "tile": "tile-D0",
+        "tile": "tile-0D",
         "doors": [
             {
                 "x": 127,

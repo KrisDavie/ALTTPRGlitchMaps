@@ -85,8 +85,8 @@ function NonDoorGlitches(props: NonDoorGlitchesProps) {
     const tileHeight = 8192 / 16;
     nonDoorGlitchData.forEach((tile) => {
       // Extract last 2 characters of tile name
-      const tileX = parseInt(tile["tile"].slice(-2, -1), 16);
-      const tileY = parseInt(tile["tile"].slice(-1), 16);
+      const tileX = parseInt(tile["tile"].slice(-1), 16);
+      const tileY = parseInt(tile["tile"].slice(-2, -1), 16);
       const top = tileY * tileHeight;
       const left = tileX * tileWidth;
       tile["locations"].forEach((location) => {

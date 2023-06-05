@@ -1,6 +1,6 @@
 [
   {
-    "tile": "tile-D0",
+    "tile": "tile-0D",
     "locations": [
       {
         "x": 210,
@@ -18,7 +18,7 @@
     ]
   },
   {
-    "tile": "tile-E0",
+    "tile": "tile-0E",
     "locations": [
       {
         "x": 310,
@@ -36,7 +36,7 @@
     ]
   },
   {
-    "tile": "tile-02",
+    "tile": "tile-20",
     "locations": [
       {
         "x": 210,
@@ -54,7 +54,7 @@
     ]
   },
   {
-    "tile": "tile-72",
+    "tile": "tile-27",
     "locations": [
       {
         "x": 142,
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "tile": "tile-A2",
+    "tile": "tile-2A",
     "locations": [
       {
         "x": 256,
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "tile": "tile-A3",
+    "tile": "tile-3A",
     "locations": [
       {
         "x": 256,
@@ -108,7 +108,7 @@
     ]
   },
   {
-    "tile": "tile-B3",
+    "tile": "tile-3B",
     "locations": [
       {
         "x": 128,
@@ -126,7 +126,7 @@
     ]
   },
   {
-    "tile": "tile-D4",
+    "tile": "tile-4D",
     "locations": [
       {
         "x": 80,
@@ -144,7 +144,7 @@
     ]
   },
   {
-    "tile": "tile-A6",
+    "tile": "tile-6A",
     "locations": [
       {
         "x": 450,
@@ -162,7 +162,7 @@
     ]
   },
   {
-    "tile": "tile-46",
+    "tile": "tile-64",
     "locations": [
       {
         "x": 50,
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "tile": "tile-56",
+    "tile": "tile-65",
     "locations": [
       {
         "x": 460,
@@ -216,7 +216,7 @@
     ]
   },
   {
-    "tile": "tile-79",
+    "tile": "tile-97",
     "locations": [
       {
         "x": 40,
@@ -234,7 +234,7 @@
     ]
   },
   {
-    "tile": "tile-6C",
+    "tile": "tile-C6",
     "locations": [
       {
         "x": 400,
@@ -252,7 +252,7 @@
     ]
   },
   {
-    "tile": "tile-6D",
+    "tile": "tile-D6",
     "locations": [
       {
         "x": 386,
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "tile": "tile-9B",
+    "tile": "tile-B9",
     "locations": [
       {
         "x": 280,
@@ -288,7 +288,7 @@
     ]
   },
   {
-    "tile": "tile-FE",
+    "tile": "tile-EF",
     "locations": [
       {
         "x": 324,
@@ -324,7 +324,7 @@
     ]
   },
   {
-    "tile": "tile-AE",
+    "tile": "tile-EA",
     "locations": [
       {
         "x": 175,
@@ -342,7 +342,7 @@
     ]
   },
   {
-    "tile": "tile-9F",
+    "tile": "tile-F9",
     "locations": [
       {
         "x": 175,
@@ -360,7 +360,7 @@
     ]
   },
   {
-    "tile": "tile-13",
+    "tile": "tile-31",
     "locations": [
       {
         "x": 430,

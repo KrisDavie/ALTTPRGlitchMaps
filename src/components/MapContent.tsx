@@ -10,6 +10,9 @@ import eg1doorData from "../data/EG1/doorData.json";
 import eg1doorGlitchData from "../data/EG1/doorGlitchData.json";
 import eg1hookpushData from "../data/EG1/hookpushData.json";
 import eg1nonDoorGlitchData from "../data/EG1/nonDoorGlitchData.json";
+import eg1tileData from "../data/EG1/tileData.json";
+
+import eg2tileData from "../data/EG2/tileData.json";
 
 import lwNonDoorGlitchData from "../data/LW/nonDoorGlitchData.json";
 
@@ -61,6 +64,7 @@ function MapContent(props: MapContentProps) {
       doorGlitchData = eg1doorGlitchData;
       hookpushData = eg1hookpushData;
       doorData = eg1doorData;
+
       break;
     case "EG2":
       mapImage = "images/eg2_map_fully_annotated";
@@ -77,12 +81,14 @@ function MapContent(props: MapContentProps) {
       mapImage = "images/eg_map_fully_annotated";
   }
 
-  if (selectedMap === "EG1") {
+  if (selectedMap === "EG1" || selectedMap === "EG2") {
     mapElements.push(
       <TileOverlays
         selectedTile={selectedTile}
+        previousTile={previousTile}
         highlightTile={highlightTile}
         key="TileOverlays"
+        egMap={selectedMap}
       />
     );
     mapElements.push(
@@ -94,6 +100,7 @@ function MapContent(props: MapContentProps) {
         }
         selectedTile={selectedTile}
         previousTile={previousTile}
+        tileData={selectedMap === "EG1" ? eg1tileData : eg2tileData}
         key="DropLocations"
       />
     );

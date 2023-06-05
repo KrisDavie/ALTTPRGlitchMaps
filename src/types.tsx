@@ -20,6 +20,11 @@ interface GlitchData {
   link?: string;
 }
 
+interface TileData {
+  id: string;
+  dropTarget: string;
+}
+
 interface DoorGlitchData {
   door: string;
   glitches: GlitchData[];
@@ -61,4 +66,5 @@ export type {
   HookpushLocation,
   NonDoorGlitchData,
   SelectedGlitch,
+  TileData,
 };

@@ -1053,6 +1053,19 @@
             "link": "https://imgur.com/a/7Xd6Bow"
           }
         ]
+      },
+      {
+        "x": 3254,
+        "y": 261,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "DW Ether DMD to Bumper Ledge",
+            "info": "Clip from DW DMD directly to the bumper ledge item.",
+            "link": "https://imgur.com/a/q4Nkngg"
+          }
+        ]
       }
     ]
   }

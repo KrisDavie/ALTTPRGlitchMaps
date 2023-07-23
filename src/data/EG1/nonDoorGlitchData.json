@@ -376,5 +376,23 @@
         ]
       }
     ]
+  },
+  {
+    "tile": "tile-55",
+    "locations": [
+      {
+        "x": 85,
+        "y": 435,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "boots",
+            "glitchName": "Uncle Jump",
+            "info": "Clip into the rail in the secret passage to arm EG.",
+            "link": "https://www.twitch.tv/videos/1606846201"
+          }
+        ]
+      }
+    ]
   }
 ]

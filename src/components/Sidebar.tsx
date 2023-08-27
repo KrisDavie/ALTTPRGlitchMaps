@@ -339,6 +339,15 @@ function PageSidebar(props: SidebarProps) {
               {mapButton("LW")}
               {mapButton("DW")}
             </Button.Group>
+            <Header
+              as="h5"
+              textAlign="left"
+              inverted
+              className="side-glitchtext"
+              style={{ height: "58%", margin: "7px 0px 0px 0px" }}
+            >
+              Annotated EG images created by kan
+            </Header>
           </Grid.Row>
           <Divider />
           <Grid.Row style={{ height: "58%", padding: "5px 0px 0px 0px" }}>

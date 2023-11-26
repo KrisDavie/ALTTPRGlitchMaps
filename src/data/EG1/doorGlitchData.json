@@ -435,18 +435,6 @@
         "door": "Eastern Courtyard WN",
         "glitches": [
             {
-                "glitch": "greenYBA",
-                "glitchName": "Bowless EP QG pt 2 YBA",
-                "info": "YBA without transitioning in the deep door after performing the quadrant glitch in gifted with greenies. Progress to the back of the dungeon and use your broken camera to bypass the eyegores.",
-                "link": "https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"
-            },
-            {
-                "glitch": "somaria",
-                "glitchName": "Bowless EP QG pt 2 STC",
-                "info": "STC without transitioning in the deep door after performing the quadrant glitch in gifted with greenies. Do the quadrant glitch again in GYG, then progress to the back of the dungeon and use your broken camera to bypass the eyegores.",
-                "link": "https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"
-            },
-            {
                 "glitch": "somaria",
                 "glitchName": "Delete EP BK door STC",
                 "info": "Trigger the big key door text box, then STC west to delete the door. Mirror or death warp on bombs to reset dungeon sprites. West supertile STCs require careful management of the door timer variable to avoid hardlock.",

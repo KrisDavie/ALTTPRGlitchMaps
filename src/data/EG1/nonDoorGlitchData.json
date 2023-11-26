@@ -190,7 +190,7 @@
           {
             "glitch": "boots",
             "glitchName": "TT to DP Right Clip",
-            "info": "Reach the DP right side chests without small key.",
+            "info": "Reach the DP right side chests without a small key. This will result in a softlock if you got here via the DP to TT STC.",
             "link": "https://clips.twitch.tv/HungryGloriousAlbatrossNotLikeThis-qBZOXEqzM34OWrsK"
           }
         ]

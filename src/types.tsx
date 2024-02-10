@@ -17,7 +17,7 @@ interface GlitchData {
   glitch: string;
   glitchName: string;
   info?: string;
-  link?: string;
+  link?: string[];
 }
 
 interface TileData {
@@ -50,7 +50,7 @@ interface HookpushLocation {
   distance: number;
   glitchName: string;
   info?: string;
-  link?: string;
+  link?: string[];
 }
 
 interface HookpushData {

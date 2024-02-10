@@ -114,18 +114,26 @@ function PageSidebar(props: SidebarProps) {
           style={{ padding: "0px 0px 10px 0px" }}
         >
           {"More Info: "}
-          <a
-            href={glitchData.link}
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{
-              color: "white",
-              textDecoration: "underline",
-              wordWrap: "break-word",
-            }}
-          >
-            {glitchData.link}
-          </a>
+          {glitchData.link.map((link, i) => {
+            return (
+              <>
+              <a
+                href={link}
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                  color: "white",
+                  textDecoration: "underline",
+                  wordWrap: "break-word",
+                }}
+                key={i}
+              >
+                {link}
+              </a>
+              <br />
+              </>
+            );
+          })}
         </div>
       );
     }
@@ -304,7 +312,7 @@ function PageSidebar(props: SidebarProps) {
       visible={props.visible}
       width="wide"
     >
-      <Grid columns={1} rows={4} container style={{ height: "99vh" }}>
+      <Grid columns={1} rows={4} container >
         <Grid.Column>
           <Grid.Row style={{ padding: "5px 0px 15px 0px" }}>
             <Header
@@ -350,7 +358,7 @@ function PageSidebar(props: SidebarProps) {
             </Header>
           </Grid.Row>
           <Divider />
-          <Grid.Row style={{ height: "58%", padding: "5px 0px 0px 0px" }}>
+          <Grid.Row stretched style={{padding: "5px 0px 0px 0px" }}>
             <Header
               as="h2"
               textAlign="left"
@@ -392,7 +400,7 @@ function PageSidebar(props: SidebarProps) {
               </p>
             </div>
           </Grid.Row>
-          <Grid.Row>
+          <Grid.Row verticalAlign='bottom' style={{padding: "45px 0px 0px 0px" }}>
             <Header
               as="h2"
               textAlign="left"

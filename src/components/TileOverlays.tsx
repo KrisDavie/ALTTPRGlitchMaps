@@ -11,13 +11,13 @@ function TileOverlays(props: TileOverlaysProps) {
   const tileWidth = 8192 / 16;
   const tileHeight = 8192 / 16;
 
-  const makeTile = (tile: string) => {
+  const makeTile = (tile: string, kind: string) => {
     const top = parseInt(tile[5], 16) * tileHeight;
     const left = parseInt(tile[6], 16) * tileWidth;
     return (
       <div
         id={tile}
-        key={`${tile}-overlay`}
+        key={`${tile}-${kind}-overlay`}
         style={{
           position: "absolute",
           top,
@@ -38,8 +38,8 @@ function TileOverlays(props: TileOverlaysProps) {
 
   return (
     <div>
-      {makeTile(selectedTile)}
-      {makeTile(previousTile)}
+      {makeTile(selectedTile, "selected")}
+      {makeTile(previousTile, "previous")}
     </div>
   );
 }

@@ -11,7 +11,7 @@
             "glitch": "boots",
             "glitchName": "C L I P E",
             "info": "Clip out of the arena after defeating Aga 2 to save a few seconds on the bat cutscene. Avoid transitioning east.",
-            "link": "https://www.youtube.com/watch?v=SsPAiwDi3IU"
+            "link": ["https://www.youtube.com/watch?v=SsPAiwDi3IU"]
           }
         ]
       }
@@ -29,7 +29,7 @@
             "glitch": "boots",
             "glitchName": "IP Lobby Clip",
             "info": "Skip the freezors in ice lobby.",
-            "link": "https://imgur.com/gallery/SWGuF0c"
+            "link": ["https://imgur.com/gallery/SWGuF0c"]
           }
         ]
       }
@@ -47,7 +47,7 @@
             "glitch": "boots",
             "glitchName": "Aga 1 to Sewers Clipe",
             "info": "Part of the dungeon ID swapping sequence.",
-            "link": "https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit"
+            "link": ["https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit"]
           }
         ]
       }
@@ -65,7 +65,7 @@
             "glitch": "boots",
             "glitchName": "Hera to Swamp Clip",
             "info": "Reach the first floodgate of swamp from hera to skip hammer or unlock from the inside.",
-            "link": "https://imgur.com/a/ArY1Fvy"
+            "link": ["https://imgur.com/a/ArY1Fvy"]
           }
         ]
       }
@@ -83,7 +83,7 @@
             "glitch": "quadrant",
             "glitchName": "PoD Bumper Quadrant Glitch",
             "info": "Use quadrant glitch to break camera and reach hookshot cave from pod.",
-            "link": "https://clips.twitch.tv/DeliciousDarkRutabagaAMPEnergy-H7oOUdDRjJHIXzjy"
+            "link": ["https://clips.twitch.tv/DeliciousDarkRutabagaAMPEnergy-H7oOUdDRjJHIXzjy"]
           }
         ]
       }
@@ -101,7 +101,7 @@
             "glitch": "quadrant",
             "glitchName": "Quadrant Glitchin' Turtle Power",
             "info": "Use quadrant glitch to break camera and reach hookshot cave from pod.",
-            "link": "https://clips.twitch.tv/AltruisticStrangeKimchiKeepo-V4m7iCwXX5DiXv4y"
+            "link": ["https://clips.twitch.tv/AltruisticStrangeKimchiKeepo-V4m7iCwXX5DiXv4y"]
           }
         ]
       }
@@ -119,7 +119,7 @@
             "glitch": "quadrant",
             "glitchName": "PoD Double Quadrant Glitch",
             "info": "Reach hookshot cave and ice armos using two quadrant glitches.",
-            "link": "https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"
+            "link": ["https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"]
           }
         ]
       }
@@ -137,7 +137,7 @@
             "glitch": "boots",
             "glitchName": "Moldorm 2 to G2 or Pit Clip",
             "info": "Teleport down to backtrack GT climb or up to reach the pit.",
-            "link": ""
+            "link": [""]
           }
         ]
       }
@@ -155,7 +155,7 @@
             "glitch": "boots",
             "glitchName": "PoD Basement Clip",
             "info": "Clip through the rail to reach the big key door in cave state or skip hammer and bow.",
-            "link": "https://github.com/FoxLisk/alttp-notes/blob/master/glitches/clip/basement_clip.md"
+            "link": ["https://github.com/FoxLisk/alttp-notes/blob/master/glitches/clip/basement_clip.md"]
           }
         ]
       }
@@ -173,7 +173,7 @@
             "glitch": "boots",
             "glitchName": "TT to DP Clip",
             "info": "Teleport to DP from TT.",
-            "link": "https://imgur.com/a/ArY1Fvy"
+            "link": ["https://imgur.com/a/ArY1Fvy"]
           }
         ]
       }
@@ -191,7 +191,7 @@
             "glitch": "boots",
             "glitchName": "TT to DP Right Clip",
             "info": "Reach the DP right side chests without a small key. This will result in a softlock if you got here via the DP to TT STC.",
-            "link": "https://clips.twitch.tv/HungryGloriousAlbatrossNotLikeThis-qBZOXEqzM34OWrsK"
+            "link": ["https://clips.twitch.tv/HungryGloriousAlbatrossNotLikeThis-qBZOXEqzM34OWrsK"]
           }
         ]
       }
@@ -209,7 +209,7 @@
             "glitch": "quadrant",
             "glitchName": "Bowless EP Quadrant Glitch",
             "info": "Face right at coordinate 300 and walk up with sword out and select buffer when near the eyegore. Release the spin on the first tink frame",
-            "link": "https://imgur.com/a/JlmBsh8"
+            "link": ["https://imgur.com/a/JlmBsh8"]
           }
         ]
       }
@@ -227,7 +227,7 @@
             "glitch": "boots",
             "glitchName": "Mire to Hera Clip",
             "info": "Hugging the left railing, dash down and bonk off the south floor. Dashturn to face right, throw a bomb, walk down, and dash into the bomb. Hold upleft while getting clipped into the wall. Bomb clip requires wall moved. Alternatively, do a dash clip on the left slope.",
-            "link": "https://imgur.com/a/ArY1Fvy"
+            "link": ["https://imgur.com/a/ArY1Fvy"]
           }
         ]
       }
@@ -245,7 +245,7 @@
             "glitch": "quadrant",
             "glitchName": "Aga 2 QG pt 1",
             "info": "Quadrant glitch at coordinate 1900, then STC north without transitioning and fall in the pit below you. After falling, navigate left to Aga 2.",
-            "link": "https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"
+            "link": ["https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"]
           }
         ]
       }
@@ -263,7 +263,7 @@
             "glitch": "quadrant",
             "glitchName": "Lava Dive Fast QG pt 1",
             "info": "",
-            "link": "https://www.youtube.com/watch?v=OpGfIKAwt-o"
+            "link": ["https://www.youtube.com/watch?v=OpGfIKAwt-o"]
           }
         ]
       }
@@ -281,7 +281,7 @@
             "glitch": "quadrant",
             "glitchName": "EP Cannonball QG",
             "info": "Shortcut EP with a quadrant glitch in cannonball room.",
-            "link": "https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"
+            "link": ["https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"]
           }
         ]
       }
@@ -299,7 +299,7 @@
             "glitch": "boots",
             "glitchName": "Paradox Clip to reach switch",
             "info": "Teleport up to hit the switch without a ranged weapon.",
-            "link": "https://imgur.com/a/ArY1Fvy"
+            "link": ["https://imgur.com/a/ArY1Fvy"]
           }
         ]
       }
@@ -317,7 +317,7 @@
             "glitch": "boots",
             "glitchName": "Paradox Block Skip Clip",
             "info": "Teleport up to skip the block when you don't have mirror.",
-            "link": "https://imgur.com/a/ArY1Fvy"
+            "link": ["https://imgur.com/a/ArY1Fvy"]
           }
         ]
       }
@@ -335,7 +335,7 @@
             "glitch": "boots",
             "glitchName": "Spectacle Rock Shortcut Clip",
             "info": "Use kikiskip cues to bomb clip to reach the item quickly without hovering.",
-            "link": "https://imgur.com/gallery/zhPadYI"
+            "link": ["https://imgur.com/gallery/zhPadYI"]
           }
         ]
       }
@@ -353,7 +353,7 @@
             "glitch": "boots",
             "glitchName": "Kikiskip",
             "info": "Reach PoD in cavestate from the bottom of spectacle rock cave. Despawns sprites.",
-            "link": "https://imgur.com/gallery/zhPadYI"
+            "link": ["https://imgur.com/gallery/zhPadYI"]
           }
         ]
       }
@@ -371,7 +371,7 @@
             "glitch": "boots",
             "glitchName": "Hera to Sewers Clip",
             "info": "Part of the dungeon ID swapping sequence. Also used to steal a key from keyrat or sewers chest, or access back of escape and dark cross chests from hera.",
-            "link": "https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit#heading=h.4h9l7mnjg3kg"
+            "link": ["https://docs.google.com/document/d/1P9ooMFH0G_rCCQFBn5FvnDIfSaYkX8N4Rbkam5B9FMY/edit#heading=h.4h9l7mnjg3kg"]
           }
         ]
       }
@@ -389,7 +389,7 @@
             "glitch": "boots",
             "glitchName": "Uncle Jump",
             "info": "Clip into the rail in the secret passage to arm EG.",
-            "link": "https://www.twitch.tv/videos/1606846201"
+            "link": ["https://www.twitch.tv/videos/1606846201"]
           }
         ]
       }

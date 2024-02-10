@@ -365,7 +365,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "GT Delete Shutter Door West STC",
-                "info": "Skip hammer requirement for GT left using a west STC. West supertile STCs require careful management of the door timer variable to avoid hardlock.",
+                "info": "Skip hammer requirement for GT left using a west STC. The right shutter door to Hope room must be deleted first. West supertile STCs require careful management of the door timer variable to avoid hardlock.",
                 "link": [""]
             }
         ]
@@ -547,7 +547,7 @@
             {
                 "glitch": "somaria",
                 "glitchName": "Aga 2 QG pt 2",
-                "info": "Quadrant glitch at coordinate 1900, then STC north without transitioning and fall in the pit below you. After falling, navigate left to Aga 2.",
+                "info": "Quadrant glitch north at coordinate 1900, then STC north without transitioning, then back out the door and detonate the block. Transition north then south to fall in the pit After falling, dash left to Aga 2.",
                 "link": ["https://docs.google.com/document/d/1scT_WgwN0jJtjgDdDXjxQ3Aqowa7EqlcAIiFvMsctvo/edit"]
             },
             {
@@ -730,7 +730,7 @@
                 "glitch": "bomb",
                 "glitchName": "Uncle to TT Juke",
                 "info": "Double juke south to reach thieves town.",
-                "link": [""]
+                "link": ["https://www.twitch.tv/videos/2056573817"]
             }
         ]
     },
@@ -741,7 +741,7 @@
                 "glitch": "greenYBA",
                 "glitchName": "Uncle to TT",
                 "info": "YBA north in the deep door using your sword or a bomb-based timing method as a cue.",
-                "link": [""]
+                "link": ["https://imgur.com/a/QUieQ9N"]
             }
         ]
     },

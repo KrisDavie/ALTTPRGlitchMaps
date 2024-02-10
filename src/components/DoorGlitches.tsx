@@ -30,7 +30,6 @@ function DoorGlitches(props: DoorGlitchesProps) {
   const getGlitchesGrid = (
     data: DoorGlitchData,
     enabledGlitches: string[],
-    doorDirection: string
   ) => {
     // Do we have a single glitch? Then just use an icon
     if (data.glitches.length === 0) {
@@ -100,8 +99,7 @@ function DoorGlitches(props: DoorGlitchesProps) {
         if (doorGlitches) {
           const glitchGrid = getGlitchesGrid(
             doorGlitches,
-            props.enabledGlitches,
-            doorDirection
+            props.enabledGlitches
           );
           if (glitchGrid) {
             overlays.push(

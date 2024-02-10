@@ -82,6 +82,8 @@ function App() {
           "flippers",
           "citrus",
           "mirrorPortal",
+          "conveyorUp",
+          "conveyorDown",
           "mirrorWrap",
           "mirrorlessWrap",
           "owYBA",

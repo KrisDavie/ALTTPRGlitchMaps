@@ -50,7 +50,9 @@
             "glitch": "teleportUp",
             "glitchName": "Bumper Ledge superbunny teleport",
             "info": "Preserve item superbunny by teleporting off bumper ledge. Pull the tree nearby to gain link state.",
-            "link": ["https://othertom.club/glitches/bunny/bunny_bumper_linkstate_1f.mp4"]
+            "link": [
+              "https://othertom.club/glitches/bunny/bunny_bumper_linkstate_1f.mp4"
+            ]
           }
         ]
       },
@@ -191,6 +193,32 @@
         ]
       },
       {
+        "x": 6720,
+        "y": 495,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "conveyorDown",
+            "glitchName": "Bunny to Laser Bridge overworld conveyor down",
+            "info": "Downwards overworld conveyor to get to TR laser bridge entrance as a bunny.",
+            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo"]
+          }
+        ]
+      },
+      {
+        "x": 6720,
+        "y": 1430,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "conveyorUp",
+            "glitchName": "Bunny to Laser Bridge overworld conveyor up",
+            "info": "Upwards overworld conveyor to get to TR laser bridge entrance as a bunny.",
+            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo"]
+          }
+        ]
+      },
+      {
         "x": 6529,
         "y": 807,
         "direction": "No",
@@ -251,7 +279,9 @@
             "glitch": "mirrorlessWrap",
             "glitchName": "Skull Woods map wrap",
             "info": "Reach skull woods from death mountain. Hardlock risk; avoid right movements.",
-            "link": ["https://othertom.club/glitches/overworld_major/tr_wrap_to_skullwoods.mp4"]
+            "link": [
+              "https://othertom.club/glitches/overworld_major/tr_wrap_to_skullwoods.mp4"
+            ]
           }
         ]
       },
@@ -400,7 +430,9 @@
             "glitch": "mirrorWrap",
             "glitchName": "Mirror wrap DMD",
             "info": "Fastest way to descend death mountain without boots/moon pearl. Hardlock risk; avoid taking the invisible transition and correct the camera properly after.",
-            "link": ["https://alttp-wiki.net/index.php/Death_Mountain_Descent#Bunny_Clip"]
+            "link": [
+              "https://alttp-wiki.net/index.php/Death_Mountain_Descent#Bunny_Clip"
+            ]
           }
         ]
       },
@@ -634,7 +666,10 @@
             "glitch": "mirrorPortal",
             "glitchName": "Smith DMD offset portal",
             "info": "Misplace a mirror portal to rescue the smith without mitts.",
-            "link": ["https://imgur.com/a/0qoRQFk", "https://www.twitch.tv/videos/1130439066"]
+            "link": [
+              "https://imgur.com/a/0qoRQFk",
+              "https://www.twitch.tv/videos/1130439066"
+            ]
           }
         ]
       },
@@ -738,7 +773,9 @@
             "glitch": "owYBA",
             "glitchName": "Smith YBA",
             "info": "Overworld YBA to load in the smith screen with the wrong collision, allowing you to rescue smith without mitts.",
-            "link": ["https://othertom.club/glitches/overworld_major/mittsless_smith_YBA_mirror_return.mp4"]
+            "link": [
+              "https://othertom.club/glitches/overworld_major/mittsless_smith_YBA_mirror_return.mp4"
+            ]
           }
         ]
       },
@@ -1063,7 +1100,10 @@
             "glitch": "boots",
             "glitchName": "DW Ether DMD to Bumper Ledge",
             "info": "Clip from DW DMD directly to the bumper ledge item.",
-            "link": ["https://imgur.com/a/q4Nkngg"]
+            "link": [
+              "https://clips.twitch.tv/GoldenHealthyQuailNinjaGrumpy-LzyzSRK_JiHZYG5r",
+              "https://imgur.com/a/q4Nkngg"
+            ]
           }
         ]
       }

@@ -36,6 +36,10 @@ const glitchToImage = (glitch: string) => {
       return "images/citrus.png";
     case "mirrorPortal":
       return "images/mirror_portal.png";
+    case "conveyorUp":
+      return "images/conveyor_up.png";
+    case "conveyorDown":
+      return "images/conveyor_down.png";
     case "mirrorWrap":
       return "images/mirror_wrap.png";
     case "mirrorlessWrap":

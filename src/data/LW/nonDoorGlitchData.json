@@ -42,6 +42,19 @@
         ]
       },
       {
+        "x": 3590,
+        "y": 90,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "conveyorUp",
+            "glitchName": "Cave state Misery Mire OW Conveyor up",
+            "info": "Upwards overworld conveyor into thief dropdown in lost woods to get to MM in cave state.",
+            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo"]
+          }
+        ]
+      },
+      {
         "x": 4260,
         "y": 600,
         "direction": "No",
@@ -148,6 +161,19 @@
             "glitchName": "Clouds teleport to floating island (east)",
             "info": "Teleport into the clouds to access floating island.",
             "link": ["https://youtu.be/vsY16qFtkVQ"]
+          }
+        ]
+      },
+      {
+        "x": 6900,
+        "y": 315,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "conveyorDown",
+            "glitchName": "Hammerless/Mirrorless mimic cave OW Conveyor down",
+            "info": "Downwards overworld conveyor into mimic cave.",
+            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo"]
           }
         ]
       },
@@ -438,7 +464,9 @@
             "glitch": "boots",
             "glitchName": "Graveyard Ledge clip (no spinspeed)",
             "info": "Bootsclip out of the bottom of the slope. While midair, switch to upright, then switch to up after landing.",
-            "link": ["https://othertom.club/glitches/overworld_major/gyl_dash_kt.mp4"]
+            "link": [
+              "https://othertom.club/glitches/overworld_major/gyl_dash_kt.mp4"
+            ]
           }
         ]
       },
@@ -465,6 +493,19 @@
             "glitchName": "East Death Mountain clip",
             "info": "Clip into the void, then navigate to the right half of the mini spec rock. Hold down into the top of it to get pushed inbounds.",
             "link": ["https://imgur.com/a/IkoPVzg"]
+          }
+        ]
+      },
+      {
+        "x": 5250,
+        "y": 1767,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "conveyorDown",
+            "glitchName": "Cave state Swamp Palace OW Conveyor sown",
+            "info": "Downwards overworld conveyor into fairy dropdown to get to SP in cave state.",
+            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo"]
           }
         ]
       },
@@ -574,7 +615,7 @@
       },
       {
         "x": 212,
-        "y": 4979,
+        "y": 4969,
         "direction": "No",
         "glitches": [
           {
@@ -582,6 +623,19 @@
             "glitchName": "Maze Race from Kakariko teleport",
             "info": "Quickly reach the maze race screen from kakariko.",
             "link": ["https://imgur.com/a/x47XDvC"]
+          }
+        ]
+      },
+      {
+        "x": 268,
+        "y": 5000,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "conveyorDown",
+            "glitchName": "Desert to Mire OW conveyor down",
+            "info": "Downwards overworld conveyor into Desert Wesr to get to Misery Mire. Requires OWEG.",
+            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo"]
           }
         ]
       },
@@ -607,7 +661,9 @@
             "glitch": "boots",
             "glitchName": "Castle superjump",
             "info": "Reach the top of the castle with a long jump. Requires flippers.",
-            "link": ["https://clips.twitch.tv/ImportantUninterestedBubbleteaBrokeBack"]
+            "link": [
+              "https://clips.twitch.tv/ImportantUninterestedBubbleteaBrokeBack"
+            ]
           }
         ]
       },
@@ -841,6 +897,19 @@
             "glitchName": "Desert to Checkerboard teleport",
             "info": "Teleport up to reach the out of bounds area and checkerboard cave.",
             "link": ["https://imgur.com/a/z32n211"]
+          }
+        ]
+      },
+      {
+        "x": 916,
+        "y": 6179,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "conveyorDown",
+            "glitchName": "GT pre-torches OW conveyor down",
+            "info": "Downwards overworld conveyor into Desert East to get to GT pre-torches.",
+            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo"]
           }
         ]
       },

@@ -6,7 +6,7 @@ export interface SearchParams {
 }
 
 export const useSearchParams = (): SearchParams => {
-  const [searchParams, setSearchParams] = useReactSearchParams();
+  const [searchParams] = useReactSearchParams();
 
   const map = searchParams.get("map") as "EG1" | "EG2" | "LW" | "DW";
   const glitchName = searchParams.get("glitch") ?? "";

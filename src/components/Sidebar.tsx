@@ -113,8 +113,8 @@ function PageSidebar(props: SidebarProps) {
           className="side-glitchtext"
           style={{ padding: "0px 0px 10px 0px" }}
         >
-          {"More Info: "}
-          {glitchData.link.map((link, i) => {
+          {glitchData.link[0] !== "" && "More Info: "}
+          {glitchData.link[0] !== "" && glitchData.link.map((link, i) => {
             return (
               <>
               <a
@@ -286,6 +286,16 @@ function PageSidebar(props: SidebarProps) {
               {makeGlitchButton("images/bomb.png", "Bomb Clip", "bomb")}
             </Grid.Row>
             <Grid.Row centered style={{ padding: "4px 0px 4px 0px" }}>
+            {makeGlitchButton(
+                "images/conveyor_up.png",
+                "Overworld Conveyor Up",
+                "conveyorUp"
+              )}
+              {makeGlitchButton(
+                "images/conveyor_up.png",
+                "Overworld Conveyor Down",
+                "conveyorDown"
+              )}
               {makeGlitchButton(
                 "images/mirror_wrap.png",
                 "Mirror Wrap",

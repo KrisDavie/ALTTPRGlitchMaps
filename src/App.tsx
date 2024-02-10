@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import "./App.css";
 import {
   TransformWrapper,
@@ -127,7 +127,7 @@ function App() {
   }, [mapParams, selectedMap, glitchName, selectedGlitch, setSearchParams]);
 
   return (
-    <React.Fragment>
+    <>
       <PageSidebar
         visible={sidebarVisible}
         selectedGlitch={selectedGlitch}
@@ -158,7 +158,7 @@ function App() {
         }}
         limitToBounds={false}
       >
-        {({ zoomToElement, resetTransform, setTransform }) => (
+        {({ zoomToElement, resetTransform }) => (
           <div>
             <Controls resetTransform={resetTransform} />
             <TransformComponent
@@ -180,7 +180,7 @@ function App() {
           </div>
         )}
       </TransformWrapper>
-    </React.Fragment>
+    </>
   );
 }
 

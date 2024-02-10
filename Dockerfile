@@ -1,7 +1,7 @@
 FROM node:20.2.0-alpine3.16
 
 # Bundle APP files
-COPY build .
+COPY dist .
 COPY ecosystem.config.js .
 
 RUN npm install pm2 -g

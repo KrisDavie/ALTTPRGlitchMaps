@@ -22,7 +22,8 @@ function App() {
   });
   const initialScale = 0.5;
   const [currentScale, setCurrentScale] = useState(1);
-  const [sidebarVisible, setSidebarVisible] = useState(true);
+  const [sidebarVisible, setSidebarVisible] = useState(windowSize.current.width > 800);
+  const [showSomariaPits, setShowSomariaPits] = useState(false);
   const [enabledGlitches, setEnabledGlitches] = useState<string[]>([
     "redYBA",
     "greenYBA",

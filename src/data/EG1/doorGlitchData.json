@@ -426,7 +426,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "TT to EP",
-                "info": "Reach EP dark key room from TT. YBA west then back out 2 consecutive frames before transitioning.",
+                "info": "Reach EP dark key room from TT. YBA west then back out 1-3 pixels before transitioning, depending on how deep you were when you did the YBA. 2 pixels is always safe.",
                 "link": [""]
             }
         ]
@@ -470,7 +470,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "MM torches to GT torches",
-                "info": "YBA west then back out 2 consecutive frames before transitioning.",
+                "info": "YBA west then back out 1-3 pixels before transitioning, depending on how deep you were when you did the YBA. 2 pixels is always safe.",
                 "link": [""]
             }
         ]
@@ -577,7 +577,14 @@
                 "glitchName": "Trinexx YBA pt 2",
                 "info": "Reach Trinexx without somaria or big key.",
                 "link": ["https://imgur.com/gallery/dtr6O4R"]
+            },
+            {
+                "glitch": "blueYBA",
+                "glitchName": "Laser Dive to Aga 2",
+                "info": "Reach Aga 2 with one bottle and one TR small key, no TR big key required.",
+                "link": ["https://imgur.com/a/S9u3RDe"]
             }
+
         ]
     },
     {
@@ -630,7 +637,7 @@
             {
                 "glitch": "greenYBA",
                 "glitchName": "Mire to Circle of Pots",
-                "info": "YBA west and back out 2 consecutive frames before transitioning. You will need a mire small key or circle of pots already unlocked to progress.",
+                "info": "YBA west then back out 1-3 pixels before transitioning, depending on how deep you were when you did the YBA. 2 pixels is always safe. You will need a mire small key or circle of pots already unlocked to progress.",
                 "link": [""]
             }
         ]

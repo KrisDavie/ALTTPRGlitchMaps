@@ -134,8 +134,10 @@ function App() {
         visible={sidebarVisible}
         selectedGlitch={selectedGlitch}
         enabledGlitches={enabledGlitches}
+        showSomariaPits={showSomariaPits}
         setEnabledGlitches={setEnabledGlitches}
         setSelectedGlitch={setSelectedGlitch}
+        setShowSomariaPits={setShowSomariaPits}
         selectedMap={selectedMap}
         setSelectedMap={handleMapChange}
         transformComponentRef={transformComponentRef}
@@ -174,6 +176,7 @@ function App() {
                 zoomToElement={zoomToElement}
                 currentScale={currentScale}
                 setSelectedGlitch={setSelectedGlitch}
+                showSomariaPits={showSomariaPits}
                 selectedGlitch={selectedGlitch}
                 enabledGlitches={enabledGlitches}
                 selectedMap={selectedMap}

@@ -5,7 +5,9 @@ interface MapImageProps {
   width: number;
   height: number;
   mapImage: string;
+  somariaPits: string;
   selectedMap: string;
+  showSomariaPits: boolean;
 }
 
 const MapImage: React.FC<MapImageProps> = ({
@@ -13,10 +15,21 @@ const MapImage: React.FC<MapImageProps> = ({
   width,
   height,
   mapImage,
+  somariaPits,
+  showSomariaPits,
   selectedMap,
 }) => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const [isSupported, setIsSupported] = useState(true);
+
+  function loadSomariaImage(src: string) {
+    return new Promise((resolve, reject) => {
+      let img = new Image();
+      img.onload = () => resolve(img);
+      img.onerror = reject;
+      img.src = src;
+    });
+  }
 
   useEffect(() => {
     const controller = new AbortController();
@@ -34,6 +47,12 @@ const MapImage: React.FC<MapImageProps> = ({
             const bitmap = await createImageBitmap(image);
             if (signal.aborted) return;
             ctx.drawImage(bitmap, 0, 0, width, height);
+            if (showSomariaPits && !["LW", "DW"].includes(selectedMap)) {
+              const somariaImage = (await loadSomariaImage(
+                somariaPits
+              )) as HTMLImageElement;
+              ctx.drawImage(somariaImage, 0, 0, width, height);
+            }
           } catch (error) {
             setIsSupported(false);
           }
@@ -45,23 +64,40 @@ const MapImage: React.FC<MapImageProps> = ({
     return () => {
       controller.abort();
     };
-  }, [src, width, height, selectedMap]);
+  }, [src, width, height, selectedMap, showSomariaPits, somariaPits]);
 
   if (!isSupported) {
     return (
-      <picture>
-        <source srcSet={`${mapImage}.webp`} type="image/webp" />
-        <source srcSet={`${mapImage}.png`} type="image/png" />
-        <img
-          src={`${mapImage}.png`}
-          alt={`${selectedMap} Map`}
-          id="image"
-          style={{
-            height: "100%",
-            paddingTop: `${selectedMap === "EG2" ? 3027 : 0}px`,
-          }}
-        />
-      </picture>
+      <div>
+        (showSomariaPits && !['LW', 'DW'].includes(selectedMap) && (
+        <picture>
+          <source srcSet={`${somariaPits}.webp`} type="image/webp" />
+          <source srcSet={`${somariaPits}.png`} type="image/png" />
+          <img
+            src={`${somariaPits}.png`}
+            alt={`${selectedMap} Somaria Pits`}
+            id="image"
+            style={{
+              height: "100%",
+              paddingTop: `${selectedMap === "EG2" ? 3027 : 0}px`,
+            }}
+          />
+        </picture>
+        ) )
+        <picture>
+          <source srcSet={`${mapImage}.webp`} type="image/webp" />
+          <source srcSet={`${mapImage}.png`} type="image/png" />
+          <img
+            src={`${mapImage}.png`}
+            alt={`${selectedMap} Map`}
+            id="image"
+            style={{
+              height: "100%",
+              paddingTop: `${selectedMap === "EG2" ? 3027 : 0}px`,
+            }}
+          />
+        </picture>
+      </div>
     );
   }
 

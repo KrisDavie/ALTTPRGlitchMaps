@@ -8,6 +8,7 @@ import {
   Button,
   Divider,
   Icon,
+  Popup,
 } from "semantic-ui-react";
 import "./Sidebar.css";
 import "../fonts/HyliaSerifBeta-Regular.otf";
@@ -19,8 +20,10 @@ interface SidebarProps {
   visible: boolean;
   selectedGlitch: SelectedGlitch;
   enabledGlitches: string[];
+  showSomariaPits: boolean;
   setEnabledGlitches: React.Dispatch<React.SetStateAction<string[]>>;
   setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
+  setShowSomariaPits: React.Dispatch<React.SetStateAction<boolean>>;
   selectedMap: "EG1" | "EG2" | "LW" | "DW";
   setSelectedMap: (map: "EG1" | "EG2" | "LW" | "DW") => void;
   currentScale: number;
@@ -114,26 +117,27 @@ function PageSidebar(props: SidebarProps) {
           style={{ padding: "0px 0px 10px 0px" }}
         >
           {glitchData.link[0] !== "" && "More Info: "}
-          {glitchData.link[0] !== "" && glitchData.link.map((link, i) => {
-            return (
-              <>
-              <a
-                href={link}
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{
-                  color: "white",
-                  textDecoration: "underline",
-                  wordWrap: "break-word",
-                }}
-                key={i}
-              >
-                {link}
-              </a>
-              <br />
-              </>
-            );
-          })}
+          {glitchData.link[0] !== "" &&
+            glitchData.link.map((link, i) => {
+              return (
+                <>
+                  <a
+                    href={link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: "white",
+                      textDecoration: "underline",
+                      wordWrap: "break-word",
+                    }}
+                    key={i}
+                  >
+                    {link}
+                  </a>
+                  <br />
+                </>
+              );
+            })}
         </div>
       );
     }
@@ -286,7 +290,7 @@ function PageSidebar(props: SidebarProps) {
               {makeGlitchButton("images/bomb.png", "Bomb Clip", "bomb")}
             </Grid.Row>
             <Grid.Row centered style={{ padding: "4px 0px 4px 0px" }}>
-            {makeGlitchButton(
+              {makeGlitchButton(
                 "images/conveyor_up.png",
                 "Overworld Conveyor Up",
                 "conveyorUp"
@@ -322,7 +326,7 @@ function PageSidebar(props: SidebarProps) {
       visible={props.visible}
       width="wide"
     >
-      <Grid columns={1} rows={4} container >
+      <Grid columns={1} rows={4} container>
         <Grid.Column>
           <Grid.Row style={{ padding: "5px 0px 15px 0px" }}>
             <Header
@@ -357,6 +361,29 @@ function PageSidebar(props: SidebarProps) {
               {mapButton("LW")}
               {mapButton("DW")}
             </Button.Group>
+            <Popup
+              trigger={
+                <Button
+                  size="mini"
+                  disabled={["LW", "DW"].includes(selectedMap)}
+                  active={props.showSomariaPits}
+                  color={
+                    props.showSomariaPits && !["LW", "DW"].includes(selectedMap)
+                      ? "red"
+                      : undefined
+                  }
+                  onClick={() =>
+                    props.setShowSomariaPits(!props.showSomariaPits)
+                  }
+                  style={{ margin: "10px 0px 0px 0px" }}
+                >
+                  Show Somaria Pits
+                </Button>
+              }
+              content="Pits shown are room load pits. Rooms entered with via a fade are likely not accurate."
+              basic
+              position="bottom center"
+            />
             <Header
               as="h5"
               textAlign="left"
@@ -365,10 +392,12 @@ function PageSidebar(props: SidebarProps) {
               style={{ height: "58%", margin: "7px 0px 0px 0px" }}
             >
               Annotated EG images created by kan
+              <br />
+              Somaria pit images created by jsd & kan
             </Header>
           </Grid.Row>
           <Divider />
-          <Grid.Row stretched style={{padding: "5px 0px 0px 0px" }}>
+          <Grid.Row stretched style={{ padding: "5px 0px 0px 0px" }}>
             <Header
               as="h2"
               textAlign="left"
@@ -410,7 +439,10 @@ function PageSidebar(props: SidebarProps) {
               </p>
             </div>
           </Grid.Row>
-          <Grid.Row verticalAlign='bottom' style={{padding: "45px 0px 0px 0px" }}>
+          <Grid.Row
+            verticalAlign="bottom"
+            style={{ padding: "45px 0px 0px 0px" }}
+          >
             <Header
               as="h2"
               textAlign="left"

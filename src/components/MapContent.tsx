@@ -24,6 +24,7 @@ interface MapContentProps {
   currentScale: number;
   enabledGlitches: string[];
   setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
+  showSomariaPits: boolean;
   selectedGlitch: SelectedGlitch;
   selectedMap: "EG1" | "EG2" | "LW" | "DW";
 }
@@ -34,6 +35,7 @@ function MapContent(props: MapContentProps) {
     currentScale,
     enabledGlitches,
     selectedMap,
+    showSomariaPits,
     setSelectedGlitch,
     selectedGlitch,
   } = props;
@@ -57,28 +59,34 @@ function MapContent(props: MapContentProps) {
   let doorData;
 
   let mapImage = "";
+  let somariaPits = "";
+
   switch (selectedMap) {
     case "EG1":
       mapImage = "images/eg_map_fully_annotated";
+      somariaPits = "images/eg_somaria_pits";
       nonDoorGlitchData = eg1nonDoorGlitchData;
       doorGlitchData = eg1doorGlitchData;
       hookpushData = eg1hookpushData;
       doorData = eg1doorData;
-
       break;
     case "EG2":
       mapImage = "images/eg2_map_fully_annotated";
+      somariaPits = "images/eg2_somaria_pits";
       break;
     case "LW":
       mapImage = "images/lightworld_large";
+      somariaPits = "";
       nonDoorGlitchData = lwNonDoorGlitchData;
       break;
     case "DW":
       mapImage = "images/darkworld_large";
+      somariaPits = "";
       nonDoorGlitchData = dwNonDoorGlitchData;
       break;
     default:
       mapImage = "images/eg_map_fully_annotated";
+      somariaPits = "images/eg_somaria_pits";
   }
 
   if (selectedMap === "EG1" || selectedMap === "EG2") {
@@ -159,7 +167,9 @@ function MapContent(props: MapContentProps) {
         width={8192}
         height={selectedMap === "EG2" ? 1536 : 8192}
         mapImage={mapImage}
+        somariaPits={`${somariaPits}.png`}
         selectedMap={selectedMap}
+        showSomariaPits={showSomariaPits}
       />
 
       {mapElements}

@@ -311,6 +311,14 @@ function PageSidebar(props: SidebarProps) {
                 "mirrorlessWrap"
               )}
             </Grid.Row>
+            <Grid.Row>
+              {makeGlitchButton(
+                "images/wallmaster.png",
+                "Treewarp",
+                "wallmaster"
+              )}
+
+            </Grid.Row>
           </Grid>
         );
       default:

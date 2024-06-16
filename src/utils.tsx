@@ -46,6 +46,8 @@ const glitchToImage = (glitch: string) => {
       return "images/mirrorless_wrap.png";
     case "owYBA":
       return "images/owYBA.png";
+    case "wallmaster":
+      return "images/wallmaster.png";
     default:
       return "images/somaria.png";
   }

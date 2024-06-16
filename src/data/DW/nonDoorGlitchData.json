@@ -201,7 +201,7 @@
             "glitch": "conveyorDown",
             "glitchName": "Bunny to Laser Bridge overworld conveyor down",
             "info": "Downwards overworld conveyor to get to TR laser bridge entrance as a bunny.",
-            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo"]
+            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo", "https://www.youtube.com/watch?v=sabEKH0Prnw"]
           }
         ]
       },
@@ -214,7 +214,7 @@
             "glitch": "conveyorUp",
             "glitchName": "Bunny to Laser Bridge overworld conveyor up",
             "info": "Upwards overworld conveyor to get to TR laser bridge entrance as a bunny.",
-            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo"]
+            "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo", "https://www.youtube.com/watch?v=sabEKH0Prnw"]
           }
         ]
       },
@@ -515,6 +515,19 @@
         ]
       },
       {
+        "x": 1654,
+        "y": 4573,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "wallmaster",
+            "glitchName": "Treewarp",
+            "info": "Spawn a super wallmaster to dupe items in entrance lobbies.",
+            "link": ["https://clips.twitch.tv/PlacidObeseHareMcaT-CTaN8fMagr3M4MUF", "https://spannerisms.github.io/treewarp"]
+          }
+        ]
+      },
+      {
         "x": 222,
         "y": 4976,
         "direction": "No",
@@ -575,7 +588,7 @@
             "glitch": "teleportUp",
             "glitchName": "Gloveless Catfish teleport (west)",
             "info": "Bypass the glove rock to reach catfish.",
-            "link": ["https://imgur.com/a/Id1ibnQ"]
+            "link": ["https://imgur.com/a/wcMqeM6"]
           }
         ]
       },
@@ -588,7 +601,7 @@
             "glitch": "teleportDown",
             "glitchName": "Gloveless Catfish teleport (east)",
             "info": "Bypass the glove rock to reach dark witch.",
-            "link": ["https://imgur.com/a/Id1ibnQ"]
+            "link": ["https://imgur.com/a/wcMqeM6"]
           }
         ]
       },

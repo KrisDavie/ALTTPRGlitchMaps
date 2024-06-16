@@ -89,6 +89,7 @@ function App() {
           "mirrorlessWrap",
           "owYBA",
           "bomb",
+          "wallmaster",
         ]);
         break;
     }

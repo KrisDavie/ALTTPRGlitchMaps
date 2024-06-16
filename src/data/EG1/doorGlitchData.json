@@ -50,6 +50,17 @@
         ]
     },
     {
+        "door": "Hera Beetles Down Stairs",
+        "glitches": [
+            {
+                "glitch": "jingle",
+                "glitchName": "Hera Lobby Dupe",
+                "info": "Dupe the contents of the Hera lobby chest by killing the last beetle with a pot while in the stairwell. Transition down the stairs on the same frame that the death particles dissapear. This also opens the basement door if the big key door is open.",
+                "link": [""]
+            }
+        ]	
+    },
+    {
         "door": "TR Tongue Pull NE",
         "glitches": [
             {
@@ -267,6 +278,12 @@
                 "glitchName": "DP to MM",
                 "info": "Reach mire somaria switch room from desert. YBA south; back out to coordinate 0E6 before transitioning.",
                 "link": ["https://imgur.com/HjH0dnd"]
+            },
+            {
+                "glitch": "bomb",
+                "glitchName": "DP to Vitty Juke",
+                "info": "Reach vitty from desert without somaria. Bomb duke south and navigate through mire basement. Requires a quadrant glitch and precise tech to get past the pegs.",
+                "link": ["https://www.twitch.tv/videos/2152503596"]
             }
         ]
     },

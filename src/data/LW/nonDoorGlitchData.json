@@ -42,6 +42,21 @@
         ]
       },
       {
+        "x": 2102,
+        "y": 7567,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "owYBA",
+            "glitchName": "Mittless Mire YBA",
+            "info": "Overworld YBA to desert screen with the wrong collision, allowing you to enter the mire portal without mitts.",
+            "link": [
+              "https://www.twitch.tv/tojso/clip/DarlingSnappyEggnogBibleThump"
+            ]
+          }
+        ]
+      },
+      {
         "x": 3590,
         "y": 90,
         "direction": "No",
@@ -174,6 +189,19 @@
             "glitchName": "Hammerless/Mirrorless mimic cave OW Conveyor down",
             "info": "Downwards overworld conveyor into mimic cave.",
             "link": ["https://www.youtube.com/watch?v=_5SvhUUKcKo", "https://www.youtube.com/watch?v=sabEKH0Prnw"]
+          }
+        ]
+      },
+      {
+        "x": 3840,
+        "y": 7716,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "deadLink",
+            "glitchName": "Death's Door",
+            "info": "Get 0hp to die inside swamp. Drain the dam first! Place a bomb at the location in the screenshot while on low enough hp to die to it, then back up in reverse until the entrance stops you. Buffer down one pixel, then dashturn to face up and let the bomb hit you to get 0hp for swamp",
+            "link": ["./images/deaths_door_setup.png", "https://clips.twitch.tv/DelightfulImpartialCougarKappaRoss-tGN7ZK2MDJiHuLc4"]
           }
         ]
       },

@@ -370,6 +370,21 @@
         ]
     },
     {
+        "tile": "tile-81",
+        "locations": [
+            {
+                "x": 270,
+                "y": 120,
+                "direction": "So",
+                "distance": 470,
+                "pushType": "boom",
+                "glitchName": "Escape to Mire back",
+                "info": "Use a south 0A hookpush to reach the back of Mire from the back of escape. Bombs must be on the lower layer and the push must be release from the upper layer",
+                "link": ["./videos/escape_vitty_stuckpush.mp4"]
+            }
+        ]
+    },
+    {
         "tile": "tile-8C",
         "locations": [
             {
@@ -431,12 +446,7 @@
                 "glitchName": "Hera Basement",
                 "info": "Reach hera basement chest quicker or skip the fire/key requirement. Easiest with fire rod; limit distance to avoid overshooting.",
                 "link": [""]
-            }
-        ]
-    },
-    {
-        "tile": "tile-87",
-        "locations": [
+            },
             {
                 "x": 115,
                 "y": 450,
@@ -635,6 +645,21 @@
         ]
     },
     {
+        "tile": "tile-D0",
+        "locations": [
+            {
+                "x": 420,
+                "y": 450,
+                "direction": "No",
+                "distance": 220,
+                "pushType": "boom",
+                "glitchName": "CT Keys Skip",
+                "info": "Spawn the chest and push north to skip both CT small keys.",
+                "link": [""]
+            }
+        ]
+    },
+    {
         "tile": "tile-D5",
         "locations": [
             {
@@ -663,7 +688,7 @@
         "tile": "tile-DA",
         "locations": [
             {
-                "x": 100,
+                "x": 158,
                 "y": 460,
                 "direction": "No",
                 "distance": 140,
@@ -673,7 +698,7 @@
                 "link": [""]
             },
             {
-                "x": 160,
+                "x": 196,
                 "y": 460,
                 "direction": "No",
                 "distance": 260,
@@ -721,6 +746,16 @@
                 "glitchName": "Armos",
                 "info": "Hookpush with beams or fire rod distance to reach armos from the lobby. If using fire rod, fire towards the screen edge instead of the wall to maximize distance.",
                 "link": [""]
+            },
+            {
+                "x": 440,
+                "y": 380,
+                "direction": "We",
+                "distance": 220,
+                "pushType": "boom",
+                "glitchName": "Boom, Armos",
+                "info": "Once you have a stuck hook, start on grid, face left, 2 bombs (if needed), boom, sword beam, move one frame left, hook. Unlikely to work with red boom.",
+                "link": ["./videos/ep_armos_stuckpush_1.mp4", "./videos/ep_armos_stuckpush_2.mp4"]
             }
         ]
     },

@@ -316,6 +316,17 @@
         ]
     },
     {
+        "door": "Desert North Hall NE",
+        "glitches": [
+            {
+                "glitch": "redYBA",
+                "glitchName": "Somarialess Arrghus Deathhole",
+                "info": "Follow a complicated series of YBAs and movement to reach arrghus from desert without somaria.",
+                "link": ["https://www.twitch.tv/videos/2183220028"]
+            }
+        ]
+    },
+    {
         "door": "Desert Arrow Pot Corner NW",
         "glitches": [
             {

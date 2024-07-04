@@ -148,7 +148,7 @@ function PageSidebar(props: SidebarProps) {
       case "EG1":
       case "EG2":
         return (
-          <Grid columns={4} rows={4}>
+          <Grid columns={4} rows={5}>
             <Grid.Row style={{ padding: "10px 0px 4px 0px" }}>
               {makeGlitchButton("images/red_pot.png", "Double YBA", "redYBA")}
               {makeGlitchButton(
@@ -207,7 +207,16 @@ function PageSidebar(props: SidebarProps) {
                 "statueDrag"
               )}
               <Grid.Column>
-                <Image
+              {makeGlitchButton(
+                  "images/dead_link.png",
+                  "0hp/Deathole",
+                  "deadLink"
+                )}
+              </Grid.Column>
+            </Grid.Row>
+            <Grid.Row>
+              <Grid.Column>
+              <Image
                   src="images/hook_somaria.png"
                   alt="Misslot Hookpush"
                   title="Misslot Hookpush"
@@ -317,7 +326,11 @@ function PageSidebar(props: SidebarProps) {
                 "Treewarp",
                 "wallmaster"
               )}
-
+              {makeGlitchButton(
+                "images/dead_link.png",
+                "0hp/Deathole",
+                "deadLink"
+              )}
             </Grid.Row>
           </Grid>
         );
@@ -388,7 +401,7 @@ function PageSidebar(props: SidebarProps) {
                   Show Somaria Pits
                 </Button>
               }
-              content="Pits shown are room load pits. Rooms entered with via a fade are likely not accurate."
+              content="Pits shown are room load pits. Rooms entered via a fade are likely not accurate."
               basic
               position="bottom center"
             />

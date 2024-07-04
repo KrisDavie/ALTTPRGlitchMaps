@@ -48,6 +48,8 @@ const glitchToImage = (glitch: string) => {
       return "images/owYBA.png";
     case "wallmaster":
       return "images/wallmaster.png";
+    case "deadLink":
+      return "images/dead_link.png";
     default:
       return "images/somaria.png";
   }

@@ -55,6 +55,26 @@
     ]
   },
   {
+    "tile": "tile-17",
+    "locations": [
+      {
+        "x": 310,
+        "y": 300,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "deadLink",
+            "glitchName": "Hera Big Chest tile dupe",
+            "info": "Use a deathhole to dupe the chests on the Hera Big Chest tile. You will be invisible after the deathole, but should not be in EG.",
+            "link": [
+              ""
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
     "tile": "tile-20",
     "locations": [
       {
@@ -108,6 +128,26 @@
             "info": "Use quadrant glitch to break camera and reach hookshot cave from pod.",
             "link": [
               "https://clips.twitch.tv/DeliciousDarkRutabagaAMPEnergy-H7oOUdDRjJHIXzjy"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "tile": "tile-31",
+    "locations": [
+      {
+        "x": 406,
+        "y": 380,
+        "direction": "No",
+        "glitches": [
+          {
+            "glitch": "deadLink",
+            "glitchName": "Hera lobby chest dupe",
+            "info": "Use a deathhole to dupe the chest in the Hera lobby tile. You will be invisible after the deathole, but should not be in EG.",
+            "link": [
+              ""
             ]
           }
         ]

@@ -37,6 +37,7 @@ function App() {
     "jingle",
     "spinSomaria",
     "statueDrag",
+    "deadLink",
     "somariaBlueYBA",
     "hookpush-somaria",
     "hookpush-boom",
@@ -68,6 +69,7 @@ function App() {
           "jingle",
           "spinSomaria",
           "statueDrag",
+          "deadLink",
           "somariaBlueYBA",
           "hookpush-somaria",
           "hookpush-boom",
@@ -90,6 +92,7 @@ function App() {
           "owYBA",
           "bomb",
           "wallmaster",
+          "deadLink",
         ]);
         break;
     }

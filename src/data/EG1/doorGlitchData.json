@@ -689,6 +689,12 @@
                 "glitchName": "AT Lobby to Maze",
                 "info": "Skip one key door and a few rooms to reach dark maze.",
                 "link": [""]
+            },
+            {
+                "glitch": "somaria",
+                "glitchName": "AT Lobby to Vitreous 4xSTC + YBA",
+                "info": "Perform 4 consecutive north STCs, the first block can be used to do 2, the third and fourth blocks disappear after each STC. Fall into an STC pit, one is just above the bottom left torch, to correct the camera. After spawning back at the entracnce hold UP+RIGHT to escape the pit. Perform a north YBA and transition to get to Vitreous. The goo will be solid, after killing all adds, move to the right side of the screen and slowly move left to chase Vitreous out of the goo.",
+                "link": [""]
             }
         ]
     },

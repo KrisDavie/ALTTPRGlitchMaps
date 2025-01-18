@@ -1,54 +1,55 @@
 const glitchToImage = (glitch: string) => {
   switch (glitch) {
-    case "redYBA":
+    case "Double YBA":
       return "images/red_pot.png";
-    case "greenYBA":
+    case "Subtile YBA":
       return "images/green_pot.png";
-    case "blueYBA":
+    case "Supertile YBA":
       return "images/blue_pot.png";
-    case "somaria":
+    case "Somaria":
       return "images/somaria.png";
-    case "bomb":
+    case "Bomb Juke":
       return "images/bomb.png";
-    case "boots":
+    case "Stairmaster":
+    case "Spinspeed Clip/Clip Through":
       return "images/boots.png";
-    case "spinGreenYBA":
+    case "Spin Subtile YBA":
       return "images/spin_green_pot_112.png";
-    case "spinBlueYBA":
+    case "Spin Supertile YBA":
       return "images/spin_blue_pot_112.png";
-    case "spinSomaria":
+    case "Spin Somaria":
       return "images/spin_somaria_112.png";
-    case "quadrant":
+    case "Quadrant Glitch":
       return "images/quadrant.png";
-    case "jingle":
+    case "Jingle Glitch":
       return "images/jingle.png";
-    case "statueDrag":
+    case "Statue Drag":
       return "images/statue_drag.png";
-    case "somariaBlueYBA":
+    case "Somaria Supertile YBA":
       return "images/somaria_blue_pot.png";
-    case "teleportUp":
+    case "Up Teleport":
       return "images/teleport_up.png";
-    case "teleportDown":
+    case "Down Teleport":
       return "images/teleport_down.png";
-    case "flippers":
+    case "Swim Clip":
       return "images/flippers.png";
-    case "citrus":
+    case "Citrus Clip":
       return "images/citrus.png";
-    case "mirrorPortal":
+    case "Mirror Clip/Portal Offset":
       return "images/mirror_portal.png";
-    case "conveyorUp":
+    case "Overworld Conveyor Up":
       return "images/conveyor_up.png";
-    case "conveyorDown":
+    case "Overworld Conveyor Down":
       return "images/conveyor_down.png";
-    case "mirrorWrap":
+    case "Mirror Wrap":
       return "images/mirror_wrap.png";
-    case "mirrorlessWrap":
+    case "Mirrorless Wrap":
       return "images/mirrorless_wrap.png";
-    case "owYBA":
+    case "Overworld YBA":
       return "images/owYBA.png";
-    case "wallmaster":
+    case "Treewarp":
       return "images/wallmaster.png";
-    case "deadLink":
+    case "Deathhole/0hp":
       return "images/dead_link.png";
     default:
       return "images/somaria.png";

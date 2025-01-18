@@ -1,17 +1,19 @@
-import { Image } from "semantic-ui-react";
-import { glitchToImage } from "../utils";
-import { useEffect } from "react";
-import { GlitchData, SelectedGlitch } from "../types";
+import { Image } from "semantic-ui-react"
+import { glitchToImage } from "../utils"
+import { useEffect } from "react"
+import { DoorGlitchData, Glitch, NonDoorGlitchData } from "../types"
+import { useAppSelector } from "../app/hooks"
 
 interface GlitchImageProps {
-  glitchId: string;
-  glitch: GlitchData;
-  selectedGlitch: SelectedGlitch;
-  handleClick: (glitch: GlitchData, id: string) => void;
+  glitchId: string
+  glitch: DoorGlitchData | NonDoorGlitchData
+  handleClick: (glitch: Glitch, id: string) => void
 }
 
 function GlitchImage(props: GlitchImageProps) {
-  const { glitch, glitchId, selectedGlitch, handleClick } = props;
+  const { glitch, glitchId, handleClick } = props
+
+  const selectedGlitch = useAppSelector(state => state.app.selectedGlitch)
 
   useEffect(() => {
     if (
@@ -20,19 +22,19 @@ function GlitchImage(props: GlitchImageProps) {
       selectedGlitch.id === glitchId &&
       !selectedGlitch.glitch
     ) {
-      handleClick(glitch as GlitchData, glitchId);
+      handleClick(glitch, glitchId)
     }
-  }, [glitch, glitchId, selectedGlitch, handleClick]);
+  }, [glitch, glitchId, selectedGlitch, handleClick])
 
   return (
     <div
-      title={glitch["glitchName"]}
+      title={glitch.Title}
       onClick={() => handleClick(glitch, glitchId)}
       key={glitchId}
     >
       <Image
         circular
-        src={glitchToImage(glitch["glitch"])}
+        src={glitchToImage(glitch.Type)}
         style={{
           zIndex: selectedGlitch.glitch === glitch ? 110 : 100,
           outline: selectedGlitch.glitch === glitch ? "5px solid white" : "",
@@ -40,7 +42,7 @@ function GlitchImage(props: GlitchImageProps) {
         id={glitchId}
       />
     </div>
-  );
+  )
 }
 
-export default GlitchImage;
+export default GlitchImage

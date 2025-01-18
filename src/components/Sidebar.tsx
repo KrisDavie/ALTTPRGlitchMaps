@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef } from "react"
 import {
   Grid,
   Header,
@@ -7,75 +7,81 @@ import {
   Image,
   Button,
   Divider,
-  Icon,
   Popup,
-} from "semantic-ui-react";
-import "./Sidebar.css";
-import "../fonts/HyliaSerifBeta-Regular.otf";
-import { ReactZoomPanPinchRef } from "react-zoom-pan-pinch";
-import { GlitchData, HookpushLocation, SelectedGlitch } from "../types";
+} from "semantic-ui-react"
+import "./Sidebar.css"
+import "../fonts/HyliaSerifBeta-Regular.otf"
+import { ReactZoomPanPinchRef } from "react-zoom-pan-pinch"
+import { useAppDispatch, useAppSelector } from "../app/hooks"
+
+import {
+  setEnabledGlitches,
+  setSelectedGlitch,
+  setSelectedMap,
+  setShowSomariaPits,
+} from "../app/appSlice"
+import GuideModal from "./GuideModal"
 
 interface SidebarProps {
-  transformComponentRef: React.RefObject<ReactZoomPanPinchRef>;
-  visible: boolean;
-  selectedGlitch: SelectedGlitch;
-  enabledGlitches: string[];
-  showSomariaPits: boolean;
-  setEnabledGlitches: React.Dispatch<React.SetStateAction<string[]>>;
-  setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
-  setShowSomariaPits: React.Dispatch<React.SetStateAction<boolean>>;
-  selectedMap: "EG1" | "EG2" | "LW" | "DW";
-  setSelectedMap: (map: "EG1" | "EG2" | "LW" | "DW") => void;
-  currentScale: number;
+  transformComponentRef: React.RefObject<ReactZoomPanPinchRef>
+  visible: boolean
+  currentScale: number
 }
 
 function PageSidebar(props: SidebarProps) {
-  const {
-    selectedMap,
-    setSelectedMap,
-    transformComponentRef,
-    selectedGlitch,
-    setSelectedGlitch,
-  } = props;
+  const { transformComponentRef } = props
 
   const windowSize = useRef({
     width: window.innerWidth,
     height: window.innerHeight,
-  });
+  })
 
-  const baseURL = window.location.origin;
+  const dispatch = useAppDispatch()
+  const baseURL = window.location.origin
+
+  const [clipBoardPopupOpen, setClipBoardPopupOpen] = React.useState(false)
+
+  const handleClipBoardPopupOpen = () => {
+    setClipBoardPopupOpen(true)
+    setTimeout(() => {
+      setClipBoardPopupOpen(false)
+    }, 1000)
+  }
+
+  const enabledGlitches = useAppSelector(state => state.app.enabledGlitches)
+  const selectedMap = useAppSelector(state => state.app.selectedMap)
+  const selectedGlitch = useAppSelector(state => state.app.selectedGlitch)
+  const showSomariaPits = useAppSelector(state => state.app.showSomariaPits)
 
   const handleClicks = (glitch: string) => {
-    if (props.enabledGlitches.includes(glitch)) {
-      props.setEnabledGlitches(
-        props.enabledGlitches.filter((g) => g !== glitch)
-      );
+    if (enabledGlitches.includes(glitch)) {
+      dispatch(setEnabledGlitches(enabledGlitches.filter(g => g !== glitch)))
     } else {
-      props.setEnabledGlitches([...props.enabledGlitches, glitch]);
+      dispatch(setEnabledGlitches([...enabledGlitches, glitch]))
     }
-  };
+  }
 
   const handleMapChange = (map: "EG1" | "EG2" | "LW" | "DW") => {
     if (selectedMap === map) {
-      return;
+      return
     }
-    const oldMap = selectedMap;
-    setSelectedMap(map);
-    setSelectedGlitch({ glitch: undefined, id: "" });
+    const oldMap = selectedMap
+    dispatch(setSelectedMap(map))
+    dispatch(setSelectedGlitch({ glitch: undefined, id: "" }))
     if (
       (map === "LW" || map === "DW") &&
       (oldMap === "LW" || oldMap === "DW")
     ) {
-      return;
+      return
     }
-    const zoom = map === "LW" || map === "DW" ? 0.15 : 0.5;
-    const mapHeight = map === "EG2" ? 1536 : 8192;
+    const zoom = map === "LW" || map === "DW" ? 0.15 : 0.5
+    const mapHeight = map === "EG2" ? 1536 : 8192
     transformComponentRef?.current?.setTransform(
       -4096 * zoom + windowSize.current.width / 2 - 154,
       -(mapHeight / 2) * zoom + windowSize.current.height / 2,
       zoom
-    );
-  };
+    )
+  }
 
   const mapButton = (map: "EG1" | "EG2" | "LW" | "DW") => {
     return (
@@ -87,10 +93,10 @@ function PageSidebar(props: SidebarProps) {
       >
         {map}
       </Button>
-    );
-  };
+    )
+  }
 
-  const makeGlitchButton = (image: string, title: string, id: string) => {
+  const makeGlitchButton = (image: string, title: string) => {
     return (
       <Grid.Column>
         <Image
@@ -99,49 +105,15 @@ function PageSidebar(props: SidebarProps) {
           alt={title}
           title={title}
           style={{
-            filter: props.enabledGlitches.includes(id)
+            filter: enabledGlitches.includes(title)
               ? "grayscale(0%)"
               : "grayscale(100%) blur(2px)",
           }}
-          onClick={() => handleClicks(id)}
+          onClick={() => handleClicks(title)}
         />
       </Grid.Column>
-    );
-  };
-
-  const makeGlitchLink = (glitchData: GlitchData | HookpushLocation) => {
-    if (glitchData.link) {
-      return (
-        <div
-          className="side-glitchtext"
-          style={{ padding: "0px 0px 10px 0px" }}
-        >
-          {glitchData.link[0] !== "" && "More Info: "}
-          {glitchData.link[0] !== "" &&
-            glitchData.link.map((link, i) => {
-              return (
-                <>
-                  <a
-                    href={link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      color: "white",
-                      textDecoration: "underline",
-                      wordWrap: "break-word",
-                    }}
-                    key={i}
-                  >
-                    {link}
-                  </a>
-                  <br />
-                </>
-              );
-            })}
-        </div>
-      );
-    }
-  };
+    )
+  }
 
   const getMapGlitchFilters = (map: "EG1" | "EG2" | "LW" | "DW") => {
     switch (map) {
@@ -150,84 +122,55 @@ function PageSidebar(props: SidebarProps) {
         return (
           <Grid columns={4} rows={5}>
             <Grid.Row style={{ padding: "10px 0px 4px 0px" }}>
-              {makeGlitchButton("images/red_pot.png", "Double YBA", "redYBA")}
-              {makeGlitchButton(
-                "images/green_pot.png",
-                "Subtile YBA",
-                "greenYBA"
-              )}
-              {makeGlitchButton(
-                "images/blue_pot.png",
-                "Supertile YBA",
-                "blueYBA"
-              )}
-              {makeGlitchButton("images/somaria.png", "Somaria", "somaria")}
+              {makeGlitchButton("images/red_pot.png", "Double YBA")}
+              {makeGlitchButton("images/green_pot.png", "Subtile YBA")}
+              {makeGlitchButton("images/blue_pot.png", "Supertile YBA")}
+              {makeGlitchButton("images/somaria.png", "Somaria")}
             </Grid.Row>
             <Grid.Row style={{ padding: "4px 0px 4px 0px" }}>
-              {makeGlitchButton("images/bomb.png", "Bomb Juke", "bomb")}
-
-              {makeGlitchButton("images/boots.png", "Boots Clip", "boots")}
-
+              {makeGlitchButton("images/bomb.png", "Bomb Juke")}
+              {makeGlitchButton("images/boots.png", "Stairmaster")}
               {makeGlitchButton(
                 "images/spin_green_pot_112.png",
-                "Spin Subtile YBA",
-                "spinGreenYBA"
+                "Spin Subtile YBA"
               )}
               {makeGlitchButton(
                 "images/spin_blue_pot_112.png",
-                "Spin Supertile YBA",
-                "spinBlueYBA"
+                "Spin Supertile YBA"
               )}
             </Grid.Row>
 
             <Grid.Row style={{ padding: "4px 0px 4px 0px" }}>
-              {makeGlitchButton(
-                "images/quadrant.png",
-                "Quadrant Glitch",
-                "quadrant"
-              )}
-              {makeGlitchButton("images/jingle.png", "Jingle Glitch", "jingle")}
-              {makeGlitchButton(
-                "images/spin_somaria_112.png",
-                "Spin Somaria",
-                "spinSomaria"
-              )}
+              {makeGlitchButton("images/quadrant.png", "Quadrant Glitch")}
+              {makeGlitchButton("images/jingle.png", "Jingle Glitch")}
+              {makeGlitchButton("images/spin_somaria_112.png", "Spin Somaria")}
               {makeGlitchButton(
                 "images/somaria_blue_pot.png",
-                "Somaria Supertile YBA",
-                "somariaBlueYBA"
+                "Somaria Supertile YBA"
               )}
             </Grid.Row>
 
             <Grid.Row style={{ padding: "4px 0px 4px 0px" }}>
               {" "}
-              {makeGlitchButton(
-                "images/statue_drag.png",
-                "Statue Drag",
-                "statueDrag"
-              )}
+              {makeGlitchButton("images/statue_drag.png", "Statue Drag")}
               <Grid.Column>
-              {makeGlitchButton(
-                  "images/dead_link.png",
-                  "0hp/Deathole",
-                  "deadLink"
-                )}
+                {makeGlitchButton("images/dead_link.png", "Deathhole/0hp")}
               </Grid.Column>
             </Grid.Row>
             <Grid.Row>
               <Grid.Column>
-              <Image
+                <Image
                   src="images/hook_somaria.png"
                   alt="Misslot Hookpush"
                   title="Misslot Hookpush"
                   verticalAlign="middle"
                   style={{
-                    filter: props.enabledGlitches.includes("hookpush-somaria")
+                    filter: enabledGlitches.includes("hookpush-Somaria")
                       ? "grayscale(0%)"
                       : "grayscale(100%) blur(2px)",
                     padding: "12px 0px 0px 0px",
                   }}
-                  onClick={() => handleClicks("hookpush-somaria")}
+                  onClick={() => handleClicks("hookpush-Somaria")}
                 />
               </Grid.Column>
               <Grid.Column>
@@ -237,12 +180,12 @@ function PageSidebar(props: SidebarProps) {
                   title="0A Hookpush"
                   verticalAlign="middle"
                   style={{
-                    filter: props.enabledGlitches.includes("hookpush-boom")
+                    filter: enabledGlitches.includes("hookpush-Boomerang")
                       ? "grayscale(0%)"
                       : "grayscale(100%) blur(2px)",
                     padding: "12px 0px 0px 0px",
                   }}
-                  onClick={() => handleClicks("hookpush-boom")}
+                  onClick={() => handleClicks("hookpush-Boomerang")}
                 />
               </Grid.Column>
               <Grid.Column>
@@ -252,93 +195,67 @@ function PageSidebar(props: SidebarProps) {
                   title="Hookpush"
                   verticalAlign="middle"
                   style={{
-                    filter: props.enabledGlitches.includes("hookpush-push")
+                    filter: enabledGlitches.includes("hookpush-Stuckpush")
                       ? "grayscale(0%)"
                       : "grayscale(100%) blur(2px)",
                     padding: "12px 0px 0px 0px",
                   }}
-                  onClick={() => handleClicks("hookpush-push")}
+                  onClick={() => handleClicks("hookpush-Stuckpush")}
                 />
               </Grid.Column>
             </Grid.Row>
           </Grid>
-        );
+        )
       case "LW":
       case "DW":
         return (
           <Grid columns={4} rows={4}>
             <Grid.Row centered style={{ padding: "10px 0px 4px 0px" }}>
-              {makeGlitchButton(
-                "images/teleport_up.png",
-                "Up Teleport",
-                "teleportUp"
-              )}
-              {makeGlitchButton(
-                "images/teleport_down.png",
-                "Down Teleport",
-                "teleportDown"
-              )}
+              {makeGlitchButton("images/teleport_up.png", "Up Teleport")}
+              {makeGlitchButton("images/teleport_down.png", "Down Teleport")}
 
               {makeGlitchButton(
                 "images/boots.png",
-                "Spinspeed Clip / Clip Through",
-                "boots"
+                "Spinspeed Clip/Clip Through"
               )}
-              {makeGlitchButton("images/citrus.png", "Citrus Clip", "citrus")}
+              {makeGlitchButton("images/citrus.png", "Citrus Clip")}
             </Grid.Row>
             <Grid.Row centered style={{ padding: "4px 0px 4px 0px" }}>
-              {makeGlitchButton("images/flippers.png", "Swim Clip", "flippers")}
+              {makeGlitchButton("images/flippers.png", "Swim Clip")}
 
-              {makeGlitchButton("images/owYBA.png", "Overworld YBA", "owYBA")}
+              {makeGlitchButton("images/owYBA.png", "Overworld YBA")}
 
               {makeGlitchButton(
                 "images/mirror_portal.png",
-                "Mirror Clip / Portal Offset",
-                "mirrorPortal"
+                "Mirror Clip/Portal Offset"
               )}
-              {makeGlitchButton("images/bomb.png", "Bomb Clip", "bomb")}
+              {makeGlitchButton("images/bomb.png", "Bomb Clip")}
             </Grid.Row>
             <Grid.Row centered style={{ padding: "4px 0px 4px 0px" }}>
               {makeGlitchButton(
                 "images/conveyor_up.png",
-                "Overworld Conveyor Up",
-                "conveyorUp"
+                "Overworld Conveyor Up"
               )}
               {makeGlitchButton(
                 "images/conveyor_up.png",
-                "Overworld Conveyor Down",
-                "conveyorDown"
+                "Overworld Conveyor Down"
               )}
-              {makeGlitchButton(
-                "images/mirror_wrap.png",
-                "Mirror Wrap",
-                "mirrorWrap"
-              )}
+              {makeGlitchButton("images/mirror_wrap.png", "Mirror Wrap")}
               {makeGlitchButton(
                 "images/mirrorless_wrap.png",
-                "Mirrorless Wrap",
-                "mirrorlessWrap"
+                "Mirrorless Wrap"
               )}
             </Grid.Row>
             <Grid.Row>
-              {makeGlitchButton(
-                "images/wallmaster.png",
-                "Treewarp",
-                "wallmaster"
-              )}
-              {makeGlitchButton(
-                "images/dead_link.png",
-                "0hp/Deathole",
-                "deadLink"
-              )}
+              {makeGlitchButton("images/wallmaster.png", "Treewarp")}
+              {makeGlitchButton("images/dead_link.png", "Deathhole/0hp")}
             </Grid.Row>
           </Grid>
-        );
+        )
       default:
-        return <Grid columns={4} rows={4}></Grid>;
+        return <Grid columns={4} rows={4}></Grid>
     }
-  };
-
+  }
   return (
     <Sidebar
       as={Segment}
@@ -387,15 +304,13 @@ function PageSidebar(props: SidebarProps) {
                 <Button
                   size="mini"
                   disabled={["LW", "DW"].includes(selectedMap)}
-                  active={props.showSomariaPits}
+                  active={showSomariaPits}
                   color={
-                    props.showSomariaPits && !["LW", "DW"].includes(selectedMap)
+                    showSomariaPits && !["LW", "DW"].includes(selectedMap)
                       ? "red"
                       : undefined
                   }
-                  onClick={() =>
-                    props.setShowSomariaPits(!props.showSomariaPits)
-                  }
+                  onClick={() => dispatch(setShowSomariaPits(!showSomariaPits))}
                   style={{ margin: "10px 0px 0px 0px" }}
                 >
                   Show Somaria Pits
@@ -437,28 +352,43 @@ function PageSidebar(props: SidebarProps) {
             >
               {selectedGlitch.glitch ? (
                 <div>
-                  {selectedGlitch.glitch.glitchName}{" "}
-                  <a
-                    href={`${baseURL}/?map=${selectedMap}&glitch=${selectedGlitch.id}`}
-                  >
-                    <Icon name="share alternate" link></Icon>
-                  </a>
+                  {selectedGlitch.glitch.Title}{" "}
+                  <Popup
+                  trigger={
+                  <i
+                    className="clipboard outline icon link"
+                    onClick={() => {
+                      navigator.clipboard.writeText(
+                        `${baseURL}/?map=${selectedMap}&glitch=${selectedGlitch.id}`
+                      )
+                    }}
+                  />}
+                  content="Copied!"
+                  on='click'
+                  open={clipBoardPopupOpen}
+                  onOpen={handleClipBoardPopupOpen}
+                  position="top left"
+                  />
+
                 </div>
               ) : (
                 "Select a Glitch"
               )}
             </Header>
-
             <div>
-              {selectedGlitch.glitch
-                ? makeGlitchLink(selectedGlitch.glitch)
-                : null}
               <p className="side-glitchtext">
                 {selectedGlitch.glitch
-                  ? selectedGlitch.glitch.info
+                  ? selectedGlitch.glitch.Description
                   : "Click a glitch for information..."}
               </p>
             </div>
+
+            {selectedGlitch.glitch?.Guide ? (
+              <>
+                <br />
+                <GuideModal />
+              </>
+            ) : null}
           </Grid.Row>
           <Grid.Row
             verticalAlign="bottom"
@@ -479,7 +409,7 @@ function PageSidebar(props: SidebarProps) {
         </Grid.Column>
       </Grid>
     </Sidebar>
-  );
+  )
 }
 
-export default PageSidebar;
+export default PageSidebar

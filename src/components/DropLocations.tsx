@@ -1,17 +1,22 @@
-import { Button } from "semantic-ui-react";
-import { TileData } from "../types";
-import { JSX } from "react/jsx-runtime";
+import { Button } from "semantic-ui-react"
+import { TileData } from "../types"
+import { JSX } from "react/jsx-runtime"
+import { useGetTilesDataQuery } from "../app/apiSlice"
+import { useAppSelector } from "../app/hooks"
 
 interface DropButtonProps {
-  zoomToElement: (element: string, scale: number) => void;
-  currentScale: number;
-  onSelectTile: (source: string, dest: string) => void;
-  selectedTile: string;
-  previousTile: string;
-  tileData: TileData[];
+  zoomToElement: (element: string, scale: number) => void
+  currentScale: number
+  onSelectTile: (source: string, dest: string) => void
+  selectedTile: string
+  previousTile: string
 }
 
-const createDropButtons = (props: DropButtonProps) => {
+interface DropLocationsProps extends DropButtonProps {
+  tileData: TileData[]
+}
+
+const createDropButtons = (props: DropLocationsProps) => {
   const {
     tileData,
     zoomToElement,
@@ -19,19 +24,18 @@ const createDropButtons = (props: DropButtonProps) => {
     onSelectTile,
     selectedTile,
     previousTile,
-  } = props;
-  const buttons: JSX.Element[] = [];
-  const tileWidth = 8192 / 16;
-  const tileHeight = 8192 / 16;
-  const buttonSize = { width: 25, height: 16 };
-  const offset = { x: 24, y: 35 };
-  const existingTiles = tileData.map((tile) => tile.id);
+  } = props
+  const buttons: JSX.Element[] = []
+  const tileWidth = 8192 / 16
+  const tileHeight = 8192 / 16
+  const buttonSize = { width: 25, height: 16 }
+  const offset = { x: 24, y: 35 }
 
-  tileData.forEach((tile) => {
-    const tileId = tile.id;
-    const top = parseInt(tileId[5], 16) * tileHeight + offset.y;
-    const left = parseInt(tileId[6], 16) * tileWidth + offset.x;
-    if (existingTiles.includes(tile.dropTarget)) {
+  tileData.forEach(tile => {
+    const tileId = tile.TileID
+    const top = parseInt(tileId[5], 16) * tileHeight + offset.y
+    const left = parseInt(tileId[6], 16) * tileWidth + offset.x
+    if (tile.DropTarget) {
       buttons.push(
         <Button
           basic
@@ -48,13 +52,13 @@ const createDropButtons = (props: DropButtonProps) => {
             borderRadius: "5px",
           }}
           onClick={() => {
-            onSelectTile(tileId, tile.dropTarget);
+            onSelectTile(tileId, tile.DropTarget.TileID)
             setTimeout(() => {
-              zoomToElement(tile.dropTarget, currentScale);
-            }, 50);
+              zoomToElement(tile.DropTarget.TileID, currentScale)
+            }, 50)
           }}
         />
-      );
+      )
     }
     if (selectedTile === tileId && previousTile !== tileId) {
       buttons.push(
@@ -72,22 +76,29 @@ const createDropButtons = (props: DropButtonProps) => {
             display: previousTile ? "block" : "none",
           }}
           onClick={() => {
-            onSelectTile(tileId, previousTile);
+            onSelectTile(tileId, previousTile)
             setTimeout(() => {
-              zoomToElement(previousTile, currentScale);
-            }, 50);
+              zoomToElement(previousTile, currentScale)
+            }, 50)
           }}
         >
           {"↩"}
         </Button>
-      );
+      )
     }
-  });
-  return buttons;
-};
-
-function DropLocations(props: any) {
-  return <div>{createDropButtons(props)}</div>;
+  })
+  return buttons
 }
 
-export default DropLocations;
+function DropLocations(props: DropButtonProps) {
+  const selectedMap = useAppSelector(state => state.app.selectedMap)
+  const { data: tileData, isLoading } = useGetTilesDataQuery(selectedMap)
+
+  return isLoading || tileData === undefined ? (
+    <></>
+  ) : (
+    <div>{createDropButtons({ ...props, tileData })}</div>
+  )
+}
+
+export default DropLocations

@@ -1,0 +1,51 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tiles",
+  "info": {
+    "singularName": "tile",
+    "pluralName": "tiles",
+    "displayName": "Tile",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "TileID": {
+      "type": "string",
+      "required": true
+    },
+    "doors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::door.door",
+      "mappedBy": "tile"
+    },
+    "hookpushes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::hookpush.hookpush",
+      "mappedBy": "tile"
+    },
+    "DropTarget": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::tile.tile"
+    },
+    "Map": {
+      "type": "enumeration",
+      "enum": [
+        "EG1",
+        "EG2"
+      ],
+      "required": true
+    },
+    "non_door_glitches": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::non-door-glitch.non-door-glitch",
+      "mappedBy": "tile"
+    }
+  }
+}

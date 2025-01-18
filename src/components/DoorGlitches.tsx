@@ -1,147 +1,112 @@
-import React from "react";
-import { JSX } from "react/jsx-runtime";
-import { directionToRotation } from "../utils";
-import { DoorGlitchData, DoorData, GlitchData, SelectedGlitch } from "../types";
-import GlitchImage from "./GlitchImage";
+import { JSX } from "react/jsx-runtime"
+import { directionToRotation } from "../utils"
+import { DoorData, Glitch } from "../types"
+import GlitchImage from "./GlitchImage"
+import { useAppDispatch, useAppSelector } from "../app/hooks"
+import { setSelectedGlitch } from "../app/appSlice"
 
 interface DoorGlitchesProps {
-  enabledGlitches: string[];
-  setSelectedGlitch: React.Dispatch<React.SetStateAction<SelectedGlitch>>;
-  zoomToElement: (element: string, scale: number) => void;
-  selectedGlitch: SelectedGlitch;
-  doorGlitchData: DoorGlitchData[];
-  doorData: DoorData[];
-  selectedMap: "EG1" | "EG2" | "LW" | "DW";
+  zoomToElement: (element: string, scale: number) => void
+  doorData: DoorData[]
 }
 
 function DoorGlitches(props: DoorGlitchesProps) {
-  const {
-    doorGlitchData,
-    doorData,
-    selectedGlitch,
-    zoomToElement,
-    selectedMap,
-  } = props;
-  function handleClick(glitch: GlitchData, id: string) {
-    props.setSelectedGlitch({ glitch, id });
-    zoomToElement(id, selectedMap === "EG1" || selectedMap === "EG2" ? 1 : 0.6);
+  const { doorData, zoomToElement } = props
+
+  const dispatch = useAppDispatch()
+
+  const selectedMap = useAppSelector(state => state.app.selectedMap)
+  const enabledGlitches = useAppSelector(state => state.app.enabledGlitches)
+
+  function handleClick(glitch: Glitch, id: string) {
+    dispatch(setSelectedGlitch({ glitch, id }))
+    zoomToElement(id, selectedMap === "EG1" || selectedMap === "EG2" ? 1 : 0.6)
   }
 
-  const getGlitchesGrid = (
-    data: DoorGlitchData,
-    enabledGlitches: string[],
-  ) => {
+  const getGlitchesGrid = (data: DoorData, enabledGlitches: string[]) => {
     // Do we have a single glitch? Then just use an icon
-    if (data.glitches.length === 0) {
-      return <div />;
+    if (!data.door_glitches) {
+      return <div />
     }
-    if (data.glitches.length === 1) {
-      const glitch = data.glitches[0];
-      if (enabledGlitches.includes(glitch["glitch"])) {
-        const glitchId = `dg-${glitch["glitchName"].replace(/ /g, "-")}`;
-        <GlitchImage
+    if (data.door_glitches.length === 1) {
+      const glitch = data.door_glitches[0]
+      if (enabledGlitches.includes(glitch.Type)) {
+        const glitchId = `dg-${glitch.Title.replace(/ /g, "-")}`
+        ;<GlitchImage
           glitch={glitch}
           glitchId={glitchId}
           key={glitchId}
-          selectedGlitch={selectedGlitch}
           handleClick={handleClick}
-        />;
+        />
       }
     }
     // Otherwise, we have multiple glitches, so use a grid
-    const grid = [];
+    const grid = []
     for (let i = 0; i < 3; i++) {
-      const row = [];
+      const row = []
       for (let j = 0; j < 3; j++) {
-        const index = i * 3 + j;
-        const glitch = data.glitches[index];
-        const id = `door-glitches-${data["door"]}-${index}`;
+        const index = i * 3 + j
+        const glitch = data.door_glitches[index]
+        const id = `door-glitches-${data.Name}-${index}`
         if (glitch) {
-          if (enabledGlitches.includes(glitch["glitch"])) {
-            const glitchId = `dg-${glitch["glitchName"].replace(/ /g, "-")}`;
+          if (enabledGlitches.includes(glitch.Type)) {
+            const glitchId = `dg-${glitch.Title.replace(/ /g, "-")}`
             row.push(
               <GlitchImage
                 glitch={glitch}
                 glitchId={glitchId}
                 key={glitchId}
-                selectedGlitch={selectedGlitch}
                 handleClick={handleClick}
               />
-            );
+            )
           } else {
-            row.push(<div key={id} />);
+            row.push(<div key={id} />)
           }
         } else {
-          row.push(<div key={id} />);
+          row.push(<div key={id} />)
         }
       }
-      grid.push(<div key={`door-glitches-${data["door"]}-col${i}`}>{row}</div>);
+      grid.push(<div key={`door-glitches-${data.Name}-col${i}`}>{row}</div>)
     }
-    return grid;
-  };
+    return grid
+  }
 
   const createOverlays = () => {
-    const overlays: JSX.Element[] = [];
-    const tileWidth = 8192 / 16;
-    const tileHeight = 8192 / 16;
-    doorData.forEach((tile) => {
+    const overlays: JSX.Element[] = []
+    const tileWidth = 8192 / 16
+    const tileHeight = 8192 / 16
+    doorData.forEach(door => {
       // Extract last 2 characters of tile name
-      const tileX = parseInt(tile["tile"].slice(-1), 16);
-      const tileY = parseInt(tile["tile"].slice(-2, -1), 16);
-      const top = tileY * tileHeight;
-      const left = tileX * tileWidth;
-      tile["doors"].forEach((door) => {
-        let doorX = door["x"];
-        let doorY = door["y"];
-        const doorName = door["name"];
-        const doorDirection = door["direction"];
-        const doorGlitches = doorGlitchData.find((d) => d["door"] === doorName);
-        if (doorGlitches) {
-          const glitchGrid = getGlitchesGrid(
-            doorGlitches,
-            props.enabledGlitches
-          );
-          if (glitchGrid) {
-            overlays.push(
-              <div
-                style={{
-                  position: "absolute",
-                  top: top + doorY - 32,
-                  left: left + doorX - 32,
-                  width: "64px",
-                  height: "64px",
-                  borderRadius: "5px",
-                  transform: `rotate(${directionToRotation(doorDirection)}deg)`,
-                }}
-                key={`${doorName}-glitch-grid`}
-              >
-                {glitchGrid}
-              </div>
-            );
-          }
-        } else if (true) {
+      const tileX = parseInt(door.tile.TileID.slice(-1), 16)
+      const tileY = parseInt(door.tile.TileID.slice(-2, -1), 16)
+      const top = tileY * tileHeight
+      const left = tileX * tileWidth
+      if (door.door_glitches && door.door_glitches.length > 0) {
+        const glitchGrid = getGlitchesGrid(door, enabledGlitches)
+        if (glitchGrid) {
           overlays.push(
             <div
-              title={doorName}
               style={{
                 position: "absolute",
-                top: top + doorY - 6,
-                left: left + doorX - 6,
-                width: "12px",
-                height: "12px",
+                top: top + door.y - 32,
+                left: left + door.x - 32,
+                width: "64px",
+                height: "64px",
                 borderRadius: "5px",
-                backgroundColor: "rgba(0, 255, 0, 0.5)",
+                transform: `rotate(${directionToRotation(door.Direction)}deg)`,
               }}
-              key={doorName}
-            />
-          );
+              key={`${door.Name}-glitch-grid`}
+            >
+              {glitchGrid}
+            </div>
+          )
         }
-      });
-    });
-    return overlays;
-  };
+      }
+    })
+    return overlays
+  }
 
-  return <div>{createOverlays()}</div>;
+  return <div>{createOverlays()}</div>
 }
 
-export default DoorGlitches;
+export default DoorGlitches

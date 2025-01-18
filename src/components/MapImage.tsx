@@ -1,13 +1,12 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef, useState } from "react"
+import { useAppSelector } from "../app/hooks"
 
 interface MapImageProps {
-  src: string;
-  width: number;
-  height: number;
-  mapImage: string;
-  somariaPits: string;
-  selectedMap: string;
-  showSomariaPits: boolean;
+  src: string
+  width: number
+  height: number
+  mapImage: string
+  somariaPits: string
 }
 
 const MapImage: React.FC<MapImageProps> = ({
@@ -16,55 +15,56 @@ const MapImage: React.FC<MapImageProps> = ({
   height,
   mapImage,
   somariaPits,
-  showSomariaPits,
-  selectedMap,
 }) => {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [isSupported, setIsSupported] = useState(true);
+  const canvasRef = useRef<HTMLCanvasElement>(null)
+  const [isSupported, setIsSupported] = useState(true)
+
+  const selectedMap = useAppSelector(state => state.app.selectedMap)
+  const showSomariaPits = useAppSelector(state => state.app.showSomariaPits)
 
   function loadSomariaImage(src: string) {
     return new Promise((resolve, reject) => {
-      let img = new Image();
-      img.onload = () => resolve(img);
-      img.onerror = reject;
-      img.src = src;
-    });
+      const img = new Image()
+      img.onload = () => resolve(img)
+      img.onerror = reject
+      img.src = src
+    })
   }
 
   useEffect(() => {
-    const controller = new AbortController();
-    const signal = controller.signal;
-    const canvas = canvasRef.current;
-    const ctx = canvas?.getContext("2d");
+    const controller = new AbortController()
+    const signal = controller.signal
+    const canvas = canvasRef.current
+    const ctx = canvas?.getContext("2d")
 
     if (canvas && ctx) {
-      const image = new Image();
-      image.src = src;
+      const image = new Image()
+      image.src = src
 
       if (typeof createImageBitmap === "function") {
         image.onload = async () => {
           try {
-            const bitmap = await createImageBitmap(image);
-            if (signal.aborted) return;
-            ctx.drawImage(bitmap, 0, 0, width, height);
+            const bitmap = await createImageBitmap(image)
+            if (signal.aborted) return
+            ctx.drawImage(bitmap, 0, 0, width, height)
             if (showSomariaPits && !["LW", "DW"].includes(selectedMap)) {
               const somariaImage = (await loadSomariaImage(
                 somariaPits
-              )) as HTMLImageElement;
-              ctx.drawImage(somariaImage, 0, 0, width, height);
+              )) as HTMLImageElement
+              ctx.drawImage(somariaImage, 0, 0, width, height)
             }
           } catch (error) {
-            setIsSupported(false);
+            setIsSupported(false)
           }
-        };
+        }
       } else {
-        setIsSupported(false);
+        setIsSupported(false)
       }
     }
     return () => {
-      controller.abort();
-    };
-  }, [src, width, height, selectedMap, showSomariaPits, somariaPits]);
+      controller.abort()
+    }
+  }, [src, width, height, selectedMap, showSomariaPits, somariaPits])
 
   if (!isSupported) {
     return (
@@ -98,10 +98,10 @@ const MapImage: React.FC<MapImageProps> = ({
           />
         </picture>
       </div>
-    );
+    )
   }
 
-  return <canvas ref={canvasRef} width={width} height={height} />;
-};
+  return <canvas ref={canvasRef} width={width} height={height} />
+}
 
-export default MapImage;
+export default MapImage

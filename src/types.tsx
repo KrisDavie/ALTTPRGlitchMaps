@@ -1,69 +1,59 @@
-interface DoorData {
-  tile: string;
-  doors: {
-    x: number;
-    y: number;
-    name: string;
-    direction: string;
-  }[];
+import { BlocksContent } from "@strapi/blocks-react-renderer";
+
+type Direction = "No" | "Up" | "Ea" | "So" | "Do" | "We";
+type Map = "EG1" | "EG2" | "LW" | "DW";
+
+interface TileData {
+  TileID: string;
+  DropTarget: TileData;
 }
 
-interface SelectedGlitch {
-  glitch?: GlitchData | HookpushLocation | undefined;
-  id?: string;
+interface DoorData {
+  tile: TileData;
+  x: number;
+  y: number;
+  Name: string;
+  Direction: Direction;
+  Map: Map;
+  door_glitches?: DoorGlitchData[];
 }
 
 interface GlitchData {
-  glitch: string;
-  glitchName: string;
-  info?: string;
-  link?: string[];
+  Title: string;
+  Description: string;
+  Map: Map;
+  Guide: BlocksContent;
+  Type: string;
 }
 
-interface TileData {
-  id: string;
-  dropTarget: string;
-}
-
-interface DoorGlitchData {
-  door: string;
-  glitches: GlitchData[];
-}
-
-interface GlitchLocation {
+interface NonDoorGlitchData extends GlitchData {
   x: number;
   y: number;
-  direction: string;
-  glitches: GlitchData[];
+  Direction: Direction;
+  tile?: TileData;
 }
 
-interface NonDoorGlitchData {
-  tile: string;
-  locations: GlitchLocation[];
+interface DoorGlitchData extends GlitchData {
+  door: DoorData;
 }
 
-interface HookpushLocation {
-  x: number;
-  y: number;
-  direction: string;
-  pushType: string;
-  distance: number;
-  glitchName: string;
-  info?: string;
-  link?: string[];
+interface HookpushData extends NonDoorGlitchData {
+  Distance: number;
 }
 
-interface HookpushData {
-  tile: string;
-  locations: HookpushLocation[];
+type Glitch = DoorGlitchData | NonDoorGlitchData | HookpushData;
+
+interface SelectedGlitch {
+  glitch?: Glitch | undefined;
+  id?: string;
 }
 
 export type {
   DoorData,
   GlitchData,
+  Glitch,
   DoorGlitchData,
   HookpushData,
-  HookpushLocation,
   NonDoorGlitchData,
   SelectedGlitch,
   TileData,

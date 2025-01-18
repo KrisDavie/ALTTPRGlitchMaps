@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "door_glitches",
+  "info": {
+    "singularName": "door-glitch",
+    "pluralName": "door-glitches",
+    "displayName": "Door Glitch",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Guide": {
+      "type": "blocks"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Double YBA",
+        "Subtile YBA",
+        "Supertile YBA",
+        "Somaria",
+        "Bomb Juke",
+        "Spin Subtile YBA",
+        "Spin Supertile YBA",
+        "Jingle Glitch",
+        "Spin Somaria",
+        "Somaria Supertile YBA",
+        "Statue Drag",
+        "Quadrant Glitch",
+        "Stairmaster"
+      ],
+      "required": true
+    },
+    "Map": {
+      "type": "enumeration",
+      "enum": [
+        "EG1",
+        "EG2"
+      ],
+      "required": true
+    },
+    "door": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::door.door",
+      "inversedBy": "door_glitches"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doors",
+  "info": {
+    "singularName": "door",
+    "pluralName": "doors",
+    "displayName": "Door",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Map": {
+      "type": "enumeration",
+      "enum": [
+        "EG1",
+        "EG2"
+      ]
+    },
+    "Direction": {
+      "type": "enumeration",
+      "enum": [
+        "No",
+        "Up",
+        "Ea",
+        "So",
+        "Dn",
+        "We"
+      ]
+    },
+    "x": {
+      "type": "integer"
+    },
+    "y": {
+      "type": "integer"
+    },
+    "tile": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tile.tile",
+      "inversedBy": "doors"
+    },
+    "door_glitches": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::door-glitch.door-glitch",
+      "mappedBy": "door"
+    }
+  }
+}

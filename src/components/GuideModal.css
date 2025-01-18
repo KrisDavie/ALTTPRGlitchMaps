@@ -1,0 +1,42 @@
+.ui.modal {
+    border-radius: 20px;
+    max-width: 800px;
+
+}
+
+.ui.modal>.header {
+    background: #322d38 !important;
+    padding: 5px 5px 0px 0px;
+}
+
+.ui.modal>.content {
+    background: #322d38 !important;
+    /* align everything centered */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.guide-text {
+    font-family: 'Calibri';
+    color: #fff;
+    font-size: 1.2em;
+    text-align: justify;
+    text-align-last: center;
+    width: 90%
+}
+
+.guide-image {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.guide-header {
+    color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}

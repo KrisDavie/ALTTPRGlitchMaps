@@ -1,0 +1,73 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hookpushes",
+  "info": {
+    "singularName": "hookpush",
+    "pluralName": "hookpushes",
+    "displayName": "Hookpush",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "tile": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tile.tile",
+      "inversedBy": "hookpushes"
+    },
+    "x": {
+      "type": "integer",
+      "required": true
+    },
+    "y": {
+      "type": "integer",
+      "required": true
+    },
+    "Distance": {
+      "type": "integer",
+      "required": true
+    },
+    "Direction": {
+      "type": "enumeration",
+      "enum": [
+        "No",
+        "Ea",
+        "So",
+        "We"
+      ],
+      "required": true
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Boomerang",
+        "Somaria",
+        "Stuckpush"
+      ],
+      "required": true
+    },
+    "Guide": {
+      "type": "blocks"
+    },
+    "Map": {
+      "type": "enumeration",
+      "enum": [
+        "EG1",
+        "EG2",
+        "LW",
+        "DW"
+      ],
+      "required": true
+    }
+  }
+}

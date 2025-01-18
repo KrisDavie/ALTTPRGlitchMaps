@@ -1,0 +1,82 @@
+{
+  "kind": "collectionType",
+  "collectionName": "non_door_glitches",
+  "info": {
+    "singularName": "non-door-glitch",
+    "pluralName": "non-door-glitches",
+    "displayName": "Non Door Glitch",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Map": {
+      "type": "enumeration",
+      "enum": [
+        "EG1",
+        "EG2",
+        "LW",
+        "DW"
+      ],
+      "required": true
+    },
+    "x": {
+      "type": "integer",
+      "required": true
+    },
+    "y": {
+      "type": "integer",
+      "required": true
+    },
+    "Guide": {
+      "type": "blocks"
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Spinspeed Clip/Clip Through",
+        "Quadrant Glitch",
+        "Deathhole/0hp",
+        "Up Teleport",
+        "Down Teleport",
+        "Citrus Clip",
+        "Swim Clip",
+        "Overworld YBA",
+        "Mirror Clip/Portal Offset",
+        "Bomb Clip",
+        "Overworld Conveyor Up",
+        "Overworld Conveyor Down",
+        "Mirror Wrap",
+        "Mirrorless Wrap",
+        "Treewarp"
+      ],
+      "required": true
+    },
+    "tile": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::tile.tile",
+      "inversedBy": "non_door_glitches"
+    },
+    "Direction": {
+      "type": "enumeration",
+      "enum": [
+        "No",
+        "Up",
+        "Ea",
+        "So",
+        "Do",
+        "We"
+      ]
+    }
+  }
+}

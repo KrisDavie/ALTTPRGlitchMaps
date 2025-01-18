@@ -4,23 +4,24 @@ services:
     build: .
     ports:
       - "8216:8216"
-  db:
+  strapidb:
     image: postgres:latest
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
       - POSTGRES_DB=strapi
-    ports:
-      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
   strapi:
     container_name: strapi
-    build: ./api/.
+    build:
+      context: ./api/.
+      dockerfile: Dockerfile.prod
     image: strapi:latest
     restart: unless-stopped
     env_file: ./api/.env
     environment:
-      JWT_SECRET: ${JWT_SECRET}
-      NODE_ENV: ${NODE_ENV}
+      NODE_ENV: production
     volumes:
       - ./api/config:/opt/app/config
       - ./api/src:/opt/app/src
@@ -31,16 +32,8 @@ services:
     ports:
       - "1337:1337"
     depends_on:
-      - db
-  pgadmin:
-    container_name: strapi_pgadmin4
-    image: dpage/pgadmin4:8.14.0
-    restart: always
-    environment:
-      PGADMIN_DEFAULT_EMAIL: admin@admin.com
-      PGADMIN_DEFAULT_PASSWORD: root
-    ports:
-      - "5050:80"
-    depends_on:
-      - db
-
+      - strapidb
+networks:
+  default:
+    external: true
+    name: npm

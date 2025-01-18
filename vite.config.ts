@@ -13,8 +13,8 @@ export default defineConfig({
     },
     proxy: {
       "/api": {
-        target: "http://localhost:1337",
-        hostRewrite: "localhost:1337", // This is needed for POST requests to work properly
+        target: "http://strapi:1337",
+        hostRewrite: "strapi:1337", // This is needed for POST requests to work properly
       },
     },
   },

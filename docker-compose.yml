@@ -25,8 +25,8 @@ services:
     volumes:
       - ./api/config:/opt/app/config
       - ./api/src:/opt/app/src
-      - ./api/package.json:/opt/package.json
-      - ./api/yarn.lock:/opt/yarn.lock
+      - ./api/package.json:/opt/app/package.json
+      - ./api/yarn.lock:/opt/app/yarn.lock
       - ./api/.env:/opt/app/.env
       - ./api/public/:/opt/app/public/
     ports:

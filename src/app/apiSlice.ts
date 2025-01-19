@@ -7,7 +7,7 @@ import {
   TileData,
 } from "../types"
 
-const baseUrl = import.meta.env.API_BASE_URL
+const baseUrl = '/cms/api'
 
 export const apiSlice = createApi({
   baseQuery: fetchBaseQuery({ baseUrl }),

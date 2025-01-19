@@ -8,7 +8,7 @@ function LinkRenderer(props: { link: string }) {
       <iframe
         src={
           link.replace("clips.twitch.tv/", "clips.twitch.tv/embed?clip=") +
-          "&parent=localhost"
+          "&parent=glitchmaps.mfns.dev"
         }
         height="360"
         width="640"

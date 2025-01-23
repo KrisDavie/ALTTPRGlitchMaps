@@ -44,6 +44,7 @@
       "type": "enumeration",
       "enum": [
         "Spinspeed Clip/Clip Through",
+        "Stairmaster",
         "Quadrant Glitch",
         "Deathhole/0hp",
         "Up Teleport",

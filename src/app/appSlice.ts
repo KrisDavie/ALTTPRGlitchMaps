@@ -23,6 +23,7 @@ const initialState: AppState = {
     "Supertile YBA",
     "Bomb Juke",
     "Stairmaster",
+    "Spinspeed Clip/Clip Through",
     "Subtile YBA",
     "Jingle Glitch",
     "Quadrant Glitch",

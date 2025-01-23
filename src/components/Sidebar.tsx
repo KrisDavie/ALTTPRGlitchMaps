@@ -129,7 +129,7 @@ function PageSidebar(props: SidebarProps) {
             </Grid.Row>
             <Grid.Row style={{ padding: "4px 0px 4px 0px" }}>
               {makeGlitchButton("images/bomb.png", "Bomb Juke")}
-              {makeGlitchButton("images/boots.png", "Stairmaster")}
+              {makeGlitchButton("images/boots.png", "Spinspeed Clip/Clip Through")}
               {makeGlitchButton(
                 "images/spin_green_pot_112.png",
                 "Spin Subtile YBA"
@@ -151,11 +151,9 @@ function PageSidebar(props: SidebarProps) {
             </Grid.Row>
 
             <Grid.Row style={{ padding: "4px 0px 4px 0px" }}>
-              {" "}
               {makeGlitchButton("images/statue_drag.png", "Statue Drag")}
-              <Grid.Column>
-                {makeGlitchButton("images/dead_link.png", "Deathhole/0hp")}
-              </Grid.Column>
+              {makeGlitchButton("images/dead_link.png", "Deathhole/0hp")}
+              {makeGlitchButton("images/stairmaster.png", "Stairmaster")}
             </Grid.Row>
             <Grid.Row>
               <Grid.Column>

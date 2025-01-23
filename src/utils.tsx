@@ -11,6 +11,7 @@ const glitchToImage = (glitch: string) => {
     case "Bomb Juke":
       return "images/bomb.png";
     case "Stairmaster":
+      return "images/stairmaster.png"
     case "Spinspeed Clip/Clip Through":
       return "images/boots.png";
     case "Spin Subtile YBA":

@@ -9,6 +9,7 @@ const glitchToImage = (glitch: string) => {
     case "Somaria":
       return "images/somaria.png";
     case "Bomb Juke":
+    case "Bomb Clip":	
       return "images/bomb.png";
     case "Stairmaster":
       return "images/stairmaster.png"

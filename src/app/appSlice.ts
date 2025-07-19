@@ -6,6 +6,7 @@ export interface AppState {
   selectedGlitch: SelectedGlitch
   enabledGlitches: string[]
   showSomariaPits: boolean
+  showQuadrantLines: boolean
   selectedMap: "EG1" | "EG2" | "LW" | "DW"
   currentScale: number
   mousePosition: { x: number; y: number; tile: string }
@@ -40,6 +41,7 @@ const initialState: AppState = {
     "hookpush-Stuckpush",
   ],
   showSomariaPits: false,
+  showQuadrantLines: true,
   selectedMap: "EG1",
   currentScale: 1,
   mousePosition: { x: 0, y: 0, tile: "" },
@@ -56,6 +58,9 @@ export const appSlice = createSlice({
     },
     setShowSomariaPits: (state, action) => {
       state.showSomariaPits = action.payload
+    },
+    setShowQuadrantLines: (state, action) => {
+      state.showQuadrantLines = action.payload
     },
     setSelectedGlitch: (state, action) => {
       state.selectedGlitch = action.payload
@@ -77,6 +82,7 @@ export const {
   setSelectedMap,
   setEnabledGlitches,
   setShowSomariaPits,
+  setShowQuadrantLines,
   setSelectedGlitch,
   setMousePosition,
   checkMousePosition,

@@ -13,6 +13,7 @@ import {
 } from "../app/apiSlice"
 import Doors from "./Doors"
 import { useAppSelector } from "../app/hooks"
+import QuadrantLines from "./QuadrantLines"
 
 interface MapContentProps {
   zoomToElement: (element: string) => void
@@ -26,6 +27,7 @@ function MapContent(props: MapContentProps) {
   const [highlightTile, setHighlightTile] = useState(false)
 
   const selectedMap = useAppSelector(state => state.app.selectedMap)
+  const showQuadrantLines = useAppSelector(state => state.app.showQuadrantLines)
 
   const updateSelectedTile = (source: string, dest: string) => {
     setPreviousTile(source)
@@ -71,12 +73,14 @@ function MapContent(props: MapContentProps) {
 
   mapElements.push(
     <TileOverlays
-    selectedTile={selectedTile}
-    previousTile={previousTile}
-    highlightTile={highlightTile}
-    key="TileOverlays"
-  />
+      selectedTile={selectedTile}
+      previousTile={previousTile}
+      highlightTile={highlightTile}
+      key="TileOverlays"
+    />
   )
+
+  showQuadrantLines && mapElements.push(<QuadrantLines key="QuadrantLines" />)
 
   if (selectedMap === "EG1" || selectedMap === "EG2") {
     mapElements.push(
@@ -103,7 +107,7 @@ function MapContent(props: MapContentProps) {
     }
   }
 
-  if (hookPushData) {
+  hookPushData &&
     mapElements.push(
       <HookPushLocations
         zoomToElement={zoomToElement}
@@ -111,9 +115,8 @@ function MapContent(props: MapContentProps) {
         key="HookPushLocations"
       />
     )
-  }
 
-  if (nonDoorGlitchData) {
+  nonDoorGlitchData &&
     mapElements.push(
       <NonDoorGlitches
         zoomToElement={zoomToElement}
@@ -121,7 +124,6 @@ function MapContent(props: MapContentProps) {
         key="NonDoorGlitches"
       />
     )
-  }
 
   return (
     <div

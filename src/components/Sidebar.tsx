@@ -19,6 +19,7 @@ import {
   setSelectedGlitch,
   setSelectedMap,
   setShowSomariaPits,
+  setShowQuadrantLines,
 } from "../app/appSlice"
 import GuideModal from "./GuideModal"
 
@@ -52,6 +53,7 @@ function PageSidebar(props: SidebarProps) {
   const selectedMap = useAppSelector(state => state.app.selectedMap)
   const selectedGlitch = useAppSelector(state => state.app.selectedGlitch)
   const showSomariaPits = useAppSelector(state => state.app.showSomariaPits)
+  const showQuadrantLines = useAppSelector(state => state.app.showQuadrantLines)
 
   const handleClicks = (glitch: string) => {
     if (enabledGlitches.includes(glitch)) {
@@ -96,7 +98,8 @@ function PageSidebar(props: SidebarProps) {
     )
   }
 
-  const makeGlitchButton = (image: string, title: string) => {
+  const makeGlitchButton = (image: string, title: string, iconName: string = "") => {
+    iconName = iconName === "" ? title : iconName
     return (
       <Grid.Column>
         <Image
@@ -105,11 +108,11 @@ function PageSidebar(props: SidebarProps) {
           alt={title}
           title={title}
           style={{
-            filter: enabledGlitches.includes(title)
+            filter: enabledGlitches.includes(iconName)
               ? "grayscale(0%)"
               : "grayscale(100%) blur(2px)",
           }}
-          onClick={() => handleClicks(title)}
+          onClick={() => handleClicks(iconName)}
         />
       </Grid.Column>
     )
@@ -216,7 +219,7 @@ function PageSidebar(props: SidebarProps) {
                 "images/boots.png",
                 "Spinspeed Clip/Clip Through"
               )}
-              {makeGlitchButton("images/citrus.png", "Citrus Clip")}
+              {makeGlitchButton("images/citrus.png", "Bootsless Clip", "Citrus Clip")}
             </Grid.Row>
             <Grid.Row centered style={{ padding: "4px 0px 4px 0px" }}>
               {makeGlitchButton("images/flippers.png", "Swim Clip")}
@@ -297,27 +300,44 @@ function PageSidebar(props: SidebarProps) {
               {mapButton("LW")}
               {mapButton("DW")}
             </Button.Group>
-            <Popup
-              trigger={
-                <Button
-                  size="mini"
-                  disabled={["LW", "DW"].includes(selectedMap)}
-                  active={showSomariaPits}
-                  color={
-                    showSomariaPits && !["LW", "DW"].includes(selectedMap)
-                      ? "red"
-                      : undefined
-                  }
-                  onClick={() => dispatch(setShowSomariaPits(!showSomariaPits))}
-                  style={{ margin: "10px 0px 0px 0px" }}
-                >
-                  Show Somaria Pits
-                </Button>
-              }
-              content="Pits shown are room load pits. Rooms entered via a fade are likely not accurate."
-              basic
-              position="bottom center"
-            />
+            <div style={{flex: 1, display: "flex", flexDirection: "row", justifyContent: "space-between", marginRight: "16px"}}>
+              <Popup
+                trigger={
+                  <Button
+                    size="mini"
+                    disabled={["LW", "DW"].includes(selectedMap)}
+                    active={showSomariaPits}
+                    color={
+                      showSomariaPits && !["LW", "DW"].includes(selectedMap)
+                        ? "red"
+                        : undefined
+                    }
+                    onClick={() => dispatch(setShowSomariaPits(!showSomariaPits))}
+                    style={{ margin: "10px 0px 0px 0px" }}
+                  >
+                    {showSomariaPits ? "Hide" : "Show"} Somaria Pits
+                  </Button>
+                }
+                content="Pits shown are room load pits. Rooms entered via a fade are likely not accurate."
+                basic
+                position="bottom center"
+              />
+              <Button
+                size="mini"
+                disabled={["LW", "DW"].includes(selectedMap)}
+                active={showQuadrantLines}
+                color={
+                  showQuadrantLines && !["LW", "DW"].includes(selectedMap)
+                    ? "teal"
+                    : undefined
+                }
+                onClick={() => dispatch(setShowQuadrantLines(!showQuadrantLines))}
+                style={{ margin: "10px 0px 0px 0px" }}
+              >
+                {showQuadrantLines ? "Hide" : "Show"} Quadrant Lines
+              </Button>
+            </div>
+
             <Header
               as="h5"
               textAlign="left"

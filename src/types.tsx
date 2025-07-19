@@ -6,6 +6,8 @@ type Map = "EG1" | "EG2" | "LW" | "DW";
 interface TileData {
   TileID: string;
   DropTarget: TileData;
+  HQuadLine: boolean;
+  VQuadLine: boolean;
 }
 
 interface DoorData {

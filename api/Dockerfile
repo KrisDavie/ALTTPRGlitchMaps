@@ -8,14 +8,15 @@ WORKDIR /opt/
 RUN chown -R node:node /opt
 RUN mkdir -p /opt/app
 RUN chown -R node:node /opt/app
-USER node
 
 COPY package.json yarn.lock ./
+COPY --chown=node:node patches patches
 RUN yarn global add node-gyp
 RUN yarn config set network-timeout 600000 -g && yarn install
 ENV PATH=/opt/node_modules/.bin:$PATH
 WORKDIR /opt/app
-COPY --chown=node:node . . 
+COPY --chown=node:node . .
+USER node
 RUN ["yarn", "build"]
 EXPOSE 1337
 CMD ["yarn", "develop"]

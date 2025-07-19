@@ -46,6 +46,17 @@
       "relation": "oneToMany",
       "target": "api::non-door-glitch.non-door-glitch",
       "mappedBy": "tile"
+    },
+    "TileName": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "HQuadLine": {
+      "type": "boolean"
+    },
+    "VQuadLine": {
+      "type": "boolean"
     }
   }
 }

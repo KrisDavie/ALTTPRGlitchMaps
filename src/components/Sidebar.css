@@ -1,5 +1,6 @@
 .ui.sidebar {
     background-color: #322d38;
+     scrollbar-gutter: stable;
     /* overflow-y: hidden !important; */
 }
 

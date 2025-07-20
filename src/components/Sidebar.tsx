@@ -40,12 +40,20 @@ function PageSidebar(props: SidebarProps) {
   const dispatch = useAppDispatch()
   const baseURL = window.location.origin
 
+  const [mapPopupOpen, setMapPopupOpen] = React.useState(false)
   const [clipBoardPopupOpen, setClipBoardPopupOpen] = React.useState(false)
 
   const handleClipBoardPopupOpen = () => {
     setClipBoardPopupOpen(true)
     setTimeout(() => {
       setClipBoardPopupOpen(false)
+    }, 1000)
+  }
+
+  const handleMapPopupOpen = () => {
+    setMapPopupOpen(true)
+    setTimeout(() => {
+      setMapPopupOpen(false)
     }, 1000)
   }
 
@@ -373,21 +381,40 @@ function PageSidebar(props: SidebarProps) {
                   {selectedGlitch.glitch.Title}{" "}
                   <Popup
                   trigger={
-                  <i
-                    className="clipboard outline icon link"
+                    <i
+                    className="map outline icon link"
+                    title="Copy map link to clipboard"
                     onClick={() => {
                       navigator.clipboard.writeText(
-                        `${baseURL}/?map=${selectedMap}&glitch=${selectedGlitch.id}`
+                      `${baseURL}/?map=${selectedMap}&glitch=${selectedGlitch.id}`
                       )
                     }}
-                  />}
+                    />
+                  }
                   content="Copied!"
-                  on='click'
+                  on="click"
+                  open={mapPopupOpen}
+                  onOpen={handleMapPopupOpen}
+                  position="top left"
+                  />
+                  <Popup
+                  trigger={
+                    <i
+                    className="clipboard outline icon link"
+                    title="Copy standalone guide link to clipboard"
+                    onClick={() => {
+                      navigator.clipboard.writeText(
+                      `${baseURL}/guide/?map=${selectedMap}&glitch=${selectedGlitch.id}`
+                      )
+                    }}
+                    />
+                  }
+                  content="Copied!"
+                  on="click"
                   open={clipBoardPopupOpen}
                   onOpen={handleClipBoardPopupOpen}
                   position="top left"
                   />
-
                 </div>
               ) : (
                 "Select a Glitch"

@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reusable_guides",
+  "info": {
+    "singularName": "reusable-guide",
+    "pluralName": "reusable-guides",
+    "displayName": "Reusable Guide",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "Guide": {
+      "type": "blocks"
+    }
+  }
+}

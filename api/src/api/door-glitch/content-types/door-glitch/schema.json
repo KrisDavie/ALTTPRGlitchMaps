@@ -54,6 +54,11 @@
       "relation": "manyToOne",
       "target": "api::door.door",
       "inversedBy": "door_glitches"
+    },
+    "ReusableGuides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::reusable-guide.reusable-guide"
     }
   }
 }

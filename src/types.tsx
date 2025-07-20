@@ -26,6 +26,12 @@ interface GlitchData {
   Map: Map;
   Guide: BlocksContent;
   Type: string;
+  ReusableGuides: GuideData[];
+}
+
+interface GuideData {
+  Title: string;
+  Guide: BlocksContent;
 }
 
 interface NonDoorGlitchData extends GlitchData {
@@ -54,6 +60,7 @@ export type {
   DoorData,
   GlitchData,
   Glitch,
+  GuideData,
   DoorGlitchData,
   HookpushData,
   NonDoorGlitchData,

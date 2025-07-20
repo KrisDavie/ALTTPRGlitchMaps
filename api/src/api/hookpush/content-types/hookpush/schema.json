@@ -68,6 +68,11 @@
         "DW"
       ],
       "required": true
+    },
+    "ReusableGuides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::reusable-guide.reusable-guide"
     }
   }
 }

@@ -78,6 +78,11 @@
         "Do",
         "We"
       ]
+    },
+    "ReusableGuides": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::reusable-guide.reusable-guide"
     }
   }
 }

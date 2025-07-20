@@ -12,9 +12,9 @@
     "strapi": "strapi"
   },
   "dependencies": {
-    "@strapi/plugin-users-permissions": "5.8.0",
-    "@strapi/provider-email-sendmail": "^5.8.0",
-    "@strapi/strapi": "5.8.0",
+    "@strapi/plugin-users-permissions": "^5.18.1",
+    "@strapi/provider-email-sendmail": "^5.18.1",
+    "@strapi/strapi": "5.18.0",
     "patch-package": "^8.0.0",
     "pg": "8.8.0",
     "postinstall-postinstall": "^2.1.0",
@@ -30,8 +30,7 @@
     "typescript": "^5"
   },
   "resolutions": {
-    "@types/minimatch": "5.1.2",
-    "@strapi/pack-up": "5.1.0"
+    "@types/minimatch": "5.1.2"
   },
   "engines": {
     "node": ">=18.0.0 <=22.x.x",

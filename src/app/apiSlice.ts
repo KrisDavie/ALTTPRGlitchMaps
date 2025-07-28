@@ -51,7 +51,7 @@ export const apiSlice = createApi({
     }),
     getDoors: builder.query<DoorData[], string>({
       query: selectedMap =>
-        `doors?filters[Map][$eq]=${selectedMap}&pagination[limit]=1000&populate=*`,
+        `doors?filters[Map][$eq]=${selectedMap}&pagination[limit]=1000&populate[door_glitches][populate][0]=ReusableGuides&populate=tile`,
       transformResponse: (response: { data: DoorData[]; meta: object }) => {
         return response.data
       },

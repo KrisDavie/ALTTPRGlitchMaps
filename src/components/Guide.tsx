@@ -26,7 +26,6 @@ function Guide() {
     nameParts.shift()
     selectedGlitchName = nameParts.join(" ").replace(/-/g, " ")
   }
-
   const doorGlitchQuery = useGetDoorGlitchQuery(selectedGlitchName, {
     skip: !selectedGlitchName || glitchType !== "dg",
   })
@@ -39,6 +38,16 @@ function Guide() {
   const reusableGuideQuery = useGetReusableGuideQuery(selectedGlitchName, {
     skip: !selectedGlitchName || glitchType !== "Reusable",
   })
+
+  const isLoading =
+    doorGlitchQuery.isLoading ||
+    hookPushQuery.isLoading ||
+    nonDoorGlitchQuery.isLoading ||
+    reusableGuideQuery.isLoading
+
+  if (isLoading) {
+    return <div className="standalone-guide-container">Loading...</div>
+  }
 
   if (!selectedGlitchName) {
     return <div className="standalone-guide-container">No glitch selected</div>
@@ -68,6 +77,7 @@ function Guide() {
   if (!selectedGlitch) {
     return (
       <div className="standalone-guide-container">
+        {}
         No guide available for {selectedGlitchName}
       </div>
     )

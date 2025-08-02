@@ -20,6 +20,10 @@ function GuideContent(props: { selectedGlitch: Glitch }) {
         content={guide}
         blocks={{
           paragraph: ({ children }) => <p className="guide-text">{children}</p>,
+          list: ({ format, children }) => {
+            const ListTag = format === "ordered" ? "ol" : "ul"
+            return <ListTag className="guide-text">{children}</ListTag>
+          },
           image: ({ image }) => (
             <img
               className="guide-image"
